@@ -1,0 +1,199 @@
+/*
+/* Principal Stylesheet for VNRC
+/*
+
+
+/*********************
+/* COLORS  &  MIXINS
+/*********************
+
+//@import url('https://fonts.googleapis.com/css?family=Slabo+13px')
+
+//@import url('https://fonts.googleapis.com/css?family=Padauk')
+
+$headingStack: 'Arial', serif
+$arial: 'Arial', sans-serif
+
+// Colors
+$lightblue: #e5ebec
+$blue: #0b3b49
+$greenblue: #007d8b
+$orange: #ffa400
+$orange-red: #ef7622
+$red: #ff3a1e
+$olive: #8c8c49
+
+// Button Mixims
+=bluebutton
+  background: $greenblue
+  font-size: 1.25rem
+  color: #FFFFFF
+  &:hover
+    background: #2293a0
+    color: #fff
+
+=orangebutton
+  background: $orange-red
+  color: #fff
+  border: 2px solid $orange-red
+  //font-size: 1.25rem
+  //padding: .5rem .75rem
+  font-weight: bold
+  &:hover
+    background: #fff
+    border: 2px solid $orange-red
+    color: $orange-red
+
+=hollowbutton
+  background-color: transparent
+  border: 1px solid $orange
+  padding: .85rem 1rem
+  color: #494949
+  &:hover
+    background-color: rgba(239, 122, 35, 0.41)
+    color: #fff
+
+
+=cssTransition($secs)
+  transition: all $secs ease-in-out
+
+=arrow($size, $color)
+  border-top: $size solid transparent
+  border-bottom: $size solid transparent
+  border-left: $size solid $color
+  display: inline-block
+  height: 0
+  width: 0
+
+@keyframes push
+  50%
+    transform: scale(0.8)
+
+@keyframes outandback
+  50%
+    transform: translateX(10px)
+  100%
+    transform: translateX(0)
+
+/*********************
+/* GENERAL STYLES
+/*********************
+
+*
+  +cssTransition(.3s)
+
+// Sets REM root size to 16px
+html
+  font-size: 100%
+
+body
+  color: $blue
+
+/*********************
+/* LINK STYLES
+/*********************
+a, a:visited
+  // Mobile tap color
+  &:link
+    //Highlight links on iOS, Similar to :hover for mobile devices.
+    -webkit-tap-highlight-color: #3094b1
+  &:hover
+    color: #206a80
+
+.entry-content a, p.tags a
+  color: #3094b1
+  &:hover
+    color: #206a80
+
+// Default Button
+a.button
+  +bluebutton
+  .arrow
+    +arrow(8px, #fff)
+  &:hover
+    color: #fff
+    .arrow
+      +arrow(8px, $blue)
+
+.wpcf7-submit
+  background: #cccccc
+  font-size: 1.25rem
+  color: #FFFFFF
+  border-radius: 5px
+  font-weight: bold
+  text-transform: uppercase
+  border: 0
+  padding: 0.85rem 1rem
+  cursor: pointer
+  &:hover
+    color: #fff
+    background-color: $greenblue
+
+// Orange Button
+.button.orange
+  +orangebutton
+
+/*********************
+/* H1, H2, H3, H4, H5 P STYLES
+/*********************
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5
+  font-family: $headingStack
+  font-weight: bold
+  color: $blue
+
+  // Removing text decoration from all headline links
+  a
+    text-decoration: none
+
+h1, .h1
+  line-height: 2.8rem
+
+h2, .h2
+
+h3, .h3
+
+h4, .h4
+
+h5, .h5
+
+p
+  line-height: 1.5rem
+
+ul.check
+  list-style: none
+  margin-left: 0
+  li
+    padding-left: 35px
+    background: url(../images/greencheck.png) no-repeat 0px 2px
+    background-size: 27px
+    font-weight: bold
+    margin-bottom: .25rem
+
+blockquote
+  font-size: 1.2rem
+  font-weight: 300
+  font-style: italic
+  margin: 0 0 2rem
+  position: relative
+  &:after, &:before
+    content: "\0022"
+    position: absolute
+    font-size: 1.5rem
+  &:before
+    left: 0
+
+select
+  border: 1px solid $greenblue
+  color: $blue
+
+.search
+  position: relative
+  input
+    text-indent: 32px
+    border-radius: 25px
+    border-color: $greenblue
+  .fi-magnifying-glass
+    position: absolute
+    left: 12px
+    font-size: 1.5rem
+    color: $blue
