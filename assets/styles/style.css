@@ -14,6 +14,7 @@ CSS file.
 /********************* */
 /* COLORS  &  MIXINS */
 /********************* */
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,700");
 @keyframes push {
   50% {
     transform: scale(0.8);
@@ -32,58 +33,61 @@ CSS file.
 /********************* */
 /* GENERAL STYLES */
 /********************* */
-/* line 82, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 84, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 * {
   transition: all 0.3s ease-in-out;
 }
 
-/* line 86, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 88, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 html {
   font-size: 100%;
 }
 
-/* line 89, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 91, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 body {
-  color: #0b3b49;
+  color: #2b2b2b;
 }
 
 /********************* */
 /* LINK STYLES */
 /********************* */
-/* line 97, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 99, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 a:link, a:visited:link {
   -webkit-tap-highlight-color: #3094b1;
 }
 
-/* line 100, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 102, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 a:hover, a:visited:hover {
   color: #206a80;
 }
 
-/* line 103, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 105, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 .entry-content a, p.tags a {
   color: #3094b1;
 }
 
-/* line 105, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 107, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 .entry-content a:hover, p.tags a:hover {
   color: #206a80;
 }
 
-/* line 109, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 111, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 a.button {
-  background: #007d8b;
-  font-size: 1.25rem;
-  color: #FFFFFF;
+  background: #d14a27;
+  color: #fff;
+  border: 2px solid #d14a27;
+  font-weight: bold;
 }
 
-/* line 31, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 42, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 a.button:hover {
-  background: #2293a0;
+  transition: all .3s ease-in-out;
+  background: rgba(209, 74, 39, 0.5);
+  border: 2px solid #d14a27;
   color: #fff;
 }
 
-/* line 111, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 113, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 a.button .arrow {
   border-top: 8px solid transparent;
   border-bottom: 8px solid transparent;
@@ -93,22 +97,22 @@ a.button .arrow {
   width: 0;
 }
 
-/* line 113, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 115, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 a.button:hover {
   color: #fff;
 }
 
-/* line 115, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 117, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 a.button:hover .arrow {
   border-top: 8px solid transparent;
   border-bottom: 8px solid transparent;
-  border-left: 8px solid #0b3b49;
+  border-left: 8px solid #286a34;
   display: inline-block;
   height: 0;
   width: 0;
 }
 
-/* line 118, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 120, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 .wpcf7-submit {
   background: #cccccc;
   font-size: 1.25rem;
@@ -121,59 +125,60 @@ a.button:hover .arrow {
   cursor: pointer;
 }
 
-/* line 128, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 130, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 .wpcf7-submit:hover {
   color: #fff;
-  background-color: #007d8b;
+  background-color: #286a34;
 }
 
-/* line 133, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 135, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 .button.orange {
-  background: #ef7622;
+  background: #d14a27;
   color: #fff;
-  border: 2px solid #ef7622;
+  border: 2px solid #d14a27;
   font-weight: bold;
 }
 
 /* line 42, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 .button.orange:hover {
-  background: #fff;
-  border: 2px solid #ef7622;
-  color: #ef7622;
+  transition: all .3s ease-in-out;
+  background: rgba(209, 74, 39, 0.5);
+  border: 2px solid #d14a27;
+  color: #fff;
 }
 
 /********************* */
 /* H1, H2, H3, H4, H5 P STYLES */
 /********************* */
-/* line 139, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 141, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
-  font-family: "Arial", serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: bold;
-  color: #0b3b49;
+  color: #286a34;
 }
 
-/* line 145, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 147, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 h1 a, .h1 a, h2 a, .h2 a, h3 a, .h3 a, h4 a, .h4 a, h5 a, .h5 a {
   text-decoration: none;
 }
 
-/* line 148, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 150, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 h1, .h1 {
   line-height: 2.8rem;
 }
 
-/* line 159, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 161, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 p {
   line-height: 1.5rem;
 }
 
-/* line 162, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 164, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 ul.check {
   list-style: none;
   margin-left: 0;
 }
 
-/* line 165, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 167, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 ul.check li {
   padding-left: 35px;
   background: url(../images/greencheck.png) no-repeat 0px 2px;
@@ -182,7 +187,7 @@ ul.check li {
   margin-bottom: .25rem;
 }
 
-/* line 172, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 174, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 blockquote {
   font-size: 1.2rem;
   font-weight: 300;
@@ -191,42 +196,218 @@ blockquote {
   position: relative;
 }
 
-/* line 178, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 180, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 blockquote:after, blockquote:before {
   content: "\0022";
   position: absolute;
   font-size: 1.5rem;
 }
 
-/* line 182, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 184, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 blockquote:before {
   left: 0;
 }
 
-/* line 185, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 187, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 select {
-  border: 1px solid #007d8b;
-  color: #0b3b49;
+  border: 1px solid #286a34;
+  color: #286a34;
 }
 
-/* line 189, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 191, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 .search {
   position: relative;
 }
 
-/* line 191, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 193, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 .search input {
   text-indent: 32px;
   border-radius: 25px;
-  border-color: #007d8b;
+  border-color: #286a34;
 }
 
-/* line 195, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 197, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 .search .fi-magnifying-glass {
   position: absolute;
   left: 12px;
   font-size: 1.5rem;
-  color: #0b3b49;
+  color: #286a34;
+}
+
+/********************* */
+/* HEADER */
+/********************* */
+/* line 209, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+.top-bar-left #logo {
+  width: 200px;
+  position: relative;
+  height: 100px;
+}
+
+/* line 213, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+.top-bar-left #logo a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+}
+
+/* line 219, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+.top-bar-left #logo a img.logo.white {
+  display: none;
+}
+
+/* line 223, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+.top-bar-right {
+  margin-top: -35px;
+}
+
+/* line 226, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+#mega-menu-wrap-main-nav #mega-menu-main-nav li.primary a.mega-menu-link {
+  padding: 0 2rem;
+}
+
+/* line 228, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+#mega-menu-wrap-main-nav #mega-menu-main-nav li.facebook a.mega-menu-link, #mega-menu-wrap-main-nav #mega-menu-main-nav li.twitter a.mega-menu-link {
+  padding: 0 5px;
+}
+
+/* line 230, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+#mega-menu-wrap-main-nav #mega-menu-main-nav li.facebook a.mega-menu-link i, #mega-menu-wrap-main-nav #mega-menu-main-nav li.twitter a.mega-menu-link i {
+  font-size: 2rem;
+}
+
+/* line 232, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+#mega-menu-wrap-main-nav #mega-menu-main-nav li.twitter a.mega-menu-link {
+  margin-right: 1rem;
+}
+
+/* line 234, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+#mega-menu-wrap-main-nav #mega-menu-main-nav li.donate a.mega-menu-link {
+  margin-right: .5rem;
+  background: #d14a27;
+  color: #fff;
+  border: 2px solid #d14a27;
+  font-weight: bold;
+  border-radius: 20px;
+  padding: .5rem 1.5rem;
+  line-height: 20px;
+}
+
+/* line 42, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+#mega-menu-wrap-main-nav #mega-menu-main-nav li.donate a.mega-menu-link:hover {
+  transition: all .3s ease-in-out;
+  background: rgba(209, 74, 39, 0.5);
+  border: 2px solid #d14a27;
+  color: #fff;
+}
+
+/* line 240, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+#mega-menu-wrap-main-nav #mega-menu-main-nav li.informed a.mega-menu-link {
+  background-color: transparent;
+  border: 2px solid #fff;
+  padding: .85rem 1rem;
+  color: #FFF;
+  border-radius: 20px;
+  padding: .5rem 1.5rem;
+  line-height: 20px;
+}
+
+/* line 53, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+#mega-menu-wrap-main-nav #mega-menu-main-nav li.informed a.mega-menu-link:hover {
+  transition: all .3s ease-in-out;
+  background-color: #fff;
+  color: #2b2b2b;
+}
+
+/********************* */
+/* HOMEPAGE */
+/********************* */
+/* line 254, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+body.home .top-bar, body.home .top-bar ul {
+  background-color: transparent;
+}
+
+/* line 256, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+body.home .top-bar #logo a img.logo.white, body.home .top-bar ul #logo a img.logo.white {
+  display: block;
+}
+
+/* line 258, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+body.home .top-bar #logo a img.logo.green, body.home .top-bar ul #logo a img.logo.green {
+  display: none;
+}
+
+/* line 260, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+body.home header {
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+}
+
+/* line 264, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+body.home header #heroTitle {
+  position: absolute;
+  width: 52%;
+  bottom: 17%;
+  left: 23%;
+  text-align: center;
+}
+
+/* line 270, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+body.home header #heroTitle h1 {
+  color: #fff;
+  font-weight: 700;
+  font-size: 3.2rem;
+}
+
+/* line 274, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+body.home header #heroTitle span.since {
+  color: #fff;
+  font-size: 2rem;
+  font-family: Georgia, serif;
+  font-weight: bold;
+  font-style: italic;
+  display: block;
+}
+
+/* line 281, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+body.home header #heroTitle .button {
+  margin-top: 2rem;
+}
+
+/* line 283, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+body.home .icons {
+  margin: 4rem 0 2rem;
+}
+
+/* line 285, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+body.home .icons img {
+  height: 100px;
+  display: block;
+  margin: 0 auto .75rem;
+  padding: .5rem;
+}
+
+/* line 290, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+body.home .icons .cell {
+  border-right: 1px solid #ddeacb;
+  padding: 0 .5rem;
+}
+
+/* line 293, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+body.home .icons .cell:last-child {
+  border-right: 0;
+}
+
+/* line 295, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+body.home .icons h4 {
+  font-size: 1rem;
+  text-align: center;
+  text-transform: uppercase;
+  color: #2b2b2b;
+  margin-bottom: 0;
 }
 
 /**
@@ -1140,14 +1321,14 @@ img {
 textarea {
   height: auto;
   min-height: 50px;
-  border-radius: 0;
+  border-radius: 20px;
 }
 
 /* line 193, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/node_modules/foundation-sites/scss/_global.scss */
 select {
   box-sizing: border-box;
   width: 100%;
-  border-radius: 0;
+  border-radius: 20px;
 }
 
 /* line 203, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/node_modules/foundation-sites/scss/_global.scss */
@@ -1165,7 +1346,7 @@ button {
   padding: 0;
   appearance: none;
   border: 0;
-  border-radius: 0;
+  border-radius: 20px;
   background: transparent;
   line-height: 1;
   cursor: auto;
@@ -4288,7 +4469,7 @@ h3, .h3,
 h4, .h4,
 h5, .h5,
 h6, .h6 {
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-style: normal;
   font-weight: normal;
   color: inherit;
@@ -4507,6 +4688,7 @@ kbd {
   background-color: #e6e6e6;
   font-family: Consolas, "Liberation Mono", Courier, monospace;
   color: #0a0a0a;
+  border-radius: 20px;
 }
 
 /* line 48, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/node_modules/foundation-sites/scss/typography/_helpers.scss */
@@ -4713,7 +4895,7 @@ textarea {
   margin: 0 0 1rem;
   padding: 0.5rem;
   border: 1px solid #cacaca;
-  border-radius: 0;
+  border-radius: 20px;
   background-color: #fefefe;
   box-shadow: inset 0 1px 2px rgba(10, 10, 10, 0.1);
   font-family: inherit;
@@ -4757,7 +4939,7 @@ textarea[readonly] {
 [type='submit'],
 [type='button'] {
   appearance: none;
-  border-radius: 0;
+  border-radius: 20px;
 }
 
 /* line 157, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/node_modules/foundation-sites/scss/forms/_text.scss */
@@ -4838,12 +5020,12 @@ label.middle {
 
 /* line 37, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/node_modules/foundation-sites/scss/forms/_input-group.scss */
 .input-group > :first-child, .input-group > :first-child.input-group-button > * {
-  border-radius: 0 0 0 0;
+  border-radius: 20px 0 0 20px;
 }
 
 /* line 43, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/node_modules/foundation-sites/scss/forms/_input-group.scss */
 .input-group > :last-child, .input-group > :last-child.input-group-button > * {
-  border-radius: 0 0 0 0;
+  border-radius: 0 20px 20px 0;
 }
 
 /* line 49, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/node_modules/foundation-sites/scss/forms/_input-group.scss */
@@ -4940,7 +5122,7 @@ select {
   padding: 0.5rem;
   appearance: none;
   border: 1px solid #cacaca;
-  border-radius: 0;
+  border-radius: 20px;
   background-color: #fefefe;
   font-family: inherit;
   font-size: 1rem;
@@ -5025,12 +5207,12 @@ select[multiple] {
   display: inline-block;
   vertical-align: middle;
   margin: 0 0 1rem 0;
-  padding: 0.85em 1em;
+  padding: 0.5em 1.5em;
   border: 1px solid transparent;
-  border-radius: 0;
+  border-radius: 20px;
   transition: background-color 0.25s ease-out, color 0.25s ease-out;
   font-family: inherit;
-  font-size: 0.9rem;
+  font-size: 1rem;
   -webkit-appearance: none;
   line-height: 1;
   text-align: center;
@@ -5485,7 +5667,7 @@ select[multiple] {
   top: 0.4em;
   display: inline-block;
   float: right;
-  margin-left: 1em;
+  margin-left: 1.5em;
 }
 
 /* line 385, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/node_modules/foundation-sites/scss/components/_button.scss */
@@ -5544,12 +5726,12 @@ a.button:hover, a.button:focus {
 
 /* line 66, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/node_modules/foundation-sites/scss/components/_accordion.scss */
 .accordion-item:first-child > :first-child {
-  border-radius: 0 0 0 0;
+  border-radius: 20px 20px 0 0;
 }
 
 /* line 70, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/node_modules/foundation-sites/scss/components/_accordion.scss */
 .accordion-item:last-child > :last-child {
-  border-radius: 0 0 0 0;
+  border-radius: 0 0 20px 20px;
 }
 
 /* line 149, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/node_modules/foundation-sites/scss/components/_accordion.scss */
@@ -5567,7 +5749,7 @@ a.button:hover, a.button:focus {
 /* line 94, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/node_modules/foundation-sites/scss/components/_accordion.scss */
 :last-child:not(.is-active) > .accordion-title {
   border-bottom: 1px solid #e6e6e6;
-  border-radius: 0 0 0 0;
+  border-radius: 0 0 20px 20px;
 }
 
 /* line 99, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/node_modules/foundation-sites/scss/components/_accordion.scss */
@@ -5844,7 +6026,7 @@ a.button:hover, a.button:focus {
   margin: 0;
   margin-right: 1px;
   margin-bottom: 1px;
-  font-size: 0.9rem;
+  font-size: 1rem;
   flex: 0 0 auto;
 }
 
@@ -5999,7 +6181,7 @@ a.button:hover, a.button:focus {
   margin: 0 0 1rem 0;
   padding: 1rem;
   border: 1px solid rgba(10, 10, 10, 0.25);
-  border-radius: 0;
+  border-radius: 20px;
   background-color: white;
   color: #0a0a0a;
 }
@@ -6067,7 +6249,7 @@ a.button:hover, a.button:focus {
   flex-grow: 1;
   margin-bottom: 1rem;
   border: 1px solid #e6e6e6;
-  border-radius: 0;
+  border-radius: 20px;
   background: #fefefe;
   box-shadow: none;
   overflow: hidden;
@@ -6598,7 +6780,7 @@ a.button:hover, a.button:focus {
   padding: 1rem;
   visibility: hidden;
   border: 1px solid #cacaca;
-  border-radius: 0;
+  border-radius: 20px;
   background-color: #fefefe;
   font-size: 1rem;
 }
@@ -7042,7 +7224,7 @@ a.button:hover, a.button:focus {
 .label {
   display: inline-block;
   padding: 0.33333rem 0.5rem;
-  border-radius: 0;
+  border-radius: 20px;
   font-size: 0.8rem;
   line-height: 1;
   white-space: nowrap;
@@ -7769,7 +7951,7 @@ a.button:hover, a.button:focus {
 /* line 83, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/node_modules/foundation-sites/scss/components/_pagination.scss */
 .pagination li {
   margin-right: 0.0625rem;
-  border-radius: 0;
+  border-radius: 20px;
   font-size: 0.875rem;
   display: none;
 }
@@ -7791,7 +7973,7 @@ a.button:hover, a.button:focus {
 .pagination button {
   display: block;
   padding: 0.1875rem 0.625rem;
-  border-radius: 0;
+  border-radius: 20px;
   color: #0a0a0a;
 }
 
@@ -7848,7 +8030,7 @@ a.button:hover, a.button:focus {
 .progress {
   height: 1rem;
   margin-bottom: 1rem;
-  border-radius: 0;
+  border-radius: 20px;
   background-color: #cacaca;
 }
 
@@ -7884,6 +8066,7 @@ a.button:hover, a.button:focus {
   width: 0%;
   height: 100%;
   background-color: #1779ba;
+  border-radius: 20px;
 }
 
 /* line 61, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/node_modules/foundation-sites/scss/components/_progress-bar.scss */
@@ -7898,6 +8081,7 @@ a.button:hover, a.button:focus {
   font-weight: bold;
   color: #fefefe;
   white-space: nowrap;
+  border-radius: 20px;
 }
 
 /* line 106, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/node_modules/foundation-sites/scss/components/_slider.scss */
@@ -7939,7 +8123,7 @@ a.button:hover, a.button:focus {
   display: inline-block;
   width: 1.4rem;
   height: 1.4rem;
-  border-radius: 0;
+  border-radius: 20px;
   background-color: #1779ba;
   transition: all 0.2s ease-in-out;
   touch-action: manipulation;
@@ -8071,7 +8255,7 @@ html.is-reveal-open body {
   display: none;
   padding: 1rem;
   border: 1px solid #cacaca;
-  border-radius: 0;
+  border-radius: 20px;
   background-color: #fefefe;
   position: relative;
   top: 100px;
@@ -8201,7 +8385,7 @@ html.is-reveal-open body {
   display: block;
   width: 4rem;
   height: 2rem;
-  border-radius: 0;
+  border-radius: 20px;
   background: #cacaca;
   transition: all 0.25s ease-out;
   font-weight: inherit;
@@ -8223,7 +8407,7 @@ input + .switch-paddle {
   width: 1.5rem;
   height: 1.5rem;
   transform: translate3d(0, 0, 0);
-  border-radius: 0;
+  border-radius: 20px;
   background: #fefefe;
   transition: all 0.25s ease-out;
   content: '';
@@ -8352,7 +8536,7 @@ table {
   border-collapse: collapse;
   width: 100%;
   margin-bottom: 1rem;
-  border-radius: 0;
+  border-radius: 20px;
 }
 
 /* line 111, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/node_modules/foundation-sites/scss/components/_table.scss */
@@ -8590,7 +8774,7 @@ table.hover:not(.unstriped) tr:nth-of-type(even):hover {
   max-width: 100%;
   margin-bottom: 1rem;
   border: 4px solid #fefefe;
-  border-radius: 0;
+  border-radius: 20px;
   box-shadow: 0 0 0 1px rgba(10, 10, 10, 0.2);
   line-height: 0;
 }
@@ -8660,7 +8844,7 @@ a.thumbnail image {
   z-index: 1200;
   max-width: 10rem;
   padding: 0.75rem;
-  border-radius: 0;
+  border-radius: 20px;
   background-color: #0a0a0a;
   font-size: 80%;
   color: #fefefe;
@@ -8781,14 +8965,14 @@ a.thumbnail image {
   flex-wrap: nowrap;
   justify-content: space-between;
   align-items: center;
-  padding: 0.5rem;
+  padding: 1.5rem 0;
   flex-wrap: wrap;
 }
 
 /* line 47, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/node_modules/foundation-sites/scss/components/_top-bar.scss */
 .top-bar,
 .top-bar ul {
-  background-color: #e6e6e6;
+  background-color: #fff;
 }
 
 /* line 60, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/node_modules/foundation-sites/scss/components/_top-bar.scss */
@@ -9133,12 +9317,12 @@ POSTS & CONTENT STYLES
   display: inline-block;
   vertical-align: middle;
   margin: 0 0 1rem 0;
-  padding: 0.85em 1em;
+  padding: 0.5em 1.5em;
   border: 1px solid transparent;
-  border-radius: 0;
+  border-radius: 20px;
   transition: background-color 0.25s ease-out, color 0.25s ease-out;
   font-family: inherit;
-  font-size: 0.9rem;
+  font-size: 1rem;
   -webkit-appearance: none;
   line-height: 1;
   text-align: center;

@@ -7,51 +7,53 @@
 /* COLORS  &  MIXINS
 /*********************
 
-//@import url('https://fonts.googleapis.com/css?family=Slabo+13px')
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700')
 
 //@import url('https://fonts.googleapis.com/css?family=Padauk')
 
-$headingStack: 'Arial', serif
+$headingStack: 'Open Sans', sans-serif
 $arial: 'Arial', sans-serif
 
 // Colors
-$lightblue: #e5ebec
-$blue: #0b3b49
-$greenblue: #007d8b
-$orange: #ffa400
-$orange-red: #ef7622
-$red: #ff3a1e
-$olive: #8c8c49
+$lightgreen: #78a23c
+$green: #286a34
+$orange: #d14a27
+$bodytextcolor: #2b2b2b
+
+
+
 
 // Button Mixims
-=bluebutton
-  background: $greenblue
+=whitebutton
+  background: #fff
   font-size: 1.25rem
-  color: #FFFFFF
+  color: $green
   &:hover
     background: #2293a0
     color: #fff
 
 =orangebutton
-  background: $orange-red
+  background: $orange
   color: #fff
-  border: 2px solid $orange-red
+  border: 2px solid $orange
   //font-size: 1.25rem
   //padding: .5rem .75rem
   font-weight: bold
   &:hover
-    background: #fff
-    border: 2px solid $orange-red
-    color: $orange-red
+    transition: all .3s ease-in-out
+    background: rgba(209, 74, 39, .5)
+    border: 2px solid $orange
+    color: #fff
 
 =hollowbutton
   background-color: transparent
-  border: 1px solid $orange
+  border: 2px solid #fff
   padding: .85rem 1rem
-  color: #494949
+  color: #FFF
   &:hover
-    background-color: rgba(239, 122, 35, 0.41)
-    color: #fff
+    transition: all .3s ease-in-out
+    background-color: #fff
+    color: $bodytextcolor
 
 
 =cssTransition($secs)
@@ -87,7 +89,7 @@ html
   font-size: 100%
 
 body
-  color: $blue
+  color: $bodytextcolor
 
 /*********************
 /* LINK STYLES
@@ -107,13 +109,13 @@ a, a:visited
 
 // Default Button
 a.button
-  +bluebutton
+  +orangebutton
   .arrow
     +arrow(8px, #fff)
   &:hover
     color: #fff
     .arrow
-      +arrow(8px, $blue)
+      +arrow(8px, $green)
 
 .wpcf7-submit
   background: #cccccc
@@ -127,7 +129,7 @@ a.button
   cursor: pointer
   &:hover
     color: #fff
-    background-color: $greenblue
+    background-color: $green
 
 // Orange Button
 .button.orange
@@ -139,7 +141,7 @@ a.button
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5
   font-family: $headingStack
   font-weight: bold
-  color: $blue
+  color: $green
 
   // Removing text decoration from all headline links
   a
@@ -183,17 +185,118 @@ blockquote
     left: 0
 
 select
-  border: 1px solid $greenblue
-  color: $blue
+  border: 1px solid $green
+  color: $green
 
 .search
   position: relative
   input
     text-indent: 32px
     border-radius: 25px
-    border-color: $greenblue
+    border-color: $green
   .fi-magnifying-glass
     position: absolute
     left: 12px
     font-size: 1.5rem
-    color: $blue
+    color: $green
+
+/*********************
+/* HEADER
+/*********************
+
+// Logo
+.top-bar-left
+  #logo
+    width: 200px
+    position: relative
+    height: 100px
+    a
+      position: absolute
+      top: 0
+      left: 0
+      display: block
+      width: 100%
+      img.logo.white
+        display: none
+
+// Mega Menu
+.top-bar-right
+  margin-top: -35px
+#mega-menu-wrap-main-nav #mega-menu-main-nav
+  li.primary a.mega-menu-link
+    padding: 0 2rem
+  li.facebook a.mega-menu-link,  li.twitter a.mega-menu-link
+    padding: 0 5px
+    i
+      font-size: 2rem
+  li.twitter a.mega-menu-link
+    margin-right: 1rem
+  li.donate a.mega-menu-link
+    margin-right: .5rem
+    +orangebutton
+    border-radius: 20px
+    padding: .5rem 1.5rem
+    line-height: 20px
+  li.informed a.mega-menu-link
+    +hollowbutton
+    border-radius: 20px
+    padding: .5rem 1.5rem
+    line-height: 20px
+
+
+
+
+/*********************
+/* HOMEPAGE
+/*********************
+
+body.home
+  .top-bar, .top-bar ul
+    background-color: transparent
+    #logo a img.logo.white
+      display: block
+    #logo a img.logo.green
+      display: none
+  header
+    background-size: cover
+    height: 100vh
+    position: relative
+    #heroTitle
+      position: absolute
+      width: 52%
+      bottom: 17%
+      left: 23%
+      text-align: center
+      h1
+        color: #fff
+        font-weight: 700
+        font-size: 3.2rem
+      span.since
+        color: #fff
+        font-size: 2rem
+        font-family: Georgia, serif
+        font-weight: bold
+        font-style: italic
+        display: block
+      .button
+        margin-top: 2rem
+  .icons
+    margin: 4rem 0 2rem
+    img
+      height: 100px
+      display: block
+      margin: 0 auto .75rem
+      padding: .5rem
+    .cell
+      border-right: 1px solid #ddeacb
+      padding: 0 .5rem
+    .cell:last-child
+      border-right: 0
+    h4
+      font-size: 1rem
+      text-align: center
+      text-transform: uppercase
+      color: $bodytextcolor
+      margin-bottom: 0
+
+

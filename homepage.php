@@ -7,22 +7,57 @@ get_header(); ?>
 	<?php $hero = get_field('hero_section', 'option');
 		if ( $hero ): ?>
 	<header class="header" role="banner" style="background-image: url('<?php echo $hero['hero_image']['url']; ?>')">
-		 <?php get_template_part( 'parts/nav', 'offcanvas-topbar' ); ?>
-		<div class="grid-x grid-margin-x heroWrapper">
-					<div id="hero">
-						<!-- <img src="" alt="Vermont Afterschool" /> -->
-						<div class="grid-container">
-							<div id="heroTitle" class="cell small-12 large-4">
-								<h4><?php echo $hero['headline']; ?></h4>
-								<span class="since"><?php echo $hero['since']; ?></span>
-							</div>
-						</div>
-					</div>
-				<?php endif; ?>
+
+		<div class="navWrap">
+			<div class="grid-container">
+		 		<?php get_template_part( 'parts/nav', 'offcanvas-topbar' ); ?>
+			</div>
 		</div>
+
+			<div id="heroTitle">
+				<h1><?php echo $hero['headline']; ?></h1>
+				<span class="since"><?php echo $hero['since']; ?></span>
+				<a class="button orange">Support VNRC</a>
+			</div>
+
+		<?php endif; ?>
+
 	</header> <!-- started in header.php-->
 
 		<div class="content">
+
+			<div class="grid-container">
+				<div class="grid-x icons">
+					<div class="cell large-auto">
+						<img src="<?php echo get_template_directory_uri(); ?>/assets/images/svg/energy.svg" alt="Energy & Climate Action"/>
+						<h4>Energy Climate & Action</h4>
+					</div>
+					<div class="cell large-auto">
+						<img src="<?php echo get_template_directory_uri(); ?>/assets/images/svg/clean-water.svg" alt="Clean Water"/>
+						<h4>Clean Water</h4>
+					</div>
+					<div class="cell large-auto">
+						<img src="<?php echo get_template_directory_uri(); ?>/assets/images/svg/toxic-free.svg" alt="Toxic Free Environment"/>
+						<h4>Toxic Free Environment</h4>
+					</div>
+					<div class="cell large-auto">
+						<img src="<?php echo get_template_directory_uri(); ?>/assets/images/svg/smart-growth.svg" alt="Smart Growth"/>
+						<h4>Smart Growth</h4>
+					</div>
+					<div class="cell large-auto">
+						<img src="<?php echo get_template_directory_uri(); ?>/assets/images/svg/forests.svg" alt="Healthy Forests & Wildlife"/>
+						<h4>Healthy Forests & Wildlife</h4>
+					</div>
+					<div class="cell large-auto">
+						<img src="<?php echo get_template_directory_uri(); ?>/assets/images/svg/partnerships.svg" alt="Partnerships"/>
+						<h4>Partnerships</h4>
+					</div>
+					<div class="cell large-auto">
+						<img src="<?php echo get_template_directory_uri(); ?>/assets/images/svg/statehouse.svg" alt="Statehouse"/>
+						<h4>Statehouse</h4>
+					</div>
+				</div>
+			</div>
 
 			<div class="inner-content grid-x grid-margin-x">
 		    <main class="main small-12 medium-12 large-12 cell" role="main">

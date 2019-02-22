@@ -28,6 +28,7 @@
 			<link href="<?php echo get_template_directory_uri(); ?>/assets/images/apple-icon-touch.png" rel="apple-touch-icon" />
 	    <?php } ?>
 
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/foundation-icons/foundation-icons.css" />
 		<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
 
 		<?php wp_head(); ?>
@@ -44,7 +45,7 @@
 			<div class="off-canvas-content" data-off-canvas-content>
 
         <?php
-        if(is_page_template('homepage.php') {
+        if (is_page_template('homepage.php')) {
 
           // Header starts & ends in homepage.php
         }
@@ -58,4 +59,4 @@
 
           </header> <!-- end .header -->
         <?php
-        }) ?>
+      } ?>
