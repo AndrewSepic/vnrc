@@ -63,87 +63,153 @@ get_header(); ?>
 		    <main class="main small-12 medium-12 large-12 cell" role="main">
 
 					<!-- First Section -->
-					<div class="firstWrapper">
-						<div class="arrow"></div>
+					<div class="greyWrapper">
 						<div class="grid-container">
-							<div class="grid-x home-1">
-								<div class="cell small-12 medium-12 large-8 large-offset-2">
-									<h2>We Are Vermont Afterschool</h2>
-									<p>A staewide non-profit The grid defaults to the full width of the available space. To contain it use the grid-container class. The container will be centered and have a max-width equal to your $grid-container setting (1200px by default), along with padding on the left/right equal to half your $grid-container-padding setting.</p>
+							<div class="grid-x grid-padding-x news">
+								<div class="cell small-12 medium-12 large-4 large-offset-4">
+									<h2>News &amp; Stories</h2>
 								</div>
-							</div>
+								<div class="cell small-12 medium-12 large-4 catLink">
+									<a class="readmore" href="/category/news">Read all News &amp; Stories <span class="circle"><i class="fi-arrow-right"></i></span></a>
+								</div>
+
+								<!--- Posts Begin -->
+								<?php
+
+								   $args = array('cat' => 3);
+								   $category_posts = new WP_Query($args);
+
+								   if($category_posts->have_posts()) :
+								      while($category_posts->have_posts()) :
+								         $category_posts->the_post();
+								?>
+								<div class="cell small-12 medium-4 large-4 post">
+									<?php
+										if ( has_post_thumbnail() ) {
+    									the_post_thumbnail( 'news' );
+									} ?>
+									<h4><?php the_title() ?></h4>
+									<?php // get_template_part( 'parts/content', 'byline' ); ?>
+									<?php the_excerpt()?>
+									<?php //the_content('<button class="tiny">' . __( 'Read more...', 'jointswp' ) . '</button>'); ?>
+								</div>
+
+
+								<?php
+								      endwhile;
+								   else:
+								?>
+
+								      Oops, there are no posts.
+
+								<?php
+								   endif;
+								?>
+
+								<!--- Posts EnD -->
+							</div><!-- .news end -->
+
+							<div class="grid-x grid-padding-x video">
+								<div class="cell small-12 medium-4 large-5 vidContent">
+									<h2><?php the_field('video_title', 'option');?></h2>
+									<div class="leadin"><?php the_field('video_leadin', 'option'); ?></div>
+									<div class="text"><?php the_field('video_text', 'option');?></div>
+									<a class="videoLink" href="<?php the_field('video_link_url', 'option');?>"><?php the_field('video_link_text', 'option');?><span class="circle"><i class="fi-arrow-right"></i></span></a>
+
+								</div>
+								<div class="cell small-12 medium-8 large-7 vidembed">
+									<?php the_field('video_embed', 'option');?>
+								</div>
+							</div><!-- .video end -->
 						</div>
 					</div><!-- end .firstWrapper -->
 
-					<!-- Second Section -->
-					<div class="secondWrapper">
-						<div class="arrow"></div>
-						<div class="grid-container">
-							<div class="grid-x home-2">
-								<div class="cell small-12 medium-6 large-5 large-offset-6 medium-offset-6">
-										<h2>Why We Do This Work</h2>
-										<p>A staewide non-profit The grid defaults to the full width of the available space. To contain it use the grid-container class. </p>
-										<a class="button">Impacts</a>
+
+
+
+					<div class="grid-container">
+						<div class="grid-x grid-margin-x victories">
+
+							<div class="cell small-12 medium-12 large-4 large-offset-4">
+								<h2>Victories</h2>
+							</div>
+							<div class="cell small-12 medium-12 large-4 catLink">
+								<a class="readmore" href="/category/victories">View all victories <span class="circle"><i class="fi-arrow-right"></i></span></a>
+							</div>
+
+							<!-- Victory posts -->
+							<?php
+
+								 $args = array('cat' => 4);
+								 $category_posts = new WP_Query($args);
+
+								 if($category_posts->have_posts()) :
+										while($category_posts->have_posts()) :
+											 $category_posts->the_post();
+							?>
+							<div class="cell small-12 medium-4 large-4 post">
+								<?php
+									if ( has_post_thumbnail() ) {
+										the_post_thumbnail( 'victory' );
+								} ?>
+								<div class="overlay">
+									<h4><?php the_title() ?></h4>
+									<span class="short"><?php the_field('short_description');?></span>
+									<a class="more" href="<?php echo the_permalink(); ?>">Find Out More</a>
 								</div>
 							</div>
+							<?php
+										endwhile;
+								 else:
+							?>
+										Oops, there are no posts.
+							<?php
+								 endif;
+							?>
+							<!--- Posts EnD -->
+
 						</div>
-					</div><!-- end .secondWrapper -->
+					</div> <!-- end grid-container -->
 
-					<!-- Third Section -->
-					<div class="thirdWrapper">
-						<div class="arrow"></div>
+					<div class="missionWrapper">
 						<div class="grid-container">
-							<div class="grid-x home-3">
-								<div class="cell small-12 medium-6 large-5 large-offset-1">
-									<h2>We Rely on Colloboration</h2>
-									<p>A statewide non-profit The grid defaults to the full width of the available space. To contain it use the grid-container class. </p>
-									<a class="button orange">Join Us</a> <a class="button">Learn More</a>
-								</div>
-								<div class="cell small-12 medium-6 large-5">
-									<img src="<?php echo get_template_directory_uri();?>/assets/images/logos.jpg" alt="collaborators"/>
-								</div>
-							</div>
-						</div>
-					</div><!-- end .third -->
-
-					<div class="noteWrapper">
-						<div class="grid-container">
-							<div class="grid-x grid-padding-x grid-margin-x noteworthy">
-								<div class="cell small-12 medium-12 large-12 header">
-									<h5>Noteworthy</h5>
-									<a class="pagination">View All Posts &raquo;</a>
+							<div class="grid-x grid-padding-x grid-margin-x mission">
+								<div class="cell small-12 medium-12 large-12">
+									<h3>Our Mission</h3>
+									<p><?php the_field('mission_text', 'option'); ?></p>
+									<a class="button white" href="/join">Join Today</a>
 								</div>
 
-
-									<div class="cell small-12 medium-4 large-4 post">
-										<span class="cat">Opinion</span>
-										<h2>Post Title With Two Lines</h2>
-										<span class="meta">By Author, Position</span>
-										<?php // get_template_part( 'parts/content', 'byline' ); ?>
-										<p class="excerpt">It was recently public radio fundraising time here in Vermont. Im a big VErmont Public Radio fan and have been knonw to stay tuned through their repeated membership pitches.</p>
-										<?php //the_content('<button class="tiny">' . __( 'Read more...', 'jointswp' ) . '</button>'); ?>
-									</div>
-
-									<div class="cell small-12 medium-4 large-4 post">
-										<span class="cat">News</span>
-										<h2>Call for Youth Art</h2>
-										<span class="meta">By Author, Position</span>
-										<?php // get_template_part( 'parts/content', 'byline' ); ?>
-										<p class="excerpt">It was recently public radio fundraising time here in Vermont. Im a big VErmont Public Radio fan and have been knonw to stay tuned through their repeated membership pitches.</p>
-										<?php //the_content('<button class="tiny">' . __( 'Read more...', 'jointswp' ) . '</button>'); ?>
-									</div>
-
-									<div class="cell small-12 medium-4 large-4 post">
-										<span class="cat">Data Digest</span>
-										<h2>Weapons & School Violence</h2>
-										<span class="meta">By Author, Position</span>
-										<?php // get_template_part( 'parts/content', 'byline' ); ?>
-										<p class="excerpt">It was recently public radio fundraising time here in Vermont. Im a big VErmont Public Radio fan and have been knonw to stay tuned through their repeated membership pitches.</p>
-										<?php //the_content('<button class="tiny">' . __( 'Read more...', 'jointswp' ) . '</button>'); ?>
-									</div>
 							</div>
 						</div> <!-- end grid-container -->
-					</div> <!-- end .ntnWrapper -->
+					</div> <!-- end .missionWrapper -->
+
+					<div class="grid-container">
+						<div class="grid-x grid-padding-x grid-margin-x advocates">
+
+							<div class="cell small-12 medium-4 large-4">
+								<img class="adPic" src="<?php the_field('advocate_image_1', 'option');?>" />
+								<h5><?php the_field('advocate_name_1', 'option') ?></h5>
+								<span class="role"><?php the_field('advocate_role_1', 'option') ?></span>
+								<blockquote><?php the_field('advocate_quote_1', 'option') ?></blockquote>
+							</div>
+
+							<div class="cell small-12 medium-4 large-4">
+								<img class="adPic" src="<?php the_field('advocate_image_2', 'option');?>"/>
+								<h5><?php the_field('advocate_name_2', 'option') ?></h5>
+								<span class="role"><?php the_field('advocate_role_2', 'option') ?></span>
+								<blockquote><?php the_field('advocate_quote_2', 'option') ?></blockquote>
+							</div>
+
+							<div class="cell small-12 medium-4 large-4">
+								<img class="adPic" src="<?php the_field('advocate_image_3', 'option');?>"/>
+								<h5><?php the_field('advocate_name_3', 'option') ?></h5>
+								<span class="role"><?php the_field('advocate_role_3', 'option') ?></span>
+								<blockquote><?php the_field('advocate_quote_3', 'option') ?></blockquote>
+							</div>
+
+						</div>
+					</div> <!-- end grid-container -->
 
 			</main> <!-- end #main -->
 

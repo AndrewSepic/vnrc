@@ -75,3 +75,24 @@ if( function_exists('acf_add_options_page') ) {
 	));
 
 }
+
+// Customize Excerpt Length
+function custom_excerpt_length( $length ) {
+	return 30; //20 chars
+}
+add_filter( 'excerpt_length', 'custom_excerpt_length', 999 );
+
+// Add ACF Options to Toolbar
+
+add_action( 'admin_bar_menu', 'acf_link', 999 );
+
+function acf_link( $wp_admin_bar ) {
+	$args = array(
+		'id'    => 'my_page',
+		'title' => 'VNRC Site Options',
+		'href'  => 'http://localhost:8888/vnrc/wp-admin/admin.php?page=acf-options-homepage',
+		'meta'  => array( 'class' => 'VNRC Site Options' )
+	);
+	$wp_admin_bar->add_node( $args );
+}
+
