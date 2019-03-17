@@ -9,10 +9,14 @@
 
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700')
 
+// imports Adobe Garamond
+@import url("https://use.typekit.net/znn3hzy.css")
+
 //@import url('https://fonts.googleapis.com/css?family=Padauk')
 
 $headingStack: 'Open Sans', sans-serif
 $arial: 'Arial', sans-serif
+$serif: adobe-garamond-pro, serif
 
 // Colors
 $lightgreen: #78a13f
@@ -24,10 +28,7 @@ $black: #333333
 $bodytextcolor: #2b2b2b
 
 
-
-
-
-// Button Mixims
+// Button Mixins
 =whitebutton
   background: #fff
   color: $green
@@ -48,6 +49,18 @@ $bodytextcolor: #2b2b2b
     transition: all .3s ease-in-out
     background: rgba(209, 74, 39, .5)
     border: 2px solid $orange
+    color: #fff
+
+=greenbutton
+  background: $lightgreen
+  color: #fff !important
+  border: none
+  text-decoration: none !important
+  font-weight: bold
+  &:hover
+    transition: all .3s ease-in-out
+    background: #9dc16b
+    border: none
     color: #fff
 
 =hollowbutton
@@ -101,13 +114,43 @@ $bodytextcolor: #2b2b2b
   100%
     transform: translateX(0)
 
+=greenarrow
+  background: url('../images/svg/greenarrow.svg')
+  height: 18px
+  width: 18px
+  display: block
+  float: right
+  line-height: 3rem
+  background-size: contain
+  margin: 15px 0 0 5px
+
+=lightTitle
+  text-transform: uppercase
+  font-weight: 300
+  font-size: 2.25rem
+
+=sectionTitle
+  text-transform: uppercase
+  font-weight: 300
+  font-size: 2.25rem
+  margin-bottom: 3rem
+  text-align: center
+
+=readmore
+  float: right
+  color: $bodytextcolor
+  font-weight: bold
+  line-height: 3rem
+  &:hover
+    opacity: .75rem
+    +arrowHover
+
 /*********************
 /* GENERAL STYLES
 /*********************
 
 *
   +cssTransition(.3s)
-
 // Sets REM root size to 16px
 html
   font-size: 100%
@@ -120,11 +163,12 @@ body
 /*********************
 a, a:visited
   // Mobile tap color
+  color: $lightgreen
   &:link
     //Highlight links on iOS, Similar to :hover for mobile devices.
-    -webkit-tap-highlight-color: #3094b1
+    -webkit-tap-highlight-color: $lightgreen
   &:hover
-    color: #206a80
+    color: $green
 
 .entry-content a, p.tags a
   color: #3094b1
@@ -163,15 +207,17 @@ a.button
 .button.white
   +whitebutton
 
+// Green Button
+.button.green
+  +greenbutton
+
 /*********************
 /* H1, H2, H3, H4, H5 P STYLES
 /*********************
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5
   font-family: $headingStack
   font-weight: bold
-  color: $green
-
-  // Removing text decoration from all headline links
+  color: $bodytextcolor
   a
     text-decoration: none
 
@@ -229,15 +275,65 @@ select
     color: $green
 
 /*********************
+/* PAGINATION
+/*********************
+
+.greenarrow
+  +greenarrow
+  &.excerpt
+    margin: 4px 0 0 5px
+
+.excerpt-read-more
+  float: left
+  display: block
+  color: #333
+  font-weight: 500
+  text-transform: uppercase
+  &:hover
+    opacity: .75
+    .greenarrow
+      +cssTransition(.1s)
+      //transform: translate(5px,0)
+      //.circle
+      //+cssTransition(.1s)
+      margin-left: 10px
+
+/*********************
 /* HEADER
 /*********************
+
+.navWrap
+  .top-bar
+    padding: 1rem 0 0
+  // Hover state for Main Nav
+  &:hover
+    background-color: #fff
+    .top-bar-left #logo a
+      img.logo.white
+        display: none
+      img.logo.green
+        display: block
+    #mega-menu-wrap-main-nav #mega-menu-main-nav
+      li.primary a.mega-menu-link
+        color: $bodytextcolor
+      li.facebook a.mega-menu-link,  li.twitter a.mega-menu-link
+        color: $bodytextcolor
+      li.informed a.mega-menu-link
+        background-color: transparent
+        border: 2px solid $bodytextcolor
+        color: $bodytextcolor
+        &:hover
+          transition: all .3s ease-in-out
+          background-color: $bodytextcolor
+          color: #fff
+
 
 // Logo
 .top-bar-left
   #logo
-    width: 200px
+    width: 175px
     position: relative
-    height: 100px
+    height: 85px
     a
       position: absolute
       top: 0
@@ -249,7 +345,7 @@ select
 
 // Mega Menu
 .top-bar-right
-  margin-top: -35px
+  margin-top: -20px
 #mega-menu-wrap-main-nav #mega-menu-main-nav
   li.primary a.mega-menu-link
     padding: 0 2rem
@@ -270,9 +366,6 @@ select
     border-radius: 20px
     padding: .5rem 1.5rem
     line-height: 20px
-
-
-
 
 /*********************
 /* HOMEPAGE
@@ -302,7 +395,7 @@ body.home
       span.since
         color: #fff
         font-size: 2rem
-        font-family: Georgia, serif
+        font-family: $serif
         font-weight: bold
         font-style: italic
         display: block
@@ -333,33 +426,14 @@ body.home
   .news
     margin-bottom: 3rem
     h2
-      text-transform: uppercase
-      font-weight: 200
-      font-size: 2rem
-      text-align: center
+      +sectionTitle
       margin-bottom: 3rem
-      color: #676767
     h4
       font-size: 1.25rem
       font-weight: 700
       padding: 1.5rem 0 .25rem
     .catLink .readmore
-      float: right
-      color: $bodytextcolor
-      font-weight: bold
-      line-height: 3rem
-      +circleArrow($lightgreen, #fff)
-      &:hover
-        opacity: .75rem
-        +arrowHover
-    .excerpt-read-more
-      display: block
-      color: #333
-      font-weight: 500
-      text-transform: uppercase
-      +circleArrow($lightgreen, #fff)
-      &:hover
-        +arrowHover
+      +readmore
   .video
     background-color: $grey
     padding: 2rem
@@ -369,8 +443,7 @@ body.home
         text-align: left
         color: #fff
       h2
-        margin-bottom: 1rem
-        font-weight: 200
+        +lightTitle
       .leadin
         font-size: 1.2rem
         font-weight: 700
@@ -392,11 +465,7 @@ body.home
 .victories
   margin: 4rem 0
   h2
-    text-transform: uppercase
-    font-weight: 200
-    text-align: center
-    color: #676767
-    margin-bottom: 3rem
+    +sectionTitle
   a.readmore
     float: right
     color: $bodytextcolor
@@ -431,10 +500,6 @@ body.home
       .more, .short
         display: none
 
-
-
-
-
 .missionWrapper
   padding: 4rem 0
   background: $green url('../images/swoosh.png') no-repeat top left
@@ -442,7 +507,7 @@ body.home
   .mission
     text-align: center
     h3
-      font-family: serif
+      font-family: $serif
       font-style: italic
       font-weight: 700
       color: #fff
@@ -461,7 +526,7 @@ body.home
   .role
     color: $green
     font-style: italic
-    font-family: serif
+    font-family: $serif
     font-size: 1.3rem
   blockquote
     border-left: 0
@@ -469,8 +534,195 @@ body.home
     font-size: 1.2rem
     line-height: 1.5rem
     color: $bodytextcolor
-    font-family: serif
+    font-family: $serif
     padding: 0.5625rem 1.25rem 0 .75rem
+
+
+/*********************
+/* KEY ISSUES TEMPLATE
+/*********************
+
+body.page-template-template-key
+  .top-bar, .top-bar ul
+    background-color: transparent
+    #logo a img.logo.white
+      display: block
+    #logo a img.logo.green
+      display: none
+  header
+    background-size: cover
+    height: 400px
+    position: relative
+    #heroTitle
+      position: absolute
+      width: 52%
+      bottom: 33%
+      left: 23%
+      text-align: center
+      h1
+        color: #fff
+        font-weight: 700
+        font-size: 3.2rem
+  .inner-content
+    margin-top: 4rem
+    border-bottom: 1px solid $lightgreen
+    padding-bottom: 2rem
+    .key_title
+      font-size: 2.25rem
+      text-transform: uppercase
+      font-weight: 300
+    .director
+      padding: 2rem 0
+      .matte
+        width: 150px
+        height: 150px
+        border-radius: 75px
+        background-size: cover
+        background-position: 29% 19%
+        float: left
+        margin-right: 1rem
+      .inquiries
+        text-transform: uppercase
+        color: $lightgreen
+        font-weight: 700
+        font-size: .9rem
+        margin: 1rem 0 .5rem
+      p
+        margin-bottom: 0
+    .keyGraphic img
+      width: 80%
+  .initiatives
+    margin: 3rem 0
+    h2.initHeader
+      +sectionTitle
+    img
+      border-bottom: 8px solid $lightgreen
+      margin-bottom: 2rem
+    h3
+      font-weight: 700
+      font-size: 1.25rem
+      margin-bottom: 1rem
+    a.excerpt-read-more
+      color: $lightgreen
+  .community
+    margin: 5rem 0 2rem
+    h2
+      +lightTitle
+    .leadin
+      font-weight: 700
+      font-size: 1.25rem
+      margin-bottom: 1.5rem
+    a.bold.green
+      font-weight: 700
+    img.vecan-logo
+      width: 165px
+      margin-top: 1.5rem
+  .resources
+    margin: 5rem 0 6rem
+    h2
+      +sectionTitle
+    a.readmore
+      +readmore
+    img
+      width: 75%
+      margin: 0 auto 1.5rem
+      display: block
+      border: 20px solid $lightgreen
+    h3
+      font-weight: 700
+      font-size: 1.25rem
+      text-align: center
+    a
+      color: $bodytextcolor
+
+
+/*********************
+/* FOOTER
+/*********************
+
+.footer
+  background-color: #f4f7f6
+  border-top: 10px solid $lightgreen
+  padding-top: 3rem
+  .cell.reports, .cell.subscribe
+    padding: 0 3.5rem 2.5rem
+    color: $green
+    h4
+      font-weight: 700
+      font-size: 1.4rem
+    p
+      font-family: $serif
+      font-size: 1.2rem
+      line-height: 1.5rem
+    a
+      color: $green
+      font-weight: 700
+      text-decoration: underline
+  .reports
+    img
+      float: left
+      width: 30%
+      margin-right: 1rem
+  .bottomFooterWrapper
+    background-color: $bodytextcolor
+    color: #fff
+    padding-top: 3rem
+    h5
+      font-size: 1rem
+      font-weight: 700
+    p
+      font-size: .75rem
+    .cell
+      padding: 0 3rem
+    .vnrc
+      border-right: 1px solid $lightgreen
+      img
+        padding-bottom: 1rem
+      p
+        text-transform: uppercase
+    .associates
+      border-right: 1px solid $lightgreen
+      img
+        margin-top: 1rem
+        &.vcv
+          float: left
+          width: 35%
+          margin-right: 4rem
+        &.vecan
+          float: right
+          width: 43%
+          margin-top: 1.15rem
+    .links
+      .follow, .support
+        line-height: 2rem
+        float: left
+        width: 45%
+        h5
+          margin-bottom: 1rem
+      .button.orange
+        font-size: .85rem
+      i
+        font-size: 2rem
+        color: #fff
+        margin-right: 1rem
+      p
+        color: #b7b7b7
+        line-height: 1rem
+        font-size: .65rem
+        float: left
+        margin-top: 1rem
+    .pageinfo
+      margin-top: 2rem
+      color: #b7b7b7
+      p
+        font-size: .85rem
+        a
+          color: #828282
+          &.hover
+            color: #fff
+
+
+
 
 
 

@@ -45,7 +45,7 @@
 			<div class="off-canvas-content" data-off-canvas-content>
 
         <?php
-        if (is_page_template('homepage.php')) {
+        if (is_page_template('homepage.php') || (is_page_template('template-key.php'))) {
 
           // Header starts & ends in homepage.php
         }

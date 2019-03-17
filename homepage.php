@@ -70,7 +70,7 @@ get_header(); ?>
 									<h2>News &amp; Stories</h2>
 								</div>
 								<div class="cell small-12 medium-12 large-4 catLink">
-									<a class="readmore" href="/category/news">Read all News &amp; Stories <span class="circle"><i class="fi-arrow-right"></i></span></a>
+									<a class="readmore" href="/category/news">Read all News &amp; Stories <span class="greenarrow"></span></a>
 								</div>
 
 								<!--- Posts Begin -->
@@ -134,7 +134,8 @@ get_header(); ?>
 								<h2>Victories</h2>
 							</div>
 							<div class="cell small-12 medium-12 large-4 catLink">
-								<a class="readmore" href="/category/victories">View all victories <span class="circle"><i class="fi-arrow-right"></i></span></a>
+								<a class="readmore" href="/category/victories">View all victories <span class="greenarrow"></span></a>
+
 							</div>
 
 							<!-- Victory posts -->
