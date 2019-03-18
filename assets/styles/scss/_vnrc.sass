@@ -145,6 +145,15 @@ $bodytextcolor: #2b2b2b
     opacity: .75rem
     +arrowHover
 
+=matte
+  width: 150px
+  height: 150px
+  border-radius: 75px
+  background-size: cover
+  background-position: 29% 19%
+  float: left
+  margin-right: 1rem
+
 /*********************
 /* GENERAL STYLES
 /*********************
@@ -171,7 +180,7 @@ a, a:visited
     color: $green
 
 .entry-content a, p.tags a
-  color: #3094b1
+  color: $lightgreen
   &:hover
     color: #206a80
 
@@ -366,6 +375,39 @@ select
     border-radius: 20px
     padding: .5rem 1.5rem
     line-height: 20px
+
+/*********************
+/* PAGE TEMPLATE
+/*********************
+
+header.header
+  background-size: cover
+  height: 400px
+  position: relative
+  .top-bar, .top-bar ul
+    background-color: transparent
+    #logo a img.logo.white
+      display: block
+    #logo a img.logo.green
+      display: none
+  #heroTitle
+    position: absolute
+    width: 52%
+    bottom: 33%
+    left: 23%
+    text-align: center
+    h1
+      color: #fff
+      font-weight: 700
+      font-size: 3.2rem
+
+.entry-content, .inner-content
+  padding: 4rem 0
+  h2
+    +sectionTitle
+
+.entry-content
+  margin-bottom: 4rem
 
 /*********************
 /* HOMEPAGE
@@ -574,13 +616,7 @@ body.page-template-template-key
     .director
       padding: 2rem 0
       .matte
-        width: 150px
-        height: 150px
-        border-radius: 75px
-        background-size: cover
-        background-position: 29% 19%
-        float: left
-        margin-right: 1rem
+        +matte
       .inquiries
         text-transform: uppercase
         color: $lightgreen
@@ -634,6 +670,50 @@ body.page-template-template-key
       text-align: center
     a
       color: $bodytextcolor
+
+
+/*********************
+/* SUPPORT TEMPLATE
+/*********************
+h1.page-title
+  display: none
+.supportUs
+  .entry-content
+    padding: 0
+    h4
+      color: $green
+      text-transform: uppercase
+      border-top: 1px solid #bbd09d
+      padding-top: 2rem
+      &:first-child
+        padding-top: 0
+        border-top: 0
+    p
+      margin-bottom: 2rem
+  .intro
+    margin-bottom: 3rem
+    p
+      font-size: 1.4rem
+  .images
+    ul
+      list-style-type: none
+      margin-left: 0
+      li
+        padding-bottom: 2rem
+  .supportContacts
+    padding: 3rem 0 2.5rem
+    background-color: #f1f6eb
+    a
+      color: $green
+      font-weight: bold
+    div.matte
+      width: 150px
+      float: left
+      +matte
+    .bymail
+      text-align: center
+      margin-top: 3rem
+
 
 
 /*********************

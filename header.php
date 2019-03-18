@@ -45,18 +45,18 @@
 			<div class="off-canvas-content" data-off-canvas-content>
 
         <?php
-        if (is_page_template('homepage.php') || (is_page_template('template-key.php'))) {
+        //if (is_page_template('homepage.php') || (is_page_template('template-key.php'))) {
 
           // Header starts & ends in homepage.php
-        }
-        else {
+        //}
+        //else {
           ?>
-          <header class="header" role="banner">
+        <!--  <header class="header" role="banner"> -->
 
              <!-- This navs will be applied to the topbar, above all content
                 To see additional nav styles, visit the /parts directory -->
-             <?php get_template_part( 'parts/nav', 'offcanvas-topbar' ); ?>
+             <?php //get_template_part( 'parts/nav', 'offcanvas-topbar' ); ?>
 
-          </header> <!-- end .header -->
+        <!--  </header> -->
         <?php
-      } ?>
+      //} ?>
