@@ -154,6 +154,19 @@ $bodytextcolor: #2b2b2b
   float: left
   margin-right: 1rem
 
+=list-n-TitleContent
+  padding: 0
+  h4
+    color: $green
+    text-transform: uppercase
+    border-top: 1px solid #bbd09d
+    padding-top: 2rem
+    &:first-child
+      padding-top: 0
+      border-top: 0
+  p
+    margin-bottom: 2rem
+
 /*********************
 /* GENERAL STYLES
 /*********************
@@ -355,26 +368,47 @@ select
 // Mega Menu
 .top-bar-right
   margin-top: -20px
-#mega-menu-wrap-main-nav #mega-menu-main-nav
-  li.primary a.mega-menu-link
-    padding: 0 2rem
-  li.facebook a.mega-menu-link,  li.twitter a.mega-menu-link
-    padding: 0 5px
-    i
-      font-size: 2rem
-  li.twitter a.mega-menu-link
-    margin-right: 1rem
-  li.donate a.mega-menu-link
-    margin-right: .5rem
-    +orangebutton
-    border-radius: 20px
-    padding: .5rem 1.5rem
-    line-height: 20px
-  li.informed a.mega-menu-link
-    +hollowbutton
-    border-radius: 20px
-    padding: .5rem 1.5rem
-    line-height: 20px
+  #mega-menu-wrap-main-nav #mega-menu-main-nav
+    & > li.mega-menu-megamenu > ul.mega-sub-menu
+      margin-top: 17px
+    li.primary a.mega-menu-link
+      padding: 0 2rem
+    li.facebook a.mega-menu-link,  li.twitter a.mega-menu-link
+      padding: 0 5px
+      i
+        font-size: 2rem
+    li.twitter a.mega-menu-link
+      margin-right: 1rem
+    li.donate a.mega-menu-link
+      margin-right: .5rem
+      +orangebutton
+      border-radius: 20px
+      padding: .5rem 1.5rem
+      line-height: 20px
+    li.informed a.mega-menu-link
+      +hollowbutton
+      border-radius: 20px
+      padding: .5rem 1.5rem
+      line-height: 20px
+    // Submenu in mega menu
+    ul.mega-sub-menu li
+      h4.mega-block-title
+        font-family: $serif !important
+        font-style: italic
+      ul#menu-our-work, ul#menu-resources
+        display: block
+        margin-left: 0
+        li a
+          padding: .35rem .5rem
+          color: $bodytextcolor
+          font-size: 1rem
+          &:hover
+            color: $lightgreen
+      &.image
+        background-color: #ebebeb !important
+        height: 100%
+  li.mega-menu-megamenu > ul.mega-sub-menu > li.mega-menu-row .mega-menu-column > ul.mega-sub-menu > li.mega-menu-item
+    padding: 30px
 
 /*********************
 /* PAGE TEMPLATE
@@ -405,9 +439,15 @@ header.header
   padding: 4rem 0
   h2
     +sectionTitle
+  .intro
+    margin-bottom: 3rem
+    p
+      text-align: center
+      font-size: 1.4rem
 
 .entry-content
   margin-bottom: 4rem
+
 
 /*********************
 /* HOMEPAGE
@@ -445,6 +485,7 @@ body.home
         margin-top: 2rem
   .icons
     margin: 4rem 0
+    transition: all 1s ease-in-out
     img
       height: 100px
       display: block
@@ -453,6 +494,10 @@ body.home
     .cell
       border-right: 1px solid #ddeacb
       padding: 0 .5rem
+      &:hover img
+        transform: scale(1.1)
+      &:hover h4
+        color: $lightgreen
     .cell:last-child
       border-right: 0
     h4
@@ -679,17 +724,7 @@ h1.page-title
   display: none
 .supportUs
   .entry-content
-    padding: 0
-    h4
-      color: $green
-      text-transform: uppercase
-      border-top: 1px solid #bbd09d
-      padding-top: 2rem
-      &:first-child
-        padding-top: 0
-        border-top: 0
-    p
-      margin-bottom: 2rem
+    +list-n-TitleContent
   .intro
     margin-bottom: 3rem
     p
@@ -713,6 +748,79 @@ h1.page-title
     .bymail
       text-align: center
       margin-top: 3rem
+
+/*********************
+/* HOW WE WORK TEMPLATE
+/*********************
+
+body.page-template-how-we-work
+  .inner-content
+    padding: 4rem 0 1rem
+  .entry-content
+    +list-n-TitleContent
+  .greyWrapper
+    h2
+      +sectionTitle
+    .icons
+      margin: 4rem 0 0
+      transition: all 1s ease-in-out
+      img
+        height: 100px
+        display: block
+        margin: 0 auto .75rem
+        padding: .5rem
+      .cell
+        border-right: 1px solid #ddeacb
+        padding: 0 .5rem
+        &:hover img
+          transform: scale(1.1)
+        &:hover h4
+          color: $lightgreen
+      .cell:last-child
+        border-right: 0
+      h4
+        font-size: 1rem
+        text-align: center
+        text-transform: uppercase
+        color: $bodytextcolor
+        margin: 0 auto 0
+        width: 80%
+  .howSupportWrapper
+    background-size: cover
+    .howSupport
+      padding: 6rem
+      color: #fff
+      text-align: center
+      h2
+        +lightTitle
+      p
+        font-size: 1.4rem
+        &.thankyou
+          font-family: $serif
+          font-size: 2rem
+          font-style: italic
+          font-weight: bold
+          margin-bottom: 2rem
+  .footer
+    margin-top: 0
+
+
+.statehouse, .partnerships
+  color: #fff
+  padding: 3rem
+  h2
+    color: #fff
+  svg
+    display: block
+    width: 150px
+    max-height: 150px
+    margin-bottom: 1rem
+
+.statehouse
+  background-color: $green
+
+.partnerships
+  background-color: $lightgreen
 
 
 

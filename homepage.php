@@ -29,32 +29,46 @@ get_header(); ?>
 			<div class="grid-container">
 				<div class="grid-x icons">
 					<div class="cell large-auto">
-						<img src="<?php echo get_template_directory_uri(); ?>/assets/images/svg/energy.svg" alt="Energy & Climate Action"/>
-						<h4>Energy Climate & Action</h4>
+						<a href="#">
+							<img src="<?php echo get_template_directory_uri(); ?>/assets/images/svg/energy.svg" alt="Energy & Climate Action"/>
+							<h4>Energy Climate & Action</h4>
+						</a>
 					</div>
 					<div class="cell large-auto">
-						<img src="<?php echo get_template_directory_uri(); ?>/assets/images/svg/clean-water.svg" alt="Clean Water"/>
-						<h4>Clean Water</h4>
+						<a href="#">
+							<img src="<?php echo get_template_directory_uri(); ?>/assets/images/svg/clean-water.svg" alt="Clean Water"/>
+							<h4>Clean Water</h4>
+						</a>
 					</div>
 					<div class="cell large-auto">
-						<img src="<?php echo get_template_directory_uri(); ?>/assets/images/svg/toxic-free.svg" alt="Toxic Free Environment"/>
-						<h4>Toxic Free Environment</h4>
+						<a href="">
+							<img src="<?php echo get_template_directory_uri(); ?>/assets/images/svg/toxic-free.svg" alt="Toxic Free Environment"/>
+							<h4>Toxic Free Environment</h4>
+						</a>
 					</div>
 					<div class="cell large-auto">
-						<img src="<?php echo get_template_directory_uri(); ?>/assets/images/svg/smart-growth.svg" alt="Smart Growth"/>
-						<h4>Smart Growth</h4>
+						<a href="">
+							<img src="<?php echo get_template_directory_uri(); ?>/assets/images/svg/smart-growth.svg" alt="Smart Growth"/>
+							<h4>Smart Growth</h4>
+						</a>
 					</div>
 					<div class="cell large-auto">
-						<img src="<?php echo get_template_directory_uri(); ?>/assets/images/svg/forests.svg" alt="Healthy Forests & Wildlife"/>
-						<h4>Healthy Forests & Wildlife</h4>
+						<a href="#">
+							<img src="<?php echo get_template_directory_uri(); ?>/assets/images/svg/forests.svg" alt="Healthy Forests & Wildlife"/>
+							<h4>Healthy Forests & Wildlife</h4>
+						</a>
 					</div>
 					<div class="cell large-auto">
-						<img src="<?php echo get_template_directory_uri(); ?>/assets/images/svg/partnerships.svg" alt="Partnerships"/>
-						<h4>Partnerships</h4>
+						<a href="#">
+							<img src="<?php echo get_template_directory_uri(); ?>/assets/images/svg/partnerships.svg" alt="Partnerships"/>
+							<h4>Partnerships</h4>
+						</a>
 					</div>
 					<div class="cell large-auto">
-						<img src="<?php echo get_template_directory_uri(); ?>/assets/images/svg/statehouse.svg" alt="Statehouse"/>
-						<h4>Statehouse</h4>
+						<a href="#">
+							<img src="<?php echo get_template_directory_uri(); ?>/assets/images/svg/statehouse.svg" alt="Statehouse"/>
+							<h4>Statehouse</h4>
+						</a>
 					</div>
 				</div>
 			</div>
