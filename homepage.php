@@ -128,7 +128,7 @@ get_header(); ?>
 									<h2><?php the_field('video_title', 'option');?></h2>
 									<div class="leadin"><?php the_field('video_leadin', 'option'); ?></div>
 									<div class="text"><?php the_field('video_text', 'option');?></div>
-									<a class="videoLink" href="<?php the_field('video_link_url', 'option');?>"><?php the_field('video_link_text', 'option');?><span class="circle"><i class="fi-arrow-right"></i></span></a>
+									<a class="videoLink" href="<?php the_field('video_link_url', 'option');?>"><?php the_field('video_link_text', 'option');?><span class="whitearrow"></span></a>
 
 								</div>
 								<div class="cell small-12 medium-8 large-7 vidembed">
@@ -170,7 +170,7 @@ get_header(); ?>
 								<div class="overlay">
 									<h4><?php the_title() ?></h4>
 									<span class="short"><?php the_field('short_description');?></span>
-									<a class="more" href="<?php echo the_permalink(); ?>">Find Out More</a>
+									<a class="more" href="<?php echo the_permalink(); ?>">Find Out More<span class="whitearrow"></span></a>
 								</div>
 							</div>
 							<?php

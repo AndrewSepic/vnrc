@@ -97,12 +97,7 @@ $bodytextcolor: #2b2b2b
       padding: .25rem
 
 =arrowHover
-  .circle
-    +cssTransition(.1s)
-    //transform: translate(5px,0)
-    //.circle
-    //+cssTransition(.1s)
-    margin-left: 10px
+  margin-left: 10px
 
 @keyframes push
   50%
@@ -124,6 +119,16 @@ $bodytextcolor: #2b2b2b
   background-size: contain
   margin: 15px 0 0 5px
 
+=whitearrow
+  background: url('../images/svg/white_arrow.svg')
+  height: 18px
+  width: 18px
+  display: block
+  float: right
+  line-height: 3rem
+  background-size: contain
+  margin: 2px 0 0 5px
+
 =lightTitle
   text-transform: uppercase
   font-weight: 300
@@ -141,9 +146,12 @@ $bodytextcolor: #2b2b2b
   color: $bodytextcolor
   font-weight: bold
   line-height: 3rem
+  margin-right: 5px
   &:hover
-    opacity: .75rem
-    +arrowHover
+    opacity: .75
+    margin-right: 0
+    .greenarrow
+      +arrowHover
 
 =matte
   width: 150px
@@ -314,11 +322,10 @@ select
   &:hover
     opacity: .75
     .greenarrow
-      +cssTransition(.1s)
-      //transform: translate(5px,0)
-      //.circle
-      //+cssTransition(.1s)
-      margin-left: 10px
+      +arrowHover
+
+.catLink a.readmore
+  float: right
 
 /*********************
 /* HEADER
@@ -370,13 +377,17 @@ select
   margin-top: -20px
   #mega-menu-wrap-main-nav #mega-menu-main-nav
     & > li.mega-menu-megamenu > ul.mega-sub-menu
-      margin-top: 17px
+      margin-top: 20px
     li.primary a.mega-menu-link
       padding: 0 2rem
     li.facebook a.mega-menu-link,  li.twitter a.mega-menu-link
       padding: 0 5px
       i
         font-size: 2rem
+    li.facebook a.mega-menu-link:hover i
+      color: #3b5998
+    li.twitter a.mega-menu-link:hover i
+      color:  #38A1F3
     li.twitter a.mega-menu-link
       margin-right: 1rem
     li.donate a.mega-menu-link
@@ -390,12 +401,19 @@ select
       border-radius: 20px
       padding: .5rem 1.5rem
       line-height: 20px
+    // Active Menu Item
+    .menu .active > a
+      color: $lightgreen !important
+      padding-left: 20px !important
+      background: url(../images/nav-current.png) no-repeat center left
+      background-size: 12px
+
     // Submenu in mega menu
     ul.mega-sub-menu li
       h4.mega-block-title
         font-family: $serif !important
         font-style: italic
-      ul#menu-our-work, ul#menu-resources
+      ul#menu-our-work, ul#menu-resources, ul#menu-about-us
         display: block
         margin-left: 0
         li a
@@ -407,6 +425,9 @@ select
       &.image
         background-color: #ebebeb !important
         height: 100%
+        p.wp-caption-text
+          font-size: 1.2rem
+          float: left
   li.mega-menu-megamenu > ul.mega-sub-menu > li.mega-menu-row .mega-menu-column > ul.mega-sub-menu > li.mega-menu-item
     padding: 30px
 
@@ -545,9 +566,12 @@ body.home
         left: 15px
         color: #fff
         font-weight: 500
-        +circleArrow(#fff, $grey)
+        .whitearrow
+          +whitearrow
         &:hover
-          +arrowHover
+          opacity: .75
+          .whitearrow
+            +arrowHover
 
 .victories
   margin: 4rem 0
@@ -578,12 +602,20 @@ body.home
         cursor: pointer
       &.open
         .more, .short
-          display: block
+          display: inline-block
+          margin-top: .5rem
       h4, .short, .more
         color: #fff
       .more
         display: block
         margin: 0 auto
+        text-transform: uppercase
+        .whitearrow
+          +whitearrow
+          float: none
+          display: inline-block
+        &:hover
+          opacity: .75
       .more, .short
         display: none
 
@@ -822,6 +854,12 @@ body.page-template-how-we-work
 .partnerships
   background-color: $lightgreen
 
+/*********************
+/* STAND ALONG ELEMENTS
+/*********************
+
+.fb-video blockquote p
+  color: #e2e2e2
 
 
 /*********************

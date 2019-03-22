@@ -16,7 +16,7 @@ jQuery(document).ready(function($) {
     $('.overlay').on("hover", function(){
       console.log('its hovered!');
       $(this).animate({
-        height: [ 150, "swing"]
+        height: [ 175, "swing"]
       }, 250, function() {
         $(this).addClass('open');
       });
