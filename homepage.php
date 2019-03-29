@@ -90,7 +90,7 @@ get_header(); ?>
 								<!--- Posts Begin -->
 								<?php
 
-								   $args = array('cat' => 3);
+								   $args = array('cat' => 3, 'posts_per_page' => 3,);
 								   $category_posts = new WP_Query($args);
 
 								   if($category_posts->have_posts()) :

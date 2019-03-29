@@ -15,7 +15,7 @@ http://codex.wordpress.org/Creating_Admin_Themes
 ******************************************************************/
 /* line 26, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/login.scss */
 .login h1 a {
-  background: url(../images/login-logo.png) no-repeat top center;
+  background: url(../images/svg/green-logo.svg) no-repeat top center;
   width: 326px;
   height: 67px;
   text-indent: -9999px;
