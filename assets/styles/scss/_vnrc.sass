@@ -474,20 +474,51 @@ header.header
 /* SINGLE TEMPLATE
 /*********************
 
-h1.entry-title.single-title
-  font-size: 2rem
-  margin-top: 2rem
-  font-weight: 700
-
-p.byline
-  color: $bodytextcolor
-  font-weight: 600
-  font-size: 1.25rem
-  margin: 2rem 0 0 0
-
-body.single-post
+body.single
+  h1.entry-title.single-title
+    font-size: 2rem
+    margin-top: 2rem
+    font-weight: 700
+  p.byline
+    color: $bodytextcolor
+    font-weight: 600
+    font-size: 1.25rem
+    margin: 2rem 0 0 0
   .entry-content
     padding: 1rem 0
+
+/*********************
+/* ARCHIVE TEMPLATE
+/*********************
+body.archive
+  article:nth-child(odd)
+    background-color: $lightgrey
+  article:first-of-type
+    padding-top: 0
+  article
+    margin-bottom: .5rem
+    padding: 2rem 1rem 2rem 2rem
+    .article-header h2
+      text-transform: uppercase
+      font-weight: 300
+      font-size: 1.25rem
+      margin-bottom: 0
+      text-align: left
+    p.byline
+      color: $bodytextcolor
+      font-weight: 500
+      font-size: 1rem
+      margin: .5rem 0 0 0
+    .entry-content
+      padding: .5rem 0
+      margin: 0
+      font-size: .9rem
+    .excerpt-read-more
+      .greenarrow
+        margin: 3px 0 0 5px
+      &:hover .greenarrow
+        margin-left: 10px
+
 
 /*********************
 /* SIDEBAR

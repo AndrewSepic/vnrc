@@ -23,7 +23,9 @@
  	</div>
 
  		<div id="heroTitle">
- 			<h1><?php the_title(); ?></h1>
+      <?php $category = get_the_category();
+						if(!empty($category)){$firstCategory = $category[0]->cat_name;} ?>
+			<h1><?php echo $firstCategory; ?></h1>
  		</div>
 
 
@@ -32,37 +34,37 @@
 
 
 	<div class="content">
+	  <div class="grid-container">
+    	<div class="inner-content grid-x grid-margin-x grid-padding-x">
 
-		<div class="inner-content grid-x grid-margin-x grid-padding-x">
+    	    <main class="main small-12 medium-8 large-8 cell" role="main">
 
-		    <main class="main small-12 medium-8 large-8 cell" role="main">
+    	    	<header>
+    	    		<h1 class="page-title"><?php the_archive_title();?></h1>
+    				<?php the_archive_description('<div class="taxonomy-description">', '</div>');?>
+    	    	</header>
 
-		    	<header>
-		    		<h1 class="page-title"><?php the_archive_title();?></h1>
-					<?php the_archive_description('<div class="taxonomy-description">', '</div>');?>
-		    	</header>
+    	    	<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
-		    	<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+    				<!-- To see additional archive styles, visit the /parts directory -->
+    				<?php get_template_part( 'parts/loop', 'archive' ); ?>
 
-					<!-- To see additional archive styles, visit the /parts directory -->
-					<?php get_template_part( 'parts/loop', 'archive' ); ?>
+    			<?php endwhile; ?>
 
-				<?php endwhile; ?>
+    				<?php joints_page_navi(); ?>
 
-					<?php joints_page_navi(); ?>
+    			<?php else : ?>
 
-				<?php else : ?>
+    				<?php get_template_part( 'parts/content', 'missing' ); ?>
 
-					<?php get_template_part( 'parts/content', 'missing' ); ?>
+    			<?php endif; ?>
 
-				<?php endif; ?>
+    		</main> <!-- end #main -->
 
-			</main> <!-- end #main -->
+    		<?php get_sidebar(); ?>
 
-			<?php get_sidebar(); ?>
-
-	    </div> <!-- end #inner-content -->
-
+     </div> <!-- end #inner-content -->
+   </div> <!-- end .grid-container -->
 	</div> <!-- end #content -->
 
 <?php get_footer(); ?>

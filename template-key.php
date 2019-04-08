@@ -79,7 +79,7 @@ get_header(); ?>
 			<div class="grid-container">
 				<div class="grid-x grid-padding-x news">
 					<div class="cell small-12 medium-12 large-8 large-offset-2">
-						<h2>Smart Growth News</h2>
+						<h2>Climate Action News</h2>
 					</div>
 					<div class="cell small-12 medium-12 large-2 catLink">
 						<a class="readmore" href="/category/news">Read All <span class="greenarrow"></span></a>

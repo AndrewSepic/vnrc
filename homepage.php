@@ -84,7 +84,7 @@ get_header(); ?>
 									<h2>News &amp; Stories</h2>
 								</div>
 								<div class="cell small-12 medium-12 large-4 catLink">
-									<a class="readmore" href="/category/news">Read all News &amp; Stories <span class="greenarrow"></span></a>
+									<a class="readmore" href="<?php echo site_url();?>/category/news-stories">Read all News &amp; Stories <span class="greenarrow"></span></a>
 								</div>
 
 								<!--- Posts Begin -->

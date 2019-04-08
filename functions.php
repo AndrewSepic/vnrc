@@ -82,6 +82,11 @@ function custom_excerpt_length( $length ) {
 }
 add_filter( 'excerpt_length', 'custom_excerpt_length', 999 );
 
+// Set a function to create excerpt limits per use case
+function excerpt($limit) {
+    return wp_trim_words(get_the_excerpt(), $limit);
+}
+
 // Add ACF Options to Toolbar
 
 add_action( 'admin_bar_menu', 'acf_link', 999 );
