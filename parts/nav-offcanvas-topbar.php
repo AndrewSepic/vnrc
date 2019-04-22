@@ -17,6 +17,7 @@
 	</div>
 	<div class="top-bar-right show-for-medium">
 		<?php joints_top_nav(); ?>
+		<button class="button informed" data-open="enews" aria-controls="enews" aria-haspopup="true" tabindex="0">Stay Informed</button>
 	</div>
 	<div class="top-bar-right float-right show-for-small-only">
 		<ul class="menu">

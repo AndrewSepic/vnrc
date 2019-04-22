@@ -101,3 +101,15 @@ function acf_link( $wp_admin_bar ) {
 	$wp_admin_bar->add_node( $args );
 }
 
+add_filter( 'nav_menu_link_attributes', 'dataAtts', 10, 3 );
+function dataAtts( $atts, $item, $args ) {
+  // The ID of the target menu item
+  $menu_target = 41;
+
+  // inspect $item
+  if ($item->ID == $menu_target) {
+    $atts['data-open'] = 'enews';
+  }
+  return $atts;
+}
+

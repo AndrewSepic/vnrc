@@ -63,14 +63,19 @@ $bodytextcolor: #2b2b2b
     border: none
     color: #fff
 
-=hollowbutton
+=hollowbutton($color)
   background-color: transparent
-  border: 2px solid #fff
+  border: 2px solid $color
   padding: .85rem 1rem
-  color: #FFF
+  color: $color
+  font-weight: bold
+  font-size: 1.1rem
+  border-radius: 20px
+  padding: .5rem 1.5rem
+  line-height: 20px
   &:hover
     transition: all .3s ease-in-out
-    background-color: #fff
+    background-color: $color
     color: $bodytextcolor
 
 
@@ -264,6 +269,7 @@ h5, .h5
 
 p
   line-height: 1.5rem
+  font-size: 1rem
 
 ul.check
   list-style: none
@@ -355,6 +361,10 @@ select
           transition: all .3s ease-in-out
           background-color: $bodytextcolor
           color: #fff
+    .button.informed
+      +hollowbutton($bodytextcolor)
+      &:hover
+        color: #fff
 
 
 // Logo
@@ -374,62 +384,61 @@ select
 
 // Mega Menu
 .top-bar-right
-  margin-top: -20px
-  #mega-menu-wrap-main-nav #mega-menu-main-nav
-    & > li.mega-menu-megamenu > ul.mega-sub-menu
-      margin-top: 20px
-    li.primary a.mega-menu-link
-      padding: 0 2rem
-    li.facebook a.mega-menu-link,  li.twitter a.mega-menu-link
-      padding: 0 5px
-      i
-        font-size: 2rem
-    li.facebook a.mega-menu-link:hover i
-      color: #3b5998
-    li.twitter a.mega-menu-link:hover i
-      color:  #38A1F3
-    li.twitter a.mega-menu-link
-      margin-right: 1rem
-    li.donate a.mega-menu-link
-      margin-right: .5rem
-      +orangebutton
-      border-radius: 20px
-      padding: .5rem 1.5rem
-      line-height: 20px
-    li.informed a.mega-menu-link
-      +hollowbutton
-      border-radius: 20px
-      padding: .5rem 1.5rem
-      line-height: 20px
-    // Active Menu Item
-    .menu .active > a
-      color: $lightgreen !important
-      padding-left: 20px !important
-      background: url(../images/nav-current.png) no-repeat center left
-      background-size: 12px
+  .button.informed
+    +hollowbutton(#fff)
+  #mega-menu-wrap-main-nav
+    float: left
+    #mega-menu-main-nav
+      float: left
+      & > li.mega-menu-megamenu > ul.mega-sub-menu
+        margin-top: 20px
+      li.primary a.mega-menu-link
+        padding: 0 2rem
+      li.facebook a.mega-menu-link,  li.twitter a.mega-menu-link
+        padding: 0 5px
+        i
+          font-size: 2rem
+      li.facebook a.mega-menu-link:hover i
+        color: #3b5998
+      li.twitter a.mega-menu-link:hover i
+        color:  #38A1F3
+      li.twitter a.mega-menu-link
+        margin-right: 1rem
+      li.donate a.mega-menu-link
+        margin-right: .5rem
+        +orangebutton
+        border-radius: 20px
+        padding: .5rem 1.5rem
+        line-height: 20px
+      // Active Menu Item
+      .menu .active > a
+        color: $lightgreen !important
+        padding-left: 20px !important
+        background: url(../images/nav-current.png) no-repeat center left
+        background-size: 12px
 
-    // Submenu in mega menu
-    ul.mega-sub-menu li
-      h4.mega-block-title
-        font-family: $serif !important
-        font-style: italic
-      ul#menu-our-work, ul#menu-resources, ul#menu-about-us
-        display: block
-        margin-left: 0
-        li a
-          padding: .35rem .5rem
-          color: $bodytextcolor
-          font-size: 1rem
-          &:hover
-            color: $lightgreen
-      &.image
-        background-color: #ebebeb !important
-        height: 100%
-        p.wp-caption-text
-          font-size: 1.2rem
-          float: left
-  li.mega-menu-megamenu > ul.mega-sub-menu > li.mega-menu-row .mega-menu-column > ul.mega-sub-menu > li.mega-menu-item
-    padding: 30px
+      // Submenu in mega menu
+      ul.mega-sub-menu li
+        h4.mega-block-title
+          font-family: $serif !important
+          font-style: italic
+        ul#menu-our-work, ul#menu-resources, ul#menu-about-us
+          display: block
+          margin-left: 0
+          li a
+            padding: .35rem .5rem
+            color: $bodytextcolor
+            font-size: 1rem
+            &:hover
+              color: $lightgreen
+        &.image
+          background-color: #ebebeb !important
+          height: 100%
+          p.wp-caption-text
+            font-size: 1.2rem
+            float: left
+    li.mega-menu-megamenu > ul.mega-sub-menu > li.mega-menu-row .mega-menu-column > ul.mega-sub-menu > li.mega-menu-item
+      padding: 30px
 
 /*********************
 /* PAGE TEMPLATE
@@ -457,7 +466,7 @@ header.header
       font-size: 3.2rem
 
 .entry-content, .inner-content
-  padding: 4rem 0
+  padding: 2rem 0
   h2
     +sectionTitle
   .intro
@@ -491,7 +500,7 @@ body.single
 /* ARCHIVE TEMPLATE
 /*********************
 body.archive
-  article:nth-child(odd)
+  &.category-news-stories article:nth-child(odd)
     background-color: $lightgrey
   article:first-of-type
     padding-top: 0
@@ -659,19 +668,7 @@ body.home
           .whitearrow
             +arrowHover
 
-.victories
-  margin: 4rem 0
-  h2
-    +sectionTitle
-  a.readmore
-    float: right
-    color: $bodytextcolor
-    font-weight: bold
-    line-height: 3rem
-    +circleArrow($lightgreen, #fff)
-    &:hover
-      opacity: .75rem
-      +arrowHover
+=victoryStyles
   .cell.post
     img
       width: 100%
@@ -704,6 +701,20 @@ body.home
           opacity: .75
       .more, .short
         display: none
+.victories
+  margin: 4rem 0
+  h2
+    +sectionTitle
+  a.readmore
+    float: right
+    color: $bodytextcolor
+    font-weight: bold
+    line-height: 3rem
+    +circleArrow($lightgreen, #fff)
+    &:hover
+      opacity: .75rem
+      +arrowHover
+  +victoryStyles
 
 .missionWrapper
   padding: 4rem 0
@@ -941,7 +952,27 @@ body.page-template-how-we-work
   background-color: $lightgreen
 
 /*********************
-/* STAND ALONG ELEMENTS
+/* VICTORIES CATEGORY TEMPLATE
+/*********************
+
+body.category-victories
+  article.leadVictory
+    h2
+      font-size: 3rem
+    .victoryDate
+      font-size: 1.25rem
+      font-weight: 500
+      font-style: italic
+    .entry-content
+      columns: 3
+      column-gap: 2.5rem
+      font-size: 1rem
+      img
+        margin-bottom: 2rem
+  +victoryStyles
+
+/*********************
+/* STAND ALONE ELEMENTS
 /*********************
 
 .fb-video blockquote p

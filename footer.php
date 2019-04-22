@@ -7,6 +7,8 @@
  * For more info: https://developer.wordpress.org/themes/basics/template-files/#template-partials
  */
  ?>
+        <!-- Enews signup modal -->
+        <?php get_template_part('signupmodal');?>
 
 				<footer class="footer" role="contentinfo">
           <div class="grid-container">
