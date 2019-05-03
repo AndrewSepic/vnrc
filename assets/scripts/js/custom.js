@@ -12,6 +12,30 @@ jQuery(document).ready(function($) {
     //     width: [ 150, "swing"]
     //   }, 500);
     // });
+    // Animate Hamburger
+
+    hamburgular();
+
+    // animate hamburger on small screens
+    function hamburgular() {
+      $(".hamburger").click(function(){
+        $(this).toggleClass("is-active");
+      });
+
+      $(".off-canvas").on("closed.zf.offcanvas", function(e) {
+        e.preventDefault();
+        $(".hamburger").removeClass("is-active");
+        console.log("off canvas closed!");
+      });
+
+    }
+
+  // On Off-Canvas close, toggle hamburger back to defauly state
+  //jQuery(document).on('closed.zf.offcanvas', '[data-offcanvas]', function() {
+    //jQuery(".hamburger").removeClass("is-active");
+    //console.log("off canvas closed!");
+  //});
+
 
     $('.overlay').on("hover", function(){
       console.log('its hovered!');

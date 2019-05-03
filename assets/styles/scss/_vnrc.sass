@@ -337,34 +337,35 @@ select
 /* HEADER
 /*********************
 
-.navWrap
-  .top-bar
-    padding: 1rem 0 0
-  // Hover state for Main Nav
-  &:hover
-    background-color: #fff
-    .top-bar-left #logo a
-      img.logo.white
-        display: none
-      img.logo.green
-        display: block
-    #mega-menu-wrap-main-nav #mega-menu-main-nav
-      li.primary a.mega-menu-link
-        color: $bodytextcolor
-      li.facebook a.mega-menu-link,  li.twitter a.mega-menu-link
-        color: $bodytextcolor
-      li.informed a.mega-menu-link
-        background-color: transparent
-        border: 2px solid $bodytextcolor
-        color: $bodytextcolor
+@include breakpoint(medium)
+  .navWrap
+    .top-bar
+      padding: 1rem 0 0
+    // Hover state for Main Nav
+    &:hover
+      background-color: #fff
+      .top-bar-left #logo a
+        img.logo.white
+          display: none
+        img.logo.green
+          display: block
+      #mega-menu-wrap-main-nav #mega-menu-main-nav
+        li.primary a.mega-menu-link
+          color: $bodytextcolor
+        li.facebook a.mega-menu-link,  li.twitter a.mega-menu-link
+          color: $bodytextcolor
+        li.informed a.mega-menu-link
+          background-color: transparent
+          border: 2px solid $bodytextcolor
+          color: $bodytextcolor
+          &:hover
+            transition: all .3s ease-in-out
+            background-color: $bodytextcolor
+            color: #fff
+      .button.informed
+        +hollowbutton($bodytextcolor)
         &:hover
-          transition: all .3s ease-in-out
-          background-color: $bodytextcolor
           color: #fff
-    .button.informed
-      +hollowbutton($bodytextcolor)
-      &:hover
-        color: #fff
 
 
 // Logo
@@ -640,8 +641,8 @@ body.home
   .video
     background-color: $grey
     padding: 2rem
+    position: relative
     .vidContent
-      position: relative
       h2, p, div
         text-align: left
         color: #fff
@@ -970,6 +971,8 @@ body.category-victories
       img
         margin-bottom: 2rem
   +victoryStyles
+  h2
+    +sectionTitle
 
 /*********************
 /* STAND ALONE ELEMENTS

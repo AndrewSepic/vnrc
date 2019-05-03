@@ -8,11 +8,14 @@ CSS file.
 
 ******************************************************************/
 
+// Import local Foundation overrides - Don't link to Bower version as it will be overwritten whenever updated
+@import "settings";
+
 // Import VNRC styles
 @import "vnrc";
 
-// Import local Foundation overrides - Don't link to Bower version as it will be overwritten whenever updated
-@import "settings";
+//Import VNRC responsive styles
+@import "responsive";
 
 // Import foundation.scss from vendor files
 @import "../../../node_modules/foundation-sites/scss/foundation";

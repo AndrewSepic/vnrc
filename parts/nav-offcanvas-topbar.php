@@ -17,12 +17,14 @@
 	</div>
 	<div class="top-bar-right show-for-medium">
 		<?php joints_top_nav(); ?>
-		<button class="button informed" data-open="enews" aria-controls="enews" aria-haspopup="true" tabindex="0">Stay Informed</button>
+		<button class="button informed hide-for-small-only" data-open="enews" aria-controls="enews" aria-haspopup="true" tabindex="0">Stay Informed</button>
 	</div>
-	<div class="top-bar-right float-right show-for-small-only">
-		<ul class="menu">
-			<!-- <li><button class="menu-icon" type="button" data-toggle="off-canvas"></button></li> -->
-			<li><a data-toggle="off-canvas"><?php _e( 'Menu', 'jointswp' ); ?></a></li>
-		</ul>
+
+	<div class="top-bar-right show-for-small-only">
+		<div class="hamburger" id="hamburger-1" data-toggle="off-canvas">
+			 <span class="line"></span>
+			 <span class="line"></span>
+			 <span class="line"></span>
+		 </div>
 	</div>
 </div>
