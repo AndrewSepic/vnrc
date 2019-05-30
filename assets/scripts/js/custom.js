@@ -38,9 +38,11 @@ jQuery(document).ready(function($) {
 
 
     $('.overlay').on("hover", function(){
-      console.log('its hovered!');
+      // var overlayheight = $(this).height();
+      // console.log(overlayheight);
+      // console.log('its hovered!');
       $(this).animate({
-        height: [ 175, "swing"]
+        height: [ "+=50px", "swing"]
       }, 250, function() {
         $(this).addClass('open');
       });
@@ -49,7 +51,7 @@ jQuery(document).ready(function($) {
     $('.overlay').on("mouseleave", function(){
       console.log('its not hovered!');
       $(this).animate({
-        height: [ 75, "swing"]
+        height: [ "-=50px", "swing"]
       }, 500, function() {
         $(this).removeClass('open');
       });

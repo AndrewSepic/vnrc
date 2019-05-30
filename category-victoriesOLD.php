@@ -31,7 +31,7 @@
  </header> <!-- started in header.php-->
 
 
-	<div class="content victories-single">
+	<div class="content">
 	  <div class="grid-container">
     	<div class="inner-content grid-x grid-margin-x grid-padding-x">
 
@@ -42,37 +42,37 @@
     				<?php the_archive_description('<div class="taxonomy-description">', '</div>');?>
     	    	</header>
               <div class="grid-x grid-margin-x">
+              <?php if (have_posts()) : ?>
+              <?php $postcount = 0; // Initialize the post counter ?>
+              <?php while (have_posts()) : the_post(); //start the loop ?>
+              <?php $postcount++; //add 1 to the post counter ?>
 
-								<div class="grid-x grid-margin-x">
-	              <?php if (have_posts()) : ?>
-	              <?php while (have_posts()) : the_post(); //start the loop
-									//grab id for later
-									$do_not_duplicate = $post->ID; ?>
-    							<div class="cell small-12 medium-12 large-12">
-	                    <article id="post-<?php the_ID(); ?>" class="leadVictory" role="article">
 
-	                			<header class="article-header">
-	                				<h2><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h2>
-	                        <p class="victoryDate">
-	                        	<?php the_time('l, F jS, Y');?>
-	                        </p>
 
-	                			</header> <!-- end article header -->
+              <?php if ($postcount == 1) : // if this is the first post ?>
 
-	                			<section class="entry-content" itemprop="text">
-	                        <?php the_post_thumbnail('victory'); ?>
-	                				<?php the_content();?>
-	                			</section> <!-- end article section -->
-	                    </article> <!-- end article -->
-	                	</div>
+                  <div class="cell small-12 medium-12 large-12">
+                    <article id="post-<?php the_ID(); ?>" class="leadVictory" role="article">
+
+                			<header class="article-header">
+                				<h2><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h2>
+                        <p class="victoryDate">
+                        	<?php the_time('l, F jS, Y');?>
+                        </p>
+
+                			</header> <!-- end article header -->
+
+                			<section class="entry-content" itemprop="text">
+                        <?php the_post_thumbnail('victory'); ?>
+                				<?php the_content();?>
+                			</section> <!-- end article section -->
+                    </article> <!-- end article -->
+                	</div>
                   <div class="cell small-12 medium-12 large-12">
                     <h2>Our Proudest Victories </h2>
                   </div>
-								<?php endwhile; ?>
-              <?php endif;  ?>
-							<?php $victory_query = new WP_Query( array('category_name'=>'victories', 'posts_per_page'=>'30'));
-									while ( $victory_query->have_posts()) : $victory_query->the_post();
-									if ( $post->ID == $do_not_duplicate ) continue; ?>
+              <?php else: // if this is not the first post ?>
+
       				    <!-- To see additional archive styles, visit the /parts directory -->
 
                     <div class="cell small-12 medium-4 large-4 post">
@@ -87,11 +87,18 @@
                       </div>
                     </div>
 
-							<?php endwhile; ?>
+                <?php endif; ?>
 
+    			<?php endwhile; ?>
         </div> <!-- End grid-x for victory group -->
 
     				<?php joints_page_navi(); ?>
+
+    			<?php else : ?>
+
+    				<?php get_template_part( 'parts/content', 'missing' ); ?>
+
+    			<?php endif; ?>
 
     		</main> <!-- end #main -->
 

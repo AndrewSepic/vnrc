@@ -129,3 +129,13 @@ add_filter( 'single_template', function ( $single_template ) {
 
 }, PHP_INT_MAX, 2 );
 
+// Increase post limit on category-victories.php
+function more_victories( $query ) {
+    if ( is_category( 'victories' ) ) {
+        // Display 50 posts for a custom post type called 'movie'
+        $query->set( 'posts_per_page', 50 );
+        return;
+    }
+}
+add_action( 'pre_get_posts', 'more_victories', 1 );
+
