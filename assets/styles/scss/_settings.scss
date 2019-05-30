@@ -398,7 +398,7 @@ $dropdownmenu-padding: $global-menu-padding;
 $dropdownmenu-nested-margin: 0;
 $dropdownmenu-submenu-padding: $dropdownmenu-padding;
 $dropdownmenu-border: 1px solid $medium-gray;
-$dropdown-menu-item-color-active: get-color(primary);
+$dropdown-menu-item-color-active: none;
 $dropdown-menu-item-background-active: transparent;
 
 // 19. Flexbox Utilities
@@ -495,13 +495,13 @@ $meter-fill-bad: $alert-color;
 // --------------
 
 $offcanvas-sizes: (
-  small: 300px,
+  small: 260px,
 );
 $offcanvas-vertical-sizes: (
   small: 250px,
 );
 $offcanvas-background: #fff;
-$offcanvas-shadow: 13px 6px 20px 10px rgba(10, 10, 10, .5);
+$offcanvas-shadow: 2px 3px 8px 2px rgba(10, 10, 10, .25) !important;
 $offcanvas-inner-shadow-size: 0px;
 $offcanvas-inner-shadow-color: rgba($black, 0.25);
 $offcanvas-overlay-zindex: 11;

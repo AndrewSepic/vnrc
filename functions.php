@@ -113,3 +113,19 @@ function dataAtts( $atts, $item, $args ) {
   return $atts;
 }
 
+//
+// Add custom template for victories Single posts
+//
+add_filter( 'single_template', function ( $single_template ) {
+
+    $parent     = '4'; //ID for Victories cat
+    $categories = get_categories( 'child_of=' . $parent );
+    $cat_names  = wp_list_pluck( $categories, 'name' );
+
+    if ( has_category( 'victories' ) || has_category( $cat_names ) ) {
+        $single_template = dirname( __FILE__ ) . '/single-victories.php';
+    }
+    return $single_template;
+
+}, PHP_INT_MAX, 2 );
+

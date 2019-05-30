@@ -3,8 +3,11 @@
 /*
 
 // Mobile Devices
-@include breakpoint(small)
+@include breakpoint(small only)
+
   //navigation
+  .position-right.is-transition-push
+    box-shadow: 2px 3px 8px 2px rgba(10, 10, 10, .25) !important
   .top-bar
     padding: 2rem 1rem !important
     .top-bar-right
@@ -20,7 +23,7 @@
       .line
         width: 30px
         height: 5px
-        background-color: #ecf0f1
+        background-color: #fff
         display: block
         margin: 5px auto
         -webkit-transition: all 0.3s ease-in-out
@@ -40,12 +43,43 @@
       -o-transform: translateY(-13px) rotate(-45deg)
       transform: translateY(-13px) rotate(-45deg)
   ul#offcanvas-nav
+    &.menu.vertical
+      flex-wrap: wrap !important
+      flex-direction: row !important
     li a
       padding: 1rem 1rem
       color: #505050
       font-size: 1.25rem
       font-weight: bold
-
+  .accordion-menu .is-accordion-submenu li a
+    font-weight: normal !important
+    padding: .75rem 1rem !important
+    font-size: 1.1rem !important
+    background-color: #e8ede8
+  li.is-accordion-submenu-parent ul.is-active
+    border-top: 2px solid $green
+  li.facebook, li.twitter
+    float: left
+    width: 18%!important
+    i
+      font-size: 2rem
+      width: 25%
+      float: left
+  li.donate
+    background-color: $orange
+    border-radius: 29px
+    //border-bottom-left-radius: 29px
+    text-align: center
+    margin: 1rem 1rem 0
+    float: right
+    display: inline-block
+    a
+      color: #fff !important
+  .menu .active > a
+    background: transparent !important
+    border-left: 10px solid $lightgreen
+  .menu li.donate.active > a
+    border-left: 0
   //global padding to cell's on small screens
   body.home .grid-padding-x > .cell
     padding-right: 2rem
@@ -98,21 +132,42 @@
       margin: 4rem 0 0
       .cell
         margin-bottom: 2rem
-  .footer .bottomFooterWrapper
-    .vnrc, .associates, .links
-      margin-bottom: 2rem
-    .vnrc
-      img
-        width: 80%
-    .vnrc, .links
-      p
-        margin-bottom: 0
-    .pageinfo
-      padding-top: 1rem
-      margin-top: 0
-      color: #545454
-      background-color: #9e9e9e
-      a
-        color: #545454
+  .footer
+    .cell.reports, .cell.subscribe
+      padding: 0 1.5rem 2.5rem
+    .bottomFooterWrapper
+      .cell
+        padding: 0 2rem
+      .vnrc, .associates, .links
+        margin-bottom: 2rem
+      .associates img.vcv
+        margin-right: 3rem
+      .vnrc
+        img
+          width: 80%
+      .vnrc, .links
+        p
+          margin-bottom: 0
+      .pageinfo
+        padding-top: 1rem
+        margin-top: 0
+        color: #cacaca
+        background-color: #6e6e6e
+        a
+          color: #cacaca !important
+          text-decoration: underline
+  //General Page styles
+  header.header
+    height: 325px
+    #heroTitle
+      position: absolute
+      width: 80%
+      bottom: 20%
+      left: 10%
+      h1
+        font-size: 2.2rem
+  //Support Us
+  .supportUs .intro p
+    font-size: 1.1rem
 
 
