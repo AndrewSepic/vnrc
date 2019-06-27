@@ -142,7 +142,7 @@ get_header(); ?>
 
 
 					<div class="grid-container">
-						<div class="grid-x grid-margin-x victories">
+						<div class="grid-x grid-margin-x grid-padding-x victories">
 
 							<div class="cell small-12 medium-12 large-4 large-offset-4">
 								<h2>Victories</h2>
@@ -155,24 +155,25 @@ get_header(); ?>
 							<!-- Victory posts -->
 							<?php
 
-								 $args = array('cat' => 4);
+								 $args = array('cat' => 4, 'posts_per_page' => 3 );
 								 $category_posts = new WP_Query($args);
 
 								 if($category_posts->have_posts()) :
 										while($category_posts->have_posts()) :
 											 $category_posts->the_post();
 							?>
-							<div class="cell small-12 medium-4 large-4 post">
-								<?php
-									if ( has_post_thumbnail() ) {
-										the_post_thumbnail( 'victory' );
-								} ?>
-								<div class="overlay">
-									<h4><?php the_title() ?></h4>
-									<span class="short"><?php the_field('short_description');?></span>
-									<a class="more" href="<?php echo the_permalink(); ?>">Find Out More<span class="whitearrow"></span></a>
+							<a class="victoryLink" href="<?php echo the_permalink(); ?>">
+								<div class="cell small-12 medium-4 large-4 post">
+									<?php
+										if ( has_post_thumbnail() ) {
+											the_post_thumbnail( 'victory' );
+									} ?>
+									<div class="overlay">
+										<h4><?php the_title() ?></h4>
+										<span class="short"><?php the_field('short_description');?></span>
+									</div>
 								</div>
-							</div>
+							</a>
 							<?php
 										endwhile;
 								 else:

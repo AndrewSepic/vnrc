@@ -46,6 +46,10 @@ require_once(get_template_directory().'/functions/login.php');
 // Customize the WordPress admin
 // require_once(get_template_directory().'/functions/admin.php');
 
+@ini_set( 'upload_max_size' , '64M' );
+@ini_set( 'post_max_size', '64M');
+@ini_set( 'max_execution_time', '300' );
+
 if( function_exists('acf_add_options_page') ) {
 
 	acf_add_options_page(array(

@@ -23,9 +23,7 @@
  	</div>
 
  		<div id="heroTitle">
-      <?php $category = get_the_category();
-						if(!empty($category)){$firstCategory = $category[0]->cat_name;} ?>
-			<h1><?php echo $firstCategory; ?></h1>
+      <h1>Vermont Environmental Reports</h1>
  		</div>
 
 
@@ -37,19 +35,27 @@
 	  <div class="grid-container">
     	<div class="inner-content grid-x grid-margin-x grid-padding-x">
 
-    	    <main class="main small-12 medium-8 large-8 cell" role="main">
+    	    <main class="main small-12 medium-12 large-12 cell" role="main">
 
     	    	<header>
     	    		<h1 class="page-title"><?php the_archive_title();?></h1>
     				<?php the_archive_description('<div class="taxonomy-description">', '</div>');?>
     	    	</header>
+              <div class="grid-x grid-margin-x">
 
-    	    	<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+                <?php if (have_posts()) : ?>
+                <?php while (have_posts()) : the_post(); //start the loop ?>
 
-    				<!-- To see additional archive styles, visit the /parts directory -->
-    				<?php get_template_part( 'parts/loop', 'archive' ); ?>
+      				    <!-- To see additional archive styles, visit the /parts directory -->
 
-    			<?php endwhile; ?>
+                    <div class="cell small-12 medium-4 large-3">
+                      <a class="reportLink" href="<?php the_field('pdf_report');?>">
+                        <img class="cover" src="<?php the_field('cover_image');?>"/>
+                      </a>
+                    </div>
+
+    			       <?php endwhile; ?>
+              </div> <!-- End grid-x for victory group -->
 
     				<?php joints_page_navi(); ?>
 
@@ -60,8 +66,6 @@
     			<?php endif; ?>
 
     		</main> <!-- end #main -->
-
-    		<?php get_sidebar(); ?>
 
      </div> <!-- end #inner-content -->
    </div> <!-- end .grid-container -->

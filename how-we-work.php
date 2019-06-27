@@ -29,7 +29,7 @@ get_header(); ?>
 			<div class="inner-content grid-x grid-margin-x grid-padding-x">
 
 			    <div class="small-12 medium-12 large-10 large-offset-1 cell intro" >
-						<h2><?php the_field('how_we_work_title');?></h2>
+						<h2 class="centered"><?php the_field('how_we_work_title');?></h2>
 						<p><?php the_field('how_we_work_intro');?></p>
 					</div>
 			</div>
@@ -104,7 +104,7 @@ get_header(); ?>
 			</div>
 		</div>
 
-		<div class="howSupportWrapper" style="background-image: url('<?php the_field('howSupport_image'); ?>')">
+		<div class="howSupportWrapper" style="background-image: url('<?php the_field('howSupport_image'); ?>');">
 			<div class="grid-container">
 				<div class="grid-x grid-padding-x grid-margin-x howSupport">
 					<div class="cell small-12 medium-12 large-12">

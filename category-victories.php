@@ -50,8 +50,8 @@
                 <?php while (have_posts()) : the_post(); //start the loop ?>
 
       				    <!-- To see additional archive styles, visit the /parts directory -->
-
                     <div class="cell small-12 medium-4 large-4 post">
+                      <a class="victoryLink" href="<?php echo the_permalink(); ?>">
                       <?php
                         if ( has_post_thumbnail() ) {
                           the_post_thumbnail( 'victory' );
@@ -59,9 +59,10 @@
                       <div class="overlay">
                         <h4><?php the_title() ?></h4>
                         <span class="short"><?php the_field('short_description');?></span>
-                        <a class="more" href="<?php echo the_permalink(); ?>">Find Out More<span class="whitearrow"></span></a>
                       </div>
-                    </div>
+                    </a>
+                  </div>
+
 
     			<?php endwhile; ?>
         </div> <!-- End grid-x for victory group -->
