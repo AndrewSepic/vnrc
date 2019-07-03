@@ -13,9 +13,15 @@ jQuery(document).ready(function($) {
     //   }, 500);
     // });
     // Animate Hamburger
-
+    //staffUX();
     hamburgular();
 
+    function staffUX(){
+      $('a.openstaff').click(function(e){
+        e.preventDefault();
+        $(this).parent().next('.info').toggle();
+      })
+    }
     // animate hamburger on small screens
     function hamburgular() {
       $(".hamburger").click(function(){

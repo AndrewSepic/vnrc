@@ -35,38 +35,42 @@ get_header(); ?>
 						<?php get_template_part( 'parts/loop', 'page' ); ?>
 
 					<?php endwhile; endif;?>
+					<div class="grid-container">
+						<div class="staff grid-x grid-margin-x">
+							<?php
+								// check if the repeater field has rows of data
+								if( have_rows('staff') ):
+								// loop through the rows of data
+								$i = 1;
+							 while ( have_rows('staff') ) : the_row();?>
 
-					<div class="staff grid-x grid-margin-x grid-padding-x">
-						<?php
-							// check if the repeater field has rows of data
-							if( have_rows('staff') ):
 
-						// loop through the rows of data
-							while ( have_rows('staff') ) : the_row();?>
+									<div class="small-12 medium-3 large-3 cell">
+										<a class="openstaff" data-open="staff-<?php echo $i;?>">
+											<img src="<?php the_sub_field('staff_image');?>" alt="<?php the_sub_field('staff_name');?>"/>
+											<h4><?php the_sub_field('staff_name');?></h4>
+											<div class="staffTitle"><?php the_sub_field('staff_title');?></div>
+										</a>
+									</div>
+									<div class="reveal large" id="staff-<?php echo $i;?>" data-reveal>
+										<p><?php the_sub_field('staff_info');?></p>
+										<p><a href="tel:802-223-2328">802-223-2328</a> ext: <?php the_sub_field('staff_ext');?> | <a href="mailto:<?php the_sub_field('staff_email');?>"><?php the_sub_field('staff_email');?></a></p>
+									  <button class="close-button" data-close aria-label="Close modal" type="button">
+									    <span aria-hidden="true">&times;</span>
+									  </button>
+									</div>
+									<?php  $i++; ?>
 
-						<div class="small-12 medium-4 large-4 cell">
-							<a class="openstaff" href="#">
-								<img src="<?php the_sub_field('staff_image');?>" alt="<?php the_sub_field('staff_name');?>"/>
-								<h3><?php the_sub_field('staff_name');?></h3>
-								<h4><?php the_sub_field('staff_title');?></h4>
-							</a>
-							<div class="info">
-								<p><?php the_sub_field('staff_info');?></p>
-								<p><?php the_sub_field('staff_phone');?> | <a href="mailto:<?php the_sub_field('staff_email');?>"><?php the_sub_field('staff_email');?></a></p>
-							</div>
+					<?php
+					endwhile;?>
 						</div>
-
-
-				<?php
-				endwhile;?>
-					</div>
 				<?php
 				else :
 
 					// no rows found
 
 				endif;?>
-
+			</div> <!-- end .grid-container -->
 				</main> <!-- end #main -->
 
 			</div> <!-- end #inner-content -->
