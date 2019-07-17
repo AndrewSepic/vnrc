@@ -678,6 +678,9 @@ body.home
     img
       width: 100%
     position: relative
+    margin-bottom: 2rem
+    a.victoryLink:hover
+      opacity: .75
     .overlay
       position: absolute
       bottom: 0
@@ -706,6 +709,7 @@ body.home
           opacity: .75
       .more, .short
         display: none
+// homepage victories
 .victories
   margin: 4rem 0
   h2
@@ -720,6 +724,8 @@ body.home
       opacity: .75rem
       +arrowHover
   +victoryStyles
+  a.victoryLink:hover
+    opacity: .75
 
 .missionWrapper
   padding: 4rem 0
@@ -977,6 +983,22 @@ body.page-template-staff
       margin: 0 1rem
     .info
       display: none
+  .staffTop
+    float: left
+    width: 40%
+    margin-right: 1rem
+    img
+      max-width: 250px
+      border-bottom: 10px solid #f1f1f1
+    h4
+      margin: 1rem 0 0
+    .staffTitle
+      text-transform: uppercase
+      color: #78a13f
+  .staffBottom
+    float: left
+    width: 55%
+
 
 
 /*********************
@@ -1002,13 +1024,44 @@ body.category-victories
     +sectionTitle
 
 /*********************
+/* VICTORIES SINGLE TEMPLATE
+/*********************
+
+/* line 985, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+body.category-victories, div.content.victories-single
+  article.leadVictory
+    header
+      margin-bottom: 2rem
+    h2
+      font-size: 3rem
+      text-align: left
+      margin-bottom: 1rem
+    .victoryDate
+      font-size: 1.25rem
+      font-weight: 500
+      font-style: italic
+    .entry-content
+      columns: 3
+      column-gap: 2.5rem
+      font-size: 1rem
+  +victoryStyles
+
+/* line 707, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+// body.category-victories .cell.post .overlay.open .more, body.category-victories .cell.post .overlay.open .short, div.content.victories-single .cell.post .overlay.open .more, div.content.victories-single .cell.post .overlay.open .short {
+//   display: inline-block;
+//   margin-top: .5rem;
+// }
+
+body.category-victories h2, div.content.victories-single h2
+  margin-bottom: 3rem
+  text-align: center
+
+/*********************
 /* STAND ALONE ELEMENTS
 /*********************
 
 .fb-video blockquote p
   color: #e2e2e2
-
-
 
 
 /*********************

@@ -142,7 +142,7 @@ get_header(); ?>
 
 
 					<div class="grid-container">
-						<div class="grid-x grid-margin-x grid-padding-x victories">
+						<div class="grid-x grid-margin-x victories">
 
 							<div class="cell small-12 medium-12 large-4 large-offset-4">
 								<h2>Victories</h2>
@@ -162,18 +162,19 @@ get_header(); ?>
 										while($category_posts->have_posts()) :
 											 $category_posts->the_post();
 							?>
-							<a class="victoryLink" href="<?php echo the_permalink(); ?>">
 								<div class="cell small-12 medium-4 large-4 post">
+									<a class="victoryLink" href="<?php echo the_permalink(); ?>">
 									<?php
 										if ( has_post_thumbnail() ) {
 											the_post_thumbnail( 'victory' );
 									} ?>
-									<div class="overlay">
-										<h4><?php the_title() ?></h4>
-										<span class="short"><?php the_field('short_description');?></span>
-									</div>
+										<div class="overlay">
+											<h4><?php the_title() ?></h4>
+											<span class="short"><?php the_field('short_description');?></span>
+										</div>
+									</a>
 								</div>
-							</a>
+
 							<?php
 										endwhile;
 								 else:

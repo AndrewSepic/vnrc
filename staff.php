@@ -52,12 +52,19 @@ get_header(); ?>
 											<div class="staffTitle"><?php the_sub_field('staff_title');?></div>
 										</a>
 									</div>
-									<div class="reveal large" id="staff-<?php echo $i;?>" data-reveal>
-										<p><?php the_sub_field('staff_info');?></p>
-										<p><a href="tel:802-223-2328">802-223-2328</a> ext: <?php the_sub_field('staff_ext');?> | <a href="mailto:<?php the_sub_field('staff_email');?>"><?php the_sub_field('staff_email');?></a></p>
-									  <button class="close-button" data-close aria-label="Close modal" type="button">
-									    <span aria-hidden="true">&times;</span>
-									  </button>
+									<div class="reveal small" id="staff-<?php echo $i;?>" data-reveal>
+										<div class="staffTop">
+											<img src="<?php the_sub_field('staff_image');?>" alt="<?php the_sub_field('staff_name');?>"/>
+											<h4><?php the_sub_field('staff_name');?></h4>
+											<div class="staffTitle"><?php the_sub_field('staff_title');?></div>
+										</div>
+										<div class="staffBottom">
+											<p><?php the_sub_field('staff_info');?></p>
+											<p><a href="tel:802-223-2328">802-223-2328</a> ext: <?php the_sub_field('staff_ext');?> | <a href="mailto:<?php the_sub_field('staff_email');?>"><?php the_sub_field('staff_email');?></a></p>
+										  <button class="close-button" data-close aria-label="Close modal" type="button">
+										    <span aria-hidden="true">&times;</span>
+										  </button>
+										</div>
 									</div>
 									<?php  $i++; ?>
 
