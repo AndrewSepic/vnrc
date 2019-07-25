@@ -53,10 +53,6 @@
 
 	                			<header class="article-header">
 	                				<h2><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h2>
-	                        <p class="victoryDate">
-	                        	<?php the_time('l, F jS, Y');?>
-	                        </p>
-
 	                			</header> <!-- end article header -->
 
 	                			<section class="entry-content" itemprop="text">
@@ -66,7 +62,7 @@
 	                    </article> <!-- end article -->
 	                	</div>
                   <div class="cell small-12 medium-12 large-12">
-                    <h2>Our Proudest Victories </h2>
+                    <h2>Our Victories </h2>
                   </div>
 								<?php endwhile; ?>
               <?php endif;  ?>

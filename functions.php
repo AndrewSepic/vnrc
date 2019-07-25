@@ -120,18 +120,18 @@ function dataAtts( $atts, $item, $args ) {
 //
 // Add custom template for victories Single posts
 //
-add_filter( 'single_template', function ( $single_template ) {
+add_filter('single_template', 'vnrc_post_templates');
 
-    $parent     = '4'; //ID for Victories cat
-    $categories = get_categories( 'child_of=' . $parent );
-    $cat_names  = wp_list_pluck( $categories, 'name' );
-
-    if ( has_category( 'victories' ) || has_category( $cat_names ) ) {
-        $single_template = dirname( __FILE__ ) . '/single-victories.php';
-    }
-    return $single_template;
-
-}, PHP_INT_MAX, 2 );
+function vnrc_post_templates($single_template) {
+		global $post;
+				if ( in_category( 'victories' )) {
+					$single_template = dirname( __FILE__ ) . '/single-victories.php';
+		}
+    //elseif ( in_category( 'special-events' )) {
+    //  $single_template = dirname( __FILE__ ) . '/single-special-events.php';
+    //}
+		return $single_template;
+};
 
 // Increase post limit on category-victories.php
 function more_victories( $query ) {
@@ -143,3 +143,73 @@ function more_victories( $query ) {
 }
 add_action( 'pre_get_posts', 'more_victories', 1 );
 
+
+// =================== Custom Post Type :Our Featured Work ==================================
+add_action('init', 'our_featured_work');
+function our_featured_work() {
+	$labels = array(
+			'name' => _x('Our Featured Work', 'post type general name'),
+			'singular_name' => _x('Our Featured Work', 'post type singular name'),
+			'add_new' => _x('Add New', 'our_featured_work'),
+			'add_new_item' => __('Add Featured Work'),
+			'edit_item' => __('Edit Featured Work'),
+			'new_item' => __('New Featured Work'),
+			'all_items' => __('All Featured Work'),
+			'view_item' => __('View Featured Work'),
+			'search_items' => __('Search Featured Work'),
+			'not_found' =>  __('No Featured Work found'),
+			'not_found_in_trash' => __('No Featured Work found in Trash'),
+			'parent_item_colon' => '',
+			'menu_name' => 'Our Featured Work'
+	);
+
+	$args = array(
+			'labels' => $labels,
+			'public' => true,
+			'show_ui' => true,
+			'_builtin' =>  false,
+			'capability_type' => 'post',
+			'hierarchical' => false,
+			'rewrite' => array("slug" => "our_featured_work"),
+			//'menu_icon' => get_bloginfo('template_url').'/images/icons/our_featured_work.png',
+			'supports' => array('title', 'editor', 'thumbnail')
+	);
+	register_post_type( 'our_featured_work' , $args );
+}
+
+// Foundation Accordion Shortcodes
+function accordionstart_shortcode($atts) {
+	ob_start();?>
+	<ul class="accordion" data-accordion>
+		<?php
+	return ob_get_clean();
+}
+add_shortcode( 'accordionstart', 'accordionstart_shortcode' );
+
+function accordionend_shortcode($atts) {
+	ob_start();?>
+	</ul>
+	<?php
+	return ob_get_clean();
+}
+add_shortcode( 'accordionend', 'accordionend_shortcode' );
+
+function accordionTabTitle_shortcode($atts) {
+	$a = shortcode_atts( array(
+	'tabtitle' => 'My Title'
+	), $atts );
+	ob_start();?>
+	<li class="accordion-item is-active" data-accordion-item>
+		<a href="#" class="accordion-title"><?php echo $a; ?></a>
+	<?php return ob_get_clean();
+}
+add_shortcode('accordionTabTitle',  'accordionTabTitle_shortcode');
+
+
+function accordionend_shortcode($atts) {
+	ob_start();?>
+	</ul>
+	<?php
+	return ob_get_clean();
+}
+add_shortcode( 'accordionend', 'accordionend_shortcode' );

@@ -43,7 +43,7 @@
     	    	</header>
               <div class="grid-x grid-margin-x">
                 <div class="cell small-12 medium-12 large-12">
-                  <h2>Our Proudest Victories </h2>
+                  <h2>Our Victories </h2>
                 </div>
 
                 <?php if (have_posts()) : ?>
