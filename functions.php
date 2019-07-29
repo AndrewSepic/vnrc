@@ -178,38 +178,41 @@ function our_featured_work() {
 }
 
 // Foundation Accordion Shortcodes
-function accordionstart_shortcode($atts) {
+function accordionStart_shortcode($atts) {
 	ob_start();?>
-	<ul class="accordion" data-accordion>
+	<ul class="accordion" data-accordion data-multi-expand="true" data-allow-all-closed="true">
 		<?php
 	return ob_get_clean();
 }
-add_shortcode( 'accordionstart', 'accordionstart_shortcode' );
+add_shortcode( 'accordionStart', 'accordionStart_shortcode' );
 
-function accordionend_shortcode($atts) {
+function accordionEnd_shortcode($atts) {
 	ob_start();?>
 	</ul>
 	<?php
 	return ob_get_clean();
 }
-add_shortcode( 'accordionend', 'accordionend_shortcode' );
+add_shortcode( 'accordionEnd', 'accordionEnd_shortcode' );
 
-function accordionTabTitle_shortcode($atts) {
-	$a = shortcode_atts( array(
-	'tabtitle' => 'My Title'
-	), $atts );
-	ob_start();?>
-	<li class="accordion-item is-active" data-accordion-item>
-		<a href="#" class="accordion-title"><?php echo $a; ?></a>
-	<?php return ob_get_clean();
+function accordionTabTitle_shortcode($atts, $content=null) {
+	return '<li class="accordion-item" data-accordion-item>
+		<a href="#" class="accordion-title">' . $content . '</a>';
 }
 add_shortcode('accordionTabTitle',  'accordionTabTitle_shortcode');
 
 
-function accordionend_shortcode($atts) {
+function accordionContentStart_shortcode($atts) {
 	ob_start();?>
-	</ul>
+	<div class="accordion-content" data-tab-content>
 	<?php
 	return ob_get_clean();
 }
-add_shortcode( 'accordionend', 'accordionend_shortcode' );
+add_shortcode( 'accordionContentStart', 'accordionContentStart_shortcode' );
+
+function accordionContentEnd_shortcode($atts) {
+	ob_start();?>
+	</div></li>
+	<?php
+	return ob_get_clean();
+}
+add_shortcode( 'accordionContentEnd', 'accordionContentEnd_shortcode' );

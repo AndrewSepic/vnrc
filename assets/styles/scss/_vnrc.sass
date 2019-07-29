@@ -311,6 +311,22 @@ select
     color: $green
 
 /*********************
+/* ELEMENTS
+/*********************
+ul.accordion
+  .accordion-title
+    text-transform: uppercase
+    font-weight: 400
+    &:hover
+      color: $bodytextcolor
+  .accordion-item:first-child > :first-child
+    border-radius: 3px
+  .accordion-item:last-child:not(.is-active) > .accordion-title
+    border-radius: 3px
+  .accordion-title::before
+    margin-top: -1rem
+
+/*********************
 /* PAGINATION
 /*********************
 
