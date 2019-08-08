@@ -282,17 +282,21 @@ ul.check
     margin-bottom: .25rem
 
 blockquote
-  font-size: 1.2rem
+  font-size: 1.75rem
   font-weight: 300
   font-style: italic
   margin: 0 0 2rem
   position: relative
-  &:after, &:before
-    content: "\0022"
-    position: absolute
-    font-size: 1.5rem
-  &:before
-    left: 0
+  line-height: 2.5rem
+  border-left: 0
+  color: #3e3ee3
+  p
+    &:after, &:before
+      content: "\0022"
+      position: absolute
+      font-size: 1.5rem
+    &:before
+      left: 0
 
 select
   border: 1px solid $green
@@ -518,10 +522,10 @@ body.single
 /*********************
 /* ARCHIVE TEMPLATE
 /*********************
-body.archive
+body.archive, body.page-template-template-postsatbottom
   .inner-content
     margin-top: 2rem
-  &.category-news-stories article:nth-child(odd)
+  &.category-news-stories article:nth-child(odd), div.postsAtBottom article:nth-child(odd)
     background-color: $lightgrey
   article:first-of-type
     padding-top: 0

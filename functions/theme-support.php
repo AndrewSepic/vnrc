@@ -52,6 +52,8 @@ function joints_theme_support() {
 
 	add_image_size('news', 380, 215, true);
 	add_image_size('victory', 380, 380, true);
+	add_image_size('awards', 460, 255, true);
+	add_image_size('artgibb', 250, 250, true);
 	//add_image_size('blog-thumb', )
 
 } /* end theme support */
