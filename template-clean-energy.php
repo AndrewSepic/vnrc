@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Clean Energy
+Template Name: Climate & Clean Energy
 */
 
 get_header(); ?>
@@ -101,7 +101,7 @@ get_header(); ?>
 								the_post_thumbnail( 'news' );
 						} ?>
 						<h4><?php the_title() ?></h4>
-						<?php // get_template_part( 'parts/content', 'byline' ); ?>
+						<?php get_template_part( 'parts/content', 'byline' ); ?>
 						<?php the_excerpt()?>
 						<?php //the_content('<button class="tiny">' . __( 'Read more...', 'jointswp' ) . '</button>'); ?>
 					</div>
@@ -115,7 +115,7 @@ get_header(); ?>
 								Oops, there are no posts.
 
 					<?php
-						 endif;
+					 endif;
 					?>
 
 					<!--- Posts EnD -->
@@ -124,14 +124,14 @@ get_header(); ?>
 				<!-- Video Section -->
 				<div class="grid-x grid-padding-x video">
 					<div class="cell small-12 medium-4 large-5 vidContent">
-						<h2><?php the_field('video_title_cleanenergy');?></h2>
-						<div class="leadin"><?php the_field('video_leadin_cleanenergy'); ?></div>
-						<div class="text"><?php the_field('video_text_cleanenergy');?></div>
-						<a class="videoLink" href="<?php the_field('video_link_url_cleanenergy');?>"><?php the_field('video_link_text_cleanenergy');?><span class="whitearrow"></span></a>
+						<h2><?php the_field('video_title_cleanenergy', '99');?></h2>
+						<div class="leadin"><?php the_field('video_leadin_cleanenergy', '99'); ?></div>
+						<div class="text"><?php the_field('video_text_cleanenergy', '99');?></div>
+						<a class="videoLink" href="<?php the_field('video_link_url_cleanenergy','99');?>"><?php the_field('video_link_text_cleanenergy','99');?><span class="whitearrow"></span></a>
 
 					</div>
 					<div class="cell small-12 medium-8 large-7 vidembed">
-						<?php the_field('video_embed_cleanenergy');?>
+						<?php the_field('video_embed_cleanenergy','99');?>
 					</div>
 				</div><!-- .video end -->
 
@@ -141,10 +141,10 @@ get_header(); ?>
 						<img src="<?php echo get_template_directory_uri();?>/assets/images/energy-committee.png" alt="VNRC Energy committee" />
 					</div>
 					<div class="cell small-12 medium-8 large-5 vidembed">
-						<h2><?php the_field('vecan_title');?></h2>
-						<div class="leadin"><?php the_field('vecan_leadin');?></div>
-						<p><?php the_field('vecan_content');?></p>
-						<a class="bold green" href="<?php the_field('vecan_link');?>"><?php the_field('vecan_link_text');?>
+						<h2><?php the_field('vecan_title','99');?></h2>
+						<div class="leadin"><?php the_field('vecan_leadin','99');?></div>
+						<p><?php the_field('vecan_content','99');?></p>
+						<a class="bold green" href="<?php the_field('vecan_link','99');?>"><?php the_field('vecan_link_text','99');?>
 							<img class="vecan-logo" src="<?php echo get_template_directory_uri();?>/assets/images/svg/vecan-color-logo.svg" alt="VECAN VErmont Energy & Climate Action Network"/>
 						</a>
 					</div>
@@ -157,7 +157,7 @@ get_header(); ?>
 			<div class="grid-x grid-margin-x grid-padding-x resources">
 
 				<div class="cell small-12 medium-12 large-8 large-offset-2">
-					<h2><?php the_field('resources_title');?>Resources</h2>
+					<h2><?php the_field('resources_title','99');?></h2>
 				</div>
 				<div class="cell small-12 medium-12 large-2 catLink">
 					<a class="readmore" href="/category/news">View More <span class="greenarrow"></span></a>
@@ -165,15 +165,15 @@ get_header(); ?>
 
 				<?php
 				// check if the repeater field has rows of data
-				if( have_rows('resources') ):
+				if( have_rows('resources','99') ):
 
 		 	// loop through the rows of data
-		    while ( have_rows('resources') ) : the_row();?>
+		    while ( have_rows('resources','99') ) : the_row();?>
 
 				<div class="small-12 medium-4 large-4 cell">
-					<a href="<?php the_sub_field('resource_url');?>">
-						<img src="<?php the_sub_field('resource_image');?>" alt="Community toolbox"/>
-	 					<h3><?php the_sub_field('resource_title');?></h3>
+					<a href="<?php the_sub_field('resource_url','99');?>">
+						<img src="<?php the_sub_field('resource_image','99');?>" alt="Community toolbox"/>
+	 					<h3><?php the_sub_field('resource_title','99');?></h3>
 					</a>
 				</div>
 

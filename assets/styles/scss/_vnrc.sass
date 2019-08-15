@@ -314,6 +314,10 @@ select
     font-size: 1.5rem
     color: $green
 
+hr
+  margin: 4rem auto
+  width: 80%
+
 /*********************
 /* ELEMENTS
 /*********************
@@ -519,6 +523,11 @@ body.single
   .entry-content
     padding: 1rem 0
 
+// ArtGibb & Small Grants
+article.category-art-gibb-award, article.category-small-grants-for-smart-growth
+  p.byline
+    display: none
+
 /*********************
 /* ARCHIVE TEMPLATE
 /*********************
@@ -682,8 +691,8 @@ body.home
       a.videoLink
         position: absolute
         text-transform: uppercase
-        bottom: 0
-        left: 15px
+        bottom: 20px
+        left: 45px
         color: #fff
         font-weight: 500
         .whitearrow
@@ -789,7 +798,7 @@ body.home
 /* KEY ISSUES TEMPLATE
 /*********************
 
-body.page-template-template-clean-energy, body.page-template-template-forests-wildlife
+body.page-template-template-clean-energy, body.page-template-template-forests-wildlife, body.page-template-template-clean-water, body.page-template-template-smart-growth,  body.page-template-template-statehouse
   .top-bar, .top-bar ul
     background-color: transparent
     #logo a img.logo.white
@@ -810,6 +819,7 @@ body.page-template-template-clean-energy, body.page-template-template-forests-wi
         color: #fff
         font-weight: 700
         font-size: 3.2rem
+        text-shadow: 0px 0px 14px #565656
   .inner-content
     margin-top: 4rem
     border-bottom: 1px solid $lightgreen
@@ -845,6 +855,26 @@ body.page-template-template-clean-energy, body.page-template-template-forests-wi
       margin-bottom: 1rem
     a.excerpt-read-more
       color: $lightgreen
+  .artgibb
+    h2, p, div
+      text-align: left
+      color: #fff
+    h2
+      +lightTitle
+    .leadin
+      font-size: 1.2rem
+      font-weight: 700
+      margin-bottom: 1.5rem
+      line-height: 1.5rem
+    .text
+      margin-bottom: 1.5rem
+    a.videoLink
+      position: absolute
+      text-transform: uppercase
+      color: #fff
+      font-weight: 500
+      .whitearrow
+        +whitearrow
   .community
     margin: 5rem 0 2rem
     h2
