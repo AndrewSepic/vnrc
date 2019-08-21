@@ -41,7 +41,7 @@
     	    		<h1 class="page-title"><?php the_archive_title();?></h1>
     				<?php the_archive_description('<div class="taxonomy-description">', '</div>');?>
     	    	</header>
-              <div class="grid-x grid-margin-x">
+              <div class="grid-x grid-margin-x reports">
 
                 <?php if (have_posts()) : ?>
                 <?php while (have_posts()) : the_post(); //start the loop ?>

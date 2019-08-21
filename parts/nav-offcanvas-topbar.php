@@ -18,6 +18,7 @@
 	<div class="top-bar-right show-for-medium">
 		<?php joints_top_nav(); ?>
 		<button class="button informed hide-for-small-only" data-open="enews" aria-controls="enews" aria-haspopup="true" tabindex="0">Stay Informed</button>
+		<a class="search" data-open="fullsearch" aria-controls="fullsearch" aria-haspopup="true" tabindex="0"><i class="fi-magnifying-glass"></i></a>
 	</div>
 
 	<div class="top-bar-right show-for-small-only">

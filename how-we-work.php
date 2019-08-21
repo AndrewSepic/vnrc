@@ -42,7 +42,7 @@ get_header(); ?>
 					<div class="cell large-auto">
 						<a href="#">
 							<img src="<?php echo get_template_directory_uri(); ?>/assets/images/svg/energy.svg" alt="Energy & Climate Action"/>
-							<h4>Energy Climate & Action</h4>
+							<h4>Climate Action & Clean Energy</h4>
 						</a>
 					</div>
 					<div class="cell large-auto">
@@ -111,7 +111,7 @@ get_header(); ?>
 						<h2><?php the_field('support_us_title'); ?></h2>
 						<p><?php the_field('support_us_text'); ?></p>
 						<p class="thankyou"><?php the_field('thankyou_text');?></p>
-						<a class="button" href="/join">Donate Today</a>
+						<a class="button" href="/donate">Donate Today</a>
 					</div>
 
 				</div>

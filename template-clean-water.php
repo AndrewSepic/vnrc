@@ -65,7 +65,7 @@ get_header(); ?>
 
 				<div class="small-12 medium-4 large-4 cell">
 					<img src="<?php the_field('init_image_3');?>" alt="Initiative Image 3"/>
-					<h3><?php the_field('init_title3');?>Planning</h3>
+					<h3><?php the_field('init_title3');?></h3>
 					<p><?php the_field('init_intro_3');?></p>
 					<a class="excerpt-read-more" href="<?php the_field('init_link_3');?>">Read More <span class="greenarrow excerpt"></span> </a>
 				</div>
@@ -121,8 +121,11 @@ get_header(); ?>
 
 					<!--- Posts EnD -->
 				</div><!-- .news end -->
+			</div>
+		</div><!-- end .greyWrapper -->
 
 				<!-- Community Action -->
+			<div class="grid-container">
 				<div class="grid-x grid-padding-x grid-margin-x community">
 					<div class="cell small-12 medium-4 large-7 pic">
 						<img src="<?php the_field('water_caucus_image');?>" />
@@ -137,7 +140,6 @@ get_header(); ?>
 				</div><!-- .community end -->
 
 			</div><!-- end .gridContainer -->
-		</div><!-- end .greyWrapper -->
 
 	</div> <!-- end #content -->
 

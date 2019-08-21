@@ -78,6 +78,14 @@ if( function_exists('acf_add_options_page') ) {
 		'icon_url'	=> false,
 	));
 
+	acf_add_options_sub_page(array(
+		'page_title' 	=> 'VNRC Site Wide Settings',
+		'menu_title'	=> 'Site Wide Options',
+		'parent_slug'	=> 'vnrc-site-options',
+		'position'	=> false,
+		'icon_url'	=> false,
+	));
+
 }
 
 // Customize Excerpt Length
@@ -142,40 +150,6 @@ function more_victories( $query ) {
     }
 }
 add_action( 'pre_get_posts', 'more_victories', 1 );
-
-
-// =================== Custom Post Type :Our Featured Work ==================================
-add_action('init', 'our_featured_work');
-function our_featured_work() {
-	$labels = array(
-			'name' => _x('Our Featured Work', 'post type general name'),
-			'singular_name' => _x('Our Featured Work', 'post type singular name'),
-			'add_new' => _x('Add New', 'our_featured_work'),
-			'add_new_item' => __('Add Featured Work'),
-			'edit_item' => __('Edit Featured Work'),
-			'new_item' => __('New Featured Work'),
-			'all_items' => __('All Featured Work'),
-			'view_item' => __('View Featured Work'),
-			'search_items' => __('Search Featured Work'),
-			'not_found' =>  __('No Featured Work found'),
-			'not_found_in_trash' => __('No Featured Work found in Trash'),
-			'parent_item_colon' => '',
-			'menu_name' => 'Our Featured Work'
-	);
-
-	$args = array(
-			'labels' => $labels,
-			'public' => true,
-			'show_ui' => true,
-			'_builtin' =>  false,
-			'capability_type' => 'post',
-			'hierarchical' => false,
-			'rewrite' => array("slug" => "our_featured_work"),
-			//'menu_icon' => get_bloginfo('template_url').'/images/icons/our_featured_work.png',
-			'supports' => array('title', 'editor', 'thumbnail')
-	);
-	register_post_type( 'our_featured_work' , $args );
-}
 
 // Foundation Accordion Shortcodes
 function accordionStart_shortcode($atts) {

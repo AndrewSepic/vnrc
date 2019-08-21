@@ -4,6 +4,7 @@ Template Name: Homepage
 */
 
 get_header(); ?>
+
 	<?php $hero = get_field('hero_section', 'option');
 		if ( $hero ): ?>
 	<header class="header" role="banner" style="background-image: url('<?php echo $hero['hero_image']['url']; ?>')">
@@ -17,7 +18,7 @@ get_header(); ?>
 			<div id="heroTitle">
 				<h1><?php echo $hero['headline']; ?></h1>
 				<span class="since"><?php echo $hero['since']; ?></span>
-				<a class="button orange">Support VNRC</a>
+				<a class="button orange" href="<?php the_field('donate_link', 'option');?>">Support VNRC</a>
 			</div>
 
 		<?php endif; ?>
@@ -31,7 +32,7 @@ get_header(); ?>
 					<div class="cell small-6 large-auto">
 						<a href="#">
 							<img src="<?php echo get_template_directory_uri(); ?>/assets/images/svg/energy.svg" alt="Energy & Climate Action"/>
-							<h4>Energy Climate & Action</h4>
+							<h4>Climate Action & Clean Energy</h4>
 						</a>
 					</div>
 					<div class="cell small-6 large-auto">
@@ -67,7 +68,7 @@ get_header(); ?>
 					<div class="cell small-12 large-auto">
 						<a href="#">
 							<img src="<?php echo get_template_directory_uri(); ?>/assets/images/svg/statehouse.svg" alt="Statehouse"/>
-							<h4>Statehouse</h4>
+							<h4>State House</h4>
 						</a>
 					</div>
 				</div>
@@ -194,7 +195,7 @@ get_header(); ?>
 								<div class="cell small-12 medium-12 large-12">
 									<h3>Our Mission</h3>
 									<p><?php the_field('mission_text', 'option'); ?></p>
-									<a class="button white" href="/join">Join Today</a>
+									<a class="button white" href="<?php the_field('donate_link', 'option');?>">Join Today</a>
 								</div>
 
 							</div>

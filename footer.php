@@ -9,6 +9,7 @@
  ?>
         <!-- Enews signup modal -->
         <?php get_template_part('signupmodal');?>
+        <?php get_template_part('fullsearch');?>
 
 				<footer class="footer" role="contentinfo">
           <div class="grid-container">
@@ -16,7 +17,7 @@
               <div class="small-12 medium-6 large-6 cell subscribe">
                 <h4><?php the_field('stay_informed_title', 'option');?></h4>
                 <p><?php the_field('stay_informed_text', 'option');?></p>
-                <a class="button green" href="/sign-up">Sign Up</a>
+                <a class="button green" data-open="enews">Sign Up</a>
               </div>
 
               <div class="small-12 medium-6 large-6 cell reports">
@@ -49,7 +50,7 @@
                   </div>
                   <div class="support">
                     <h5>Support VNRC</h5>
-                    <a href="#" class="button orange">Donate Today</a>
+                    <a href="<?php the_field('donate_link', 'option');?>" class="button orange">Donate Today</a>
                   </div>
                   <p><?php the_field('nonprofit_subscript', 'option');?></p>
                 </div>
