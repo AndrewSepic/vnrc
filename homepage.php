@@ -5,9 +5,27 @@ Template Name: Homepage
 
 get_header(); ?>
 
-	<?php $hero = get_field('hero_section', 'option');
-		if ( $hero ): ?>
-	<header class="header" role="banner" style="background-image: url('<?php echo $hero['hero_image']['url']; ?>')">
+	<?php // check the number of images
+			$numimage = count( get_field( 'hero_images', 'option' ) );
+			if ($numimage < 2) {
+				// Get the rows, get the single row and it's image
+				$rows = get_field('hero_images', 'option'); // get all the rows
+				$first_row = $rows[0];
+				$first_row_image = $first_row['hero_image'];
+				echo "Theres only one image!" ?>
+
+	<header class="header" role="banner" style="background-image: url('<?php echo $first_row_image; ?>')">
+	<?php
+	}
+	else {
+		$rows = get_field('hero_images', 'option');
+		$rand_row = $rows[ array_rand($rows)];
+		$rand_image = $rand_row['hero_image']; ?>
+
+	<header class="header" role="banner" style="background-image: url('<?php echo $rand_image; ?>')">
+<?php
+	}
+	?>
 
 		<div class="navWrap">
 			<div class="grid-container">
@@ -16,12 +34,10 @@ get_header(); ?>
 		</div>
 
 			<div id="heroTitle">
-				<h1><?php echo $hero['headline']; ?></h1>
-				<span class="since"><?php echo $hero['since']; ?></span>
+				<h1><?php the_field('headline', 'option'); ?></h1>
+				<span class="since"><?php the_field('since', 'option'); ?></span>
 				<a class="button orange" href="<?php the_field('donate_link', 'option');?>">Support VNRC</a>
 			</div>
-
-		<?php endif; ?>
 
 	</header> <!-- started in header.php-->
 

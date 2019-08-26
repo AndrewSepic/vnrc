@@ -181,7 +181,7 @@ function accordionContentStart_shortcode($atts) {
 	<?php
 	return ob_get_clean();
 }
-add_shortcode( 'accordionContentStart', 'accordionContentStart_shortcode' );
+add_shortcode( 'accordionTabContentStart', 'accordionContentStart_shortcode' );
 
 function accordionContentEnd_shortcode($atts) {
 	ob_start();?>
@@ -189,4 +189,4 @@ function accordionContentEnd_shortcode($atts) {
 	<?php
 	return ob_get_clean();
 }
-add_shortcode( 'accordionContentEnd', 'accordionContentEnd_shortcode' );
+add_shortcode( 'accordionTabContentEnd', 'accordionContentEnd_shortcode' );

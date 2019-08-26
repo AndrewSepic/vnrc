@@ -23,9 +23,9 @@
  	</div>
 
  		<div id="heroTitle">
-      <?php $category = get_the_category();
-						if(!empty($category)){$firstCategory = $category[0]->cat_name;} ?>
-			<h1><?php echo $firstCategory; ?></h1>
+      <?php //$category = get_the_category();
+						//if(!empty($category)){$firstCategory = $category[0]->cat_name;} ?>
+			<h1>News & Stories<?php //echo $firstCategory; ?></h1>
  		</div>
 
 

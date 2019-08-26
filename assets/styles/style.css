@@ -680,22 +680,28 @@ header.header #heroTitle h1 {
   margin-bottom: 4rem;
 }
 
+/* line 531, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+body.page-template-default .entry-content h2, body.page-template-default .inner-content h2 {
+  margin-bottom: 0.5rem;
+  text-align: left;
+}
+
 /********************* */
 /* SINGLE TEMPLATE */
 /********************* */
-/* line 535, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 542, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 body.single .inner-content {
   margin-top: 2rem;
 }
 
-/* line 537, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 544, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 body.single h1.entry-title.single-title {
   font-size: 2rem;
   margin-top: 2rem;
   font-weight: 700;
 }
 
-/* line 541, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 548, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 body.single p.byline {
   color: #2b2b2b;
   font-weight: 600;
@@ -703,12 +709,12 @@ body.single p.byline {
   margin: 2rem 0 0 0;
 }
 
-/* line 546, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 553, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 body.single .entry-content {
   padding: 1rem 0;
 }
 
-/* line 551, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 558, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 article.category-art-gibb-award p.byline, article.category-small-grants-for-smart-growth p.byline {
   display: none;
 }
@@ -716,28 +722,28 @@ article.category-art-gibb-award p.byline, article.category-small-grants-for-smar
 /********************* */
 /* ARCHIVE TEMPLATE */
 /********************* */
-/* line 558, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 565, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 body.archive .inner-content, body.page-template-template-postsatbottom .inner-content {
   margin-top: 2rem;
 }
 
-/* line 560, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
-body.archive.category-news-stories article:nth-child(odd), body.archive div.postsAtBottom article:nth-child(odd), body.page-template-template-postsatbottom.category-news-stories article:nth-child(odd), body.page-template-template-postsatbottom div.postsAtBottom article:nth-child(odd) {
+/* line 567, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+body.archive article.post:nth-child(odd), body.archive div.postsAtBottom article:nth-child(odd), body.page-template-template-postsatbottom article.post:nth-child(odd), body.page-template-template-postsatbottom div.postsAtBottom article:nth-child(odd) {
   background-color: #f2f2f2;
 }
 
-/* line 562, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 569, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 body.archive article:first-of-type, body.page-template-template-postsatbottom article:first-of-type {
   padding-top: 0;
 }
 
-/* line 564, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 571, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 body.archive article, body.page-template-template-postsatbottom article {
   margin-bottom: .5rem;
   padding: 2rem 1rem 2rem 2rem;
 }
 
-/* line 567, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 574, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 body.archive article .article-header h2, body.page-template-template-postsatbottom article .article-header h2 {
   text-transform: uppercase;
   font-weight: 300;
@@ -746,7 +752,7 @@ body.archive article .article-header h2, body.page-template-template-postsatbott
   text-align: left;
 }
 
-/* line 573, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 580, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 body.archive article p.byline, body.page-template-template-postsatbottom article p.byline {
   color: #2b2b2b;
   font-weight: 500;
@@ -754,19 +760,19 @@ body.archive article p.byline, body.page-template-template-postsatbottom article
   margin: .5rem 0 0 0;
 }
 
-/* line 578, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 585, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 body.archive article .entry-content, body.page-template-template-postsatbottom article .entry-content {
   padding: .5rem 0;
   margin: 0;
   font-size: .9rem;
 }
 
-/* line 583, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 590, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 body.archive article .excerpt-read-more .greenarrow, body.page-template-template-postsatbottom article .excerpt-read-more .greenarrow {
   margin: 3px 0 0 5px;
 }
 
-/* line 585, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 592, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 body.archive article .excerpt-read-more:hover .greenarrow, body.page-template-template-postsatbottom article .excerpt-read-more:hover .greenarrow {
   margin-left: 10px;
 }
@@ -774,12 +780,13 @@ body.archive article .excerpt-read-more:hover .greenarrow, body.page-template-te
 /********************* */
 /* SIDEBAR */
 /********************* */
-/* line 594, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 601, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 .sidebar .widget {
   margin-bottom: 2rem;
+  float: left;
 }
 
-/* line 596, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 604, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 .sidebar .widget h4.widgettitle {
   color: #2A6A35;
   font-size: 1.25rem;
@@ -788,27 +795,27 @@ body.archive article .excerpt-read-more:hover .greenarrow, body.page-template-te
   padding-bottom: .5rem;
 }
 
-/* line 602, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
-.sidebar .widget_categories ul li {
+/* line 610, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+.sidebar .widget_categories ul li, .sidebar .DisplayCategoriesWidget ul li {
   padding-left: 26px;
   background: url("../images/svg/greenarrow.svg") no-repeat center left;
   background-size: 19px;
-  margin: .75rem 0;
+  margin: .25rem 0;
 }
 
-/* line 607, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
-.sidebar .widget_categories ul li a {
+/* line 615, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+.sidebar .widget_categories ul li a, .sidebar .DisplayCategoriesWidget ul li a {
   font-weight: 600;
   text-transform: uppercase;
   color: #2b2b2b;
 }
 
-/* line 611, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
-.sidebar .widget_categories ul li a:hover {
+/* line 619, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+.sidebar .widget_categories ul li a:hover, .sidebar .DisplayCategoriesWidget ul li a:hover {
   opacity: .75;
 }
 
-/* line 613, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 621, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 .sidebar .widget_recent_entries li {
   line-height: 1.25rem;
   margin: 1.25rem 0;
@@ -817,12 +824,12 @@ body.archive article .excerpt-read-more:hover .greenarrow, body.page-template-te
   padding-left: 5px;
 }
 
-/* line 619, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 627, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 .sidebar .widget_recent_entries li a {
   color: #2b2b2b;
 }
 
-/* line 621, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 629, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 .sidebar .widget_recent_entries li:hover {
   border-left: 10px solid #78a13f;
 }
@@ -830,29 +837,29 @@ body.archive article .excerpt-read-more:hover .greenarrow, body.page-template-te
 /********************* */
 /* HOMEPAGE */
 /********************* */
-/* line 630, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 638, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 body.home .top-bar, body.home .top-bar ul {
   background-color: transparent;
 }
 
-/* line 632, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 640, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 body.home .top-bar #logo a img.logo.white, body.home .top-bar ul #logo a img.logo.white {
   display: block;
 }
 
-/* line 634, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 642, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 body.home .top-bar #logo a img.logo.green, body.home .top-bar ul #logo a img.logo.green {
   display: none;
 }
 
-/* line 636, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 644, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 body.home header.header {
   background-size: cover;
   height: 100vh;
   position: relative;
 }
 
-/* line 640, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 648, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 body.home header.header #heroTitle {
   position: absolute;
   width: 52%;
@@ -861,14 +868,14 @@ body.home header.header #heroTitle {
   text-align: center;
 }
 
-/* line 646, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 654, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 body.home header.header #heroTitle h1 {
   color: #fff;
   font-weight: 700;
   font-size: 3.2rem;
 }
 
-/* line 650, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 658, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 body.home header.header #heroTitle span.since {
   color: #fff;
   font-size: 2rem;
@@ -878,18 +885,18 @@ body.home header.header #heroTitle span.since {
   display: block;
 }
 
-/* line 657, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 665, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 body.home header.header #heroTitle .button {
   margin-top: 2rem;
 }
 
-/* line 659, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 667, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 body.home .icons {
   margin: 4rem 0;
   transition: all 1s ease-in-out;
 }
 
-/* line 662, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 670, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 body.home .icons img {
   height: 100px;
   display: block;
@@ -897,28 +904,28 @@ body.home .icons img {
   padding: .5rem;
 }
 
-/* line 667, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 675, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 body.home .icons .cell {
   border-right: 1px solid #ddeacb;
   padding: 0 .5rem;
 }
 
-/* line 670, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 678, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 body.home .icons .cell:hover img {
   transform: scale(1.1);
 }
 
-/* line 672, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 680, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 body.home .icons .cell:hover h4 {
   color: #78a13f;
 }
 
-/* line 674, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 682, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 body.home .icons .cell:last-child {
   border-right: 0;
 }
 
-/* line 676, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 684, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 body.home .icons h4 {
   font-size: 1rem;
   text-align: center;
@@ -927,18 +934,18 @@ body.home .icons h4 {
   margin-bottom: 0;
 }
 
-/* line 683, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 691, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 .greyWrapper {
   background-color: #f2f2f2;
   padding: 4rem 0;
 }
 
-/* line 686, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 694, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 .greyWrapper .news {
   margin-bottom: 3rem;
 }
 
-/* line 688, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 696, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 .greyWrapper .news h2 {
   text-transform: uppercase;
   font-weight: 300;
@@ -948,14 +955,14 @@ body.home .icons h4 {
   margin-bottom: 3rem;
 }
 
-/* line 691, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 699, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 .greyWrapper .news h4 {
   font-size: 1.25rem;
   font-weight: 700;
   padding: 1.5rem 0 .25rem;
 }
 
-/* line 695, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 703, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 .greyWrapper .news .catLink .readmore {
   float: right;
   color: #2b2b2b;
@@ -975,27 +982,27 @@ body.home .icons h4 {
   margin-left: 10px;
 }
 
-/* line 697, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 705, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 .greyWrapper .video {
   background-color: #6f7d74;
   padding: 2rem;
   position: relative;
 }
 
-/* line 702, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 710, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 .greyWrapper .video .vidContent h2, .greyWrapper .video .vidContent p, .greyWrapper .video .vidContent div {
   text-align: left;
   color: #fff;
 }
 
-/* line 705, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 713, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 .greyWrapper .video .vidContent h2 {
   text-transform: uppercase;
   font-weight: 300;
   font-size: 2.25rem;
 }
 
-/* line 707, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 715, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 .greyWrapper .video .vidContent .leadin {
   font-size: 1.2rem;
   font-weight: 700;
@@ -1003,12 +1010,12 @@ body.home .icons h4 {
   line-height: 1.5rem;
 }
 
-/* line 712, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 720, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 .greyWrapper .video .vidContent .text {
   margin-bottom: 1.5rem;
 }
 
-/* line 714, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 722, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 .greyWrapper .video .vidContent a.videoLink {
   position: absolute;
   text-transform: uppercase;
@@ -1018,7 +1025,7 @@ body.home .icons h4 {
   font-weight: 500;
 }
 
-/* line 721, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 729, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 .greyWrapper .video .vidContent a.videoLink .whitearrow {
   background: url("../images/svg/white_arrow.svg");
   height: 18px;
@@ -1030,22 +1037,22 @@ body.home .icons h4 {
   margin: 2px 0 0 5px;
 }
 
-/* line 723, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 731, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 .greyWrapper .video .vidContent a.videoLink:hover {
   opacity: .75;
 }
 
-/* line 725, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 733, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 .greyWrapper .video .vidContent a.videoLink:hover .whitearrow {
   margin-left: 10px;
 }
 
-/* line 765, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 773, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 .victories {
   margin: 4rem 0;
 }
 
-/* line 767, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 775, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 .victories h2 {
   text-transform: uppercase;
   font-weight: 300;
@@ -1054,7 +1061,7 @@ body.home .icons h4 {
   text-align: center;
 }
 
-/* line 769, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 777, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 .victories a.readmore {
   float: right;
   color: #2b2b2b;
@@ -1077,29 +1084,29 @@ body.home .icons h4 {
   padding: .25rem;
 }
 
-/* line 775, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 783, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 .victories a.readmore:hover {
   opacity: .75rem;
   margin-left: 10px;
 }
 
-/* line 729, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 737, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 .victories .cell.post {
   position: relative;
   margin-bottom: 2rem;
 }
 
-/* line 730, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 738, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 .victories .cell.post img {
   width: 100%;
 }
 
-/* line 734, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 742, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 .victories .cell.post a.victoryLink:hover {
   opacity: .75;
 }
 
-/* line 736, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 744, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 .victories .cell.post .overlay {
   position: absolute;
   bottom: 0;
@@ -1110,30 +1117,30 @@ body.home .icons h4 {
   padding: 1rem;
 }
 
-/* line 744, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 752, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 .victories .cell.post .overlay:hover {
   cursor: pointer;
 }
 
-/* line 747, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 755, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 .victories .cell.post .overlay.open .more, .victories .cell.post .overlay.open .short {
   display: inline-block;
   margin-top: .5rem;
 }
 
-/* line 750, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 758, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 .victories .cell.post .overlay h4, .victories .cell.post .overlay .short, .victories .cell.post .overlay .more {
   color: #fff;
 }
 
-/* line 752, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 760, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 .victories .cell.post .overlay .more {
   display: block;
   margin: 0 auto;
   text-transform: uppercase;
 }
 
-/* line 756, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 764, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 .victories .cell.post .overlay .more .whitearrow {
   background: url("../images/svg/white_arrow.svg");
   height: 18px;
@@ -1147,34 +1154,34 @@ body.home .icons h4 {
   display: inline-block;
 }
 
-/* line 760, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 768, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 .victories .cell.post .overlay .more:hover {
   opacity: .75;
 }
 
-/* line 762, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 770, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 .victories .cell.post .overlay .more, .victories .cell.post .overlay .short {
   display: none;
 }
 
-/* line 779, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 787, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 .victories a.victoryLink:hover {
   opacity: .75;
 }
 
-/* line 782, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 790, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 .missionWrapper {
   padding: 4rem 0;
   background: #2A6A35 url("../images/swoosh.png") no-repeat top left;
   background-size: cover;
 }
 
-/* line 786, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 794, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 .missionWrapper .mission {
   text-align: center;
 }
 
-/* line 788, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 796, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 .missionWrapper .mission h3 {
   font-family: adobe-garamond-pro, serif;
   font-style: italic;
@@ -1183,26 +1190,26 @@ body.home .icons h4 {
   margin-bottom: 1.5rem;
 }
 
-/* line 794, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 802, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 .missionWrapper .mission p {
   color: #fff;
   font-size: 1.4rem;
   margin-bottom: 2.5rem;
 }
 
-/* line 799, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 807, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 .advocates {
   margin: 4rem 0;
 }
 
-/* line 801, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 809, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 .advocates h5 {
   text-transform: uppercase;
   font-weight: 700;
   margin: .5rem 0 0;
 }
 
-/* line 805, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 813, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 .advocates .role {
   color: #2A6A35;
   font-style: italic;
@@ -1210,7 +1217,7 @@ body.home .icons h4 {
   font-size: 1.3rem;
 }
 
-/* line 810, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 818, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 .advocates blockquote {
   border-left: 0;
   font-weight: 400;
@@ -1224,30 +1231,30 @@ body.home .icons h4 {
 /********************* */
 /* KEY ISSUES TEMPLATE */
 /********************* */
-/* line 825, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
-body.page-template-template-clean-energy .top-bar, body.page-template-template-clean-energy .top-bar ul, body.page-template-template-forests-wildlife .top-bar, body.page-template-template-forests-wildlife .top-bar ul, body.page-template-template-clean-water .top-bar, body.page-template-template-clean-water .top-bar ul, body.page-template-template-smart-growth .top-bar, body.page-template-template-smart-growth .top-bar ul, body.page-template-template-statehouse .top-bar, body.page-template-template-statehouse .top-bar ul {
+/* line 833, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+body.page-template-template-clean-energy .top-bar, body.page-template-template-clean-energy .top-bar ul, body.page-template-template-forests-wildlife .top-bar, body.page-template-template-forests-wildlife .top-bar ul, body.page-template-template-clean-water .top-bar, body.page-template-template-clean-water .top-bar ul, body.page-template-template-smart-growth .top-bar, body.page-template-template-smart-growth .top-bar ul, body.page-template-template-statehouse .top-bar, body.page-template-template-statehouse .top-bar ul, body.page-template-template-act250 .top-bar, body.page-template-template-act250 .top-bar ul, body.page-template-template-toxic-free .top-bar, body.page-template-template-toxic-free .top-bar ul {
   background-color: transparent;
 }
 
-/* line 827, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
-body.page-template-template-clean-energy .top-bar #logo a img.logo.white, body.page-template-template-clean-energy .top-bar ul #logo a img.logo.white, body.page-template-template-forests-wildlife .top-bar #logo a img.logo.white, body.page-template-template-forests-wildlife .top-bar ul #logo a img.logo.white, body.page-template-template-clean-water .top-bar #logo a img.logo.white, body.page-template-template-clean-water .top-bar ul #logo a img.logo.white, body.page-template-template-smart-growth .top-bar #logo a img.logo.white, body.page-template-template-smart-growth .top-bar ul #logo a img.logo.white, body.page-template-template-statehouse .top-bar #logo a img.logo.white, body.page-template-template-statehouse .top-bar ul #logo a img.logo.white {
+/* line 835, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+body.page-template-template-clean-energy .top-bar #logo a img.logo.white, body.page-template-template-clean-energy .top-bar ul #logo a img.logo.white, body.page-template-template-forests-wildlife .top-bar #logo a img.logo.white, body.page-template-template-forests-wildlife .top-bar ul #logo a img.logo.white, body.page-template-template-clean-water .top-bar #logo a img.logo.white, body.page-template-template-clean-water .top-bar ul #logo a img.logo.white, body.page-template-template-smart-growth .top-bar #logo a img.logo.white, body.page-template-template-smart-growth .top-bar ul #logo a img.logo.white, body.page-template-template-statehouse .top-bar #logo a img.logo.white, body.page-template-template-statehouse .top-bar ul #logo a img.logo.white, body.page-template-template-act250 .top-bar #logo a img.logo.white, body.page-template-template-act250 .top-bar ul #logo a img.logo.white, body.page-template-template-toxic-free .top-bar #logo a img.logo.white, body.page-template-template-toxic-free .top-bar ul #logo a img.logo.white {
   display: block;
 }
 
-/* line 829, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
-body.page-template-template-clean-energy .top-bar #logo a img.logo.green, body.page-template-template-clean-energy .top-bar ul #logo a img.logo.green, body.page-template-template-forests-wildlife .top-bar #logo a img.logo.green, body.page-template-template-forests-wildlife .top-bar ul #logo a img.logo.green, body.page-template-template-clean-water .top-bar #logo a img.logo.green, body.page-template-template-clean-water .top-bar ul #logo a img.logo.green, body.page-template-template-smart-growth .top-bar #logo a img.logo.green, body.page-template-template-smart-growth .top-bar ul #logo a img.logo.green, body.page-template-template-statehouse .top-bar #logo a img.logo.green, body.page-template-template-statehouse .top-bar ul #logo a img.logo.green {
+/* line 837, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+body.page-template-template-clean-energy .top-bar #logo a img.logo.green, body.page-template-template-clean-energy .top-bar ul #logo a img.logo.green, body.page-template-template-forests-wildlife .top-bar #logo a img.logo.green, body.page-template-template-forests-wildlife .top-bar ul #logo a img.logo.green, body.page-template-template-clean-water .top-bar #logo a img.logo.green, body.page-template-template-clean-water .top-bar ul #logo a img.logo.green, body.page-template-template-smart-growth .top-bar #logo a img.logo.green, body.page-template-template-smart-growth .top-bar ul #logo a img.logo.green, body.page-template-template-statehouse .top-bar #logo a img.logo.green, body.page-template-template-statehouse .top-bar ul #logo a img.logo.green, body.page-template-template-act250 .top-bar #logo a img.logo.green, body.page-template-template-act250 .top-bar ul #logo a img.logo.green, body.page-template-template-toxic-free .top-bar #logo a img.logo.green, body.page-template-template-toxic-free .top-bar ul #logo a img.logo.green {
   display: none;
 }
 
-/* line 831, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
-body.page-template-template-clean-energy header, body.page-template-template-forests-wildlife header, body.page-template-template-clean-water header, body.page-template-template-smart-growth header, body.page-template-template-statehouse header {
+/* line 839, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+body.page-template-template-clean-energy header, body.page-template-template-forests-wildlife header, body.page-template-template-clean-water header, body.page-template-template-smart-growth header, body.page-template-template-statehouse header, body.page-template-template-act250 header, body.page-template-template-toxic-free header {
   background-size: cover;
   height: 400px;
   position: relative;
 }
 
-/* line 835, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
-body.page-template-template-clean-energy header #heroTitle, body.page-template-template-forests-wildlife header #heroTitle, body.page-template-template-clean-water header #heroTitle, body.page-template-template-smart-growth header #heroTitle, body.page-template-template-statehouse header #heroTitle {
+/* line 843, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+body.page-template-template-clean-energy header #heroTitle, body.page-template-template-forests-wildlife header #heroTitle, body.page-template-template-clean-water header #heroTitle, body.page-template-template-smart-growth header #heroTitle, body.page-template-template-statehouse header #heroTitle, body.page-template-template-act250 header #heroTitle, body.page-template-template-toxic-free header #heroTitle {
   position: absolute;
   width: 70%;
   bottom: 33%;
@@ -1255,35 +1262,35 @@ body.page-template-template-clean-energy header #heroTitle, body.page-template-t
   text-align: center;
 }
 
-/* line 841, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
-body.page-template-template-clean-energy header #heroTitle h1, body.page-template-template-forests-wildlife header #heroTitle h1, body.page-template-template-clean-water header #heroTitle h1, body.page-template-template-smart-growth header #heroTitle h1, body.page-template-template-statehouse header #heroTitle h1 {
+/* line 849, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+body.page-template-template-clean-energy header #heroTitle h1, body.page-template-template-forests-wildlife header #heroTitle h1, body.page-template-template-clean-water header #heroTitle h1, body.page-template-template-smart-growth header #heroTitle h1, body.page-template-template-statehouse header #heroTitle h1, body.page-template-template-act250 header #heroTitle h1, body.page-template-template-toxic-free header #heroTitle h1 {
   color: #fff;
   font-weight: 700;
   font-size: 3.2rem;
   text-shadow: 0px 0px 14px #565656;
 }
 
-/* line 846, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
-body.page-template-template-clean-energy .inner-content, body.page-template-template-forests-wildlife .inner-content, body.page-template-template-clean-water .inner-content, body.page-template-template-smart-growth .inner-content, body.page-template-template-statehouse .inner-content {
+/* line 854, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+body.page-template-template-clean-energy .inner-content, body.page-template-template-forests-wildlife .inner-content, body.page-template-template-clean-water .inner-content, body.page-template-template-smart-growth .inner-content, body.page-template-template-statehouse .inner-content, body.page-template-template-act250 .inner-content, body.page-template-template-toxic-free .inner-content {
   margin-top: 4rem;
   border-bottom: 1px solid #78a13f;
   padding-bottom: 2rem;
 }
 
-/* line 850, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
-body.page-template-template-clean-energy .inner-content .key_title, body.page-template-template-forests-wildlife .inner-content .key_title, body.page-template-template-clean-water .inner-content .key_title, body.page-template-template-smart-growth .inner-content .key_title, body.page-template-template-statehouse .inner-content .key_title {
+/* line 858, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+body.page-template-template-clean-energy .inner-content .key_title, body.page-template-template-forests-wildlife .inner-content .key_title, body.page-template-template-clean-water .inner-content .key_title, body.page-template-template-smart-growth .inner-content .key_title, body.page-template-template-statehouse .inner-content .key_title, body.page-template-template-act250 .inner-content .key_title, body.page-template-template-toxic-free .inner-content .key_title {
   font-size: 2.25rem;
   text-transform: uppercase;
   font-weight: 300;
 }
 
-/* line 854, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
-body.page-template-template-clean-energy .inner-content .director, body.page-template-template-forests-wildlife .inner-content .director, body.page-template-template-clean-water .inner-content .director, body.page-template-template-smart-growth .inner-content .director, body.page-template-template-statehouse .inner-content .director {
+/* line 862, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+body.page-template-template-clean-energy .inner-content .director, body.page-template-template-forests-wildlife .inner-content .director, body.page-template-template-clean-water .inner-content .director, body.page-template-template-smart-growth .inner-content .director, body.page-template-template-statehouse .inner-content .director, body.page-template-template-act250 .inner-content .director, body.page-template-template-toxic-free .inner-content .director {
   padding: 2rem 0;
 }
 
-/* line 856, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
-body.page-template-template-clean-energy .inner-content .director .matte, body.page-template-template-forests-wildlife .inner-content .director .matte, body.page-template-template-clean-water .inner-content .director .matte, body.page-template-template-smart-growth .inner-content .director .matte, body.page-template-template-statehouse .inner-content .director .matte {
+/* line 864, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+body.page-template-template-clean-energy .inner-content .director .matte, body.page-template-template-forests-wildlife .inner-content .director .matte, body.page-template-template-clean-water .inner-content .director .matte, body.page-template-template-smart-growth .inner-content .director .matte, body.page-template-template-statehouse .inner-content .director .matte, body.page-template-template-act250 .inner-content .director .matte, body.page-template-template-toxic-free .inner-content .director .matte {
   width: 150px;
   height: 150px;
   border-radius: 75px;
@@ -1293,8 +1300,8 @@ body.page-template-template-clean-energy .inner-content .director .matte, body.p
   margin-right: 1rem;
 }
 
-/* line 858, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
-body.page-template-template-clean-energy .inner-content .director .inquiries, body.page-template-template-forests-wildlife .inner-content .director .inquiries, body.page-template-template-clean-water .inner-content .director .inquiries, body.page-template-template-smart-growth .inner-content .director .inquiries, body.page-template-template-statehouse .inner-content .director .inquiries {
+/* line 866, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+body.page-template-template-clean-energy .inner-content .director .inquiries, body.page-template-template-forests-wildlife .inner-content .director .inquiries, body.page-template-template-clean-water .inner-content .director .inquiries, body.page-template-template-smart-growth .inner-content .director .inquiries, body.page-template-template-statehouse .inner-content .director .inquiries, body.page-template-template-act250 .inner-content .director .inquiries, body.page-template-template-toxic-free .inner-content .director .inquiries {
   text-transform: uppercase;
   color: #78a13f;
   font-weight: 700;
@@ -1302,23 +1309,23 @@ body.page-template-template-clean-energy .inner-content .director .inquiries, bo
   margin: 1rem 0 .5rem;
 }
 
-/* line 864, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
-body.page-template-template-clean-energy .inner-content .director p, body.page-template-template-forests-wildlife .inner-content .director p, body.page-template-template-clean-water .inner-content .director p, body.page-template-template-smart-growth .inner-content .director p, body.page-template-template-statehouse .inner-content .director p {
+/* line 872, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+body.page-template-template-clean-energy .inner-content .director p, body.page-template-template-forests-wildlife .inner-content .director p, body.page-template-template-clean-water .inner-content .director p, body.page-template-template-smart-growth .inner-content .director p, body.page-template-template-statehouse .inner-content .director p, body.page-template-template-act250 .inner-content .director p, body.page-template-template-toxic-free .inner-content .director p {
   margin-bottom: 0;
 }
 
-/* line 866, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
-body.page-template-template-clean-energy .inner-content .keyGraphic img, body.page-template-template-forests-wildlife .inner-content .keyGraphic img, body.page-template-template-clean-water .inner-content .keyGraphic img, body.page-template-template-smart-growth .inner-content .keyGraphic img, body.page-template-template-statehouse .inner-content .keyGraphic img {
+/* line 874, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+body.page-template-template-clean-energy .inner-content .keyGraphic img, body.page-template-template-forests-wildlife .inner-content .keyGraphic img, body.page-template-template-clean-water .inner-content .keyGraphic img, body.page-template-template-smart-growth .inner-content .keyGraphic img, body.page-template-template-statehouse .inner-content .keyGraphic img, body.page-template-template-act250 .inner-content .keyGraphic img, body.page-template-template-toxic-free .inner-content .keyGraphic img {
   width: 80%;
 }
 
-/* line 868, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
-body.page-template-template-clean-energy .initiatives, body.page-template-template-forests-wildlife .initiatives, body.page-template-template-clean-water .initiatives, body.page-template-template-smart-growth .initiatives, body.page-template-template-statehouse .initiatives {
+/* line 876, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+body.page-template-template-clean-energy .initiatives, body.page-template-template-forests-wildlife .initiatives, body.page-template-template-clean-water .initiatives, body.page-template-template-smart-growth .initiatives, body.page-template-template-statehouse .initiatives, body.page-template-template-act250 .initiatives, body.page-template-template-toxic-free .initiatives {
   margin: 3rem 0;
 }
 
-/* line 870, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
-body.page-template-template-clean-energy .initiatives h2.initHeader, body.page-template-template-forests-wildlife .initiatives h2.initHeader, body.page-template-template-clean-water .initiatives h2.initHeader, body.page-template-template-smart-growth .initiatives h2.initHeader, body.page-template-template-statehouse .initiatives h2.initHeader {
+/* line 878, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+body.page-template-template-clean-energy .initiatives h2.initHeader, body.page-template-template-forests-wildlife .initiatives h2.initHeader, body.page-template-template-clean-water .initiatives h2.initHeader, body.page-template-template-smart-growth .initiatives h2.initHeader, body.page-template-template-statehouse .initiatives h2.initHeader, body.page-template-template-act250 .initiatives h2.initHeader, body.page-template-template-toxic-free .initiatives h2.initHeader {
   text-transform: uppercase;
   font-weight: 300;
   font-size: 2.25rem;
@@ -1326,52 +1333,52 @@ body.page-template-template-clean-energy .initiatives h2.initHeader, body.page-t
   text-align: center;
 }
 
-/* line 872, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
-body.page-template-template-clean-energy .initiatives img, body.page-template-template-forests-wildlife .initiatives img, body.page-template-template-clean-water .initiatives img, body.page-template-template-smart-growth .initiatives img, body.page-template-template-statehouse .initiatives img {
+/* line 880, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+body.page-template-template-clean-energy .initiatives img, body.page-template-template-forests-wildlife .initiatives img, body.page-template-template-clean-water .initiatives img, body.page-template-template-smart-growth .initiatives img, body.page-template-template-statehouse .initiatives img, body.page-template-template-act250 .initiatives img, body.page-template-template-toxic-free .initiatives img {
   border-bottom: 8px solid #78a13f;
   margin-bottom: 2rem;
 }
 
-/* line 875, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
-body.page-template-template-clean-energy .initiatives h3, body.page-template-template-forests-wildlife .initiatives h3, body.page-template-template-clean-water .initiatives h3, body.page-template-template-smart-growth .initiatives h3, body.page-template-template-statehouse .initiatives h3 {
+/* line 883, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+body.page-template-template-clean-energy .initiatives h3, body.page-template-template-forests-wildlife .initiatives h3, body.page-template-template-clean-water .initiatives h3, body.page-template-template-smart-growth .initiatives h3, body.page-template-template-statehouse .initiatives h3, body.page-template-template-act250 .initiatives h3, body.page-template-template-toxic-free .initiatives h3 {
   font-weight: 700;
   font-size: 1.25rem;
   margin-bottom: 1rem;
 }
 
-/* line 879, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
-body.page-template-template-clean-energy .initiatives a.excerpt-read-more, body.page-template-template-forests-wildlife .initiatives a.excerpt-read-more, body.page-template-template-clean-water .initiatives a.excerpt-read-more, body.page-template-template-smart-growth .initiatives a.excerpt-read-more, body.page-template-template-statehouse .initiatives a.excerpt-read-more {
+/* line 887, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+body.page-template-template-clean-energy .initiatives a.excerpt-read-more, body.page-template-template-forests-wildlife .initiatives a.excerpt-read-more, body.page-template-template-clean-water .initiatives a.excerpt-read-more, body.page-template-template-smart-growth .initiatives a.excerpt-read-more, body.page-template-template-statehouse .initiatives a.excerpt-read-more, body.page-template-template-act250 .initiatives a.excerpt-read-more, body.page-template-template-toxic-free .initiatives a.excerpt-read-more {
   color: #78a13f;
 }
 
-/* line 882, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
-body.page-template-template-clean-energy .artgibb h2, body.page-template-template-clean-energy .artgibb p, body.page-template-template-clean-energy .artgibb div, body.page-template-template-forests-wildlife .artgibb h2, body.page-template-template-forests-wildlife .artgibb p, body.page-template-template-forests-wildlife .artgibb div, body.page-template-template-clean-water .artgibb h2, body.page-template-template-clean-water .artgibb p, body.page-template-template-clean-water .artgibb div, body.page-template-template-smart-growth .artgibb h2, body.page-template-template-smart-growth .artgibb p, body.page-template-template-smart-growth .artgibb div, body.page-template-template-statehouse .artgibb h2, body.page-template-template-statehouse .artgibb p, body.page-template-template-statehouse .artgibb div {
+/* line 890, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+body.page-template-template-clean-energy .artgibb h2, body.page-template-template-clean-energy .artgibb p, body.page-template-template-clean-energy .artgibb div, body.page-template-template-forests-wildlife .artgibb h2, body.page-template-template-forests-wildlife .artgibb p, body.page-template-template-forests-wildlife .artgibb div, body.page-template-template-clean-water .artgibb h2, body.page-template-template-clean-water .artgibb p, body.page-template-template-clean-water .artgibb div, body.page-template-template-smart-growth .artgibb h2, body.page-template-template-smart-growth .artgibb p, body.page-template-template-smart-growth .artgibb div, body.page-template-template-statehouse .artgibb h2, body.page-template-template-statehouse .artgibb p, body.page-template-template-statehouse .artgibb div, body.page-template-template-act250 .artgibb h2, body.page-template-template-act250 .artgibb p, body.page-template-template-act250 .artgibb div, body.page-template-template-toxic-free .artgibb h2, body.page-template-template-toxic-free .artgibb p, body.page-template-template-toxic-free .artgibb div {
   text-align: left;
   color: #fff;
 }
 
-/* line 885, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
-body.page-template-template-clean-energy .artgibb h2, body.page-template-template-forests-wildlife .artgibb h2, body.page-template-template-clean-water .artgibb h2, body.page-template-template-smart-growth .artgibb h2, body.page-template-template-statehouse .artgibb h2 {
+/* line 893, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+body.page-template-template-clean-energy .artgibb h2, body.page-template-template-forests-wildlife .artgibb h2, body.page-template-template-clean-water .artgibb h2, body.page-template-template-smart-growth .artgibb h2, body.page-template-template-statehouse .artgibb h2, body.page-template-template-act250 .artgibb h2, body.page-template-template-toxic-free .artgibb h2 {
   text-transform: uppercase;
   font-weight: 300;
   font-size: 2.25rem;
 }
 
-/* line 887, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
-body.page-template-template-clean-energy .artgibb .leadin, body.page-template-template-forests-wildlife .artgibb .leadin, body.page-template-template-clean-water .artgibb .leadin, body.page-template-template-smart-growth .artgibb .leadin, body.page-template-template-statehouse .artgibb .leadin {
+/* line 895, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+body.page-template-template-clean-energy .artgibb .leadin, body.page-template-template-forests-wildlife .artgibb .leadin, body.page-template-template-clean-water .artgibb .leadin, body.page-template-template-smart-growth .artgibb .leadin, body.page-template-template-statehouse .artgibb .leadin, body.page-template-template-act250 .artgibb .leadin, body.page-template-template-toxic-free .artgibb .leadin {
   font-size: 1.2rem;
   font-weight: 700;
   margin-bottom: 1.5rem;
   line-height: 1.5rem;
 }
 
-/* line 892, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
-body.page-template-template-clean-energy .artgibb .text, body.page-template-template-forests-wildlife .artgibb .text, body.page-template-template-clean-water .artgibb .text, body.page-template-template-smart-growth .artgibb .text, body.page-template-template-statehouse .artgibb .text {
+/* line 900, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+body.page-template-template-clean-energy .artgibb .text, body.page-template-template-forests-wildlife .artgibb .text, body.page-template-template-clean-water .artgibb .text, body.page-template-template-smart-growth .artgibb .text, body.page-template-template-statehouse .artgibb .text, body.page-template-template-act250 .artgibb .text, body.page-template-template-toxic-free .artgibb .text {
   margin-bottom: 1.5rem;
 }
 
-/* line 894, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
-body.page-template-template-clean-energy .artgibb a.videoLink, body.page-template-template-forests-wildlife .artgibb a.videoLink, body.page-template-template-clean-water .artgibb a.videoLink, body.page-template-template-smart-growth .artgibb a.videoLink, body.page-template-template-statehouse .artgibb a.videoLink {
+/* line 902, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+body.page-template-template-clean-energy .artgibb a.videoLink, body.page-template-template-forests-wildlife .artgibb a.videoLink, body.page-template-template-clean-water .artgibb a.videoLink, body.page-template-template-smart-growth .artgibb a.videoLink, body.page-template-template-statehouse .artgibb a.videoLink, body.page-template-template-act250 .artgibb a.videoLink, body.page-template-template-toxic-free .artgibb a.videoLink {
   position: absolute;
   text-transform: uppercase;
   color: #fff;
@@ -1379,8 +1386,8 @@ body.page-template-template-clean-energy .artgibb a.videoLink, body.page-templat
   bottom: 20px;
 }
 
-/* line 900, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
-body.page-template-template-clean-energy .artgibb a.videoLink .whitearrow, body.page-template-template-forests-wildlife .artgibb a.videoLink .whitearrow, body.page-template-template-clean-water .artgibb a.videoLink .whitearrow, body.page-template-template-smart-growth .artgibb a.videoLink .whitearrow, body.page-template-template-statehouse .artgibb a.videoLink .whitearrow {
+/* line 908, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+body.page-template-template-clean-energy .artgibb a.videoLink .whitearrow, body.page-template-template-forests-wildlife .artgibb a.videoLink .whitearrow, body.page-template-template-clean-water .artgibb a.videoLink .whitearrow, body.page-template-template-smart-growth .artgibb a.videoLink .whitearrow, body.page-template-template-statehouse .artgibb a.videoLink .whitearrow, body.page-template-template-act250 .artgibb a.videoLink .whitearrow, body.page-template-template-toxic-free .artgibb a.videoLink .whitearrow {
   background: url("../images/svg/white_arrow.svg");
   height: 18px;
   width: 18px;
@@ -1391,43 +1398,43 @@ body.page-template-template-clean-energy .artgibb a.videoLink .whitearrow, body.
   margin: 2px 0 0 5px;
 }
 
-/* line 902, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
-body.page-template-template-clean-energy .community, body.page-template-template-forests-wildlife .community, body.page-template-template-clean-water .community, body.page-template-template-smart-growth .community, body.page-template-template-statehouse .community {
+/* line 910, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+body.page-template-template-clean-energy .community, body.page-template-template-forests-wildlife .community, body.page-template-template-clean-water .community, body.page-template-template-smart-growth .community, body.page-template-template-statehouse .community, body.page-template-template-act250 .community, body.page-template-template-toxic-free .community {
   margin: 5rem 0 2rem;
 }
 
-/* line 904, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
-body.page-template-template-clean-energy .community h2, body.page-template-template-forests-wildlife .community h2, body.page-template-template-clean-water .community h2, body.page-template-template-smart-growth .community h2, body.page-template-template-statehouse .community h2 {
+/* line 912, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+body.page-template-template-clean-energy .community h2, body.page-template-template-forests-wildlife .community h2, body.page-template-template-clean-water .community h2, body.page-template-template-smart-growth .community h2, body.page-template-template-statehouse .community h2, body.page-template-template-act250 .community h2, body.page-template-template-toxic-free .community h2 {
   text-transform: uppercase;
   font-weight: 300;
   font-size: 2.25rem;
 }
 
-/* line 906, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
-body.page-template-template-clean-energy .community .leadin, body.page-template-template-forests-wildlife .community .leadin, body.page-template-template-clean-water .community .leadin, body.page-template-template-smart-growth .community .leadin, body.page-template-template-statehouse .community .leadin {
+/* line 914, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+body.page-template-template-clean-energy .community .leadin, body.page-template-template-forests-wildlife .community .leadin, body.page-template-template-clean-water .community .leadin, body.page-template-template-smart-growth .community .leadin, body.page-template-template-statehouse .community .leadin, body.page-template-template-act250 .community .leadin, body.page-template-template-toxic-free .community .leadin {
   font-weight: 700;
   font-size: 1.25rem;
   margin-bottom: 1.5rem;
 }
 
-/* line 910, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
-body.page-template-template-clean-energy .community a.bold.green, body.page-template-template-forests-wildlife .community a.bold.green, body.page-template-template-clean-water .community a.bold.green, body.page-template-template-smart-growth .community a.bold.green, body.page-template-template-statehouse .community a.bold.green {
+/* line 918, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+body.page-template-template-clean-energy .community a.bold.green, body.page-template-template-forests-wildlife .community a.bold.green, body.page-template-template-clean-water .community a.bold.green, body.page-template-template-smart-growth .community a.bold.green, body.page-template-template-statehouse .community a.bold.green, body.page-template-template-act250 .community a.bold.green, body.page-template-template-toxic-free .community a.bold.green {
   font-weight: 700;
 }
 
-/* line 912, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
-body.page-template-template-clean-energy .community img.vecan-logo, body.page-template-template-forests-wildlife .community img.vecan-logo, body.page-template-template-clean-water .community img.vecan-logo, body.page-template-template-smart-growth .community img.vecan-logo, body.page-template-template-statehouse .community img.vecan-logo {
+/* line 920, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+body.page-template-template-clean-energy .community img.vecan-logo, body.page-template-template-forests-wildlife .community img.vecan-logo, body.page-template-template-clean-water .community img.vecan-logo, body.page-template-template-smart-growth .community img.vecan-logo, body.page-template-template-statehouse .community img.vecan-logo, body.page-template-template-act250 .community img.vecan-logo, body.page-template-template-toxic-free .community img.vecan-logo {
   width: 165px;
   margin-top: 1.5rem;
 }
 
-/* line 915, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
-body.page-template-template-clean-energy .resources, body.page-template-template-forests-wildlife .resources, body.page-template-template-clean-water .resources, body.page-template-template-smart-growth .resources, body.page-template-template-statehouse .resources {
+/* line 923, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+body.page-template-template-clean-energy .resources, body.page-template-template-forests-wildlife .resources, body.page-template-template-clean-water .resources, body.page-template-template-smart-growth .resources, body.page-template-template-statehouse .resources, body.page-template-template-act250 .resources, body.page-template-template-toxic-free .resources {
   margin: 5rem 0 6rem;
 }
 
-/* line 917, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
-body.page-template-template-clean-energy .resources h2, body.page-template-template-forests-wildlife .resources h2, body.page-template-template-clean-water .resources h2, body.page-template-template-smart-growth .resources h2, body.page-template-template-statehouse .resources h2 {
+/* line 925, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+body.page-template-template-clean-energy .resources h2, body.page-template-template-forests-wildlife .resources h2, body.page-template-template-clean-water .resources h2, body.page-template-template-smart-growth .resources h2, body.page-template-template-statehouse .resources h2, body.page-template-template-act250 .resources h2, body.page-template-template-toxic-free .resources h2 {
   text-transform: uppercase;
   font-weight: 300;
   font-size: 2.25rem;
@@ -1435,8 +1442,8 @@ body.page-template-template-clean-energy .resources h2, body.page-template-templ
   text-align: center;
 }
 
-/* line 919, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
-body.page-template-template-clean-energy .resources a.readmore, body.page-template-template-forests-wildlife .resources a.readmore, body.page-template-template-clean-water .resources a.readmore, body.page-template-template-smart-growth .resources a.readmore, body.page-template-template-statehouse .resources a.readmore {
+/* line 927, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+body.page-template-template-clean-energy .resources a.readmore, body.page-template-template-forests-wildlife .resources a.readmore, body.page-template-template-clean-water .resources a.readmore, body.page-template-template-smart-growth .resources a.readmore, body.page-template-template-statehouse .resources a.readmore, body.page-template-template-act250 .resources a.readmore, body.page-template-template-toxic-free .resources a.readmore {
   float: right;
   color: #2b2b2b;
   font-weight: bold;
@@ -1445,45 +1452,45 @@ body.page-template-template-clean-energy .resources a.readmore, body.page-templa
 }
 
 /* line 155, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
-body.page-template-template-clean-energy .resources a.readmore:hover, body.page-template-template-forests-wildlife .resources a.readmore:hover, body.page-template-template-clean-water .resources a.readmore:hover, body.page-template-template-smart-growth .resources a.readmore:hover, body.page-template-template-statehouse .resources a.readmore:hover {
+body.page-template-template-clean-energy .resources a.readmore:hover, body.page-template-template-forests-wildlife .resources a.readmore:hover, body.page-template-template-clean-water .resources a.readmore:hover, body.page-template-template-smart-growth .resources a.readmore:hover, body.page-template-template-statehouse .resources a.readmore:hover, body.page-template-template-act250 .resources a.readmore:hover, body.page-template-template-toxic-free .resources a.readmore:hover {
   opacity: .75;
   margin-right: 0;
 }
 
 /* line 158, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
-body.page-template-template-clean-energy .resources a.readmore:hover .greenarrow, body.page-template-template-forests-wildlife .resources a.readmore:hover .greenarrow, body.page-template-template-clean-water .resources a.readmore:hover .greenarrow, body.page-template-template-smart-growth .resources a.readmore:hover .greenarrow, body.page-template-template-statehouse .resources a.readmore:hover .greenarrow {
+body.page-template-template-clean-energy .resources a.readmore:hover .greenarrow, body.page-template-template-forests-wildlife .resources a.readmore:hover .greenarrow, body.page-template-template-clean-water .resources a.readmore:hover .greenarrow, body.page-template-template-smart-growth .resources a.readmore:hover .greenarrow, body.page-template-template-statehouse .resources a.readmore:hover .greenarrow, body.page-template-template-act250 .resources a.readmore:hover .greenarrow, body.page-template-template-toxic-free .resources a.readmore:hover .greenarrow {
   margin-left: 10px;
 }
 
-/* line 921, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
-body.page-template-template-clean-energy .resources img, body.page-template-template-forests-wildlife .resources img, body.page-template-template-clean-water .resources img, body.page-template-template-smart-growth .resources img, body.page-template-template-statehouse .resources img {
+/* line 929, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+body.page-template-template-clean-energy .resources img, body.page-template-template-forests-wildlife .resources img, body.page-template-template-clean-water .resources img, body.page-template-template-smart-growth .resources img, body.page-template-template-statehouse .resources img, body.page-template-template-act250 .resources img, body.page-template-template-toxic-free .resources img {
   width: 75%;
   margin: 0 auto 1.5rem;
   display: block;
   border: 20px solid #78a13f;
 }
 
-/* line 926, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
-body.page-template-template-clean-energy .resources h3, body.page-template-template-forests-wildlife .resources h3, body.page-template-template-clean-water .resources h3, body.page-template-template-smart-growth .resources h3, body.page-template-template-statehouse .resources h3 {
+/* line 934, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+body.page-template-template-clean-energy .resources h3, body.page-template-template-forests-wildlife .resources h3, body.page-template-template-clean-water .resources h3, body.page-template-template-smart-growth .resources h3, body.page-template-template-statehouse .resources h3, body.page-template-template-act250 .resources h3, body.page-template-template-toxic-free .resources h3 {
   font-weight: 700;
   font-size: 1.25rem;
   text-align: center;
 }
 
-/* line 930, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
-body.page-template-template-clean-energy .resources a, body.page-template-template-forests-wildlife .resources a, body.page-template-template-clean-water .resources a, body.page-template-template-smart-growth .resources a, body.page-template-template-statehouse .resources a {
+/* line 938, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+body.page-template-template-clean-energy .resources a, body.page-template-template-forests-wildlife .resources a, body.page-template-template-clean-water .resources a, body.page-template-template-smart-growth .resources a, body.page-template-template-statehouse .resources a, body.page-template-template-act250 .resources a, body.page-template-template-toxic-free .resources a {
   color: #2b2b2b;
 }
 
 /********************* */
 /* SUPPORT TEMPLATE */
 /********************* */
-/* line 937, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 945, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 h1.page-title {
   display: none;
 }
 
-/* line 940, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 948, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 .supportUs .entry-content {
   padding: 0;
 }
@@ -1507,40 +1514,40 @@ h1.page-title {
   margin-bottom: 2rem;
 }
 
-/* line 942, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 950, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 .supportUs .intro {
   margin-bottom: 3rem;
 }
 
-/* line 944, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 952, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 .supportUs .intro p {
   font-size: 1.4rem;
 }
 
-/* line 947, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 955, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 .supportUs .images ul {
   list-style-type: none;
   margin-left: 0;
 }
 
-/* line 950, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 958, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 .supportUs .images ul li {
   padding-bottom: 2rem;
 }
 
-/* line 952, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 960, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 .supportUs .supportContacts {
   padding: 3rem 0 2.5rem;
   background-color: #f1f6eb;
 }
 
-/* line 955, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 963, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 .supportUs .supportContacts a {
   color: #2A6A35;
   font-weight: bold;
 }
 
-/* line 958, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 966, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 .supportUs .supportContacts div.matte {
   width: 150px;
   float: left;
@@ -1553,7 +1560,7 @@ h1.page-title {
   margin-right: 1rem;
 }
 
-/* line 962, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 970, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 .supportUs .supportContacts .bymail {
   text-align: center;
   margin-top: 3rem;
@@ -1562,12 +1569,12 @@ h1.page-title {
 /********************* */
 /* HOW WE WORK TEMPLATE */
 /********************* */
-/* line 971, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 979, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-how-we-work .inner-content {
   padding: 4rem 0 1rem;
 }
 
-/* line 973, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 981, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-how-we-work .entry-content {
   padding: 0;
 }
@@ -1591,7 +1598,7 @@ body.page-template-how-we-work .entry-content p {
   margin-bottom: 2rem;
 }
 
-/* line 976, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 984, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-how-we-work .greyWrapper h2 {
   text-transform: uppercase;
   font-weight: 300;
@@ -1600,13 +1607,13 @@ body.page-template-how-we-work .greyWrapper h2 {
   text-align: center;
 }
 
-/* line 978, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 986, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-how-we-work .greyWrapper .icons {
   margin: 4rem 0 0;
   transition: all 1s ease-in-out;
 }
 
-/* line 981, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 989, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-how-we-work .greyWrapper .icons img {
   height: 100px;
   display: block;
@@ -1614,28 +1621,28 @@ body.page-template-how-we-work .greyWrapper .icons img {
   padding: .5rem;
 }
 
-/* line 986, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 994, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-how-we-work .greyWrapper .icons .cell {
   border-right: 1px solid #ddeacb;
   padding: 0 .5rem;
 }
 
-/* line 989, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 997, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-how-we-work .greyWrapper .icons .cell:hover img {
   transform: scale(1.1);
 }
 
-/* line 991, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 999, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-how-we-work .greyWrapper .icons .cell:hover h4 {
   color: #78a13f;
 }
 
-/* line 993, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1001, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-how-we-work .greyWrapper .icons .cell:last-child {
   border-right: 0;
 }
 
-/* line 995, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1003, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-how-we-work .greyWrapper .icons h4 {
   font-size: 1rem;
   text-align: center;
@@ -1645,31 +1652,31 @@ body.page-template-how-we-work .greyWrapper .icons h4 {
   width: 80%;
 }
 
-/* line 1002, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1010, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-how-we-work .howSupportWrapper {
   background-size: cover;
 }
 
-/* line 1004, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1012, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-how-we-work .howSupportWrapper .howSupport {
   padding: 6rem;
   color: #fff;
   text-align: center;
 }
 
-/* line 1008, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1016, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-how-we-work .howSupportWrapper .howSupport h2 {
   text-transform: uppercase;
   font-weight: 300;
   font-size: 2.25rem;
 }
 
-/* line 1010, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1018, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-how-we-work .howSupportWrapper .howSupport p {
   font-size: 1.4rem;
 }
 
-/* line 1012, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1020, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-how-we-work .howSupportWrapper .howSupport p.thankyou {
   font-family: adobe-garamond-pro, serif;
   font-size: 2rem;
@@ -1678,23 +1685,23 @@ body.page-template-how-we-work .howSupportWrapper .howSupport p.thankyou {
   margin-bottom: 2rem;
 }
 
-/* line 1018, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1026, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-how-we-work .footer {
   margin-top: 0;
 }
 
-/* line 1022, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1030, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 .statehouse, .partnerships {
   color: #fff;
   padding: 3rem;
 }
 
-/* line 1025, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1033, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 .statehouse h2, .partnerships h2 {
   color: #fff;
 }
 
-/* line 1027, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1035, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 .statehouse svg, .partnerships svg {
   display: block;
   width: 150px;
@@ -1702,12 +1709,12 @@ body.page-template-how-we-work .footer {
   margin-bottom: 1rem;
 }
 
-/* line 1033, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1041, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 .statehouse {
   background-color: #2A6A35;
 }
 
-/* line 1036, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1044, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 .partnerships {
   background-color: #78a13f;
 }
@@ -1715,62 +1722,62 @@ body.page-template-how-we-work .footer {
 /********************* */
 /* STAff PAge Template */
 /********************* */
-/* line 1043, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1051, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-staff .entry-content {
   margin-bottom: 2rem;
   font-size: 1.4rem;
   font-weight: 300;
 }
 
-/* line 1048, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1056, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-staff .staff .cell {
   background-color: #f1f1f1;
   padding-bottom: 1rem;
   margin-bottom: 2rem;
 }
 
-/* line 1052, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1060, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-staff .staff h4 {
   margin: 1rem 1rem 0;
   font-size: 1.2rem;
   color: #2b2b2b;
 }
 
-/* line 1056, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1064, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-staff .staff div.staffTitle {
   margin: 0 1rem;
 }
 
-/* line 1058, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1066, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-staff .staff .info {
   display: none;
 }
 
-/* line 1060, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1068, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-staff .staffTop {
   float: left;
   width: 40%;
   margin-right: 1rem;
 }
 
-/* line 1064, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1072, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-staff .staffTop img {
   max-width: 250px;
   border-bottom: 10px solid #f1f1f1;
 }
 
-/* line 1067, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1075, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-staff .staffTop h4 {
   margin: 1rem 0 0;
 }
 
-/* line 1069, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1077, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-staff .staffTop .staffTitle {
   text-transform: uppercase;
   color: #78a13f;
 }
 
-/* line 1072, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1080, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-staff .staffBottom {
   float: left;
   width: 55%;
@@ -1779,7 +1786,7 @@ body.page-template-staff .staffBottom {
 /********************* */
 /* VERS CATEGORY TEMPLATE */
 /********************* */
-/* line 1080, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1088, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 body.category-vermont-environmental-reports div.reports .cell {
   margin-bottom: 2rem;
 }
@@ -1787,58 +1794,58 @@ body.category-vermont-environmental-reports div.reports .cell {
 /********************* */
 /* VICTORIES CATEGORY TEMPLATE */
 /********************* */
-/* line 1089, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1097, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 .taxonomy-description {
   margin-bottom: 4rem;
 }
 
-/* line 1091, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1099, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 .taxonomy-description p {
   font-size: 1.1rem;
   text-align: center;
 }
 
-/* line 1097, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1105, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 body.category-victories article.leadVictory h2 {
   font-size: 3rem;
 }
 
-/* line 1099, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1107, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 body.category-victories article.leadVictory .victoryDate {
   font-size: 1.25rem;
   font-weight: 500;
   font-style: italic;
 }
 
-/* line 1103, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1111, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 body.category-victories article.leadVictory .entry-content {
   columns: 3;
   column-gap: 2.5rem;
   font-size: 1rem;
 }
 
-/* line 1107, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1115, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 body.category-victories article.leadVictory .entry-content img {
   margin-bottom: 2rem;
 }
 
-/* line 729, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 737, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 body.category-victories .cell.post {
   position: relative;
   margin-bottom: 2rem;
 }
 
-/* line 730, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 738, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 body.category-victories .cell.post img {
   width: 100%;
 }
 
-/* line 734, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 742, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 body.category-victories .cell.post a.victoryLink:hover {
   opacity: .75;
 }
 
-/* line 736, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 744, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 body.category-victories .cell.post .overlay {
   position: absolute;
   bottom: 0;
@@ -1849,30 +1856,30 @@ body.category-victories .cell.post .overlay {
   padding: 1rem;
 }
 
-/* line 744, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 752, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 body.category-victories .cell.post .overlay:hover {
   cursor: pointer;
 }
 
-/* line 747, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 755, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 body.category-victories .cell.post .overlay.open .more, body.category-victories .cell.post .overlay.open .short {
   display: inline-block;
   margin-top: .5rem;
 }
 
-/* line 750, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 758, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 body.category-victories .cell.post .overlay h4, body.category-victories .cell.post .overlay .short, body.category-victories .cell.post .overlay .more {
   color: #fff;
 }
 
-/* line 752, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 760, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 body.category-victories .cell.post .overlay .more {
   display: block;
   margin: 0 auto;
   text-transform: uppercase;
 }
 
-/* line 756, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 764, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 body.category-victories .cell.post .overlay .more .whitearrow {
   background: url("../images/svg/white_arrow.svg");
   height: 18px;
@@ -1886,17 +1893,17 @@ body.category-victories .cell.post .overlay .more .whitearrow {
   display: inline-block;
 }
 
-/* line 760, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 768, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 body.category-victories .cell.post .overlay .more:hover {
   opacity: .75;
 }
 
-/* line 762, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 770, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 body.category-victories .cell.post .overlay .more, body.category-victories .cell.post .overlay .short {
   display: none;
 }
 
-/* line 1110, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1118, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 body.category-victories h2 {
   text-transform: uppercase;
   font-weight: 300;
@@ -1909,49 +1916,49 @@ body.category-victories h2 {
 /* VICTORIES SINGLE TEMPLATE */
 /********************* */
 /* line 985, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
-/* line 1120, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1128, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 body.category-victories article.leadVictory header, div.content.victories-single article.leadVictory header {
   margin-bottom: 2rem;
 }
 
-/* line 1122, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1130, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 body.category-victories article.leadVictory h2, div.content.victories-single article.leadVictory h2 {
   font-size: 3rem;
   text-align: left;
   margin-bottom: 1rem;
 }
 
-/* line 1126, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1134, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 body.category-victories article.leadVictory .victoryDate, div.content.victories-single article.leadVictory .victoryDate {
   font-size: 1.25rem;
   font-weight: 500;
   font-style: italic;
 }
 
-/* line 1130, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1138, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 body.category-victories article.leadVictory .entry-content, div.content.victories-single article.leadVictory .entry-content {
   columns: 3;
   column-gap: 2.5rem;
   font-size: 1rem;
 }
 
-/* line 729, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 737, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 body.category-victories .cell.post, div.content.victories-single .cell.post {
   position: relative;
   margin-bottom: 2rem;
 }
 
-/* line 730, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 738, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 body.category-victories .cell.post img, div.content.victories-single .cell.post img {
   width: 100%;
 }
 
-/* line 734, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 742, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 body.category-victories .cell.post a.victoryLink:hover, div.content.victories-single .cell.post a.victoryLink:hover {
   opacity: .75;
 }
 
-/* line 736, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 744, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 body.category-victories .cell.post .overlay, div.content.victories-single .cell.post .overlay {
   position: absolute;
   bottom: 0;
@@ -1962,30 +1969,30 @@ body.category-victories .cell.post .overlay, div.content.victories-single .cell.
   padding: 1rem;
 }
 
-/* line 744, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 752, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 body.category-victories .cell.post .overlay:hover, div.content.victories-single .cell.post .overlay:hover {
   cursor: pointer;
 }
 
-/* line 747, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 755, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 body.category-victories .cell.post .overlay.open .more, body.category-victories .cell.post .overlay.open .short, div.content.victories-single .cell.post .overlay.open .more, div.content.victories-single .cell.post .overlay.open .short {
   display: inline-block;
   margin-top: .5rem;
 }
 
-/* line 750, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 758, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 body.category-victories .cell.post .overlay h4, body.category-victories .cell.post .overlay .short, body.category-victories .cell.post .overlay .more, div.content.victories-single .cell.post .overlay h4, div.content.victories-single .cell.post .overlay .short, div.content.victories-single .cell.post .overlay .more {
   color: #fff;
 }
 
-/* line 752, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 760, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 body.category-victories .cell.post .overlay .more, div.content.victories-single .cell.post .overlay .more {
   display: block;
   margin: 0 auto;
   text-transform: uppercase;
 }
 
-/* line 756, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 764, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 body.category-victories .cell.post .overlay .more .whitearrow, div.content.victories-single .cell.post .overlay .more .whitearrow {
   background: url("../images/svg/white_arrow.svg");
   height: 18px;
@@ -1999,67 +2006,140 @@ body.category-victories .cell.post .overlay .more .whitearrow, div.content.victo
   display: inline-block;
 }
 
-/* line 760, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 768, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 body.category-victories .cell.post .overlay .more:hover, div.content.victories-single .cell.post .overlay .more:hover {
   opacity: .75;
 }
 
-/* line 762, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 770, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 body.category-victories .cell.post .overlay .more, body.category-victories .cell.post .overlay .short, div.content.victories-single .cell.post .overlay .more, div.content.victories-single .cell.post .overlay .short {
   display: none;
 }
 
 /* line 707, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
-/* line 1142, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1150, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 body.category-victories h2, div.content.victories-single h2 {
   margin-bottom: 3rem;
   text-align: center;
 }
 
-/* line 1146, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1154, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 body.category-victories h2 {
   margin: 2rem 0 3rem;
 }
 
 /********************* */
+/* Act250 TEMPLATE */
+/********************* */
+/* line 1161, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+body.page-template-template-act250 .inner-content {
+  margin-top: 2rem;
+}
+
+/* line 1163, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+body.page-template-template-act250 .highlight250 {
+  background-color: #6f7d74;
+  padding: 2rem;
+  position: relative;
+}
+
+/* line 1168, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+body.page-template-template-act250 .highlight250 .vidContent h2, body.page-template-template-act250 .highlight250 .vidContent p, body.page-template-template-act250 .highlight250 .vidContent div {
+  text-align: left;
+  color: #fff;
+}
+
+/* line 1171, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+body.page-template-template-act250 .highlight250 .vidContent h2 {
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 2.25rem;
+}
+
+/* line 1173, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+body.page-template-template-act250 .highlight250 .vidContent .leadin {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  line-height: 1.5rem;
+}
+
+/* line 1178, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+body.page-template-template-act250 .highlight250 .vidContent .text {
+  margin-bottom: 1.5rem;
+}
+
+/* line 1180, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+body.page-template-template-act250 .highlight250 .vidContent a.videoLink {
+  position: absolute;
+  text-transform: uppercase;
+  bottom: 20px;
+  left: 45px;
+  color: #fff;
+  font-weight: 500;
+}
+
+/* line 1187, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+body.page-template-template-act250 .highlight250 .vidContent a.videoLink .whitearrow {
+  background: url("../images/svg/white_arrow.svg");
+  height: 18px;
+  width: 18px;
+  display: block;
+  float: right;
+  line-height: 3rem;
+  background-size: contain;
+  margin: 2px 0 0 5px;
+}
+
+/* line 1189, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+body.page-template-template-act250 .highlight250 .vidContent a.videoLink:hover {
+  opacity: .75;
+}
+
+/* line 1191, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+body.page-template-template-act250 .highlight250 .vidContent a.videoLink:hover .whitearrow {
+  margin-left: 10px;
+}
+
+/********************* */
 /* SEARCH TEMPLATE */
 /********************* */
-/* line 1153, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1198, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 body.search-results #heroTitle h1 span {
   font-style: italic;
   font-weight: 300;
 }
 
-/* line 1158, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1203, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 body.search-results .inner-content header.article-header h2 {
   margin-bottom: 1rem;
   text-align: left;
 }
 
-/* line 1161, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1206, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 body.search-results .inner-content header.article-header .byline {
   margin-bottom: 0;
 }
 
-/* line 1163, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1208, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 body.search-results article {
   margin: 3rem 0 0;
   border-bottom: 1px solid #cacaca;
   padding-bottom: 3rem;
 }
 
-/* line 1167, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1212, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 body.search-results article .entry-content {
   margin-bottom: 0;
   padding: 0;
 }
 
-/* line 1170, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1215, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 body.search-results article .excerpt-read-more {
   padding-top: 1rem;
 }
 
-/* line 1172, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1217, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 body.search-results article .excerpt-read-more .greenarrow {
   margin: 3px 0 0 5px;
 }
@@ -2067,27 +2147,27 @@ body.search-results article .excerpt-read-more .greenarrow {
 /********************* */
 /* STAND ALONE ELEMENTS */
 /********************* */
-/* line 1179, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1224, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 .fb-video blockquote p {
   color: #e2e2e2;
 }
 
-/* line 1184, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1229, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-id-229 .entry-content i.fi-social-facebook, body.page-id-229 .entry-content i.fi-social-twitter {
   font-size: 2.5rem;
 }
 
-/* line 1186, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1231, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-id-229 .entry-content i.fi-social-facebook {
   margin-right: 1rem;
 }
 
-/* line 1190, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1235, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 .page-navigation {
   margin-top: 3rem;
 }
 
-/* line 1192, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1237, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 .page-navigation ul.pagination li {
   font-size: 1.25rem;
 }
@@ -2095,133 +2175,133 @@ body.page-id-229 .entry-content i.fi-social-facebook {
 /********************* */
 /* FOOTER */
 /********************* */
-/* line 1199, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1244, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 .footer {
   background-color: #f4f7f6;
   border-top: 10px solid #78a13f;
   padding-top: 3rem;
 }
 
-/* line 1203, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1248, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 .footer .cell.reports, .footer .cell.subscribe {
   padding: 0 3.5rem 2.5rem;
   color: #2A6A35;
 }
 
-/* line 1206, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1251, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 .footer .cell.reports h4, .footer .cell.subscribe h4 {
   font-weight: 700;
   font-size: 1.4rem;
 }
 
-/* line 1209, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1254, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 .footer .cell.reports p, .footer .cell.subscribe p {
   font-family: adobe-garamond-pro, serif;
   font-size: 1.2rem;
   line-height: 1.5rem;
 }
 
-/* line 1213, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1258, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 .footer .cell.reports a, .footer .cell.subscribe a {
   color: #2A6A35;
   font-weight: 700;
   text-decoration: underline;
 }
 
-/* line 1218, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1263, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 .footer .reports img {
   float: left;
   width: 30%;
   margin-right: 1rem;
 }
 
-/* line 1222, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1267, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 .footer .bottomFooterWrapper {
   background-color: #2b2b2b;
   color: #fff;
   padding-top: 3rem;
 }
 
-/* line 1226, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1271, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 .footer .bottomFooterWrapper h5 {
   font-size: 1rem;
   font-weight: 700;
 }
 
-/* line 1229, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1274, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 .footer .bottomFooterWrapper p {
   font-size: .75rem;
 }
 
-/* line 1231, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1276, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 .footer .bottomFooterWrapper .cell {
   padding: 0 3rem;
 }
 
-/* line 1233, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1278, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 .footer .bottomFooterWrapper .vnrc {
   border-right: 1px solid #78a13f;
 }
 
-/* line 1235, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1280, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 .footer .bottomFooterWrapper .vnrc img {
   padding-bottom: 1rem;
 }
 
-/* line 1237, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1282, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 .footer .bottomFooterWrapper .vnrc p {
   text-transform: uppercase;
 }
 
-/* line 1239, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1284, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 .footer .bottomFooterWrapper .associates {
   border-right: 1px solid #78a13f;
 }
 
-/* line 1241, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1286, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 .footer .bottomFooterWrapper .associates img {
   margin-top: 1rem;
 }
 
-/* line 1243, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1288, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 .footer .bottomFooterWrapper .associates img.vcv {
   float: left;
   width: 35%;
   margin-right: 4rem;
 }
 
-/* line 1247, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1292, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 .footer .bottomFooterWrapper .associates img.vecan {
   float: right;
   width: 43%;
   margin-top: 1.15rem;
 }
 
-/* line 1252, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1297, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 .footer .bottomFooterWrapper .links .follow, .footer .bottomFooterWrapper .links .support {
   line-height: 2rem;
   float: left;
   width: 45%;
 }
 
-/* line 1256, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1301, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 .footer .bottomFooterWrapper .links .follow h5, .footer .bottomFooterWrapper .links .support h5 {
   margin-bottom: 1rem;
 }
 
-/* line 1258, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1303, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 .footer .bottomFooterWrapper .links .button.orange {
   font-size: .85rem;
 }
 
-/* line 1260, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1305, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 .footer .bottomFooterWrapper .links i {
   font-size: 2rem;
   color: #fff;
   margin-right: 1rem;
 }
 
-/* line 1264, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1309, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 .footer .bottomFooterWrapper .links p {
   color: #b7b7b7;
   line-height: 1rem;
@@ -2230,24 +2310,24 @@ body.page-id-229 .entry-content i.fi-social-facebook {
   margin-top: 1rem;
 }
 
-/* line 1270, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1315, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 .footer .bottomFooterWrapper .pageinfo {
   margin-top: 2rem;
   color: #b7b7b7;
   background-color: #2b2b2b;
 }
 
-/* line 1274, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1319, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 .footer .bottomFooterWrapper .pageinfo p {
   font-size: .85rem;
 }
 
-/* line 1276, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1321, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 .footer .bottomFooterWrapper .pageinfo p a {
   color: #828282;
 }
 
-/* line 1278, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1323, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
 .footer .bottomFooterWrapper .pageinfo p a.hover {
   color: #fff;
 }

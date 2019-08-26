@@ -526,6 +526,13 @@ header.header
 .entry-content
   margin-bottom: 4rem
 
+body.page-template-default
+  .entry-content, .inner-content
+    h2
+      margin-bottom: 0.5rem
+      text-align: left
+
+
 
 /*********************
 /* SINGLE TEMPLATE
@@ -557,7 +564,7 @@ article.category-art-gibb-award, article.category-small-grants-for-smart-growth
 body.archive, body.page-template-template-postsatbottom
   .inner-content
     margin-top: 2rem
-  &.category-news-stories article:nth-child(odd), div.postsAtBottom article:nth-child(odd)
+  article.post:nth-child(odd), div.postsAtBottom article:nth-child(odd)
     background-color: $lightgrey
   article:first-of-type
     padding-top: 0
@@ -593,17 +600,18 @@ body.archive, body.page-template-template-postsatbottom
 .sidebar
   .widget
     margin-bottom: 2rem
+    float: left
     h4.widgettitle
       color: $green
       font-size: 1.25rem
       text-transform: uppercase
       border-bottom: 1px solid #bbd09d
       padding-bottom: .5rem
-  .widget_categories ul li
+  .widget_categories ul li, .DisplayCategoriesWidget ul li
     padding-left: 26px
     background: url('../images/svg/greenarrow.svg') no-repeat center left
     background-size: 19px
-    margin: .75rem 0
+    margin: .25rem 0
     a
       font-weight: 600
       text-transform: uppercase
@@ -821,7 +829,7 @@ body.home
 /* KEY ISSUES TEMPLATE
 /*********************
 
-body.page-template-template-clean-energy, body.page-template-template-forests-wildlife, body.page-template-template-clean-water, body.page-template-template-smart-growth,  body.page-template-template-statehouse
+body.page-template-template-clean-energy, body.page-template-template-forests-wildlife, body.page-template-template-clean-water, body.page-template-template-smart-growth,  body.page-template-template-statehouse, body.page-template-template-act250, body.page-template-template-toxic-free
   .top-bar, .top-bar ul
     background-color: transparent
     #logo a img.logo.white
@@ -1145,6 +1153,43 @@ body.category-victories h2, div.content.victories-single h2
 
 body.category-victories h2
   margin: 2rem 0 3rem
+
+/*********************
+/* Act250 TEMPLATE
+/*********************
+body.page-template-template-act250
+  .inner-content
+    margin-top: 2rem
+  .highlight250
+    background-color: $grey
+    padding: 2rem
+    position: relative
+    .vidContent
+      h2, p, div
+        text-align: left
+        color: #fff
+      h2
+        +lightTitle
+      .leadin
+        font-size: 1.2rem
+        font-weight: 700
+        margin-bottom: 1.5rem
+        line-height: 1.5rem
+      .text
+        margin-bottom: 1.5rem
+      a.videoLink
+        position: absolute
+        text-transform: uppercase
+        bottom: 20px
+        left: 45px
+        color: #fff
+        font-weight: 500
+        .whitearrow
+          +whitearrow
+        &:hover
+          opacity: .75
+          .whitearrow
+            +arrowHover
 
 /*********************
 /* SEARCH TEMPLATE

@@ -8,8 +8,12 @@
 get_header(); ?>
 
 <?php $hero = get_field('page_header');
-	if ( $hero ): ?>
-<header class="header" role="banner" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/images/swoosh.png'), url('<?php echo $hero ?>')">
+	if ( $hero ):
+      $pageheader = $hero;
+  else:
+    $pageheader = get_field('default_header_image', 'option');
+  endif; ?>
+<header class="header" role="banner" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/images/swoosh.png'), url('<?php echo $pageheader ?>')">
 
 	<div class="navWrap">
 		<div class="grid-container">
@@ -20,8 +24,6 @@ get_header(); ?>
 		<div id="heroTitle">
 			<h1><?php the_title(); ?></h1>
 		</div>
-
-	<?php endif; ?>
 
 </header> <!-- started in header.php-->
 
