@@ -24,7 +24,7 @@
 		<div class="cell small-12 medium-6 large-6">
 			<header class="article-header">
 				<h2><a href="<?php the_permalink(); ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h2>
-				<?php get_template_part( 'parts/content', 'byline' ); ?>
+				<?php //get_template_part( 'parts/content', 'byline' ); ?>
 			</header> <!-- end article header -->
 
 			<section class="entry-content" itemprop="text">

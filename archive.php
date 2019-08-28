@@ -23,9 +23,10 @@
  	</div>
 
  		<div id="heroTitle">
-      <?php //$category = get_the_category();
+      <?php 
 						//if(!empty($category)){$firstCategory = $category[0]->cat_name;} ?>
-			<h1>News & Stories<?php //echo $firstCategory; ?></h1>
+			<h1>News & Stories</h1>
+      <h3><?php single_cat_title('Topic: '); ?></h3>
  		</div>
 
 

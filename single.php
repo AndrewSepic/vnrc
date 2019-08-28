@@ -14,9 +14,8 @@ get_header(); ?>
 	</div>
 
 		<div id="heroTitle">
-			<?php $category = get_the_category();
-						if(!empty($category)){$firstCategory = $category[0]->cat_name;} ?>
-			<h1><?php echo $firstCategory; ?></h1>
+
+			<h1>News &amp; Stories</h1>
 		</div>
 
 
