@@ -27,7 +27,9 @@ get_header(); ?>
 		<div class="grid-container">
 			<div class="inner-content grid-x grid-margin-x grid-padding-x">
 
-				<!-- Nothing goes here in this template? -->
+				<div class="small-12 medium-12 large-10 large-offset-1 cell intro">
+					<p><?php the_field('state_house_intro');?></p>
+				</div>
 
 			</div> <!-- end #inner-content -->
 
@@ -76,7 +78,7 @@ get_header(); ?>
 					<!--- Posts Begin -->
 					<?php
 
-						 $args = array('cat' => 3, 'posts_per_page' => 3,);
+						 $args = array('cat' => 15, 'posts_per_page' => 3,);
 						 $category_posts = new WP_Query($args);
 
 						 if($category_posts->have_posts()) :

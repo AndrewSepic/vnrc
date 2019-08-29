@@ -63,7 +63,7 @@ get_header(); ?>
 										</div>
 										<div class="staffBottom">
 											<p><?php the_sub_field('staff_info');?></p>
-											<p><a href="tel:802-223-2328">802-223-2328</a> ext: <?php the_sub_field('staff_ext');?> | <a href="mailto:<?php the_sub_field('staff_email');?>"><?php the_sub_field('staff_email');?></a></p>
+											<p class="contact"><a href="tel:802-223-2328">802-223-2328</a> ext: <?php the_sub_field('staff_ext');?> | <a href="mailto:<?php the_sub_field('staff_email');?>"><?php the_sub_field('staff_email');?></a></p>
 										  <button class="close-button" data-close aria-label="Close modal" type="button">
 										    <span aria-hidden="true">&times;</span>
 										  </button>
@@ -115,7 +115,7 @@ get_header(); ?>
 									</div>
 									<div class="staffBottom">
 										<p><?php the_sub_field('vcv_staff_info');?></p>
-										<p><a href="tel:802-223-2328">802-223-2328</a> ext: <?php the_sub_field('vcv_staff_ext');?> | <a href="mailto:<?php the_sub_field('vcv_staff_email');?>"><?php the_sub_field('vcv_staff_email');?></a></p>
+										<p class="contact"><a href="tel:802-223-2328">802-223-2328</a> ext: <?php the_sub_field('vcv_staff_ext');?> | <a href="mailto:<?php the_sub_field('vcv_staff_email');?>"><?php the_sub_field('vcv_staff_email');?></a></p>
 										<button class="close-button" data-close aria-label="Close modal" type="button">
 											<span aria-hidden="true">&times;</span>
 										</button>

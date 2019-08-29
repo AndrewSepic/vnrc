@@ -1047,11 +1047,19 @@ body.page-template-how-we-work
 
 .partnerships
   background-color: $lightgreen
+  a
+    color: $green
+
+body.page-template-template-statehouse .inner-content
+  border-bottom: 0
 
 /*********************
 /* STAff PAge Template
 /*********************
 body.page-template-staff
+  &.page-id-227
+    p.contact
+      display: none
   .entry-content
     margin-bottom: 2rem
     font-size: 1.4rem
@@ -1200,6 +1208,127 @@ body.page-template-template-act250
           .whitearrow
             +arrowHover
 
+
+/*********************
+/* CPT TEMPLATE
+/*********************
+body.page-template-template-cpt, body.page-template-template-cpt-issues
+  .navWrap
+    background-color: #fff
+    .top-bar-left #logo a
+      img.logo.white
+        display: none
+      img.logo.green
+        display: block
+    a.search i.fi-magnifying-glass
+      color: $bodytextcolor
+    #mega-menu-wrap-main-nav #mega-menu-main-nav
+      li.primary a.mega-menu-link
+        color: $bodytextcolor
+      li.facebook a.mega-menu-link,  li.twitter a.mega-menu-link
+        color: $bodytextcolor
+      li.informed a.mega-menu-link
+        background-color: transparent
+        border: 2px solid $bodytextcolor
+        color: $bodytextcolor
+        &:hover
+          transition: all .3s ease-in-out
+          background-color: $bodytextcolor
+          color: #fff
+    .button.informed
+      +hollowbutton($bodytextcolor)
+      &:hover
+        color: #fff
+  header.header
+    height: 500px
+  #cptTitle
+    background-color: $green
+    h1
+      color: #fff
+      text-transform: uppercase
+      font-size: 2.5rem
+      padding: .75rem
+      margin: 0
+      font-weight: 600
+  .inner-content
+    padding: 3rem 0
+    .entry-content
+      padding: 0
+    h2
+      margin-bottom: 1rem
+      text-align: left
+
+  #cpt_sidebar
+    img
+      width: 100%
+    div.widget_nav_menu
+      #menu-cpt-menu li
+        margin-left: 10px
+        margin: .25rem 0
+        width: 100%
+        a
+          padding-left: 27px
+          font-weight: 600
+          background: url('../images/svg/greenarrow.svg') no-repeat center left
+          background-size: 19px
+          text-transform: uppercase
+          color: $bodytextcolor
+          &:hover
+            opacity: .75
+        ul.sub-menu
+          margin-left: 1rem
+          li a
+            font-weight: 400
+            text-transform: capitalize
+            background-image: none
+          li.active
+            position: relative
+            a::before
+              position: absolute
+              content: ""
+              width: 0
+              height: 0
+              border-top: 10px solid transparent
+              border-bottom: 10px solid transparent
+              border-left: 10px solid $lightgreen
+              left: 8px
+      #menu-cpt-menu li.active
+        background-color: #fcf5ee
+        color: $lightgreen
+
+// Issues Search styles
+input.is-search-input
+  border-top-left-radius: 20px !important
+  border-bottom-left-radius: 20px !important
+  width: 60%
+  float: left
+  border-right: 0 !important
+input.is-search-submit
+  border-top-right-radius: 20px !important
+  border-bottom-right-radius: 20px !important
+  font-weight: bold
+  padding: 11px 20px !important
+  &:hover
+    background-color: #699033
+button.browseIssues
+  line-height: 1.5rem
+  span
+    font-size: 2rem
+    line-height: 1rem
+    display: block
+    float: right
+    margin-top: 2px
+div#issues-dropdown
+  ul
+    list-style-type: none
+    margin-left: .5rem
+    li
+      padding: .5rem
+      border-bottom: 1px solid #eae3dc
+      &:hover
+        background-color: #fdfbf9
+
+
 /*********************
 /* SEARCH TEMPLATE
 /*********************
@@ -1250,12 +1379,13 @@ body.page-id-229 .entry-content
 /* FOOTER
 /*********************
 
-.footer
+footer.footer
   background-color: #f4f7f6
   border-top: 10px solid $lightgreen
   padding-top: 3rem
+  margin-top: 3rem
   .cell.reports, .cell.subscribe
-    padding: 0 3.5rem 2.5rem
+    padding: 0 1.5rem 2.5rem
     color: $green
     h4
       font-weight: 700
@@ -1268,6 +1398,11 @@ body.page-id-229 .entry-content
       color: $green
       font-weight: 700
       text-decoration: underline
+    a.button
+      color: #fff
+      text-decoration: none
+      margin: 1rem 0
+      font-family: $headingStack
   .reports
     img
       float: left

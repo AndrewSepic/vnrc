@@ -46,43 +46,43 @@ get_header(); ?>
 			<div class="grid-container">
 				<div class="grid-x icons">
 					<div class="cell small-6 large-auto">
-						<a href="#">
+						<a href="<?php the_field('climate_action','option');?>">
 							<img src="<?php echo get_template_directory_uri(); ?>/assets/images/svg/energy.svg" alt="Energy & Climate Action"/>
 							<h4>Climate Action & Clean Energy</h4>
 						</a>
 					</div>
 					<div class="cell small-6 large-auto">
-						<a href="#">
+						<a href="<?php the_field('clean_water','option');?>">
 							<img src="<?php echo get_template_directory_uri(); ?>/assets/images/svg/clean-water.svg" alt="Clean Water"/>
 							<h4>Clean Water</h4>
 						</a>
 					</div>
 					<div class="cell small-6 large-auto">
-						<a href="">
+						<a href="<?php the_field('toxic_free','option');?>">
 							<img src="<?php echo get_template_directory_uri(); ?>/assets/images/svg/toxic-free.svg" alt="Toxic Free Environment"/>
 							<h4>Toxic Free Environment</h4>
 						</a>
 					</div>
 					<div class="cell small-6 large-auto">
-						<a href="">
+						<a href="<?php the_field('smart_growth','option');?>">
 							<img src="<?php echo get_template_directory_uri(); ?>/assets/images/svg/smart-growth.svg" alt="Smart Growth"/>
 							<h4>Smart Growth</h4>
 						</a>
 					</div>
 					<div class="cell small-6 large-auto">
-						<a href="#">
+						<a href="<?php the_field('health_forests','option');?>">
 							<img src="<?php echo get_template_directory_uri(); ?>/assets/images/svg/forests.svg" alt="Healthy Forests & Wildlife"/>
 							<h4>Healthy Forests & Wildlife</h4>
 						</a>
 					</div>
 					<div class="cell small-6 large-auto">
-						<a href="#">
+						<a href="<?php the_field('partnerships','option');?>">
 							<img src="<?php echo get_template_directory_uri(); ?>/assets/images/svg/partnerships.svg" alt="Partnerships"/>
 							<h4>Partnerships</h4>
 						</a>
 					</div>
 					<div class="cell small-12 large-auto">
-						<a href="#">
+						<a href="<?php the_field('statehouse','option');?>">
 							<img src="<?php echo get_template_directory_uri(); ?>/assets/images/svg/statehouse.svg" alt="Statehouse"/>
 							<h4>State House</h4>
 						</a>
