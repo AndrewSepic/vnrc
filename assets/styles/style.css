@@ -342,10 +342,21 @@ ul.accordion .accordion-title::before {
   margin-top: -1rem;
 }
 
+/* line 360, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+ul.tabs .tabs-title > a {
+  font-size: .9rem;
+  padding: 1rem 1.25rem;
+}
+
+/* line 363, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+ul.tabs .tabs-title > a:focus, ul.tabs .tabs-title > a[aria-selected='true'] {
+  font-size: 1.25rem;
+}
+
 /********************* */
 /* PAGINATION */
 /********************* */
-/* line 362, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 370, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 .greenarrow {
   background: url("../images/svg/greenarrow.svg");
   height: 18px;
@@ -357,12 +368,12 @@ ul.accordion .accordion-title::before {
   margin: 15px 0 0 5px;
 }
 
-/* line 364, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 372, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 .greenarrow.excerpt {
   margin: 4px 0 0 5px;
 }
 
-/* line 367, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 375, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 .excerpt-read-more {
   float: left;
   display: block;
@@ -371,17 +382,17 @@ ul.accordion .accordion-title::before {
   text-transform: uppercase;
 }
 
-/* line 373, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 381, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 .excerpt-read-more:hover {
   opacity: .75;
 }
 
-/* line 375, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 383, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 .excerpt-read-more:hover .greenarrow {
   margin-left: 10px;
 }
 
-/* line 378, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 386, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 .catLink a.readmore {
   float: right;
 }
@@ -390,47 +401,47 @@ ul.accordion .accordion-title::before {
 /* HEADER */
 /********************* */
 @media print, screen and (min-width: 40em) {
-  /* line 387, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+  /* line 395, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
   .navWrap .top-bar {
     padding: 1rem 0 0;
   }
-  /* line 390, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+  /* line 398, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
   .navWrap:hover {
     background-color: #fff;
   }
-  /* line 393, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+  /* line 401, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
   .navWrap:hover .top-bar-left #logo a img.logo.white {
     display: none;
   }
-  /* line 395, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+  /* line 403, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
   .navWrap:hover .top-bar-left #logo a img.logo.green {
     display: block;
   }
-  /* line 397, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+  /* line 405, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
   .navWrap:hover a.search i.fi-magnifying-glass {
     color: #2b2b2b;
   }
-  /* line 400, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+  /* line 408, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
   .navWrap:hover #mega-menu-wrap-main-nav #mega-menu-main-nav li.primary a.mega-menu-link {
     color: #2b2b2b;
   }
-  /* line 402, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+  /* line 410, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
   .navWrap:hover #mega-menu-wrap-main-nav #mega-menu-main-nav li.facebook a.mega-menu-link, .navWrap:hover #mega-menu-wrap-main-nav #mega-menu-main-nav li.twitter a.mega-menu-link {
     color: #2b2b2b;
   }
-  /* line 404, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+  /* line 412, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
   .navWrap:hover #mega-menu-wrap-main-nav #mega-menu-main-nav li.informed a.mega-menu-link {
     background-color: transparent;
     border: 2px solid #2b2b2b;
     color: #2b2b2b;
   }
-  /* line 408, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+  /* line 416, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
   .navWrap:hover #mega-menu-wrap-main-nav #mega-menu-main-nav li.informed a.mega-menu-link:hover {
     transition: all .3s ease-in-out;
     background-color: #2b2b2b;
     color: #fff;
   }
-  /* line 412, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+  /* line 420, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
   .navWrap:hover .button.informed {
     background-color: transparent;
     border: 2px solid #2b2b2b;
@@ -448,20 +459,20 @@ ul.accordion .accordion-title::before {
     background-color: #2b2b2b;
     color: #2b2b2b;
   }
-  /* line 414, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+  /* line 422, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
   .navWrap:hover .button.informed:hover {
     color: #fff;
   }
 }
 
-/* line 420, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 428, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 .top-bar-left #logo {
   width: 175px;
   position: relative;
   height: 85px;
 }
 
-/* line 424, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 432, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 .top-bar-left #logo a {
   position: absolute;
   top: 0;
@@ -470,12 +481,12 @@ ul.accordion .accordion-title::before {
   width: 100%;
 }
 
-/* line 430, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 438, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 .top-bar-left #logo a img.logo.white {
   display: none;
 }
 
-/* line 435, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 443, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 .top-bar-right .button.informed, .top-bar-right .button.search {
   background-color: transparent;
   border: 2px solid #fff;
@@ -495,53 +506,53 @@ ul.accordion .accordion-title::before {
   color: #2b2b2b;
 }
 
-/* line 437, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 445, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 .top-bar-right #mega-menu-wrap-main-nav {
   float: left;
 }
 
-/* line 439, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 447, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 .top-bar-right #mega-menu-wrap-main-nav #mega-menu-main-nav {
   float: left;
 }
 
-/* line 441, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 449, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 .top-bar-right #mega-menu-wrap-main-nav #mega-menu-main-nav > li.mega-menu-megamenu > ul.mega-sub-menu {
   margin-top: 20px;
   border-bottom: 1px solid #ebebeb;
 }
 
-/* line 444, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 452, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 .top-bar-right #mega-menu-wrap-main-nav #mega-menu-main-nav li.primary a.mega-menu-link {
   padding: 0 2rem;
 }
 
-/* line 446, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 454, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 .top-bar-right #mega-menu-wrap-main-nav #mega-menu-main-nav li.facebook a.mega-menu-link, .top-bar-right #mega-menu-wrap-main-nav #mega-menu-main-nav li.twitter a.mega-menu-link {
   padding: 0 5px;
 }
 
-/* line 448, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 456, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 .top-bar-right #mega-menu-wrap-main-nav #mega-menu-main-nav li.facebook a.mega-menu-link i, .top-bar-right #mega-menu-wrap-main-nav #mega-menu-main-nav li.twitter a.mega-menu-link i {
   font-size: 2rem;
 }
 
-/* line 450, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 458, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 .top-bar-right #mega-menu-wrap-main-nav #mega-menu-main-nav li.facebook a.mega-menu-link:hover i {
   color: #3b5998;
 }
 
-/* line 452, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 460, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 .top-bar-right #mega-menu-wrap-main-nav #mega-menu-main-nav li.twitter a.mega-menu-link:hover i {
   color: #38A1F3;
 }
 
-/* line 454, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 462, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 .top-bar-right #mega-menu-wrap-main-nav #mega-menu-main-nav li.twitter a.mega-menu-link {
   margin-right: 1rem;
 }
 
-/* line 456, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 464, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 .top-bar-right #mega-menu-wrap-main-nav #mega-menu-main-nav li.donate a.mega-menu-link {
   margin-right: .5rem;
   background: #d14b27;
@@ -561,7 +572,7 @@ ul.accordion .accordion-title::before {
   color: #fff;
 }
 
-/* line 463, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 471, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 .top-bar-right #mega-menu-wrap-main-nav #mega-menu-main-nav .menu .active > a {
   color: #78a13f !important;
   padding-left: 20px !important;
@@ -569,43 +580,43 @@ ul.accordion .accordion-title::before {
   background-size: 12px;
 }
 
-/* line 471, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 479, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 .top-bar-right #mega-menu-wrap-main-nav #mega-menu-main-nav ul.mega-sub-menu li h4.mega-block-title {
   font-family: adobe-garamond-pro, serif !important;
   font-style: italic;
 }
 
-/* line 474, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 482, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 .top-bar-right #mega-menu-wrap-main-nav #mega-menu-main-nav ul.mega-sub-menu li ul#menu-our-work, .top-bar-right #mega-menu-wrap-main-nav #mega-menu-main-nav ul.mega-sub-menu li ul#menu-resources, .top-bar-right #mega-menu-wrap-main-nav #mega-menu-main-nav ul.mega-sub-menu li ul#menu-about-us {
   display: block;
   margin-left: 0;
 }
 
-/* line 477, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 485, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 .top-bar-right #mega-menu-wrap-main-nav #mega-menu-main-nav ul.mega-sub-menu li ul#menu-our-work li a, .top-bar-right #mega-menu-wrap-main-nav #mega-menu-main-nav ul.mega-sub-menu li ul#menu-resources li a, .top-bar-right #mega-menu-wrap-main-nav #mega-menu-main-nav ul.mega-sub-menu li ul#menu-about-us li a {
   padding: .35rem .5rem;
   color: #2b2b2b;
   font-size: 1rem;
 }
 
-/* line 481, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 489, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 .top-bar-right #mega-menu-wrap-main-nav #mega-menu-main-nav ul.mega-sub-menu li ul#menu-our-work li a:hover, .top-bar-right #mega-menu-wrap-main-nav #mega-menu-main-nav ul.mega-sub-menu li ul#menu-resources li a:hover, .top-bar-right #mega-menu-wrap-main-nav #mega-menu-main-nav ul.mega-sub-menu li ul#menu-about-us li a:hover {
   color: #78a13f;
 }
 
-/* line 483, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 491, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 .top-bar-right #mega-menu-wrap-main-nav #mega-menu-main-nav ul.mega-sub-menu li.image {
   background-color: #ebebeb !important;
   height: 100%;
 }
 
-/* line 486, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 494, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 .top-bar-right #mega-menu-wrap-main-nav #mega-menu-main-nav ul.mega-sub-menu li.image p.wp-caption-text {
   font-size: 1.2rem;
   float: left;
 }
 
-/* line 489, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 497, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 .top-bar-right #mega-menu-wrap-main-nav li.mega-menu-megamenu > ul.mega-sub-menu > li.mega-menu-row .mega-menu-column > ul.mega-sub-menu > li.mega-menu-item {
   padding: 30px;
 }
@@ -613,29 +624,29 @@ ul.accordion .accordion-title::before {
 /********************* */
 /* PAGE TEMPLATE */
 /********************* */
-/* line 496, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 504, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 header.header {
   background-size: cover;
   height: 400px;
   position: relative;
 }
 
-/* line 500, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 508, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 header.header .top-bar, header.header .top-bar ul {
   background-color: transparent;
 }
 
-/* line 502, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 510, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 header.header .top-bar #logo a img.logo.white, header.header .top-bar ul #logo a img.logo.white {
   display: block;
 }
 
-/* line 504, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 512, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 header.header .top-bar #logo a img.logo.green, header.header .top-bar ul #logo a img.logo.green {
   display: none;
 }
 
-/* line 506, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 514, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 header.header #heroTitle {
   position: absolute;
   width: 70%;
@@ -644,19 +655,19 @@ header.header #heroTitle {
   text-align: center;
 }
 
-/* line 512, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 520, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 header.header #heroTitle h1 {
   color: #fff;
   font-weight: 700;
   font-size: 3.2rem;
 }
 
-/* line 517, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 525, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 .entry-content, .inner-content {
   padding: 2rem 0;
 }
 
-/* line 519, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 527, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 .entry-content h2, .inner-content h2 {
   text-transform: uppercase;
   font-weight: 300;
@@ -665,23 +676,23 @@ header.header #heroTitle h1 {
   text-align: center;
 }
 
-/* line 521, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 529, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 .entry-content .intro, .inner-content .intro {
   margin-bottom: 3rem;
 }
 
-/* line 523, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 531, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 .entry-content .intro p, .inner-content .intro p {
   text-align: center;
   font-size: 1.4rem;
 }
 
-/* line 527, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 535, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 .entry-content {
   margin-bottom: 4rem;
 }
 
-/* line 532, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 540, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-default .entry-content h2, body.page-template-default .inner-content h2 {
   margin-bottom: 0.5rem;
   text-align: left;
@@ -690,19 +701,19 @@ body.page-template-default .entry-content h2, body.page-template-default .inner-
 /********************* */
 /* SINGLE TEMPLATE */
 /********************* */
-/* line 543, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 551, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 body.single .inner-content {
   margin-top: 2rem;
 }
 
-/* line 545, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 553, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 body.single h1.entry-title.single-title {
   font-size: 2rem;
   margin-top: 2rem;
   font-weight: 700;
 }
 
-/* line 549, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 557, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 body.single p.byline {
   color: #2b2b2b;
   font-weight: 600;
@@ -710,12 +721,12 @@ body.single p.byline {
   margin: 2rem 0 0 0;
 }
 
-/* line 554, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 562, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 body.single .entry-content {
   padding: 1rem 0;
 }
 
-/* line 559, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 567, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 article.category-art-gibb-award p.byline, article.category-small-grants-for-smart-growth p.byline {
   display: none;
 }
@@ -723,34 +734,34 @@ article.category-art-gibb-award p.byline, article.category-small-grants-for-smar
 /********************* */
 /* ARCHIVE TEMPLATE */
 /********************* */
-/* line 566, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 574, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 body.archive #heroTitle h3, body.page-template-template-postsatbottom #heroTitle h3 {
   color: #fff;
   font-style: italic;
 }
 
-/* line 569, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 577, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 body.archive .inner-content, body.page-template-template-postsatbottom .inner-content {
   margin-top: 2rem;
 }
 
-/* line 571, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 579, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 body.archive article.post:nth-child(odd), body.archive div.postsAtBottom article:nth-child(odd), body.page-template-template-postsatbottom article.post:nth-child(odd), body.page-template-template-postsatbottom div.postsAtBottom article:nth-child(odd) {
   background-color: #f2f2f2;
 }
 
-/* line 573, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 581, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 body.archive article:first-of-type, body.page-template-template-postsatbottom article:first-of-type {
   padding-top: 0;
 }
 
-/* line 575, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 583, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 body.archive article, body.page-template-template-postsatbottom article {
   margin-bottom: .5rem;
   padding: 2rem 1rem 2rem 2rem;
 }
 
-/* line 578, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 586, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 body.archive article .article-header h2, body.page-template-template-postsatbottom article .article-header h2 {
   text-transform: uppercase;
   font-weight: 300;
@@ -759,7 +770,7 @@ body.archive article .article-header h2, body.page-template-template-postsatbott
   text-align: left;
 }
 
-/* line 584, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 592, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 body.archive article p.byline, body.page-template-template-postsatbottom article p.byline {
   color: #2b2b2b;
   font-weight: 500;
@@ -767,19 +778,19 @@ body.archive article p.byline, body.page-template-template-postsatbottom article
   margin: .5rem 0 0 0;
 }
 
-/* line 589, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 597, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 body.archive article .entry-content, body.page-template-template-postsatbottom article .entry-content {
   padding: .5rem 0;
   margin: 0;
   font-size: .9rem;
 }
 
-/* line 594, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 602, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 body.archive article .excerpt-read-more .greenarrow, body.page-template-template-postsatbottom article .excerpt-read-more .greenarrow {
   margin: 3px 0 0 5px;
 }
 
-/* line 596, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 604, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 body.archive article .excerpt-read-more:hover .greenarrow, body.page-template-template-postsatbottom article .excerpt-read-more:hover .greenarrow {
   margin-left: 10px;
 }
@@ -787,13 +798,13 @@ body.archive article .excerpt-read-more:hover .greenarrow, body.page-template-te
 /********************* */
 /* SIDEBAR */
 /********************* */
-/* line 605, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 613, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 .sidebar .widget {
   margin-bottom: 2rem;
   float: left;
 }
 
-/* line 608, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 616, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 .sidebar .widget h4.widgettitle {
   color: #2A6A35;
   font-size: 1.25rem;
@@ -802,7 +813,7 @@ body.archive article .excerpt-read-more:hover .greenarrow, body.page-template-te
   padding-bottom: .5rem;
 }
 
-/* line 614, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 622, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 .sidebar .widget_categories ul li, .sidebar .DisplayCategoriesWidget ul li {
   padding-left: 26px;
   background: url("../images/svg/greenarrow.svg") no-repeat center left;
@@ -810,19 +821,19 @@ body.archive article .excerpt-read-more:hover .greenarrow, body.page-template-te
   margin: .25rem 0;
 }
 
-/* line 619, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 627, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 .sidebar .widget_categories ul li a, .sidebar .DisplayCategoriesWidget ul li a {
   font-weight: 600;
   text-transform: uppercase;
   color: #2b2b2b;
 }
 
-/* line 623, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 631, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 .sidebar .widget_categories ul li a:hover, .sidebar .DisplayCategoriesWidget ul li a:hover {
   opacity: .75;
 }
 
-/* line 625, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 633, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 .sidebar .widget_recent_entries li {
   line-height: 1.25rem;
   margin: 1.25rem 0;
@@ -831,12 +842,12 @@ body.archive article .excerpt-read-more:hover .greenarrow, body.page-template-te
   padding-left: 5px;
 }
 
-/* line 631, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 639, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 .sidebar .widget_recent_entries li a {
   color: #2b2b2b;
 }
 
-/* line 633, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 641, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 .sidebar .widget_recent_entries li:hover {
   border-left: 10px solid #78a13f;
 }
@@ -844,29 +855,29 @@ body.archive article .excerpt-read-more:hover .greenarrow, body.page-template-te
 /********************* */
 /* HOMEPAGE */
 /********************* */
-/* line 642, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 650, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 body.home .top-bar, body.home .top-bar ul {
   background-color: transparent;
 }
 
-/* line 644, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 652, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 body.home .top-bar #logo a img.logo.white, body.home .top-bar ul #logo a img.logo.white {
   display: block;
 }
 
-/* line 646, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 654, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 body.home .top-bar #logo a img.logo.green, body.home .top-bar ul #logo a img.logo.green {
   display: none;
 }
 
-/* line 648, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 656, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 body.home header.header {
   background-size: cover;
   height: 100vh;
   position: relative;
 }
 
-/* line 652, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 660, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 body.home header.header #heroTitle {
   position: absolute;
   width: 52%;
@@ -875,14 +886,14 @@ body.home header.header #heroTitle {
   text-align: center;
 }
 
-/* line 658, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 666, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 body.home header.header #heroTitle h1 {
   color: #fff;
   font-weight: 700;
   font-size: 3.2rem;
 }
 
-/* line 662, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 670, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 body.home header.header #heroTitle span.since {
   color: #fff;
   font-size: 2rem;
@@ -892,18 +903,18 @@ body.home header.header #heroTitle span.since {
   display: block;
 }
 
-/* line 669, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 677, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 body.home header.header #heroTitle .button {
   margin-top: 2rem;
 }
 
-/* line 671, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 679, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 body.home .icons {
   margin: 4rem 0;
   transition: all 1s ease-in-out;
 }
 
-/* line 674, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 682, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 body.home .icons img {
   height: 100px;
   display: block;
@@ -911,28 +922,28 @@ body.home .icons img {
   padding: .5rem;
 }
 
-/* line 679, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 687, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 body.home .icons .cell {
   border-right: 1px solid #ddeacb;
   padding: 0 .5rem;
 }
 
-/* line 682, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 690, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 body.home .icons .cell:hover img {
   transform: scale(1.1);
 }
 
-/* line 684, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 692, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 body.home .icons .cell:hover h4 {
   color: #78a13f;
 }
 
-/* line 686, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 694, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 body.home .icons .cell:last-child {
   border-right: 0;
 }
 
-/* line 688, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 696, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 body.home .icons h4 {
   font-size: 1rem;
   text-align: center;
@@ -941,18 +952,18 @@ body.home .icons h4 {
   margin-bottom: 0;
 }
 
-/* line 695, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 703, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 .greyWrapper {
   background-color: #f2f2f2;
   padding: 4rem 0;
 }
 
-/* line 698, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 706, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 .greyWrapper .news {
   margin-bottom: 3rem;
 }
 
-/* line 700, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 708, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 .greyWrapper .news h2 {
   text-transform: uppercase;
   font-weight: 300;
@@ -962,14 +973,14 @@ body.home .icons h4 {
   margin-bottom: 3rem;
 }
 
-/* line 703, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 711, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 .greyWrapper .news h4 {
   font-size: 1.25rem;
   font-weight: 700;
   padding: 1.5rem 0 .25rem;
 }
 
-/* line 707, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 715, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 .greyWrapper .news .catLink .readmore {
   float: right;
   color: #2b2b2b;
@@ -989,27 +1000,27 @@ body.home .icons h4 {
   margin-left: 10px;
 }
 
-/* line 709, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 717, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 .greyWrapper .video {
   background-color: #6f7d74;
   padding: 2rem;
   position: relative;
 }
 
-/* line 714, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 722, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 .greyWrapper .video .vidContent h2, .greyWrapper .video .vidContent p, .greyWrapper .video .vidContent div {
   text-align: left;
   color: #fff;
 }
 
-/* line 717, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 725, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 .greyWrapper .video .vidContent h2 {
   text-transform: uppercase;
   font-weight: 300;
   font-size: 2.25rem;
 }
 
-/* line 719, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 727, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 .greyWrapper .video .vidContent .leadin {
   font-size: 1.2rem;
   font-weight: 700;
@@ -1017,12 +1028,12 @@ body.home .icons h4 {
   line-height: 1.5rem;
 }
 
-/* line 724, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 732, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 .greyWrapper .video .vidContent .text {
   margin-bottom: 1.5rem;
 }
 
-/* line 726, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 734, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 .greyWrapper .video .vidContent a.videoLink {
   position: absolute;
   text-transform: uppercase;
@@ -1032,7 +1043,7 @@ body.home .icons h4 {
   font-weight: 500;
 }
 
-/* line 733, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 741, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 .greyWrapper .video .vidContent a.videoLink .whitearrow {
   background: url("../images/svg/white_arrow.svg");
   height: 18px;
@@ -1044,22 +1055,22 @@ body.home .icons h4 {
   margin: 2px 0 0 5px;
 }
 
-/* line 735, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 743, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 .greyWrapper .video .vidContent a.videoLink:hover {
   opacity: .75;
 }
 
-/* line 737, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 745, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 .greyWrapper .video .vidContent a.videoLink:hover .whitearrow {
   margin-left: 10px;
 }
 
-/* line 777, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 785, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 .victories {
   margin: 4rem 0;
 }
 
-/* line 779, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 787, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 .victories h2 {
   text-transform: uppercase;
   font-weight: 300;
@@ -1068,7 +1079,7 @@ body.home .icons h4 {
   text-align: center;
 }
 
-/* line 781, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 789, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 .victories a.readmore {
   float: right;
   color: #2b2b2b;
@@ -1091,29 +1102,29 @@ body.home .icons h4 {
   padding: .25rem;
 }
 
-/* line 787, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 795, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 .victories a.readmore:hover {
   opacity: .75rem;
   margin-left: 10px;
 }
 
-/* line 741, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 749, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 .victories .cell.post {
   position: relative;
   margin-bottom: 2rem;
 }
 
-/* line 742, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 750, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 .victories .cell.post img {
   width: 100%;
 }
 
-/* line 746, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 754, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 .victories .cell.post a.victoryLink:hover {
   opacity: .75;
 }
 
-/* line 748, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 756, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 .victories .cell.post .overlay {
   position: absolute;
   bottom: 0;
@@ -1124,30 +1135,30 @@ body.home .icons h4 {
   padding: 1rem;
 }
 
-/* line 756, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 764, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 .victories .cell.post .overlay:hover {
   cursor: pointer;
 }
 
-/* line 759, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 767, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 .victories .cell.post .overlay.open .more, .victories .cell.post .overlay.open .short {
   display: inline-block;
   margin-top: .5rem;
 }
 
-/* line 762, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 770, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 .victories .cell.post .overlay h4, .victories .cell.post .overlay .short, .victories .cell.post .overlay .more {
   color: #fff;
 }
 
-/* line 764, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 772, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 .victories .cell.post .overlay .more {
   display: block;
   margin: 0 auto;
   text-transform: uppercase;
 }
 
-/* line 768, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 776, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 .victories .cell.post .overlay .more .whitearrow {
   background: url("../images/svg/white_arrow.svg");
   height: 18px;
@@ -1161,34 +1172,34 @@ body.home .icons h4 {
   display: inline-block;
 }
 
-/* line 772, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 780, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 .victories .cell.post .overlay .more:hover {
   opacity: .75;
 }
 
-/* line 774, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 782, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 .victories .cell.post .overlay .more, .victories .cell.post .overlay .short {
   display: none;
 }
 
-/* line 791, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 799, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 .victories a.victoryLink:hover {
   opacity: .75;
 }
 
-/* line 794, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 802, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 .missionWrapper {
   padding: 4rem 0;
   background: #2A6A35 url("../images/swoosh.png") no-repeat top left;
   background-size: cover;
 }
 
-/* line 798, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 806, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 .missionWrapper .mission {
   text-align: center;
 }
 
-/* line 800, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 808, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 .missionWrapper .mission h3 {
   font-family: adobe-garamond-pro, serif;
   font-style: italic;
@@ -1197,26 +1208,26 @@ body.home .icons h4 {
   margin-bottom: 1.5rem;
 }
 
-/* line 806, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 814, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 .missionWrapper .mission p {
   color: #fff;
   font-size: 1.4rem;
   margin-bottom: 2.5rem;
 }
 
-/* line 811, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 819, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 .advocates {
   margin: 4rem 0;
 }
 
-/* line 813, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 821, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 .advocates h5 {
   text-transform: uppercase;
   font-weight: 700;
   margin: .5rem 0 0;
 }
 
-/* line 817, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 825, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 .advocates .role {
   color: #2A6A35;
   font-style: italic;
@@ -1224,7 +1235,7 @@ body.home .icons h4 {
   font-size: 1.3rem;
 }
 
-/* line 822, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 830, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 .advocates blockquote {
   border-left: 0;
   font-weight: 400;
@@ -1238,29 +1249,29 @@ body.home .icons h4 {
 /********************* */
 /* KEY ISSUES TEMPLATE */
 /********************* */
-/* line 837, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 845, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-template-clean-energy .top-bar, body.page-template-template-clean-energy .top-bar ul, body.page-template-template-forests-wildlife .top-bar, body.page-template-template-forests-wildlife .top-bar ul, body.page-template-template-clean-water .top-bar, body.page-template-template-clean-water .top-bar ul, body.page-template-template-smart-growth .top-bar, body.page-template-template-smart-growth .top-bar ul, body.page-template-template-statehouse .top-bar, body.page-template-template-statehouse .top-bar ul, body.page-template-template-act250 .top-bar, body.page-template-template-act250 .top-bar ul, body.page-template-template-toxic-free .top-bar, body.page-template-template-toxic-free .top-bar ul {
   background-color: transparent;
 }
 
-/* line 839, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 847, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-template-clean-energy .top-bar #logo a img.logo.white, body.page-template-template-clean-energy .top-bar ul #logo a img.logo.white, body.page-template-template-forests-wildlife .top-bar #logo a img.logo.white, body.page-template-template-forests-wildlife .top-bar ul #logo a img.logo.white, body.page-template-template-clean-water .top-bar #logo a img.logo.white, body.page-template-template-clean-water .top-bar ul #logo a img.logo.white, body.page-template-template-smart-growth .top-bar #logo a img.logo.white, body.page-template-template-smart-growth .top-bar ul #logo a img.logo.white, body.page-template-template-statehouse .top-bar #logo a img.logo.white, body.page-template-template-statehouse .top-bar ul #logo a img.logo.white, body.page-template-template-act250 .top-bar #logo a img.logo.white, body.page-template-template-act250 .top-bar ul #logo a img.logo.white, body.page-template-template-toxic-free .top-bar #logo a img.logo.white, body.page-template-template-toxic-free .top-bar ul #logo a img.logo.white {
   display: block;
 }
 
-/* line 841, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 849, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-template-clean-energy .top-bar #logo a img.logo.green, body.page-template-template-clean-energy .top-bar ul #logo a img.logo.green, body.page-template-template-forests-wildlife .top-bar #logo a img.logo.green, body.page-template-template-forests-wildlife .top-bar ul #logo a img.logo.green, body.page-template-template-clean-water .top-bar #logo a img.logo.green, body.page-template-template-clean-water .top-bar ul #logo a img.logo.green, body.page-template-template-smart-growth .top-bar #logo a img.logo.green, body.page-template-template-smart-growth .top-bar ul #logo a img.logo.green, body.page-template-template-statehouse .top-bar #logo a img.logo.green, body.page-template-template-statehouse .top-bar ul #logo a img.logo.green, body.page-template-template-act250 .top-bar #logo a img.logo.green, body.page-template-template-act250 .top-bar ul #logo a img.logo.green, body.page-template-template-toxic-free .top-bar #logo a img.logo.green, body.page-template-template-toxic-free .top-bar ul #logo a img.logo.green {
   display: none;
 }
 
-/* line 843, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 851, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-template-clean-energy header, body.page-template-template-forests-wildlife header, body.page-template-template-clean-water header, body.page-template-template-smart-growth header, body.page-template-template-statehouse header, body.page-template-template-act250 header, body.page-template-template-toxic-free header {
   background-size: cover;
   height: 400px;
   position: relative;
 }
 
-/* line 847, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 855, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-template-clean-energy header #heroTitle, body.page-template-template-forests-wildlife header #heroTitle, body.page-template-template-clean-water header #heroTitle, body.page-template-template-smart-growth header #heroTitle, body.page-template-template-statehouse header #heroTitle, body.page-template-template-act250 header #heroTitle, body.page-template-template-toxic-free header #heroTitle {
   position: absolute;
   width: 70%;
@@ -1269,7 +1280,7 @@ body.page-template-template-clean-energy header #heroTitle, body.page-template-t
   text-align: center;
 }
 
-/* line 853, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 861, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-template-clean-energy header #heroTitle h1, body.page-template-template-forests-wildlife header #heroTitle h1, body.page-template-template-clean-water header #heroTitle h1, body.page-template-template-smart-growth header #heroTitle h1, body.page-template-template-statehouse header #heroTitle h1, body.page-template-template-act250 header #heroTitle h1, body.page-template-template-toxic-free header #heroTitle h1 {
   color: #fff;
   font-weight: 700;
@@ -1277,26 +1288,26 @@ body.page-template-template-clean-energy header #heroTitle h1, body.page-templat
   text-shadow: 0px 0px 14px #565656;
 }
 
-/* line 858, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 866, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-template-clean-energy .inner-content, body.page-template-template-forests-wildlife .inner-content, body.page-template-template-clean-water .inner-content, body.page-template-template-smart-growth .inner-content, body.page-template-template-statehouse .inner-content, body.page-template-template-act250 .inner-content, body.page-template-template-toxic-free .inner-content {
   margin-top: 4rem;
   border-bottom: 1px solid #78a13f;
   padding-bottom: 2rem;
 }
 
-/* line 862, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 870, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-template-clean-energy .inner-content .key_title, body.page-template-template-forests-wildlife .inner-content .key_title, body.page-template-template-clean-water .inner-content .key_title, body.page-template-template-smart-growth .inner-content .key_title, body.page-template-template-statehouse .inner-content .key_title, body.page-template-template-act250 .inner-content .key_title, body.page-template-template-toxic-free .inner-content .key_title {
   font-size: 2.25rem;
   text-transform: uppercase;
   font-weight: 300;
 }
 
-/* line 866, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 874, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-template-clean-energy .inner-content .director, body.page-template-template-forests-wildlife .inner-content .director, body.page-template-template-clean-water .inner-content .director, body.page-template-template-smart-growth .inner-content .director, body.page-template-template-statehouse .inner-content .director, body.page-template-template-act250 .inner-content .director, body.page-template-template-toxic-free .inner-content .director {
   padding: 2rem 0;
 }
 
-/* line 868, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 876, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-template-clean-energy .inner-content .director .matte, body.page-template-template-forests-wildlife .inner-content .director .matte, body.page-template-template-clean-water .inner-content .director .matte, body.page-template-template-smart-growth .inner-content .director .matte, body.page-template-template-statehouse .inner-content .director .matte, body.page-template-template-act250 .inner-content .director .matte, body.page-template-template-toxic-free .inner-content .director .matte {
   width: 150px;
   height: 150px;
@@ -1307,7 +1318,7 @@ body.page-template-template-clean-energy .inner-content .director .matte, body.p
   margin-right: 1rem;
 }
 
-/* line 870, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 878, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-template-clean-energy .inner-content .director .inquiries, body.page-template-template-forests-wildlife .inner-content .director .inquiries, body.page-template-template-clean-water .inner-content .director .inquiries, body.page-template-template-smart-growth .inner-content .director .inquiries, body.page-template-template-statehouse .inner-content .director .inquiries, body.page-template-template-act250 .inner-content .director .inquiries, body.page-template-template-toxic-free .inner-content .director .inquiries {
   text-transform: uppercase;
   color: #78a13f;
@@ -1316,22 +1327,22 @@ body.page-template-template-clean-energy .inner-content .director .inquiries, bo
   margin: 1rem 0 .5rem;
 }
 
-/* line 876, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 884, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-template-clean-energy .inner-content .director p, body.page-template-template-forests-wildlife .inner-content .director p, body.page-template-template-clean-water .inner-content .director p, body.page-template-template-smart-growth .inner-content .director p, body.page-template-template-statehouse .inner-content .director p, body.page-template-template-act250 .inner-content .director p, body.page-template-template-toxic-free .inner-content .director p {
   margin-bottom: 0;
 }
 
-/* line 878, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 886, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-template-clean-energy .inner-content .keyGraphic img, body.page-template-template-forests-wildlife .inner-content .keyGraphic img, body.page-template-template-clean-water .inner-content .keyGraphic img, body.page-template-template-smart-growth .inner-content .keyGraphic img, body.page-template-template-statehouse .inner-content .keyGraphic img, body.page-template-template-act250 .inner-content .keyGraphic img, body.page-template-template-toxic-free .inner-content .keyGraphic img {
   width: 80%;
 }
 
-/* line 880, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 888, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-template-clean-energy .initiatives, body.page-template-template-forests-wildlife .initiatives, body.page-template-template-clean-water .initiatives, body.page-template-template-smart-growth .initiatives, body.page-template-template-statehouse .initiatives, body.page-template-template-act250 .initiatives, body.page-template-template-toxic-free .initiatives {
   margin: 3rem 0;
 }
 
-/* line 882, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 890, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-template-clean-energy .initiatives h2.initHeader, body.page-template-template-forests-wildlife .initiatives h2.initHeader, body.page-template-template-clean-water .initiatives h2.initHeader, body.page-template-template-smart-growth .initiatives h2.initHeader, body.page-template-template-statehouse .initiatives h2.initHeader, body.page-template-template-act250 .initiatives h2.initHeader, body.page-template-template-toxic-free .initiatives h2.initHeader {
   text-transform: uppercase;
   font-weight: 300;
@@ -1340,38 +1351,38 @@ body.page-template-template-clean-energy .initiatives h2.initHeader, body.page-t
   text-align: center;
 }
 
-/* line 884, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 892, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-template-clean-energy .initiatives img, body.page-template-template-forests-wildlife .initiatives img, body.page-template-template-clean-water .initiatives img, body.page-template-template-smart-growth .initiatives img, body.page-template-template-statehouse .initiatives img, body.page-template-template-act250 .initiatives img, body.page-template-template-toxic-free .initiatives img {
   border-bottom: 8px solid #78a13f;
   margin-bottom: 2rem;
 }
 
-/* line 887, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 895, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-template-clean-energy .initiatives h3, body.page-template-template-forests-wildlife .initiatives h3, body.page-template-template-clean-water .initiatives h3, body.page-template-template-smart-growth .initiatives h3, body.page-template-template-statehouse .initiatives h3, body.page-template-template-act250 .initiatives h3, body.page-template-template-toxic-free .initiatives h3 {
   font-weight: 700;
   font-size: 1.25rem;
   margin-bottom: 1rem;
 }
 
-/* line 891, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 899, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-template-clean-energy .initiatives a.excerpt-read-more, body.page-template-template-forests-wildlife .initiatives a.excerpt-read-more, body.page-template-template-clean-water .initiatives a.excerpt-read-more, body.page-template-template-smart-growth .initiatives a.excerpt-read-more, body.page-template-template-statehouse .initiatives a.excerpt-read-more, body.page-template-template-act250 .initiatives a.excerpt-read-more, body.page-template-template-toxic-free .initiatives a.excerpt-read-more {
   color: #78a13f;
 }
 
-/* line 894, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 902, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-template-clean-energy .artgibb h2, body.page-template-template-clean-energy .artgibb p, body.page-template-template-clean-energy .artgibb div, body.page-template-template-forests-wildlife .artgibb h2, body.page-template-template-forests-wildlife .artgibb p, body.page-template-template-forests-wildlife .artgibb div, body.page-template-template-clean-water .artgibb h2, body.page-template-template-clean-water .artgibb p, body.page-template-template-clean-water .artgibb div, body.page-template-template-smart-growth .artgibb h2, body.page-template-template-smart-growth .artgibb p, body.page-template-template-smart-growth .artgibb div, body.page-template-template-statehouse .artgibb h2, body.page-template-template-statehouse .artgibb p, body.page-template-template-statehouse .artgibb div, body.page-template-template-act250 .artgibb h2, body.page-template-template-act250 .artgibb p, body.page-template-template-act250 .artgibb div, body.page-template-template-toxic-free .artgibb h2, body.page-template-template-toxic-free .artgibb p, body.page-template-template-toxic-free .artgibb div {
   text-align: left;
   color: #fff;
 }
 
-/* line 897, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 905, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-template-clean-energy .artgibb h2, body.page-template-template-forests-wildlife .artgibb h2, body.page-template-template-clean-water .artgibb h2, body.page-template-template-smart-growth .artgibb h2, body.page-template-template-statehouse .artgibb h2, body.page-template-template-act250 .artgibb h2, body.page-template-template-toxic-free .artgibb h2 {
   text-transform: uppercase;
   font-weight: 300;
   font-size: 2.25rem;
 }
 
-/* line 899, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 907, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-template-clean-energy .artgibb .leadin, body.page-template-template-forests-wildlife .artgibb .leadin, body.page-template-template-clean-water .artgibb .leadin, body.page-template-template-smart-growth .artgibb .leadin, body.page-template-template-statehouse .artgibb .leadin, body.page-template-template-act250 .artgibb .leadin, body.page-template-template-toxic-free .artgibb .leadin {
   font-size: 1.2rem;
   font-weight: 700;
@@ -1379,12 +1390,12 @@ body.page-template-template-clean-energy .artgibb .leadin, body.page-template-te
   line-height: 1.5rem;
 }
 
-/* line 904, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 912, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-template-clean-energy .artgibb .text, body.page-template-template-forests-wildlife .artgibb .text, body.page-template-template-clean-water .artgibb .text, body.page-template-template-smart-growth .artgibb .text, body.page-template-template-statehouse .artgibb .text, body.page-template-template-act250 .artgibb .text, body.page-template-template-toxic-free .artgibb .text {
   margin-bottom: 1.5rem;
 }
 
-/* line 906, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 914, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-template-clean-energy .artgibb a.videoLink, body.page-template-template-forests-wildlife .artgibb a.videoLink, body.page-template-template-clean-water .artgibb a.videoLink, body.page-template-template-smart-growth .artgibb a.videoLink, body.page-template-template-statehouse .artgibb a.videoLink, body.page-template-template-act250 .artgibb a.videoLink, body.page-template-template-toxic-free .artgibb a.videoLink {
   position: absolute;
   text-transform: uppercase;
@@ -1393,7 +1404,7 @@ body.page-template-template-clean-energy .artgibb a.videoLink, body.page-templat
   bottom: 20px;
 }
 
-/* line 912, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 920, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-template-clean-energy .artgibb a.videoLink .whitearrow, body.page-template-template-forests-wildlife .artgibb a.videoLink .whitearrow, body.page-template-template-clean-water .artgibb a.videoLink .whitearrow, body.page-template-template-smart-growth .artgibb a.videoLink .whitearrow, body.page-template-template-statehouse .artgibb a.videoLink .whitearrow, body.page-template-template-act250 .artgibb a.videoLink .whitearrow, body.page-template-template-toxic-free .artgibb a.videoLink .whitearrow {
   background: url("../images/svg/white_arrow.svg");
   height: 18px;
@@ -1405,42 +1416,42 @@ body.page-template-template-clean-energy .artgibb a.videoLink .whitearrow, body.
   margin: 2px 0 0 5px;
 }
 
-/* line 914, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 922, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-template-clean-energy .community, body.page-template-template-forests-wildlife .community, body.page-template-template-clean-water .community, body.page-template-template-smart-growth .community, body.page-template-template-statehouse .community, body.page-template-template-act250 .community, body.page-template-template-toxic-free .community {
   margin: 5rem 0 2rem;
 }
 
-/* line 916, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 924, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-template-clean-energy .community h2, body.page-template-template-forests-wildlife .community h2, body.page-template-template-clean-water .community h2, body.page-template-template-smart-growth .community h2, body.page-template-template-statehouse .community h2, body.page-template-template-act250 .community h2, body.page-template-template-toxic-free .community h2 {
   text-transform: uppercase;
   font-weight: 300;
   font-size: 2.25rem;
 }
 
-/* line 918, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 926, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-template-clean-energy .community .leadin, body.page-template-template-forests-wildlife .community .leadin, body.page-template-template-clean-water .community .leadin, body.page-template-template-smart-growth .community .leadin, body.page-template-template-statehouse .community .leadin, body.page-template-template-act250 .community .leadin, body.page-template-template-toxic-free .community .leadin {
   font-weight: 700;
   font-size: 1.25rem;
   margin-bottom: 1.5rem;
 }
 
-/* line 922, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 930, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-template-clean-energy .community a.bold.green, body.page-template-template-forests-wildlife .community a.bold.green, body.page-template-template-clean-water .community a.bold.green, body.page-template-template-smart-growth .community a.bold.green, body.page-template-template-statehouse .community a.bold.green, body.page-template-template-act250 .community a.bold.green, body.page-template-template-toxic-free .community a.bold.green {
   font-weight: 700;
 }
 
-/* line 924, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 932, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-template-clean-energy .community img.vecan-logo, body.page-template-template-forests-wildlife .community img.vecan-logo, body.page-template-template-clean-water .community img.vecan-logo, body.page-template-template-smart-growth .community img.vecan-logo, body.page-template-template-statehouse .community img.vecan-logo, body.page-template-template-act250 .community img.vecan-logo, body.page-template-template-toxic-free .community img.vecan-logo {
   width: 165px;
   margin-top: 1.5rem;
 }
 
-/* line 927, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 935, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-template-clean-energy .resources, body.page-template-template-forests-wildlife .resources, body.page-template-template-clean-water .resources, body.page-template-template-smart-growth .resources, body.page-template-template-statehouse .resources, body.page-template-template-act250 .resources, body.page-template-template-toxic-free .resources {
   margin: 5rem 0 6rem;
 }
 
-/* line 929, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 937, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-template-clean-energy .resources h2, body.page-template-template-forests-wildlife .resources h2, body.page-template-template-clean-water .resources h2, body.page-template-template-smart-growth .resources h2, body.page-template-template-statehouse .resources h2, body.page-template-template-act250 .resources h2, body.page-template-template-toxic-free .resources h2 {
   text-transform: uppercase;
   font-weight: 300;
@@ -1449,7 +1460,7 @@ body.page-template-template-clean-energy .resources h2, body.page-template-templ
   text-align: center;
 }
 
-/* line 931, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 939, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-template-clean-energy .resources a.readmore, body.page-template-template-forests-wildlife .resources a.readmore, body.page-template-template-clean-water .resources a.readmore, body.page-template-template-smart-growth .resources a.readmore, body.page-template-template-statehouse .resources a.readmore, body.page-template-template-act250 .resources a.readmore, body.page-template-template-toxic-free .resources a.readmore {
   float: right;
   color: #2b2b2b;
@@ -1469,7 +1480,7 @@ body.page-template-template-clean-energy .resources a.readmore:hover .greenarrow
   margin-left: 10px;
 }
 
-/* line 933, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 941, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-template-clean-energy .resources img, body.page-template-template-forests-wildlife .resources img, body.page-template-template-clean-water .resources img, body.page-template-template-smart-growth .resources img, body.page-template-template-statehouse .resources img, body.page-template-template-act250 .resources img, body.page-template-template-toxic-free .resources img {
   width: 75%;
   margin: 0 auto 1.5rem;
@@ -1477,14 +1488,14 @@ body.page-template-template-clean-energy .resources img, body.page-template-temp
   border: 20px solid #78a13f;
 }
 
-/* line 938, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 946, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-template-clean-energy .resources h3, body.page-template-template-forests-wildlife .resources h3, body.page-template-template-clean-water .resources h3, body.page-template-template-smart-growth .resources h3, body.page-template-template-statehouse .resources h3, body.page-template-template-act250 .resources h3, body.page-template-template-toxic-free .resources h3 {
   font-weight: 700;
   font-size: 1.25rem;
   text-align: center;
 }
 
-/* line 942, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 950, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-template-clean-energy .resources a, body.page-template-template-forests-wildlife .resources a, body.page-template-template-clean-water .resources a, body.page-template-template-smart-growth .resources a, body.page-template-template-statehouse .resources a, body.page-template-template-act250 .resources a, body.page-template-template-toxic-free .resources a {
   color: #2b2b2b;
 }
@@ -1492,12 +1503,12 @@ body.page-template-template-clean-energy .resources a, body.page-template-templa
 /********************* */
 /* SUPPORT TEMPLATE */
 /********************* */
-/* line 949, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 957, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 h1.page-title {
   display: none;
 }
 
-/* line 952, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 960, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 .supportUs .entry-content {
   padding: 0;
 }
@@ -1521,40 +1532,40 @@ h1.page-title {
   margin-bottom: 2rem;
 }
 
-/* line 954, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 962, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 .supportUs .intro {
   margin-bottom: 3rem;
 }
 
-/* line 956, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 964, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 .supportUs .intro p {
   font-size: 1.4rem;
 }
 
-/* line 959, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 967, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 .supportUs .images ul {
   list-style-type: none;
   margin-left: 0;
 }
 
-/* line 962, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 970, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 .supportUs .images ul li {
   padding-bottom: 2rem;
 }
 
-/* line 964, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 972, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 .supportUs .supportContacts {
   padding: 3rem 0 2.5rem;
   background-color: #f1f6eb;
 }
 
-/* line 967, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 975, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 .supportUs .supportContacts a {
   color: #2A6A35;
   font-weight: bold;
 }
 
-/* line 970, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 978, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 .supportUs .supportContacts div.matte {
   width: 150px;
   float: left;
@@ -1567,7 +1578,7 @@ h1.page-title {
   margin-right: 1rem;
 }
 
-/* line 974, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 982, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 .supportUs .supportContacts .bymail {
   text-align: center;
   margin-top: 3rem;
@@ -1576,12 +1587,12 @@ h1.page-title {
 /********************* */
 /* HOW WE WORK TEMPLATE */
 /********************* */
-/* line 983, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 991, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-how-we-work .inner-content {
   padding: 4rem 0 1rem;
 }
 
-/* line 985, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 993, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-how-we-work .entry-content {
   padding: 0;
 }
@@ -1605,7 +1616,7 @@ body.page-template-how-we-work .entry-content p {
   margin-bottom: 2rem;
 }
 
-/* line 988, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 996, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-how-we-work .greyWrapper h2 {
   text-transform: uppercase;
   font-weight: 300;
@@ -1614,13 +1625,13 @@ body.page-template-how-we-work .greyWrapper h2 {
   text-align: center;
 }
 
-/* line 990, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 998, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-how-we-work .greyWrapper .icons {
   margin: 4rem 0 0;
   transition: all 1s ease-in-out;
 }
 
-/* line 993, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1001, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-how-we-work .greyWrapper .icons img {
   height: 100px;
   display: block;
@@ -1628,28 +1639,28 @@ body.page-template-how-we-work .greyWrapper .icons img {
   padding: .5rem;
 }
 
-/* line 998, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1006, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-how-we-work .greyWrapper .icons .cell {
   border-right: 1px solid #ddeacb;
   padding: 0 .5rem;
 }
 
-/* line 1001, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1009, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-how-we-work .greyWrapper .icons .cell:hover img {
   transform: scale(1.1);
 }
 
-/* line 1003, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1011, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-how-we-work .greyWrapper .icons .cell:hover h4 {
   color: #78a13f;
 }
 
-/* line 1005, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1013, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-how-we-work .greyWrapper .icons .cell:last-child {
   border-right: 0;
 }
 
-/* line 1007, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1015, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-how-we-work .greyWrapper .icons h4 {
   font-size: 1rem;
   text-align: center;
@@ -1659,31 +1670,31 @@ body.page-template-how-we-work .greyWrapper .icons h4 {
   width: 80%;
 }
 
-/* line 1014, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1022, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-how-we-work .howSupportWrapper {
   background-size: cover;
 }
 
-/* line 1016, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1024, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-how-we-work .howSupportWrapper .howSupport {
   padding: 6rem;
   color: #fff;
   text-align: center;
 }
 
-/* line 1020, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1028, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-how-we-work .howSupportWrapper .howSupport h2 {
   text-transform: uppercase;
   font-weight: 300;
   font-size: 2.25rem;
 }
 
-/* line 1022, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1030, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-how-we-work .howSupportWrapper .howSupport p {
   font-size: 1.4rem;
 }
 
-/* line 1024, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1032, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-how-we-work .howSupportWrapper .howSupport p.thankyou {
   font-family: adobe-garamond-pro, serif;
   font-size: 2rem;
@@ -1692,23 +1703,23 @@ body.page-template-how-we-work .howSupportWrapper .howSupport p.thankyou {
   margin-bottom: 2rem;
 }
 
-/* line 1030, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1038, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-how-we-work .footer {
   margin-top: 0;
 }
 
-/* line 1034, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1042, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 .statehouse, .partnerships {
   color: #fff;
   padding: 3rem;
 }
 
-/* line 1037, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1045, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 .statehouse h2, .partnerships h2 {
   color: #fff;
 }
 
-/* line 1039, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1047, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 .statehouse svg, .partnerships svg {
   display: block;
   width: 150px;
@@ -1716,22 +1727,22 @@ body.page-template-how-we-work .footer {
   margin-bottom: 1rem;
 }
 
-/* line 1045, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1053, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 .statehouse {
   background-color: #2A6A35;
 }
 
-/* line 1048, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1056, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 .partnerships {
   background-color: #78a13f;
 }
 
-/* line 1050, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1058, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 .partnerships a {
   color: #2A6A35;
 }
 
-/* line 1053, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1061, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-template-statehouse .inner-content {
   border-bottom: 0;
 }
@@ -1739,78 +1750,78 @@ body.page-template-template-statehouse .inner-content {
 /********************* */
 /* STAff PAge Template */
 /********************* */
-/* line 1061, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1069, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-staff.page-id-227 p.contact {
   display: none;
 }
 
-/* line 1063, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1071, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-staff .entry-content {
   margin-bottom: 2rem;
   font-size: 1.4rem;
   font-weight: 300;
 }
 
-/* line 1068, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1076, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-staff .staff .cell {
   background-color: #f1f1f1;
   padding-bottom: 1rem;
   margin-bottom: 2rem;
 }
 
-/* line 1072, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1080, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-staff .staff .cell.vcv {
   background-color: transparent;
 }
 
-/* line 1074, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1082, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-staff .staff .cell.vcv h2 {
   margin: 2rem 0 0;
   border-bottom: 1px solid #78a13f;
 }
 
-/* line 1077, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1085, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-staff .staff h4 {
   margin: 1rem 1rem 0;
   font-size: 1.2rem;
   color: #2b2b2b;
 }
 
-/* line 1081, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1089, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-staff .staff div.staffTitle {
   margin: 0 1rem;
 }
 
-/* line 1083, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1091, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-staff .staff .info {
   display: none;
 }
 
-/* line 1085, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1093, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-staff .staffTop {
   float: left;
   width: 40%;
   margin-right: 1rem;
 }
 
-/* line 1089, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1097, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-staff .staffTop img {
   max-width: 250px;
   border-bottom: 10px solid #f1f1f1;
 }
 
-/* line 1092, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1100, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-staff .staffTop h4 {
   margin: 1rem 0 0;
 }
 
-/* line 1094, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1102, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-staff .staffTop .staffTitle {
   text-transform: uppercase;
   color: #78a13f;
 }
 
-/* line 1097, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1105, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-staff .staffBottom {
   float: left;
   width: 55%;
@@ -1819,7 +1830,7 @@ body.page-template-staff .staffBottom {
 /********************* */
 /* VERS CATEGORY TEMPLATE */
 /********************* */
-/* line 1105, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1113, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 body.category-vermont-environmental-reports div.reports .cell {
   margin-bottom: 2rem;
 }
@@ -1827,58 +1838,58 @@ body.category-vermont-environmental-reports div.reports .cell {
 /********************* */
 /* VICTORIES CATEGORY TEMPLATE */
 /********************* */
-/* line 1114, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1122, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 .taxonomy-description {
   margin-bottom: 4rem;
 }
 
-/* line 1116, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1124, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 .taxonomy-description p {
   font-size: 1.1rem;
   text-align: center;
 }
 
-/* line 1122, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1130, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 body.category-victories article.leadVictory h2 {
   font-size: 3rem;
 }
 
-/* line 1124, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1132, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 body.category-victories article.leadVictory .victoryDate {
   font-size: 1.25rem;
   font-weight: 500;
   font-style: italic;
 }
 
-/* line 1128, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1136, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 body.category-victories article.leadVictory .entry-content {
   columns: 3;
   column-gap: 2.5rem;
   font-size: 1rem;
 }
 
-/* line 1132, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1140, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 body.category-victories article.leadVictory .entry-content img {
   margin-bottom: 2rem;
 }
 
-/* line 741, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 749, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 body.category-victories .cell.post {
   position: relative;
   margin-bottom: 2rem;
 }
 
-/* line 742, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 750, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 body.category-victories .cell.post img {
   width: 100%;
 }
 
-/* line 746, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 754, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 body.category-victories .cell.post a.victoryLink:hover {
   opacity: .75;
 }
 
-/* line 748, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 756, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 body.category-victories .cell.post .overlay {
   position: absolute;
   bottom: 0;
@@ -1889,30 +1900,30 @@ body.category-victories .cell.post .overlay {
   padding: 1rem;
 }
 
-/* line 756, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 764, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 body.category-victories .cell.post .overlay:hover {
   cursor: pointer;
 }
 
-/* line 759, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 767, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 body.category-victories .cell.post .overlay.open .more, body.category-victories .cell.post .overlay.open .short {
   display: inline-block;
   margin-top: .5rem;
 }
 
-/* line 762, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 770, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 body.category-victories .cell.post .overlay h4, body.category-victories .cell.post .overlay .short, body.category-victories .cell.post .overlay .more {
   color: #fff;
 }
 
-/* line 764, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 772, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 body.category-victories .cell.post .overlay .more {
   display: block;
   margin: 0 auto;
   text-transform: uppercase;
 }
 
-/* line 768, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 776, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 body.category-victories .cell.post .overlay .more .whitearrow {
   background: url("../images/svg/white_arrow.svg");
   height: 18px;
@@ -1926,17 +1937,17 @@ body.category-victories .cell.post .overlay .more .whitearrow {
   display: inline-block;
 }
 
-/* line 772, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 780, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 body.category-victories .cell.post .overlay .more:hover {
   opacity: .75;
 }
 
-/* line 774, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 782, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 body.category-victories .cell.post .overlay .more, body.category-victories .cell.post .overlay .short {
   display: none;
 }
 
-/* line 1135, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1143, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 body.category-victories h2 {
   text-transform: uppercase;
   font-weight: 300;
@@ -1949,49 +1960,49 @@ body.category-victories h2 {
 /* VICTORIES SINGLE TEMPLATE */
 /********************* */
 /* line 985, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
-/* line 1145, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1153, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 body.category-victories article.leadVictory header, div.content.victories-single article.leadVictory header {
   margin-bottom: 2rem;
 }
 
-/* line 1147, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1155, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 body.category-victories article.leadVictory h2, div.content.victories-single article.leadVictory h2 {
   font-size: 3rem;
   text-align: left;
   margin-bottom: 1rem;
 }
 
-/* line 1151, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1159, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 body.category-victories article.leadVictory .victoryDate, div.content.victories-single article.leadVictory .victoryDate {
   font-size: 1.25rem;
   font-weight: 500;
   font-style: italic;
 }
 
-/* line 1155, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1163, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 body.category-victories article.leadVictory .entry-content, div.content.victories-single article.leadVictory .entry-content {
   columns: 3;
   column-gap: 2.5rem;
   font-size: 1rem;
 }
 
-/* line 741, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 749, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 body.category-victories .cell.post, div.content.victories-single .cell.post {
   position: relative;
   margin-bottom: 2rem;
 }
 
-/* line 742, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 750, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 body.category-victories .cell.post img, div.content.victories-single .cell.post img {
   width: 100%;
 }
 
-/* line 746, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 754, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 body.category-victories .cell.post a.victoryLink:hover, div.content.victories-single .cell.post a.victoryLink:hover {
   opacity: .75;
 }
 
-/* line 748, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 756, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 body.category-victories .cell.post .overlay, div.content.victories-single .cell.post .overlay {
   position: absolute;
   bottom: 0;
@@ -2002,30 +2013,30 @@ body.category-victories .cell.post .overlay, div.content.victories-single .cell.
   padding: 1rem;
 }
 
-/* line 756, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 764, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 body.category-victories .cell.post .overlay:hover, div.content.victories-single .cell.post .overlay:hover {
   cursor: pointer;
 }
 
-/* line 759, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 767, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 body.category-victories .cell.post .overlay.open .more, body.category-victories .cell.post .overlay.open .short, div.content.victories-single .cell.post .overlay.open .more, div.content.victories-single .cell.post .overlay.open .short {
   display: inline-block;
   margin-top: .5rem;
 }
 
-/* line 762, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 770, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 body.category-victories .cell.post .overlay h4, body.category-victories .cell.post .overlay .short, body.category-victories .cell.post .overlay .more, div.content.victories-single .cell.post .overlay h4, div.content.victories-single .cell.post .overlay .short, div.content.victories-single .cell.post .overlay .more {
   color: #fff;
 }
 
-/* line 764, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 772, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 body.category-victories .cell.post .overlay .more, div.content.victories-single .cell.post .overlay .more {
   display: block;
   margin: 0 auto;
   text-transform: uppercase;
 }
 
-/* line 768, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 776, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 body.category-victories .cell.post .overlay .more .whitearrow, div.content.victories-single .cell.post .overlay .more .whitearrow {
   background: url("../images/svg/white_arrow.svg");
   height: 18px;
@@ -2039,24 +2050,24 @@ body.category-victories .cell.post .overlay .more .whitearrow, div.content.victo
   display: inline-block;
 }
 
-/* line 772, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 780, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 body.category-victories .cell.post .overlay .more:hover, div.content.victories-single .cell.post .overlay .more:hover {
   opacity: .75;
 }
 
-/* line 774, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 782, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 body.category-victories .cell.post .overlay .more, body.category-victories .cell.post .overlay .short, div.content.victories-single .cell.post .overlay .more, div.content.victories-single .cell.post .overlay .short {
   display: none;
 }
 
 /* line 707, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
-/* line 1167, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1175, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 body.category-victories h2, div.content.victories-single h2 {
   margin-bottom: 3rem;
   text-align: center;
 }
 
-/* line 1171, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1179, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 body.category-victories h2 {
   margin: 2rem 0 3rem;
 }
@@ -2064,32 +2075,32 @@ body.category-victories h2 {
 /********************* */
 /* Act250 TEMPLATE */
 /********************* */
-/* line 1178, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1186, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-template-act250 .inner-content {
   margin-top: 2rem;
 }
 
-/* line 1180, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1188, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-template-act250 .highlight250 {
   background-color: #6f7d74;
   padding: 2rem;
   position: relative;
 }
 
-/* line 1185, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1193, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-template-act250 .highlight250 .vidContent h2, body.page-template-template-act250 .highlight250 .vidContent p, body.page-template-template-act250 .highlight250 .vidContent div {
   text-align: left;
   color: #fff;
 }
 
-/* line 1188, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1196, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-template-act250 .highlight250 .vidContent h2 {
   text-transform: uppercase;
   font-weight: 300;
   font-size: 2.25rem;
 }
 
-/* line 1190, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1198, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-template-act250 .highlight250 .vidContent .leadin {
   font-size: 1.2rem;
   font-weight: 700;
@@ -2097,12 +2108,12 @@ body.page-template-template-act250 .highlight250 .vidContent .leadin {
   line-height: 1.5rem;
 }
 
-/* line 1195, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1203, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-template-act250 .highlight250 .vidContent .text {
   margin-bottom: 1.5rem;
 }
 
-/* line 1197, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1205, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-template-act250 .highlight250 .vidContent a.videoLink {
   position: absolute;
   text-transform: uppercase;
@@ -2112,7 +2123,7 @@ body.page-template-template-act250 .highlight250 .vidContent a.videoLink {
   font-weight: 500;
 }
 
-/* line 1204, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1212, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-template-act250 .highlight250 .vidContent a.videoLink .whitearrow {
   background: url("../images/svg/white_arrow.svg");
   height: 18px;
@@ -2124,12 +2135,12 @@ body.page-template-template-act250 .highlight250 .vidContent a.videoLink .whitea
   margin: 2px 0 0 5px;
 }
 
-/* line 1206, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1214, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-template-act250 .highlight250 .vidContent a.videoLink:hover {
   opacity: .75;
 }
 
-/* line 1208, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1216, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-template-act250 .highlight250 .vidContent a.videoLink:hover .whitearrow {
   margin-left: 10px;
 }
@@ -2137,51 +2148,51 @@ body.page-template-template-act250 .highlight250 .vidContent a.videoLink:hover .
 /********************* */
 /* CPT TEMPLATE */
 /********************* */
-/* line 1216, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1224, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-template-cpt .navWrap, body.page-template-template-cpt-issues .navWrap {
   background-color: #fff;
 }
 
-/* line 1219, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1227, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-template-cpt .navWrap .top-bar-left #logo a img.logo.white, body.page-template-template-cpt-issues .navWrap .top-bar-left #logo a img.logo.white {
   display: none;
 }
 
-/* line 1221, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1229, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-template-cpt .navWrap .top-bar-left #logo a img.logo.green, body.page-template-template-cpt-issues .navWrap .top-bar-left #logo a img.logo.green {
   display: block;
 }
 
-/* line 1223, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1231, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-template-cpt .navWrap a.search i.fi-magnifying-glass, body.page-template-template-cpt-issues .navWrap a.search i.fi-magnifying-glass {
   color: #2b2b2b;
 }
 
-/* line 1226, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1234, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-template-cpt .navWrap #mega-menu-wrap-main-nav #mega-menu-main-nav li.primary a.mega-menu-link, body.page-template-template-cpt-issues .navWrap #mega-menu-wrap-main-nav #mega-menu-main-nav li.primary a.mega-menu-link {
   color: #2b2b2b;
 }
 
-/* line 1228, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1236, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-template-cpt .navWrap #mega-menu-wrap-main-nav #mega-menu-main-nav li.facebook a.mega-menu-link, body.page-template-template-cpt .navWrap #mega-menu-wrap-main-nav #mega-menu-main-nav li.twitter a.mega-menu-link, body.page-template-template-cpt-issues .navWrap #mega-menu-wrap-main-nav #mega-menu-main-nav li.facebook a.mega-menu-link, body.page-template-template-cpt-issues .navWrap #mega-menu-wrap-main-nav #mega-menu-main-nav li.twitter a.mega-menu-link {
   color: #2b2b2b;
 }
 
-/* line 1230, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1238, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-template-cpt .navWrap #mega-menu-wrap-main-nav #mega-menu-main-nav li.informed a.mega-menu-link, body.page-template-template-cpt-issues .navWrap #mega-menu-wrap-main-nav #mega-menu-main-nav li.informed a.mega-menu-link {
   background-color: transparent;
   border: 2px solid #2b2b2b;
   color: #2b2b2b;
 }
 
-/* line 1234, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1242, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-template-cpt .navWrap #mega-menu-wrap-main-nav #mega-menu-main-nav li.informed a.mega-menu-link:hover, body.page-template-template-cpt-issues .navWrap #mega-menu-wrap-main-nav #mega-menu-main-nav li.informed a.mega-menu-link:hover {
   transition: all .3s ease-in-out;
   background-color: #2b2b2b;
   color: #fff;
 }
 
-/* line 1238, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1246, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-template-cpt .navWrap .button.informed, body.page-template-template-cpt-issues .navWrap .button.informed {
   background-color: transparent;
   border: 2px solid #2b2b2b;
@@ -2201,22 +2212,22 @@ body.page-template-template-cpt .navWrap .button.informed:hover, body.page-templ
   color: #2b2b2b;
 }
 
-/* line 1240, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1248, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-template-cpt .navWrap .button.informed:hover, body.page-template-template-cpt-issues .navWrap .button.informed:hover {
   color: #fff;
 }
 
-/* line 1242, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1250, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-template-cpt header.header, body.page-template-template-cpt-issues header.header {
   height: 500px;
 }
 
-/* line 1244, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1252, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-template-cpt #cptTitle, body.page-template-template-cpt-issues #cptTitle {
   background-color: #2A6A35;
 }
 
-/* line 1246, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1254, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-template-cpt #cptTitle h1, body.page-template-template-cpt-issues #cptTitle h1 {
   color: #fff;
   text-transform: uppercase;
@@ -2226,35 +2237,35 @@ body.page-template-template-cpt #cptTitle h1, body.page-template-template-cpt-is
   font-weight: 600;
 }
 
-/* line 1253, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1261, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-template-cpt .inner-content, body.page-template-template-cpt-issues .inner-content {
   padding: 3rem 0;
 }
 
-/* line 1255, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1263, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-template-cpt .inner-content .entry-content, body.page-template-template-cpt-issues .inner-content .entry-content {
   padding: 0;
 }
 
-/* line 1257, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1265, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-template-cpt .inner-content h2, body.page-template-template-cpt-issues .inner-content h2 {
   margin-bottom: 1rem;
   text-align: left;
 }
 
-/* line 1262, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1270, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-template-cpt #cpt_sidebar img, body.page-template-template-cpt-issues #cpt_sidebar img {
   width: 100%;
 }
 
-/* line 1265, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1273, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-template-cpt #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li, body.page-template-template-cpt-issues #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li {
   margin-left: 10px;
   margin: .25rem 0;
   width: 100%;
 }
 
-/* line 1269, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1277, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-template-cpt #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li a, body.page-template-template-cpt-issues #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li a {
   padding-left: 27px;
   font-weight: 600;
@@ -2264,29 +2275,29 @@ body.page-template-template-cpt #cpt_sidebar div.widget_nav_menu #menu-cpt-menu 
   color: #2b2b2b;
 }
 
-/* line 1276, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1284, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-template-cpt #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li a:hover, body.page-template-template-cpt-issues #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li a:hover {
   opacity: .75;
 }
 
-/* line 1278, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1286, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-template-cpt #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li ul.sub-menu, body.page-template-template-cpt-issues #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li ul.sub-menu {
   margin-left: 1rem;
 }
 
-/* line 1280, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1288, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-template-cpt #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li ul.sub-menu li a, body.page-template-template-cpt-issues #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li ul.sub-menu li a {
   font-weight: 400;
   text-transform: capitalize;
   background-image: none;
 }
 
-/* line 1284, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1292, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-template-cpt #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li ul.sub-menu li.active, body.page-template-template-cpt-issues #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li ul.sub-menu li.active {
   position: relative;
 }
 
-/* line 1286, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1294, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-template-cpt #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li ul.sub-menu li.active a::before, body.page-template-template-cpt-issues #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li ul.sub-menu li.active a::before {
   position: absolute;
   content: "";
@@ -2298,13 +2309,13 @@ body.page-template-template-cpt #cpt_sidebar div.widget_nav_menu #menu-cpt-menu 
   left: 8px;
 }
 
-/* line 1295, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1303, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-template-cpt #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li.active, body.page-template-template-cpt-issues #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li.active {
   background-color: #fcf5ee;
   color: #78a13f;
 }
 
-/* line 1300, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1308, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 input.is-search-input {
   border-top-left-radius: 20px !important;
   border-bottom-left-radius: 20px !important;
@@ -2313,7 +2324,7 @@ input.is-search-input {
   border-right: 0 !important;
 }
 
-/* line 1306, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1314, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 input.is-search-submit {
   border-top-right-radius: 20px !important;
   border-bottom-right-radius: 20px !important;
@@ -2321,17 +2332,17 @@ input.is-search-submit {
   padding: 11px 20px !important;
 }
 
-/* line 1311, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1319, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 input.is-search-submit:hover {
   background-color: #699033;
 }
 
-/* line 1313, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1321, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 button.browseIssues {
   line-height: 1.5rem;
 }
 
-/* line 1315, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1323, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 button.browseIssues span {
   font-size: 2rem;
   line-height: 1rem;
@@ -2340,19 +2351,19 @@ button.browseIssues span {
   margin-top: 2px;
 }
 
-/* line 1322, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1330, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 div#issues-dropdown ul {
   list-style-type: none;
   margin-left: .5rem;
 }
 
-/* line 1325, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1333, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 div#issues-dropdown ul li {
   padding: .5rem;
   border-bottom: 1px solid #eae3dc;
 }
 
-/* line 1328, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1336, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 div#issues-dropdown ul li:hover {
   background-color: #fdfbf9;
 }
@@ -2360,42 +2371,42 @@ div#issues-dropdown ul li:hover {
 /********************* */
 /* SEARCH TEMPLATE */
 /********************* */
-/* line 1336, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1344, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 body.search-results #heroTitle h1 span {
   font-style: italic;
   font-weight: 300;
 }
 
-/* line 1341, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1349, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 body.search-results .inner-content header.article-header h2 {
   margin-bottom: 1rem;
   text-align: left;
 }
 
-/* line 1344, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1352, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 body.search-results .inner-content header.article-header .byline {
   margin-bottom: 0;
 }
 
-/* line 1346, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1354, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 body.search-results article {
   margin: 3rem 0 0;
   border-bottom: 1px solid #cacaca;
   padding-bottom: 3rem;
 }
 
-/* line 1350, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1358, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 body.search-results article .entry-content {
   margin-bottom: 0;
   padding: 0;
 }
 
-/* line 1353, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1361, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 body.search-results article .excerpt-read-more {
   padding-top: 1rem;
 }
 
-/* line 1355, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1363, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 body.search-results article .excerpt-read-more .greenarrow {
   margin: 3px 0 0 5px;
 }
@@ -2403,27 +2414,27 @@ body.search-results article .excerpt-read-more .greenarrow {
 /********************* */
 /* STAND ALONE ELEMENTS */
 /********************* */
-/* line 1362, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1370, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 .fb-video blockquote p {
   color: #e2e2e2;
 }
 
-/* line 1367, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1375, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-id-229 .entry-content i.fi-social-facebook, body.page-id-229 .entry-content i.fi-social-twitter {
   font-size: 2.5rem;
 }
 
-/* line 1369, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1377, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-id-229 .entry-content i.fi-social-facebook {
   margin-right: 1rem;
 }
 
-/* line 1373, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1381, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 .page-navigation {
   margin-top: 3rem;
 }
 
-/* line 1375, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1383, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 .page-navigation ul.pagination li {
   font-size: 1.25rem;
 }
@@ -2431,7 +2442,7 @@ body.page-id-229 .entry-content i.fi-social-facebook {
 /********************* */
 /* FOOTER */
 /********************* */
-/* line 1382, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1390, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 footer.footer {
   background-color: #f4f7f6;
   border-top: 10px solid #78a13f;
@@ -2439,33 +2450,33 @@ footer.footer {
   margin-top: 3rem;
 }
 
-/* line 1387, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1395, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 footer.footer .cell.reports, footer.footer .cell.subscribe {
   padding: 0 1.5rem 2.5rem;
   color: #2A6A35;
 }
 
-/* line 1390, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1398, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 footer.footer .cell.reports h4, footer.footer .cell.subscribe h4 {
   font-weight: 700;
   font-size: 1.4rem;
 }
 
-/* line 1393, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1401, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 footer.footer .cell.reports p, footer.footer .cell.subscribe p {
   font-family: adobe-garamond-pro, serif;
   font-size: 1.2rem;
   line-height: 1.5rem;
 }
 
-/* line 1397, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1405, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 footer.footer .cell.reports a, footer.footer .cell.subscribe a {
   color: #2A6A35;
   font-weight: 700;
   text-decoration: underline;
 }
 
-/* line 1401, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1409, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 footer.footer .cell.reports a.button, footer.footer .cell.subscribe a.button {
   color: #fff;
   text-decoration: none;
@@ -2473,100 +2484,100 @@ footer.footer .cell.reports a.button, footer.footer .cell.subscribe a.button {
   font-family: "Open Sans", sans-serif;
 }
 
-/* line 1407, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1415, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 footer.footer .reports img {
   float: left;
   width: 30%;
   margin-right: 1rem;
 }
 
-/* line 1411, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1419, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 footer.footer .bottomFooterWrapper {
   background-color: #2b2b2b;
   color: #fff;
   padding-top: 3rem;
 }
 
-/* line 1415, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1423, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 footer.footer .bottomFooterWrapper h5 {
   font-size: 1rem;
   font-weight: 700;
 }
 
-/* line 1418, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1426, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 footer.footer .bottomFooterWrapper p {
   font-size: .75rem;
 }
 
-/* line 1420, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1428, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 footer.footer .bottomFooterWrapper .cell {
   padding: 0 3rem;
 }
 
-/* line 1422, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1430, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 footer.footer .bottomFooterWrapper .vnrc {
   border-right: 1px solid #78a13f;
 }
 
-/* line 1424, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1432, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 footer.footer .bottomFooterWrapper .vnrc img {
   padding-bottom: 1rem;
 }
 
-/* line 1426, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1434, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 footer.footer .bottomFooterWrapper .vnrc p {
   text-transform: uppercase;
 }
 
-/* line 1428, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1436, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 footer.footer .bottomFooterWrapper .associates {
   border-right: 1px solid #78a13f;
 }
 
-/* line 1430, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1438, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 footer.footer .bottomFooterWrapper .associates img {
   margin-top: 1rem;
 }
 
-/* line 1432, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1440, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 footer.footer .bottomFooterWrapper .associates img.vcv {
   float: left;
   width: 35%;
   margin-right: 4rem;
 }
 
-/* line 1436, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1444, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 footer.footer .bottomFooterWrapper .associates img.vecan {
   float: right;
   width: 43%;
   margin-top: 1.15rem;
 }
 
-/* line 1441, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1449, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 footer.footer .bottomFooterWrapper .links .follow, footer.footer .bottomFooterWrapper .links .support {
   line-height: 2rem;
   float: left;
   width: 45%;
 }
 
-/* line 1445, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1453, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 footer.footer .bottomFooterWrapper .links .follow h5, footer.footer .bottomFooterWrapper .links .support h5 {
   margin-bottom: 1rem;
 }
 
-/* line 1447, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1455, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 footer.footer .bottomFooterWrapper .links .button.orange {
   font-size: .85rem;
 }
 
-/* line 1449, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1457, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 footer.footer .bottomFooterWrapper .links i {
   font-size: 2rem;
   color: #fff;
   margin-right: 1rem;
 }
 
-/* line 1453, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1461, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 footer.footer .bottomFooterWrapper .links p {
   color: #b7b7b7;
   line-height: 1rem;
@@ -2575,24 +2586,24 @@ footer.footer .bottomFooterWrapper .links p {
   margin-top: 1rem;
 }
 
-/* line 1459, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1467, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 footer.footer .bottomFooterWrapper .pageinfo {
   margin-top: 2rem;
   color: #b7b7b7;
   background-color: #2b2b2b;
 }
 
-/* line 1463, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1471, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 footer.footer .bottomFooterWrapper .pageinfo p {
   font-size: .85rem;
 }
 
-/* line 1465, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1473, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 footer.footer .bottomFooterWrapper .pageinfo p a {
   color: #828282;
 }
 
-/* line 1467, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1475, ../../../../../../../../../../../../../Users/macuser/vnrc/vnrc/assets/styles/scss/_vnrc.sass */
 footer.footer .bottomFooterWrapper .pageinfo p a.hover {
   color: #fff;
 }
