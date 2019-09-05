@@ -82,7 +82,7 @@ get_header(); ?>
 						<h2>Climate Action News</h2>
 					</div>
 					<div class="cell small-12 medium-12 large-2 catLink">
-						<a class="readmore" href="/category/news">Read All <span class="greenarrow"></span></a>
+						<a class="readmore" href="/category/news-stories/climate-action-and-clean-energy/">Read All <span class="greenarrow"></span></a>
 					</div>
 
 					<!--- Posts Begin -->
@@ -161,7 +161,7 @@ get_header(); ?>
 					<h2><?php the_field('resources_title','99');?></h2>
 				</div>
 				<div class="cell small-12 medium-12 large-2 catLink">
-					<a class="readmore" href="/category/news">View More <span class="greenarrow"></span></a>
+					<a class="readmore" href="/research-publications/">View More <span class="greenarrow"></span></a>
 				</div>
 
 				<?php

@@ -42,7 +42,7 @@ get_header(); ?>
 					<div class="cell large-auto">
 						<a href="<?php the_field('climate_action','option');?>">
 							<img src="<?php echo get_template_directory_uri(); ?>/assets/images/svg/energy.svg" alt="Energy & Climate Action"/>
-							<h4>Climate Action & Clean Energy</h4>
+							<h4>Clean Energy & Climate Action</h4>
 						</a>
 					</div>
 					<div class="cell large-auto">

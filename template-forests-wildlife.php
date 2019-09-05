@@ -84,7 +84,7 @@ get_header(); ?>
 						<h2>Forest & Wildlife News</h2>
 					</div>
 					<div class="cell small-12 medium-12 large-2 catLink">
-						<a class="readmore" href="/category/news">Read All <span class="greenarrow"></span></a>
+						<a class="readmore" href="/category/news-stories/forests-and-wildlife/">Read All <span class="greenarrow"></span></a>
 					</div>
 
 					<!--- Posts Begin -->
@@ -169,7 +169,7 @@ get_header(); ?>
 					<h2><?php the_field('publications_title');?></h2>
 				</div>
 				<div class="cell small-12 medium-12 large-2 catLink">
-					<a class="readmore" href="#">View More <span class="greenarrow"></span></a>
+					<a class="readmore" href="/research-publications/">View More <span class="greenarrow"></span></a>
 				</div>
 
 						<?php

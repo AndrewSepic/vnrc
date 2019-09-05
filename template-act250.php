@@ -40,7 +40,7 @@ get_header(); ?>
 					<h2><?php the_field('highlight250_title');?></h2>
 					<div class="leadin"><?php the_field('highlight250_leadin'); ?></div>
 					<div class="text"><?php the_field('highlight250_content');?></div>
-					<a class="videoLink" href="<?php the_field('highlight250_url');?>"><?php the_field('highlight250_link_text');?><span class="whitearrow"></span></a>
+					<a class="videoLink" href="<?php the_field('Highlight250_link_url');?>"><?php the_field('highlight250_link_text');?><span class="whitearrow"></span></a>
 
 				</div>
 				<div class="cell small-12 medium-8 large-7 vidembed">
@@ -87,7 +87,7 @@ get_header(); ?>
 						<h2>Act 250 News</h2>
 					</div>
 					<div class="cell small-12 medium-12 large-2 catLink">
-						<a class="readmore" href="/category/news">Read All <span class="greenarrow"></span></a>
+						<a class="readmore" href="/category/news-stories/act-250/">Read All <span class="greenarrow"></span></a>
 					</div>
 
 					<!--- Posts Begin -->

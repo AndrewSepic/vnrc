@@ -82,7 +82,7 @@ get_header(); ?>
 						<h2>Clean Water News</h2>
 					</div>
 					<div class="cell small-12 medium-12 large-2 catLink">
-						<a class="readmore" href="/category/news">Read All <span class="greenarrow"></span></a>
+						<a class="readmore" href="/category/news-stories/water/">Read All <span class="greenarrow"></span></a>
 					</div>
 
 					<!--- Posts Begin -->

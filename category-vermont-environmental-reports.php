@@ -23,7 +23,7 @@
  	</div>
 
  		<div id="heroTitle">
-      <h1>Vermont Environmental Reports</h1>
+      <h1>Vermont Environmental Report</h1>
  		</div>
 
 
