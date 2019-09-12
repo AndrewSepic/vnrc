@@ -190,3 +190,21 @@ function accordionContentEnd_shortcode($atts) {
 	return ob_get_clean();
 }
 add_shortcode( 'accordionTabContentEnd', 'accordionContentEnd_shortcode' );
+
+// Customize Recent Posts Widget
+add_filter( 'widget_posts_args', 'remove_cats_from_widget');
+function remove_cats_from_widget($args) {
+	$args = array (
+		'category__not_in' =>array(11,10,9,4),
+		'posts_per_page' => 5,
+	);
+	return $args;
+}
+
+// Add Body Class for CPT Search Results Pages
+
+// add_filter( 'body_class', function( $classes ) {
+// 		if (is_page_template('cpt-search.php')) {
+//     	return array_merge( $classes, array( 'cpt-search' ) );
+// 		}
+// } );

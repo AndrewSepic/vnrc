@@ -70,7 +70,17 @@ get_header(); ?>
 								</div>
 						</div>
 						<div class="small-12 medium-6 large-8 cell">
-							<?php echo do_shortcode('[ivory-search id="16362" title="Issues Search Form"]');?>
+							<?php //echo do_shortcode('[ivory-search id="16362" title="Issues Search Form"]');?>
+
+							<form class="is-search-form is-form-style is-form-style-1 is-form-id-16362 " action="http://dev.vnrc.org/" method="get" role="search" _lpchecked="1">
+								<label><input type="text" name="s" value="" class="is-search-input" placeholder="Search Issues..." autocomplete="off"></label>
+								<input type="submit" value="Search" class="is-search-submit">
+								<input type="hidden" name="id" value="16362">
+								<input type="hidden" name="site_section" value="cpt_search">
+								<input type="hidden" name="post_type" value="page">
+							</form>
+
+
 						</div>
 					</div>
 				</main> <!-- end #main -->

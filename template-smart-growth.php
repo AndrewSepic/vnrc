@@ -65,7 +65,7 @@ get_header(); ?>
 
 				<div class="small-12 medium-4 large-4 cell">
 					<img src="<?php the_field('init_image_3');?>" alt="Initiative Image 3"/>
-					<h3><?php the_field('init_title3');?>Planning</h3>
+					<h3><?php the_field('init_title3');?></h3>
 					<p><?php the_field('init_intro_3');?></p>
 					<a class="excerpt-read-more" href="<?php the_field('init_link_3');?>">Read More <span class="greenarrow excerpt"></span> </a>
 				</div>

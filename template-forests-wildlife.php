@@ -48,7 +48,7 @@ get_header(); ?>
 			<div class="initiatives grid-x grid-margin-x grid-padding-x">
 
 				<div class="small-12 medium-12 large-12 cell">
-					<h2 class="initHeader">Initiatives</h2>
+					<h2 class="initHeader">At A Glance</h2>
 				</div>
 
 				<div class="small-12 medium-4 large-4 cell">

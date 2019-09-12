@@ -315,17 +315,17 @@ select
 // Full Screen Search
 .reveal.full
   padding: 8rem
-  background-color: rgba(42, 106, 53, .9)
+  background-color: rgba(255, 255, 255, .9)
   .close-button
     right: 2rem
     top: 2rem
     font-size: 2rem
-    color: #fff
+    color: $green
   input[type="search"]
     border: 0
     box-shadow: none
     border-radius: 0
-    background-color: rgba(49, 76, 54, 0.34901960784313724)
+    background-color: #fff
     padding: 2rem
     font-size: 1.5rem
     border-bottom: 5px solid #78a13f
@@ -334,6 +334,8 @@ select
       background-color: rgba(49, 76, 54, 0.5)
       border-bottom: 5px solid #78a13f
       color: #fff
+  input[type="submit"]
+    float: right
 
 hr
   margin: 4rem auto
@@ -558,7 +560,7 @@ body.single
     color: $bodytextcolor
     font-weight: 600
     font-size: 1.25rem
-    margin: 2rem 0 0 0
+    margin: 1rem 0 0 0
   .entry-content
     padding: 1rem 0
 
@@ -620,16 +622,16 @@ body.archive, body.page-template-template-postsatbottom
       border-bottom: 1px solid #bbd09d
       padding-bottom: .5rem
   .widget_categories ul li, .DisplayCategoriesWidget ul li
-    padding-left: 26px
-    background: url('../images/svg/greenarrow.svg') no-repeat center left
-    background-size: 19px
+    //padding-left: 26px
+    //background: url('../images/svg/greenarrow.svg') no-repeat center left
+    //background-size: 19px
     margin: .25rem 0
     a
       font-weight: 600
       text-transform: uppercase
       color: $bodytextcolor
       &:hover
-        opacity: .75
+        opacity: .65
   .widget_recent_entries li
     line-height: 1.25rem
     margin: 1.25rem 0
@@ -942,7 +944,7 @@ body.page-template-template-clean-energy, body.page-template-template-forests-wi
       width: 75%
       margin: 0 auto 1.5rem
       display: block
-      border: 20px solid $lightgreen
+      border: 1px solid #d0d0d0
     h3
       font-weight: 700
       font-size: 1.25rem
