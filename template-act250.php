@@ -48,31 +48,38 @@ get_header(); ?>
 				</div>
 			</div><!-- .highlight end -->
 
-			<div class="initiatives grid-x grid-margin-x grid-padding-x">
+			<div class="initiatives grid-x grid-margin-x ">
 
 				<div class="small-12 medium-12 large-12 cell">
 					<h2 class="initHeader">Act 250 Priorities</h2>
 				</div>
 
-				<div class="small-12 medium-4 large-4 cell">
+				<div class="small-12 medium-3 large-3 cell">
 					<img src="<?php the_field('init_image_1');?>" alt="Priorities Image 1"/>
 					<h3><?php the_field('init_title1');?></h3>
 					<p><?php the_field('init_intro_1');?></p>
 				  <a class="excerpt-read-more" href="<?php the_field('init_link_1');?>">Read More <span class="greenarrow excerpt"></span></a>
 				</div>
 
-				<div class="small-12 medium-4 large-4 cell">
+				<div class="small-12 medium-3 large-3 cell">
 					<img src="<?php the_field('init_image_2');?>" alt="Priorities Image 2"/>
 					<h3><?php the_field('init_title2');?></h3>
 					<p><?php the_field('init_intro_2');?></p>
 					<a class="excerpt-read-more" href="<?php the_field('init_link_2');?>">Read More <span class="greenarrow excerpt"></span></a>
 				</div>
 
-				<div class="small-12 medium-4 large-4 cell">
+				<div class="small-12 medium-3 large-3 cell">
 					<img src="<?php the_field('init_image_3');?>" alt="Priorities Image 3"/>
 					<h3><?php the_field('init_title3');?></h3>
 					<p><?php the_field('init_intro_3');?></p>
 					<a class="excerpt-read-more" href="<?php the_field('init_link_3');?>">Read More <span class="greenarrow excerpt"></span> </a>
+				</div>
+
+				<div class="small-12 medium-3 large-3 cell">
+					<img src="<?php the_field('init_image_4');?>" alt="Priorities Image 3"/>
+					<h3><?php the_field('init_title4');?></h3>
+					<p><?php the_field('init_intro_4');?></p>
+					<a class="excerpt-read-more" href="<?php the_field('init_link_4');?>">Read More <span class="greenarrow excerpt"></span> </a>
 				</div>
 
 			</div>  <!-- end .initiatives -->

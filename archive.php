@@ -45,6 +45,7 @@
     	    <main class="main small-12 medium-8 large-8 cell" role="main">
 
     	    	<header>
+              <?php the_breadcrumb(); ?>
     	    		<h1 class="page-title"><?php the_archive_title();?></h1>
     				<?php the_archive_description('<div class="taxonomy-description">', '</div>');?>
     	    	</header>

@@ -32,10 +32,14 @@ get_header(); ?>
 		    <div class="small-12 medium-8 large-8 cell keyInfo">
 					<h1 class="key_title"><?php the_title(); ?></h1>
 					<p><?php the_field('key_issue_intro');?></p>
-					<div class="director">
+					<div class="inquiries">For questions or inquiries:</div>
+					<div class="twodirectors">
 						<div class="matte" style="background-image: url('<?php the_field('director_image');?>')"></div>
-						<div class="inquiries">For questions or inquiries:</div>
 						<?php the_field('director_contact');?>
+					</div>
+					<div class="twodirectors">
+						<div class="matte" style="background-image: url('<?php the_field('director_image_2');?>')"></div>
+						<?php the_field('director_contact_2');?>
 					</div>
 				</div>
 

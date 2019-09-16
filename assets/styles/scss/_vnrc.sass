@@ -357,6 +357,10 @@ ul.accordion
   .accordion-title::before
     margin-top: -1rem
 
+// Breadcrumbs
+#crumbs
+  margin-bottom: 2rem
+
 // Tabs
 ul.tabs
   .tabs-title > a
@@ -873,16 +877,25 @@ body.page-template-template-clean-energy, body.page-template-template-forests-wi
       font-size: 2.25rem
       text-transform: uppercase
       font-weight: 300
-    .director
+    .inquiries
+      text-transform: uppercase
+      color: $lightgreen
+      font-weight: 700
+      font-size: .9rem
+      margin: 1rem 0 .5rem
+    .twodirectors
       padding: 2rem 0
+      float: left
+      width: 50%
       .matte
         +matte
-      .inquiries
-        text-transform: uppercase
-        color: $lightgreen
-        font-weight: 700
-        font-size: .9rem
-        margin: 1rem 0 .5rem
+      p
+        margin-bottom: 0
+    .director
+      padding: 2rem 0
+      float: left
+      .matte
+        +matte
       p
         margin-bottom: 0
     .keyGraphic img
