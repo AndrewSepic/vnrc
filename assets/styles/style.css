@@ -2471,9 +2471,73 @@ body.page-id-229 .entry-content i.fi-social-facebook {
 }
 
 /********************* */
+/* ANNOUNCEMENT BAR */
+/********************* */
+/* line 1404, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
+.announcement {
+  padding: 3rem;
+  position: relative;
+}
+
+/* line 1407, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
+.announcement.red {
+  background-color: #d14b27;
+  color: #fff;
+}
+
+/* line 1410, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
+.announcement.red a {
+  color: #fff;
+}
+
+/* line 1412, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
+.announcement.red .button {
+  background-color: #fff;
+  color: #d14b27;
+  border-color: #fff;
+}
+
+/* line 1416, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
+.announcement.red .button:hover {
+  background-color: transparent;
+}
+
+/* line 1418, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
+.announcement.grey {
+  background-color: #6f7d74;
+  color: #fff;
+}
+
+/* line 1421, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
+.announcement.grey a {
+  color: #fff;
+}
+
+/* line 1423, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
+.announcement.grey .button {
+  background-color: fff;
+  color: #6f7d74;
+  border-color: #fff;
+}
+
+/* line 1427, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
+.announcement.grey .button:hover {
+  background-color: transparent;
+}
+
+/* line 1429, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
+.announcement #closeit {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  color: #fff;
+  font-weight: bold;
+}
+
+/********************* */
 /* FOOTER */
 /********************* */
-/* line 1405, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1441, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
 footer.footer {
   background-color: #f4f7f6;
   border-top: 10px solid #78a13f;
@@ -2481,33 +2545,33 @@ footer.footer {
   margin-top: 3rem;
 }
 
-/* line 1410, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1446, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
 footer.footer .cell.reports, footer.footer .cell.subscribe {
   padding: 0 1.5rem 2.5rem;
   color: #2A6A35;
 }
 
-/* line 1413, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1449, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
 footer.footer .cell.reports h4, footer.footer .cell.subscribe h4 {
   font-weight: 700;
   font-size: 1.4rem;
 }
 
-/* line 1416, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1452, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
 footer.footer .cell.reports p, footer.footer .cell.subscribe p {
   font-family: adobe-garamond-pro, serif;
   font-size: 1.2rem;
   line-height: 1.5rem;
 }
 
-/* line 1420, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1456, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
 footer.footer .cell.reports a, footer.footer .cell.subscribe a {
   color: #2A6A35;
   font-weight: 700;
   text-decoration: underline;
 }
 
-/* line 1424, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1460, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
 footer.footer .cell.reports a.button, footer.footer .cell.subscribe a.button {
   color: #fff;
   text-decoration: none;
@@ -2515,100 +2579,100 @@ footer.footer .cell.reports a.button, footer.footer .cell.subscribe a.button {
   font-family: "Open Sans", sans-serif;
 }
 
-/* line 1430, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1466, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
 footer.footer .reports img {
   float: left;
   width: 30%;
   margin-right: 1rem;
 }
 
-/* line 1434, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1470, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
 footer.footer .bottomFooterWrapper {
   background-color: #2b2b2b;
   color: #fff;
   padding-top: 3rem;
 }
 
-/* line 1438, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1474, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
 footer.footer .bottomFooterWrapper h5 {
   font-size: 1rem;
   font-weight: 700;
 }
 
-/* line 1441, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1477, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
 footer.footer .bottomFooterWrapper p {
   font-size: .75rem;
 }
 
-/* line 1443, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1479, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
 footer.footer .bottomFooterWrapper .cell {
   padding: 0 3rem;
 }
 
-/* line 1445, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1481, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
 footer.footer .bottomFooterWrapper .vnrc {
   border-right: 1px solid #78a13f;
 }
 
-/* line 1447, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1483, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
 footer.footer .bottomFooterWrapper .vnrc img {
   padding-bottom: 1rem;
 }
 
-/* line 1449, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1485, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
 footer.footer .bottomFooterWrapper .vnrc p {
   text-transform: uppercase;
 }
 
-/* line 1451, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1487, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
 footer.footer .bottomFooterWrapper .associates {
   border-right: 1px solid #78a13f;
 }
 
-/* line 1453, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1489, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
 footer.footer .bottomFooterWrapper .associates img {
   margin-top: 1rem;
 }
 
-/* line 1455, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1491, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
 footer.footer .bottomFooterWrapper .associates img.vcv {
   float: left;
   width: 35%;
   margin-right: 4rem;
 }
 
-/* line 1459, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1495, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
 footer.footer .bottomFooterWrapper .associates img.vecan {
   float: right;
   width: 43%;
   margin-top: 1.15rem;
 }
 
-/* line 1464, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1500, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
 footer.footer .bottomFooterWrapper .links .follow, footer.footer .bottomFooterWrapper .links .support {
   line-height: 2rem;
   float: left;
   width: 45%;
 }
 
-/* line 1468, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1504, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
 footer.footer .bottomFooterWrapper .links .follow h5, footer.footer .bottomFooterWrapper .links .support h5 {
   margin-bottom: 1rem;
 }
 
-/* line 1470, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1506, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
 footer.footer .bottomFooterWrapper .links .button.orange {
   font-size: .85rem;
 }
 
-/* line 1472, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1508, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
 footer.footer .bottomFooterWrapper .links i {
   font-size: 2rem;
   color: #fff;
   margin-right: 1rem;
 }
 
-/* line 1476, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1512, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
 footer.footer .bottomFooterWrapper .links p {
   color: #b7b7b7;
   line-height: 1rem;
@@ -2617,24 +2681,24 @@ footer.footer .bottomFooterWrapper .links p {
   margin-top: 1rem;
 }
 
-/* line 1482, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1518, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
 footer.footer .bottomFooterWrapper .pageinfo {
   margin-top: 2rem;
   color: #b7b7b7;
   background-color: #2b2b2b;
 }
 
-/* line 1486, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1522, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
 footer.footer .bottomFooterWrapper .pageinfo p {
   font-size: .85rem;
 }
 
-/* line 1488, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1524, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
 footer.footer .bottomFooterWrapper .pageinfo p a {
   color: #828282;
 }
 
-/* line 1490, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1526, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
 footer.footer .bottomFooterWrapper .pageinfo p a.hover {
   color: #fff;
 }

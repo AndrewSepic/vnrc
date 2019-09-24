@@ -44,6 +44,8 @@
 
 			<div class="off-canvas-content" data-off-canvas-content>
 
+         <?php get_template_part( 'parts/announcement', 'bar' ); ?>
+
         <?php
         //if (is_page_template('homepage.php') || (is_page_template('template-key.php'))) {
 

@@ -135,6 +135,9 @@ function vnrc_post_templates($single_template) {
 				if ( in_category( 'victories' )) {
 					$single_template = dirname( __FILE__ ) . '/single-victories.php';
 		}
+			elseif  (in_category( 'climate-dispatch')) {
+				$single_template = dirname( __FILE__ ) . '/single-climate-dispatch.php';
+		}
     //elseif ( in_category( 'special-events' )) {
     //  $single_template = dirname( __FILE__ ) . '/single-special-events.php';
     //}
