@@ -13,7 +13,18 @@ For more info, check out the codex:
 http://codex.wordpress.org/Creating_Admin_Themes
 
 ******************************************************************/
-/* line 26, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/login.scss */
+/* line 17, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/login.scss */
+body.login {
+  background-image: url("http://vnrc.org/wp-content/uploads/2019/08/VNRC-Hubbard-Park-10-5-18-501779.jpg");
+  background-size: cover;
+}
+
+/* line 23, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/login.scss */
+.login #nav a, .login #backtoblog a {
+  color: #fff;
+}
+
+/* line 32, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/login.scss */
 .login h1 a {
   background: url(../images/svg/green-logo.svg) no-repeat top center;
   width: 326px;

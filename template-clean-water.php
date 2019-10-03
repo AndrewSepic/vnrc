@@ -50,21 +50,27 @@ get_header(); ?>
 				</div>
 
 				<div class="small-12 medium-4 large-4 cell">
-					<img src="<?php the_field('init_image_1');?>" alt="Initiative Image 1"/>
+					<a href="<?php the_field('init_link_1');?>">
+						<img src="<?php the_field('init_image_1');?>" alt="Initiative Image 1"/>
+					</a>
 					<h3><?php the_field('init_title1');?></h3>
 					<p><?php the_field('init_intro_1');?></p>
 				  <a class="excerpt-read-more" href="<?php the_field('init_link_1');?>">Read More <span class="greenarrow excerpt"></span></a>
 				</div>
 
 				<div class="small-12 medium-4 large-4 cell">
-					<img src="<?php the_field('init_image_2');?>" alt="Initiative Image 2"/>
+					<a href="<?php the_field('init_link_2');?>">
+						<img src="<?php the_field('init_image_2');?>" alt="Initiative Image 2"/>
+					</a>
 					<h3><?php the_field('init_title2');?></h3>
 					<p><?php the_field('init_intro_2');?></p>
 					<a class="excerpt-read-more" href="<?php the_field('init_link_2');?>">Read More <span class="greenarrow excerpt"></span></a>
 				</div>
 
 				<div class="small-12 medium-4 large-4 cell">
-					<img src="<?php the_field('init_image_3');?>" alt="Initiative Image 3"/>
+					<a href="<?php the_field('init_link_3');?>">
+						<img src="<?php the_field('init_image_3');?>" alt="Initiative Image 3"/>
+					</a>
 					<h3><?php the_field('init_title3');?></h3>
 					<p><?php the_field('init_intro_3');?></p>
 					<a class="excerpt-read-more" href="<?php the_field('init_link_3');?>">Read More <span class="greenarrow excerpt"></span> </a>
@@ -138,6 +144,29 @@ get_header(); ?>
 						</a>
 					</div>
 				</div><!-- .community end -->
+
+				<?php // test to see if extra water fields are being used. If so..
+				 if(get_field('xtra_water_area_title')) {
+					?>
+					<hr>
+					<!-- Extra Water <area shape="default" coords="" href="#" alt=""> -->
+					<div class="grid-x grid-padding-x grid-margin-x community">
+						<div class="cell small-12 medium-4 large-7 pic">
+							<h2><?php the_field('xtra_water_area_title');?></h2>
+							<div class="leadin"><?php the_field('extra_water_area_leadin');?></div>
+							<p>
+								<?php the_field('extra_water_area_content');?>
+							</p>
+							<a class="bold green" href="<?php the_field('forest_link_url');?>"><?php the_field('forest_link_text');?>
+							</a>
+						</div>
+						<div class="cell small-12 medium-8 large-5 vidembed">
+							<img src="<?php the_field('extra_water_area_image');?>" alt="Forest Round Table" />
+						</div>
+					</div><!-- .community end -->
+				<?php
+				}
+			?>
 
 			</div><!-- end .gridContainer -->
 

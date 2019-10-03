@@ -2795,17 +2795,22 @@ footer.footer .bottomFooterWrapper .pageinfo p a.hover {
     border-top: 2px solid #2A6A35;
   }
   /* line 66, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_responsive.sass */
+  .submenu .is-accordion-submenu-parent:not(.has-submenu-toggle) > a {
+    position: relative;
+    background-color: #d7e2c6;
+  }
+  /* line 69, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_responsive.sass */
   li.facebook, li.twitter {
     float: left;
     width: 18% !important;
   }
-  /* line 69, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_responsive.sass */
+  /* line 72, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_responsive.sass */
   li.facebook i, li.twitter i {
     font-size: 2rem;
     width: 25%;
     float: left;
   }
-  /* line 73, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_responsive.sass */
+  /* line 76, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_responsive.sass */
   li.donate {
     background-color: #d14b27;
     border-radius: 29px;
@@ -2814,170 +2819,170 @@ footer.footer .bottomFooterWrapper .pageinfo p a.hover {
     float: right;
     display: inline-block;
   }
-  /* line 81, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_responsive.sass */
+  /* line 84, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_responsive.sass */
   li.donate a {
     color: #fff !important;
   }
-  /* line 83, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_responsive.sass */
+  /* line 86, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_responsive.sass */
   .menu .active > a {
     background: transparent !important;
     border-left: 10px solid #78a13f;
   }
-  /* line 86, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_responsive.sass */
+  /* line 89, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_responsive.sass */
   .menu li.donate.active > a {
     border-left: 0;
   }
-  /* line 89, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_responsive.sass */
+  /* line 92, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_responsive.sass */
   body.home .grid-padding-x > .cell {
     padding-right: 2rem;
     padding-left: 2rem;
   }
-  /* line 94, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_responsive.sass */
+  /* line 97, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_responsive.sass */
   body.home header.header {
     background-position: 30% 46%;
   }
-  /* line 96, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_responsive.sass */
+  /* line 99, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_responsive.sass */
   body.home header.header #heroTitle {
     width: 100%;
     left: 0%;
   }
-  /* line 99, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_responsive.sass */
+  /* line 102, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_responsive.sass */
   body.home header.header #heroTitle h1 {
     font-size: 2rem;
   }
-  /* line 101, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_responsive.sass */
+  /* line 104, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_responsive.sass */
   body.home .icons {
     margin: 3rem 0;
   }
-  /* line 103, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_responsive.sass */
+  /* line 106, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_responsive.sass */
   body.home .icons .cell {
     border-right: 0;
     padding: 1rem .5rem;
   }
-  /* line 106, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_responsive.sass */
+  /* line 109, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_responsive.sass */
   body.home .greyWrapper {
     padding: 2rem 0;
   }
-  /* line 108, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_responsive.sass */
+  /* line 111, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_responsive.sass */
   body.home .greyWrapper h2 {
     margin-bottom: 1rem;
   }
-  /* line 110, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_responsive.sass */
+  /* line 113, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_responsive.sass */
   body.home .greyWrapper .video {
     padding: 2rem 0;
   }
-  /* line 112, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_responsive.sass */
+  /* line 115, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_responsive.sass */
   body.home .greyWrapper .video a.videoLink {
     bottom: 20px;
     left: 30px;
   }
-  /* line 115, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_responsive.sass */
+  /* line 118, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_responsive.sass */
   body.home .greyWrapper .video .vidembed {
     margin-bottom: 2rem;
   }
-  /* line 117, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_responsive.sass */
+  /* line 120, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_responsive.sass */
   body.home .icons .grid-padding-x > .cell.post {
     margin-bottom: 2rem;
   }
-  /* line 119, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_responsive.sass */
+  /* line 122, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_responsive.sass */
   body.home .icons .grid-padding-x > .cell.post p {
     margin-bottom: 0;
   }
-  /* line 121, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_responsive.sass */
+  /* line 124, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_responsive.sass */
   body.home .victories {
     margin: 2rem 0;
   }
-  /* line 123, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_responsive.sass */
+  /* line 126, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_responsive.sass */
   body.home .victories h2 {
     margin-bottom: 1rem;
   }
-  /* line 125, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_responsive.sass */
+  /* line 128, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_responsive.sass */
   body.home .victories .cell.post {
     padding-right: 1rem;
     padding-left: 1rem;
     margin-bottom: 2rem;
   }
-  /* line 129, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_responsive.sass */
+  /* line 132, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_responsive.sass */
   body.home .victories .cell.post .overlay {
     width: 90%;
     left: 5%;
   }
-  /* line 133, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_responsive.sass */
+  /* line 136, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_responsive.sass */
   body.home .mission h3 {
     font-size: 2rem;
   }
-  /* line 135, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_responsive.sass */
+  /* line 138, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_responsive.sass */
   body.home .mission p {
     font-size: 1.2rem;
   }
-  /* line 137, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_responsive.sass */
+  /* line 140, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_responsive.sass */
   body.home .advocates {
     margin: 4rem 0 0;
   }
-  /* line 139, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_responsive.sass */
+  /* line 142, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_responsive.sass */
   body.home .advocates .cell {
     margin-bottom: 2rem;
   }
-  /* line 142, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_responsive.sass */
+  /* line 145, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_responsive.sass */
   .news .cell {
     margin-bottom: 2rem;
   }
-  /* line 144, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_responsive.sass */
+  /* line 147, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_responsive.sass */
   footer.footer {
     margin-top: 1rem;
   }
-  /* line 146, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_responsive.sass */
+  /* line 149, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_responsive.sass */
   footer.footer .cell.reports, footer.footer .cell.subscribe {
     padding: 0 1.5rem 2.5rem;
   }
-  /* line 149, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_responsive.sass */
+  /* line 152, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_responsive.sass */
   footer.footer .bottomFooterWrapper .cell {
     padding: 0 2rem;
   }
-  /* line 151, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_responsive.sass */
+  /* line 154, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_responsive.sass */
   footer.footer .bottomFooterWrapper .vnrc, footer.footer .bottomFooterWrapper .associates, footer.footer .bottomFooterWrapper .links {
     margin-bottom: 2rem;
   }
-  /* line 153, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_responsive.sass */
+  /* line 156, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_responsive.sass */
   footer.footer .bottomFooterWrapper .associates img.vcv {
     margin-right: 3rem;
   }
-  /* line 156, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_responsive.sass */
+  /* line 159, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_responsive.sass */
   footer.footer .bottomFooterWrapper .vnrc img {
     width: 80%;
   }
-  /* line 159, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_responsive.sass */
+  /* line 162, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_responsive.sass */
   footer.footer .bottomFooterWrapper .vnrc p, footer.footer .bottomFooterWrapper .links p {
     margin-bottom: 0;
   }
-  /* line 161, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_responsive.sass */
+  /* line 164, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_responsive.sass */
   footer.footer .bottomFooterWrapper .pageinfo {
     padding-top: 1rem;
     margin-top: 0;
     color: #cacaca;
     background-color: #6e6e6e;
   }
-  /* line 166, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_responsive.sass */
+  /* line 169, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_responsive.sass */
   footer.footer .bottomFooterWrapper .pageinfo a {
     color: #cacaca !important;
     text-decoration: underline;
   }
-  /* line 170, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_responsive.sass */
+  /* line 173, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_responsive.sass */
   header.header {
     height: 325px;
   }
-  /* line 172, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_responsive.sass */
+  /* line 175, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_responsive.sass */
   header.header #heroTitle {
     position: absolute;
     width: 80%;
     bottom: 20%;
     left: 10%;
   }
-  /* line 177, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_responsive.sass */
+  /* line 180, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_responsive.sass */
   header.header #heroTitle h1 {
     font-size: 2.2rem;
   }
-  /* line 180, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_responsive.sass */
+  /* line 183, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_responsive.sass */
   .supportUs .intro p {
     font-size: 1.1rem;
   }

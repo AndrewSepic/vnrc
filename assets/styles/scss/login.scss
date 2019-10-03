@@ -15,7 +15,13 @@ http://codex.wordpress.org/Creating_Admin_Themes
 ******************************************************************/
 
 body.login {
+	background-image: url('http://vnrc.org/wp-content/uploads/2019/08/VNRC-Hubbard-Park-10-5-18-501779.jpg');
+	background-size: cover;
 
+}
+
+.login #nav a, .login #backtoblog a {
+	color: #fff;
 }
 
 #login {

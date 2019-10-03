@@ -54,7 +54,7 @@ get_header(); ?>
 					<div class="cell large-auto">
 						<a href="<?php the_field('toxic_free','option');?>">
 							<img src="<?php echo get_template_directory_uri(); ?>/assets/images/svg/toxic-free.svg" alt="Toxic Free Environment"/>
-							<h4>Toxic Free Environment</h4>
+							<h4>Toxic-Free Environment</h4>
 						</a>
 					</div>
 					<div class="cell large-auto">

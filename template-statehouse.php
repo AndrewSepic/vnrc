@@ -40,21 +40,27 @@ get_header(); ?>
 				</div>
 
 				<div class="small-12 medium-4 large-4 cell">
-					<img src="<?php the_field('bill_image_1');?>" alt="Bill Image 1"/>
+					<a href="<?php the_field('bill_link_1');?>">
+						<img src="<?php the_field('bill_image_1');?>" alt="Bill Image 1"/>
+					</a>
 					<h3><?php the_field('bill_title1');?></h3>
 					<p><?php the_field('bill_intro_1');?></p>
 				  <a class="excerpt-read-more" href="<?php the_field('bill_link_1');?>">Learn More <span class="greenarrow excerpt"></span></a>
 				</div>
 
 				<div class="small-12 medium-4 large-4 cell">
-					<img src="<?php the_field('bill_image_2');?>" alt="Bill Image 2"/>
+					<a href="<?php the_field('bill_link_2');?>">
+						<img src="<?php the_field('bill_image_2');?>" alt="Bill Image 2"/>
+					</a>
 					<h3><?php the_field('bill_title2');?></h3>
 					<p><?php the_field('bill_intro_2');?></p>
 					<a class="excerpt-read-more" href="<?php the_field('bill_link_2');?>">Learn More <span class="greenarrow excerpt"></span></a>
 				</div>
 
 				<div class="small-12 medium-4 large-4 cell">
-					<img src="<?php the_field('bill_image_3');?>" alt="Bill Image 3"/>
+					<a href="<?php the_field('bill_link_3');?>">
+						<img src="<?php the_field('bill_image_3');?>" alt="Bill Image 3"/>
+					</a>
 					<h3><?php the_field('bill_title3');?></h3>
 					<p><?php the_field('bill_intro_3');?></p>
 					<a class="excerpt-read-more" href="<?php the_field('bill_link_3');?>">Learn More <span class="greenarrow excerpt"></span> </a>

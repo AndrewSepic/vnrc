@@ -56,21 +56,27 @@ get_header(); ?>
 				</div>
 
 				<div class="small-12 medium-4 large-4 cell">
-					<img src="<?php the_field('init_image_1');?>" alt="Initiative Image 1"/>
+					<a href="<?php the_field('init_link_1');?>">
+						<img src="<?php the_field('init_image_1');?>" alt="Initiative Image 1"/>
+					</a>
 					<h3><?php the_field('init_title1');?></h3>
 					<p><?php the_field('init_intro_1');?></p>
 				  <a class="excerpt-read-more" href="<?php the_field('init_link_1');?>">Read More <span class="greenarrow excerpt"></span></a>
 				</div>
 
 				<div class="small-12 medium-4 large-4 cell">
-					<img src="<?php the_field('init_image_2');?>" alt="Initiative Image 2"/>
+					<a href="<?php the_field('init_link_2');?>">
+						<img src="<?php the_field('init_image_2');?>" alt="Initiative Image 2"/>
+					</a>
 					<h3><?php the_field('init_title2');?></h3>
 					<p><?php the_field('init_intro_2');?></p>
 					<a class="excerpt-read-more" href="<?php the_field('init_link_2');?>">Read More <span class="greenarrow excerpt"></span></a>
 				</div>
 
 				<div class="small-12 medium-4 large-4 cell">
-					<img src="<?php the_field('init_image_3');?>" alt="Initiative Image 3"/>
+					<a href="<?php the_field('init_link_3');?>">
+						<img src="<?php the_field('init_image_3');?>" alt="Initiative Image 3"/>
+					</a>
 					<h3><?php the_field('init_title3');?></h3>
 					<p><?php the_field('init_intro_3');?></p>
 					<a class="excerpt-read-more" href="<?php the_field('init_link_3');?>">Read More <span class="greenarrow excerpt"></span> </a>
