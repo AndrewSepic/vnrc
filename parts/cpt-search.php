@@ -1,6 +1,6 @@
 <?php
  /*
-Template Name: CPT Search 
+Template Name: CPT Search
  */
 
  get_header(); ?>
@@ -42,7 +42,7 @@ Template Name: CPT Search
  					</div>
  						<?php } ?>
 
-			<main class="main small-12 medium-10 medium-offset-1 large-8 large-offset-2 cell" role="main">
+			<main class="main small-12 medium-10 large-8 cell" role="main">
 				<header>
 					<h1><span>Search Results for:</span> <?php echo esc_attr(get_search_query()); ?></h1>
 				</header>

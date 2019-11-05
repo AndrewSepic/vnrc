@@ -966,6 +966,10 @@ body.page-template-template-clean-energy, body.page-template-template-forests-wi
       color: $bodytextcolor
 
 
+#issues-dropdown
+  height: 250px
+  overflow: auto
+
 /*********************
 /* SUPPORT TEMPLATE
 /*********************
@@ -1235,7 +1239,7 @@ body.page-template-template-act250
 /*********************
 /* CPT TEMPLATE
 /*********************
-body.page-template-template-cpt, body.page-template-template-cpt-issues
+body.page-template-template-cpt, body.page-template-template-cpt-issues, body.page-template-template-cpt-casestudies, body.page-template-template-cpt-tools, body.search-results
   .navWrap
     background-color: #fff
     .top-bar-left #logo a
@@ -1318,38 +1322,38 @@ body.page-template-template-cpt, body.page-template-template-cpt-issues
       #menu-cpt-menu li.active
         background-color: #fcf5ee
         color: $lightgreen
+  // Issues Search styles
+  input.search-field
+    border-top-right-radius: 0
+    border-bottom-right-radius: 0
+    width: 60%
+    float: left
+    border-right: 0 !important
+  input.search-submit
+    border-top-left-radius: 0
+    border-bottom-left-radius: 0
+    font-weight: bold
+    padding: 11px 20px !important
+    &:hover
+      background-color: #699033
+  button.browseIssues
+    line-height: 1.5rem
+    span
+      font-size: 2rem
+      line-height: 1rem
+      display: block
+      float: right
+      margin-top: 2px
+  div#issues-dropdown
+    ul
+      list-style-type: none
+      margin-left: .5rem
+      li
+        padding: .5rem
+        border-bottom: 1px solid #eae3dc
+        &:hover
+          background-color: #fdfbf9
 
-// Issues Search styles
-input.is-search-input
-  border-top-left-radius: 20px !important
-  border-bottom-left-radius: 20px !important
-  width: 60%
-  float: left
-  border-right: 0 !important
-input.is-search-submit
-  border-top-right-radius: 20px !important
-  border-bottom-right-radius: 20px !important
-  font-weight: bold
-  padding: 11px 20px !important
-  &:hover
-    background-color: #699033
-button.browseIssues
-  line-height: 1.5rem
-  span
-    font-size: 2rem
-    line-height: 1rem
-    display: block
-    float: right
-    margin-top: 2px
-div#issues-dropdown
-  ul
-    list-style-type: none
-    margin-left: .5rem
-    li
-      padding: .5rem
-      border-bottom: 1px solid #eae3dc
-      &:hover
-        background-color: #fdfbf9
 
 
 /*********************

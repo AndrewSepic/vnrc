@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Community Planning Toolbox - Issues
+Template Name: Community Planning Toolbox - Tools
 */
 
 get_header(); ?>
@@ -56,7 +56,7 @@ get_header(); ?>
 				    <?php endwhile; endif;?>
 					<div class="grid-x">
 						<div class="small-12 medium-6 large-4 cell">
-							<button class="button browseIssues" type="button" data-toggle="issues-dropdown">Browse Issues <span>&#8964;</span></button>
+							<button class="button browseIssues" type="button" data-toggle="issues-dropdown">Browse Tools <span>&#8964;</span></button>
 								<div class="dropdown-pane" id="issues-dropdown" data-dropdown data-auto-focus="true">
 									<ul class="issues">
 									<?php
@@ -70,7 +70,7 @@ get_header(); ?>
 								</div>
 						</div>
 						<div class="small-12 medium-6 large-8 cell">
-							<?php //echo do_shortcode('[ivory-search id="16362" title="Issues Search Form"]');?>
+							<?php //echo do_shortcode('[ivory-search id="19588" title="Tools Search form"]');?>
 
 							<!-- <form class="is-search-form is-form-style is-form-style-1 is-form-id-16362 " action="http://dev.vnrc.org/" method="get" role="search" _lpchecked="1">
 								<label><input type="text" name="s" value="" class="is-search-input" placeholder="Search Issues..." autocomplete="off"></label>
@@ -80,15 +80,13 @@ get_header(); ?>
 								<input type="hidden" name="post_type" value="page">
 							</form> -->
 
-							<form class="is-search-form is-form-style is-form-style-1 is-form-id-16362 " action="https://vnrc.org/" method="get" role="search">
-								<label><input type="text" name="s" value="" class="search-field" placeholder="Search Issues..." autocomplete="off"></label>
-								<input type="submit" value="Search" class="search-submit button">
-								<input type="hidden" name="id" value="16362">
-								<input type="hidden" name="post_type" value="page">
+							<form role="search" method="get" class="search-form" action="https://vnrc.org/">
+								<label><input type="search" class="search-field" placeholder="Search Tools..." value="" name="s" title="Search for:"></label>
+								<input type="submit" class="search-submit button" value="Search">
+								<input type="hidden" name="id" value="19588">
 								<input type="hidden" name="site_section" value="cpt_search">
+								<input type="hidden" name="post_type" value="page">
 							</form>
-
-
 						</div>
 					</div>
 				</main> <!-- end #main -->
