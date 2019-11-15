@@ -15,7 +15,7 @@ if( get_field('activate', 'option' ) ): ?>
      $color = 'grey';
    endif; ?>
 
-  <div class="announcement <?php echo $color?> grid-x grid-padding-x" style="display:none;">
+  <div class="announcement <?php echo $color; ?> grid-x grid-padding-x" style="display:none;">
     <div class="cell small-12 large-4">
       <img src="<?php the_field('announcement_image', 'option');?>" alt="announcement image"/>
     </div>
@@ -27,7 +27,7 @@ if( get_field('activate', 'option' ) ): ?>
         // If User wants button
         if( !get_field('toggle_button', 'option') ): ?>
 
- 	       <a class="button" href="<?php the_field('announcement_button_link','option');?>"><?php the_field('button_text', 'option');?></a>
+ 	       <a class="button" href="<?php the_field('button_link','option');?>"><?php the_field('button_text', 'option');?></a>
 
         <?php endif; ?>
 

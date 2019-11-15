@@ -146,7 +146,7 @@ get_header(); ?>
 				</div><!-- .community end -->
 
 				<?php // test to see if extra water fields are being used. If so..
-				 if(get_field('xtra_water_area_title')) {
+				 if(get_field('extra_water_area_title')) {
 					?>
 					<hr>
 					<!-- Extra Water <area shape="default" coords="" href="#" alt=""> -->
