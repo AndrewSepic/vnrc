@@ -15,14 +15,6 @@ jQuery(document).ready(function($) {
     // Animate Hamburger
     //staffUX();
 
-    if(!Cookies.get('hideAnnouncement')) $("div.announcement").slideDown("slow");
-    $("a#closeit").click(function() {
-        Cookies.set('hideAnnouncement', 'true', { expires: 3 });
-        $("div.announcement").slideUp("slow");
-        return false;
-        Cookies.remove('hideAnnouncement');
-    });
-
 
     hamburgular();
 

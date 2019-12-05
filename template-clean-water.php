@@ -157,7 +157,7 @@ get_header(); ?>
 							<p>
 								<?php the_field('extra_water_area_content');?>
 							</p>
-							<a class="bold green" href="<?php the_field('forest_link_url');?>"><?php the_field('forest_link_text');?>
+							<a class="bold green" href="<?php the_field('extra_water_area_link_url');?>"><?php the_field('extra_water_area_link_text');?>
 							</a>
 						</div>
 						<div class="cell small-12 medium-8 large-5 vidembed">

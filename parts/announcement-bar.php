@@ -3,6 +3,16 @@
  * The template part for displaying The Announcement Bar
  */
 ?>
+<script type="text/javascript">
+  // JS for Announcement bar display and cookie.set timer 
+  if(!Cookies.get('hideAnnouncement')) $("div.announcement").slideDown("slow");
+  $("a#closeit").click(function() {
+      Cookies.set('hideAnnouncement', 'true', { expires: '<?php the_field('timer');?>' });
+      $("div.announcement").slideUp("slow");
+      return false;
+      Cookies.remove('hideAnnouncement');
+  });
+</script>
 
 <?php
 // Is the Announcement Bar actived ?

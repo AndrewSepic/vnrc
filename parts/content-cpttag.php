@@ -11,7 +11,7 @@
  			?> <span class="issueTag">Issues</span> <?php
 		}
 		//if child of Tools
-		elseif ($post->post_parent == 16116) {
+		elseif ($post->post_parent == 16116 || $post->post_parent == 19246) {
 			?> <span class="toolsTag">Tools</span> <?php
 		}
 		elseif ($post->post_parent == 16119) {

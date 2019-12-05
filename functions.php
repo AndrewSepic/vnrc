@@ -79,6 +79,14 @@ if( function_exists('acf_add_options_page') ) {
 	));
 
 	acf_add_options_sub_page(array(
+		'page_title' 	=> 'Announcement Bar',
+		'menu_title'	=> 'Announcement Bar',
+		'parent_slug'	=> 'vnrc-site-options',
+		'position'	=> false,
+		'icon_url'	=> false,
+	));
+
+	acf_add_options_sub_page(array(
 		'page_title' 	=> 'VNRC Site Wide Settings',
 		'menu_title'	=> 'Site Wide Options',
 		'parent_slug'	=> 'vnrc-site-options',

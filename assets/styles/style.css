@@ -2180,51 +2180,51 @@ body.page-template-template-act250 .highlight250 .vidContent a.videoLink:hover .
 /* CPT TEMPLATE */
 /********************* */
 /* line 1238, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
-body.page-template-template-cpt .navWrap, body.page-template-template-cpt-home .navWrap, body.page-template-template-cpt-issues .navWrap, body.page-template-template-cpt-casestudies .navWrap, body.page-template-template-cpt-tools .navWrap, body.search-results .navWrap {
+body.page-template-template-cpt .navWrap, body.page-template-template-cpt-home .navWrap, body.page-template-template-cpt-issues .navWrap, body.page-template-template-cpt-casestudies .navWrap, body.page-template-template-cpt-tools .navWrap, body.search-results .navWrap, body.search-no-results .navWrap {
   background-color: #fff;
 }
 
 /* line 1241, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
-body.page-template-template-cpt .navWrap .top-bar-left #logo a img.logo.white, body.page-template-template-cpt-home .navWrap .top-bar-left #logo a img.logo.white, body.page-template-template-cpt-issues .navWrap .top-bar-left #logo a img.logo.white, body.page-template-template-cpt-casestudies .navWrap .top-bar-left #logo a img.logo.white, body.page-template-template-cpt-tools .navWrap .top-bar-left #logo a img.logo.white, body.search-results .navWrap .top-bar-left #logo a img.logo.white {
+body.page-template-template-cpt .navWrap .top-bar-left #logo a img.logo.white, body.page-template-template-cpt-home .navWrap .top-bar-left #logo a img.logo.white, body.page-template-template-cpt-issues .navWrap .top-bar-left #logo a img.logo.white, body.page-template-template-cpt-casestudies .navWrap .top-bar-left #logo a img.logo.white, body.page-template-template-cpt-tools .navWrap .top-bar-left #logo a img.logo.white, body.search-results .navWrap .top-bar-left #logo a img.logo.white, body.search-no-results .navWrap .top-bar-left #logo a img.logo.white {
   display: none;
 }
 
 /* line 1243, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
-body.page-template-template-cpt .navWrap .top-bar-left #logo a img.logo.green, body.page-template-template-cpt-home .navWrap .top-bar-left #logo a img.logo.green, body.page-template-template-cpt-issues .navWrap .top-bar-left #logo a img.logo.green, body.page-template-template-cpt-casestudies .navWrap .top-bar-left #logo a img.logo.green, body.page-template-template-cpt-tools .navWrap .top-bar-left #logo a img.logo.green, body.search-results .navWrap .top-bar-left #logo a img.logo.green {
+body.page-template-template-cpt .navWrap .top-bar-left #logo a img.logo.green, body.page-template-template-cpt-home .navWrap .top-bar-left #logo a img.logo.green, body.page-template-template-cpt-issues .navWrap .top-bar-left #logo a img.logo.green, body.page-template-template-cpt-casestudies .navWrap .top-bar-left #logo a img.logo.green, body.page-template-template-cpt-tools .navWrap .top-bar-left #logo a img.logo.green, body.search-results .navWrap .top-bar-left #logo a img.logo.green, body.search-no-results .navWrap .top-bar-left #logo a img.logo.green {
   display: block;
 }
 
 /* line 1245, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
-body.page-template-template-cpt .navWrap a.search i.fi-magnifying-glass, body.page-template-template-cpt-home .navWrap a.search i.fi-magnifying-glass, body.page-template-template-cpt-issues .navWrap a.search i.fi-magnifying-glass, body.page-template-template-cpt-casestudies .navWrap a.search i.fi-magnifying-glass, body.page-template-template-cpt-tools .navWrap a.search i.fi-magnifying-glass, body.search-results .navWrap a.search i.fi-magnifying-glass {
+body.page-template-template-cpt .navWrap a.search i.fi-magnifying-glass, body.page-template-template-cpt-home .navWrap a.search i.fi-magnifying-glass, body.page-template-template-cpt-issues .navWrap a.search i.fi-magnifying-glass, body.page-template-template-cpt-casestudies .navWrap a.search i.fi-magnifying-glass, body.page-template-template-cpt-tools .navWrap a.search i.fi-magnifying-glass, body.search-results .navWrap a.search i.fi-magnifying-glass, body.search-no-results .navWrap a.search i.fi-magnifying-glass {
   color: #2b2b2b;
 }
 
 /* line 1248, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
-body.page-template-template-cpt .navWrap #mega-menu-wrap-main-nav #mega-menu-main-nav li.primary a.mega-menu-link, body.page-template-template-cpt-home .navWrap #mega-menu-wrap-main-nav #mega-menu-main-nav li.primary a.mega-menu-link, body.page-template-template-cpt-issues .navWrap #mega-menu-wrap-main-nav #mega-menu-main-nav li.primary a.mega-menu-link, body.page-template-template-cpt-casestudies .navWrap #mega-menu-wrap-main-nav #mega-menu-main-nav li.primary a.mega-menu-link, body.page-template-template-cpt-tools .navWrap #mega-menu-wrap-main-nav #mega-menu-main-nav li.primary a.mega-menu-link, body.search-results .navWrap #mega-menu-wrap-main-nav #mega-menu-main-nav li.primary a.mega-menu-link {
+body.page-template-template-cpt .navWrap #mega-menu-wrap-main-nav #mega-menu-main-nav li.primary a.mega-menu-link, body.page-template-template-cpt-home .navWrap #mega-menu-wrap-main-nav #mega-menu-main-nav li.primary a.mega-menu-link, body.page-template-template-cpt-issues .navWrap #mega-menu-wrap-main-nav #mega-menu-main-nav li.primary a.mega-menu-link, body.page-template-template-cpt-casestudies .navWrap #mega-menu-wrap-main-nav #mega-menu-main-nav li.primary a.mega-menu-link, body.page-template-template-cpt-tools .navWrap #mega-menu-wrap-main-nav #mega-menu-main-nav li.primary a.mega-menu-link, body.search-results .navWrap #mega-menu-wrap-main-nav #mega-menu-main-nav li.primary a.mega-menu-link, body.search-no-results .navWrap #mega-menu-wrap-main-nav #mega-menu-main-nav li.primary a.mega-menu-link {
   color: #2b2b2b;
 }
 
 /* line 1250, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
-body.page-template-template-cpt .navWrap #mega-menu-wrap-main-nav #mega-menu-main-nav li.facebook a.mega-menu-link, body.page-template-template-cpt .navWrap #mega-menu-wrap-main-nav #mega-menu-main-nav li.twitter a.mega-menu-link, body.page-template-template-cpt-home .navWrap #mega-menu-wrap-main-nav #mega-menu-main-nav li.facebook a.mega-menu-link, body.page-template-template-cpt-home .navWrap #mega-menu-wrap-main-nav #mega-menu-main-nav li.twitter a.mega-menu-link, body.page-template-template-cpt-issues .navWrap #mega-menu-wrap-main-nav #mega-menu-main-nav li.facebook a.mega-menu-link, body.page-template-template-cpt-issues .navWrap #mega-menu-wrap-main-nav #mega-menu-main-nav li.twitter a.mega-menu-link, body.page-template-template-cpt-casestudies .navWrap #mega-menu-wrap-main-nav #mega-menu-main-nav li.facebook a.mega-menu-link, body.page-template-template-cpt-casestudies .navWrap #mega-menu-wrap-main-nav #mega-menu-main-nav li.twitter a.mega-menu-link, body.page-template-template-cpt-tools .navWrap #mega-menu-wrap-main-nav #mega-menu-main-nav li.facebook a.mega-menu-link, body.page-template-template-cpt-tools .navWrap #mega-menu-wrap-main-nav #mega-menu-main-nav li.twitter a.mega-menu-link, body.search-results .navWrap #mega-menu-wrap-main-nav #mega-menu-main-nav li.facebook a.mega-menu-link, body.search-results .navWrap #mega-menu-wrap-main-nav #mega-menu-main-nav li.twitter a.mega-menu-link {
+body.page-template-template-cpt .navWrap #mega-menu-wrap-main-nav #mega-menu-main-nav li.facebook a.mega-menu-link, body.page-template-template-cpt .navWrap #mega-menu-wrap-main-nav #mega-menu-main-nav li.twitter a.mega-menu-link, body.page-template-template-cpt-home .navWrap #mega-menu-wrap-main-nav #mega-menu-main-nav li.facebook a.mega-menu-link, body.page-template-template-cpt-home .navWrap #mega-menu-wrap-main-nav #mega-menu-main-nav li.twitter a.mega-menu-link, body.page-template-template-cpt-issues .navWrap #mega-menu-wrap-main-nav #mega-menu-main-nav li.facebook a.mega-menu-link, body.page-template-template-cpt-issues .navWrap #mega-menu-wrap-main-nav #mega-menu-main-nav li.twitter a.mega-menu-link, body.page-template-template-cpt-casestudies .navWrap #mega-menu-wrap-main-nav #mega-menu-main-nav li.facebook a.mega-menu-link, body.page-template-template-cpt-casestudies .navWrap #mega-menu-wrap-main-nav #mega-menu-main-nav li.twitter a.mega-menu-link, body.page-template-template-cpt-tools .navWrap #mega-menu-wrap-main-nav #mega-menu-main-nav li.facebook a.mega-menu-link, body.page-template-template-cpt-tools .navWrap #mega-menu-wrap-main-nav #mega-menu-main-nav li.twitter a.mega-menu-link, body.search-results .navWrap #mega-menu-wrap-main-nav #mega-menu-main-nav li.facebook a.mega-menu-link, body.search-results .navWrap #mega-menu-wrap-main-nav #mega-menu-main-nav li.twitter a.mega-menu-link, body.search-no-results .navWrap #mega-menu-wrap-main-nav #mega-menu-main-nav li.facebook a.mega-menu-link, body.search-no-results .navWrap #mega-menu-wrap-main-nav #mega-menu-main-nav li.twitter a.mega-menu-link {
   color: #2b2b2b;
 }
 
 /* line 1252, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
-body.page-template-template-cpt .navWrap #mega-menu-wrap-main-nav #mega-menu-main-nav li.informed a.mega-menu-link, body.page-template-template-cpt-home .navWrap #mega-menu-wrap-main-nav #mega-menu-main-nav li.informed a.mega-menu-link, body.page-template-template-cpt-issues .navWrap #mega-menu-wrap-main-nav #mega-menu-main-nav li.informed a.mega-menu-link, body.page-template-template-cpt-casestudies .navWrap #mega-menu-wrap-main-nav #mega-menu-main-nav li.informed a.mega-menu-link, body.page-template-template-cpt-tools .navWrap #mega-menu-wrap-main-nav #mega-menu-main-nav li.informed a.mega-menu-link, body.search-results .navWrap #mega-menu-wrap-main-nav #mega-menu-main-nav li.informed a.mega-menu-link {
+body.page-template-template-cpt .navWrap #mega-menu-wrap-main-nav #mega-menu-main-nav li.informed a.mega-menu-link, body.page-template-template-cpt-home .navWrap #mega-menu-wrap-main-nav #mega-menu-main-nav li.informed a.mega-menu-link, body.page-template-template-cpt-issues .navWrap #mega-menu-wrap-main-nav #mega-menu-main-nav li.informed a.mega-menu-link, body.page-template-template-cpt-casestudies .navWrap #mega-menu-wrap-main-nav #mega-menu-main-nav li.informed a.mega-menu-link, body.page-template-template-cpt-tools .navWrap #mega-menu-wrap-main-nav #mega-menu-main-nav li.informed a.mega-menu-link, body.search-results .navWrap #mega-menu-wrap-main-nav #mega-menu-main-nav li.informed a.mega-menu-link, body.search-no-results .navWrap #mega-menu-wrap-main-nav #mega-menu-main-nav li.informed a.mega-menu-link {
   background-color: transparent;
   border: 2px solid #2b2b2b;
   color: #2b2b2b;
 }
 
 /* line 1256, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
-body.page-template-template-cpt .navWrap #mega-menu-wrap-main-nav #mega-menu-main-nav li.informed a.mega-menu-link:hover, body.page-template-template-cpt-home .navWrap #mega-menu-wrap-main-nav #mega-menu-main-nav li.informed a.mega-menu-link:hover, body.page-template-template-cpt-issues .navWrap #mega-menu-wrap-main-nav #mega-menu-main-nav li.informed a.mega-menu-link:hover, body.page-template-template-cpt-casestudies .navWrap #mega-menu-wrap-main-nav #mega-menu-main-nav li.informed a.mega-menu-link:hover, body.page-template-template-cpt-tools .navWrap #mega-menu-wrap-main-nav #mega-menu-main-nav li.informed a.mega-menu-link:hover, body.search-results .navWrap #mega-menu-wrap-main-nav #mega-menu-main-nav li.informed a.mega-menu-link:hover {
+body.page-template-template-cpt .navWrap #mega-menu-wrap-main-nav #mega-menu-main-nav li.informed a.mega-menu-link:hover, body.page-template-template-cpt-home .navWrap #mega-menu-wrap-main-nav #mega-menu-main-nav li.informed a.mega-menu-link:hover, body.page-template-template-cpt-issues .navWrap #mega-menu-wrap-main-nav #mega-menu-main-nav li.informed a.mega-menu-link:hover, body.page-template-template-cpt-casestudies .navWrap #mega-menu-wrap-main-nav #mega-menu-main-nav li.informed a.mega-menu-link:hover, body.page-template-template-cpt-tools .navWrap #mega-menu-wrap-main-nav #mega-menu-main-nav li.informed a.mega-menu-link:hover, body.search-results .navWrap #mega-menu-wrap-main-nav #mega-menu-main-nav li.informed a.mega-menu-link:hover, body.search-no-results .navWrap #mega-menu-wrap-main-nav #mega-menu-main-nav li.informed a.mega-menu-link:hover {
   transition: all .3s ease-in-out;
   background-color: #2b2b2b;
   color: #fff;
 }
 
 /* line 1260, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
-body.page-template-template-cpt .navWrap .button.informed, body.page-template-template-cpt-home .navWrap .button.informed, body.page-template-template-cpt-issues .navWrap .button.informed, body.page-template-template-cpt-casestudies .navWrap .button.informed, body.page-template-template-cpt-tools .navWrap .button.informed, body.search-results .navWrap .button.informed {
+body.page-template-template-cpt .navWrap .button.informed, body.page-template-template-cpt-home .navWrap .button.informed, body.page-template-template-cpt-issues .navWrap .button.informed, body.page-template-template-cpt-casestudies .navWrap .button.informed, body.page-template-template-cpt-tools .navWrap .button.informed, body.search-results .navWrap .button.informed, body.search-no-results .navWrap .button.informed {
   background-color: transparent;
   border: 2px solid #2b2b2b;
   padding: .85rem 1rem;
@@ -2237,29 +2237,29 @@ body.page-template-template-cpt .navWrap .button.informed, body.page-template-te
 }
 
 /* line 76, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
-body.page-template-template-cpt .navWrap .button.informed:hover, body.page-template-template-cpt-home .navWrap .button.informed:hover, body.page-template-template-cpt-issues .navWrap .button.informed:hover, body.page-template-template-cpt-casestudies .navWrap .button.informed:hover, body.page-template-template-cpt-tools .navWrap .button.informed:hover, body.search-results .navWrap .button.informed:hover {
+body.page-template-template-cpt .navWrap .button.informed:hover, body.page-template-template-cpt-home .navWrap .button.informed:hover, body.page-template-template-cpt-issues .navWrap .button.informed:hover, body.page-template-template-cpt-casestudies .navWrap .button.informed:hover, body.page-template-template-cpt-tools .navWrap .button.informed:hover, body.search-results .navWrap .button.informed:hover, body.search-no-results .navWrap .button.informed:hover {
   transition: all .3s ease-in-out;
   background-color: #2b2b2b;
   color: #2b2b2b;
 }
 
 /* line 1262, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
-body.page-template-template-cpt .navWrap .button.informed:hover, body.page-template-template-cpt-home .navWrap .button.informed:hover, body.page-template-template-cpt-issues .navWrap .button.informed:hover, body.page-template-template-cpt-casestudies .navWrap .button.informed:hover, body.page-template-template-cpt-tools .navWrap .button.informed:hover, body.search-results .navWrap .button.informed:hover {
+body.page-template-template-cpt .navWrap .button.informed:hover, body.page-template-template-cpt-home .navWrap .button.informed:hover, body.page-template-template-cpt-issues .navWrap .button.informed:hover, body.page-template-template-cpt-casestudies .navWrap .button.informed:hover, body.page-template-template-cpt-tools .navWrap .button.informed:hover, body.search-results .navWrap .button.informed:hover, body.search-no-results .navWrap .button.informed:hover {
   color: #fff;
 }
 
 /* line 1264, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
-body.page-template-template-cpt header.header, body.page-template-template-cpt-home header.header, body.page-template-template-cpt-issues header.header, body.page-template-template-cpt-casestudies header.header, body.page-template-template-cpt-tools header.header, body.search-results header.header {
+body.page-template-template-cpt header.header, body.page-template-template-cpt-home header.header, body.page-template-template-cpt-issues header.header, body.page-template-template-cpt-casestudies header.header, body.page-template-template-cpt-tools header.header, body.search-results header.header, body.search-no-results header.header {
   height: 500px;
 }
 
 /* line 1266, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
-body.page-template-template-cpt #cptTitle, body.page-template-template-cpt-home #cptTitle, body.page-template-template-cpt-issues #cptTitle, body.page-template-template-cpt-casestudies #cptTitle, body.page-template-template-cpt-tools #cptTitle, body.search-results #cptTitle {
+body.page-template-template-cpt #cptTitle, body.page-template-template-cpt-home #cptTitle, body.page-template-template-cpt-issues #cptTitle, body.page-template-template-cpt-casestudies #cptTitle, body.page-template-template-cpt-tools #cptTitle, body.search-results #cptTitle, body.search-no-results #cptTitle {
   background-color: #2A6A35;
 }
 
 /* line 1268, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
-body.page-template-template-cpt #cptTitle h1, body.page-template-template-cpt-home #cptTitle h1, body.page-template-template-cpt-issues #cptTitle h1, body.page-template-template-cpt-casestudies #cptTitle h1, body.page-template-template-cpt-tools #cptTitle h1, body.search-results #cptTitle h1 {
+body.page-template-template-cpt #cptTitle h1, body.page-template-template-cpt-home #cptTitle h1, body.page-template-template-cpt-issues #cptTitle h1, body.page-template-template-cpt-casestudies #cptTitle h1, body.page-template-template-cpt-tools #cptTitle h1, body.search-results #cptTitle h1, body.search-no-results #cptTitle h1 {
   color: #fff;
   text-transform: uppercase;
   font-size: 2.5rem;
@@ -2269,35 +2269,35 @@ body.page-template-template-cpt #cptTitle h1, body.page-template-template-cpt-ho
 }
 
 /* line 1275, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
-body.page-template-template-cpt .inner-content, body.page-template-template-cpt-home .inner-content, body.page-template-template-cpt-issues .inner-content, body.page-template-template-cpt-casestudies .inner-content, body.page-template-template-cpt-tools .inner-content, body.search-results .inner-content {
+body.page-template-template-cpt .inner-content, body.page-template-template-cpt-home .inner-content, body.page-template-template-cpt-issues .inner-content, body.page-template-template-cpt-casestudies .inner-content, body.page-template-template-cpt-tools .inner-content, body.search-results .inner-content, body.search-no-results .inner-content {
   padding: 3rem 0;
 }
 
 /* line 1277, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
-body.page-template-template-cpt .inner-content .entry-content, body.page-template-template-cpt-home .inner-content .entry-content, body.page-template-template-cpt-issues .inner-content .entry-content, body.page-template-template-cpt-casestudies .inner-content .entry-content, body.page-template-template-cpt-tools .inner-content .entry-content, body.search-results .inner-content .entry-content {
+body.page-template-template-cpt .inner-content .entry-content, body.page-template-template-cpt-home .inner-content .entry-content, body.page-template-template-cpt-issues .inner-content .entry-content, body.page-template-template-cpt-casestudies .inner-content .entry-content, body.page-template-template-cpt-tools .inner-content .entry-content, body.search-results .inner-content .entry-content, body.search-no-results .inner-content .entry-content {
   padding: 0;
 }
 
 /* line 1279, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
-body.page-template-template-cpt .inner-content h2, body.page-template-template-cpt-home .inner-content h2, body.page-template-template-cpt-issues .inner-content h2, body.page-template-template-cpt-casestudies .inner-content h2, body.page-template-template-cpt-tools .inner-content h2, body.search-results .inner-content h2 {
+body.page-template-template-cpt .inner-content h2, body.page-template-template-cpt-home .inner-content h2, body.page-template-template-cpt-issues .inner-content h2, body.page-template-template-cpt-casestudies .inner-content h2, body.page-template-template-cpt-tools .inner-content h2, body.search-results .inner-content h2, body.search-no-results .inner-content h2 {
   margin-bottom: 1rem;
   text-align: left;
 }
 
 /* line 1284, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
-body.page-template-template-cpt #cpt_sidebar img, body.page-template-template-cpt-home #cpt_sidebar img, body.page-template-template-cpt-issues #cpt_sidebar img, body.page-template-template-cpt-casestudies #cpt_sidebar img, body.page-template-template-cpt-tools #cpt_sidebar img, body.search-results #cpt_sidebar img {
+body.page-template-template-cpt #cpt_sidebar img, body.page-template-template-cpt-home #cpt_sidebar img, body.page-template-template-cpt-issues #cpt_sidebar img, body.page-template-template-cpt-casestudies #cpt_sidebar img, body.page-template-template-cpt-tools #cpt_sidebar img, body.search-results #cpt_sidebar img, body.search-no-results #cpt_sidebar img {
   width: 100%;
 }
 
 /* line 1287, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
-body.page-template-template-cpt #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li, body.page-template-template-cpt-home #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li, body.page-template-template-cpt-issues #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li, body.page-template-template-cpt-casestudies #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li, body.page-template-template-cpt-tools #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li, body.search-results #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li {
+body.page-template-template-cpt #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li, body.page-template-template-cpt-home #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li, body.page-template-template-cpt-issues #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li, body.page-template-template-cpt-casestudies #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li, body.page-template-template-cpt-tools #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li, body.search-results #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li, body.search-no-results #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li {
   margin-left: 10px;
   margin: .25rem 0;
   width: 100%;
 }
 
 /* line 1291, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
-body.page-template-template-cpt #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li a, body.page-template-template-cpt-home #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li a, body.page-template-template-cpt-issues #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li a, body.page-template-template-cpt-casestudies #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li a, body.page-template-template-cpt-tools #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li a, body.search-results #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li a {
+body.page-template-template-cpt #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li a, body.page-template-template-cpt-home #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li a, body.page-template-template-cpt-issues #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li a, body.page-template-template-cpt-casestudies #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li a, body.page-template-template-cpt-tools #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li a, body.search-results #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li a, body.search-no-results #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li a {
   padding-left: 27px;
   font-weight: 600;
   background: url("../images/svg/greenarrow.svg") no-repeat center left;
@@ -2307,29 +2307,29 @@ body.page-template-template-cpt #cpt_sidebar div.widget_nav_menu #menu-cpt-menu 
 }
 
 /* line 1298, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
-body.page-template-template-cpt #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li a:hover, body.page-template-template-cpt-home #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li a:hover, body.page-template-template-cpt-issues #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li a:hover, body.page-template-template-cpt-casestudies #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li a:hover, body.page-template-template-cpt-tools #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li a:hover, body.search-results #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li a:hover {
+body.page-template-template-cpt #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li a:hover, body.page-template-template-cpt-home #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li a:hover, body.page-template-template-cpt-issues #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li a:hover, body.page-template-template-cpt-casestudies #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li a:hover, body.page-template-template-cpt-tools #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li a:hover, body.search-results #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li a:hover, body.search-no-results #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li a:hover {
   opacity: .75;
 }
 
 /* line 1300, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
-body.page-template-template-cpt #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li ul.sub-menu, body.page-template-template-cpt-home #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li ul.sub-menu, body.page-template-template-cpt-issues #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li ul.sub-menu, body.page-template-template-cpt-casestudies #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li ul.sub-menu, body.page-template-template-cpt-tools #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li ul.sub-menu, body.search-results #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li ul.sub-menu {
+body.page-template-template-cpt #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li ul.sub-menu, body.page-template-template-cpt-home #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li ul.sub-menu, body.page-template-template-cpt-issues #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li ul.sub-menu, body.page-template-template-cpt-casestudies #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li ul.sub-menu, body.page-template-template-cpt-tools #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li ul.sub-menu, body.search-results #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li ul.sub-menu, body.search-no-results #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li ul.sub-menu {
   margin-left: 1rem;
 }
 
 /* line 1302, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
-body.page-template-template-cpt #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li ul.sub-menu li a, body.page-template-template-cpt-home #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li ul.sub-menu li a, body.page-template-template-cpt-issues #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li ul.sub-menu li a, body.page-template-template-cpt-casestudies #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li ul.sub-menu li a, body.page-template-template-cpt-tools #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li ul.sub-menu li a, body.search-results #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li ul.sub-menu li a {
+body.page-template-template-cpt #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li ul.sub-menu li a, body.page-template-template-cpt-home #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li ul.sub-menu li a, body.page-template-template-cpt-issues #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li ul.sub-menu li a, body.page-template-template-cpt-casestudies #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li ul.sub-menu li a, body.page-template-template-cpt-tools #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li ul.sub-menu li a, body.search-results #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li ul.sub-menu li a, body.search-no-results #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li ul.sub-menu li a {
   font-weight: 400;
   text-transform: capitalize;
   background-image: none;
 }
 
 /* line 1306, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
-body.page-template-template-cpt #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li ul.sub-menu li.active, body.page-template-template-cpt-home #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li ul.sub-menu li.active, body.page-template-template-cpt-issues #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li ul.sub-menu li.active, body.page-template-template-cpt-casestudies #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li ul.sub-menu li.active, body.page-template-template-cpt-tools #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li ul.sub-menu li.active, body.search-results #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li ul.sub-menu li.active {
+body.page-template-template-cpt #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li ul.sub-menu li.active, body.page-template-template-cpt-home #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li ul.sub-menu li.active, body.page-template-template-cpt-issues #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li ul.sub-menu li.active, body.page-template-template-cpt-casestudies #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li ul.sub-menu li.active, body.page-template-template-cpt-tools #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li ul.sub-menu li.active, body.search-results #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li ul.sub-menu li.active, body.search-no-results #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li ul.sub-menu li.active {
   position: relative;
 }
 
 /* line 1308, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
-body.page-template-template-cpt #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li ul.sub-menu li.active a::before, body.page-template-template-cpt-home #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li ul.sub-menu li.active a::before, body.page-template-template-cpt-issues #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li ul.sub-menu li.active a::before, body.page-template-template-cpt-casestudies #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li ul.sub-menu li.active a::before, body.page-template-template-cpt-tools #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li ul.sub-menu li.active a::before, body.search-results #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li ul.sub-menu li.active a::before {
+body.page-template-template-cpt #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li ul.sub-menu li.active a::before, body.page-template-template-cpt-home #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li ul.sub-menu li.active a::before, body.page-template-template-cpt-issues #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li ul.sub-menu li.active a::before, body.page-template-template-cpt-casestudies #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li ul.sub-menu li.active a::before, body.page-template-template-cpt-tools #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li ul.sub-menu li.active a::before, body.search-results #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li ul.sub-menu li.active a::before, body.search-no-results #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li ul.sub-menu li.active a::before {
   position: absolute;
   content: "";
   width: 0;
@@ -2341,13 +2341,13 @@ body.page-template-template-cpt #cpt_sidebar div.widget_nav_menu #menu-cpt-menu 
 }
 
 /* line 1317, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
-body.page-template-template-cpt #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li.active, body.page-template-template-cpt-home #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li.active, body.page-template-template-cpt-issues #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li.active, body.page-template-template-cpt-casestudies #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li.active, body.page-template-template-cpt-tools #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li.active, body.search-results #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li.active {
+body.page-template-template-cpt #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li.active, body.page-template-template-cpt-home #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li.active, body.page-template-template-cpt-issues #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li.active, body.page-template-template-cpt-casestudies #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li.active, body.page-template-template-cpt-tools #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li.active, body.search-results #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li.active, body.search-no-results #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li.active {
   background-color: #fcf5ee;
   color: #78a13f;
 }
 
 /* line 1321, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
-body.page-template-template-cpt input.search-field, body.page-template-template-cpt-home input.search-field, body.page-template-template-cpt-issues input.search-field, body.page-template-template-cpt-casestudies input.search-field, body.page-template-template-cpt-tools input.search-field, body.search-results input.search-field {
+body.page-template-template-cpt input.search-field, body.page-template-template-cpt-home input.search-field, body.page-template-template-cpt-issues input.search-field, body.page-template-template-cpt-casestudies input.search-field, body.page-template-template-cpt-tools input.search-field, body.search-results input.search-field, body.search-no-results input.search-field {
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
   width: 60%;
@@ -2356,7 +2356,7 @@ body.page-template-template-cpt input.search-field, body.page-template-template-
 }
 
 /* line 1327, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
-body.page-template-template-cpt input.search-submit, body.page-template-template-cpt-home input.search-submit, body.page-template-template-cpt-issues input.search-submit, body.page-template-template-cpt-casestudies input.search-submit, body.page-template-template-cpt-tools input.search-submit, body.search-results input.search-submit {
+body.page-template-template-cpt input.search-submit, body.page-template-template-cpt-home input.search-submit, body.page-template-template-cpt-issues input.search-submit, body.page-template-template-cpt-casestudies input.search-submit, body.page-template-template-cpt-tools input.search-submit, body.search-results input.search-submit, body.search-no-results input.search-submit {
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
   font-weight: bold;
@@ -2364,17 +2364,17 @@ body.page-template-template-cpt input.search-submit, body.page-template-template
 }
 
 /* line 1332, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
-body.page-template-template-cpt input.search-submit:hover, body.page-template-template-cpt-home input.search-submit:hover, body.page-template-template-cpt-issues input.search-submit:hover, body.page-template-template-cpt-casestudies input.search-submit:hover, body.page-template-template-cpt-tools input.search-submit:hover, body.search-results input.search-submit:hover {
+body.page-template-template-cpt input.search-submit:hover, body.page-template-template-cpt-home input.search-submit:hover, body.page-template-template-cpt-issues input.search-submit:hover, body.page-template-template-cpt-casestudies input.search-submit:hover, body.page-template-template-cpt-tools input.search-submit:hover, body.search-results input.search-submit:hover, body.search-no-results input.search-submit:hover {
   background-color: #699033;
 }
 
 /* line 1334, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
-body.page-template-template-cpt button.browseIssues, body.page-template-template-cpt-home button.browseIssues, body.page-template-template-cpt-issues button.browseIssues, body.page-template-template-cpt-casestudies button.browseIssues, body.page-template-template-cpt-tools button.browseIssues, body.search-results button.browseIssues {
+body.page-template-template-cpt button.browseIssues, body.page-template-template-cpt-home button.browseIssues, body.page-template-template-cpt-issues button.browseIssues, body.page-template-template-cpt-casestudies button.browseIssues, body.page-template-template-cpt-tools button.browseIssues, body.search-results button.browseIssues, body.search-no-results button.browseIssues {
   line-height: 1.5rem;
 }
 
 /* line 1336, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
-body.page-template-template-cpt button.browseIssues span, body.page-template-template-cpt-home button.browseIssues span, body.page-template-template-cpt-issues button.browseIssues span, body.page-template-template-cpt-casestudies button.browseIssues span, body.page-template-template-cpt-tools button.browseIssues span, body.search-results button.browseIssues span {
+body.page-template-template-cpt button.browseIssues span, body.page-template-template-cpt-home button.browseIssues span, body.page-template-template-cpt-issues button.browseIssues span, body.page-template-template-cpt-casestudies button.browseIssues span, body.page-template-template-cpt-tools button.browseIssues span, body.search-results button.browseIssues span, body.search-no-results button.browseIssues span {
   font-size: 2rem;
   line-height: 1rem;
   display: block;
@@ -2383,25 +2383,25 @@ body.page-template-template-cpt button.browseIssues span, body.page-template-tem
 }
 
 /* line 1342, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
-body.page-template-template-cpt div#issues-dropdown, body.page-template-template-cpt div#tools-dropdown, body.page-template-template-cpt div#casestudies-dropdown, body.page-template-template-cpt-home div#issues-dropdown, body.page-template-template-cpt-home div#tools-dropdown, body.page-template-template-cpt-home div#casestudies-dropdown, body.page-template-template-cpt-issues div#issues-dropdown, body.page-template-template-cpt-issues div#tools-dropdown, body.page-template-template-cpt-issues div#casestudies-dropdown, body.page-template-template-cpt-casestudies div#issues-dropdown, body.page-template-template-cpt-casestudies div#tools-dropdown, body.page-template-template-cpt-casestudies div#casestudies-dropdown, body.page-template-template-cpt-tools div#issues-dropdown, body.page-template-template-cpt-tools div#tools-dropdown, body.page-template-template-cpt-tools div#casestudies-dropdown, body.search-results div#issues-dropdown, body.search-results div#tools-dropdown, body.search-results div#casestudies-dropdown {
+body.page-template-template-cpt div#issues-dropdown, body.page-template-template-cpt div#tools-dropdown, body.page-template-template-cpt div#casestudies-dropdown, body.page-template-template-cpt-home div#issues-dropdown, body.page-template-template-cpt-home div#tools-dropdown, body.page-template-template-cpt-home div#casestudies-dropdown, body.page-template-template-cpt-issues div#issues-dropdown, body.page-template-template-cpt-issues div#tools-dropdown, body.page-template-template-cpt-issues div#casestudies-dropdown, body.page-template-template-cpt-casestudies div#issues-dropdown, body.page-template-template-cpt-casestudies div#tools-dropdown, body.page-template-template-cpt-casestudies div#casestudies-dropdown, body.page-template-template-cpt-tools div#issues-dropdown, body.page-template-template-cpt-tools div#tools-dropdown, body.page-template-template-cpt-tools div#casestudies-dropdown, body.search-results div#issues-dropdown, body.search-results div#tools-dropdown, body.search-results div#casestudies-dropdown, body.search-no-results div#issues-dropdown, body.search-no-results div#tools-dropdown, body.search-no-results div#casestudies-dropdown {
   height: 250px;
   overflow: auto;
 }
 
 /* line 1345, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
-body.page-template-template-cpt div#issues-dropdown ul, body.page-template-template-cpt div#tools-dropdown ul, body.page-template-template-cpt div#casestudies-dropdown ul, body.page-template-template-cpt-home div#issues-dropdown ul, body.page-template-template-cpt-home div#tools-dropdown ul, body.page-template-template-cpt-home div#casestudies-dropdown ul, body.page-template-template-cpt-issues div#issues-dropdown ul, body.page-template-template-cpt-issues div#tools-dropdown ul, body.page-template-template-cpt-issues div#casestudies-dropdown ul, body.page-template-template-cpt-casestudies div#issues-dropdown ul, body.page-template-template-cpt-casestudies div#tools-dropdown ul, body.page-template-template-cpt-casestudies div#casestudies-dropdown ul, body.page-template-template-cpt-tools div#issues-dropdown ul, body.page-template-template-cpt-tools div#tools-dropdown ul, body.page-template-template-cpt-tools div#casestudies-dropdown ul, body.search-results div#issues-dropdown ul, body.search-results div#tools-dropdown ul, body.search-results div#casestudies-dropdown ul {
+body.page-template-template-cpt div#issues-dropdown ul, body.page-template-template-cpt div#tools-dropdown ul, body.page-template-template-cpt div#casestudies-dropdown ul, body.page-template-template-cpt-home div#issues-dropdown ul, body.page-template-template-cpt-home div#tools-dropdown ul, body.page-template-template-cpt-home div#casestudies-dropdown ul, body.page-template-template-cpt-issues div#issues-dropdown ul, body.page-template-template-cpt-issues div#tools-dropdown ul, body.page-template-template-cpt-issues div#casestudies-dropdown ul, body.page-template-template-cpt-casestudies div#issues-dropdown ul, body.page-template-template-cpt-casestudies div#tools-dropdown ul, body.page-template-template-cpt-casestudies div#casestudies-dropdown ul, body.page-template-template-cpt-tools div#issues-dropdown ul, body.page-template-template-cpt-tools div#tools-dropdown ul, body.page-template-template-cpt-tools div#casestudies-dropdown ul, body.search-results div#issues-dropdown ul, body.search-results div#tools-dropdown ul, body.search-results div#casestudies-dropdown ul, body.search-no-results div#issues-dropdown ul, body.search-no-results div#tools-dropdown ul, body.search-no-results div#casestudies-dropdown ul {
   list-style-type: none;
   margin-left: .5rem;
 }
 
 /* line 1348, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
-body.page-template-template-cpt div#issues-dropdown ul li, body.page-template-template-cpt div#tools-dropdown ul li, body.page-template-template-cpt div#casestudies-dropdown ul li, body.page-template-template-cpt-home div#issues-dropdown ul li, body.page-template-template-cpt-home div#tools-dropdown ul li, body.page-template-template-cpt-home div#casestudies-dropdown ul li, body.page-template-template-cpt-issues div#issues-dropdown ul li, body.page-template-template-cpt-issues div#tools-dropdown ul li, body.page-template-template-cpt-issues div#casestudies-dropdown ul li, body.page-template-template-cpt-casestudies div#issues-dropdown ul li, body.page-template-template-cpt-casestudies div#tools-dropdown ul li, body.page-template-template-cpt-casestudies div#casestudies-dropdown ul li, body.page-template-template-cpt-tools div#issues-dropdown ul li, body.page-template-template-cpt-tools div#tools-dropdown ul li, body.page-template-template-cpt-tools div#casestudies-dropdown ul li, body.search-results div#issues-dropdown ul li, body.search-results div#tools-dropdown ul li, body.search-results div#casestudies-dropdown ul li {
+body.page-template-template-cpt div#issues-dropdown ul li, body.page-template-template-cpt div#tools-dropdown ul li, body.page-template-template-cpt div#casestudies-dropdown ul li, body.page-template-template-cpt-home div#issues-dropdown ul li, body.page-template-template-cpt-home div#tools-dropdown ul li, body.page-template-template-cpt-home div#casestudies-dropdown ul li, body.page-template-template-cpt-issues div#issues-dropdown ul li, body.page-template-template-cpt-issues div#tools-dropdown ul li, body.page-template-template-cpt-issues div#casestudies-dropdown ul li, body.page-template-template-cpt-casestudies div#issues-dropdown ul li, body.page-template-template-cpt-casestudies div#tools-dropdown ul li, body.page-template-template-cpt-casestudies div#casestudies-dropdown ul li, body.page-template-template-cpt-tools div#issues-dropdown ul li, body.page-template-template-cpt-tools div#tools-dropdown ul li, body.page-template-template-cpt-tools div#casestudies-dropdown ul li, body.search-results div#issues-dropdown ul li, body.search-results div#tools-dropdown ul li, body.search-results div#casestudies-dropdown ul li, body.search-no-results div#issues-dropdown ul li, body.search-no-results div#tools-dropdown ul li, body.search-no-results div#casestudies-dropdown ul li {
   padding: .5rem;
   border-bottom: 1px solid #eae3dc;
 }
 
 /* line 1351, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
-body.page-template-template-cpt div#issues-dropdown ul li:hover, body.page-template-template-cpt div#tools-dropdown ul li:hover, body.page-template-template-cpt div#casestudies-dropdown ul li:hover, body.page-template-template-cpt-home div#issues-dropdown ul li:hover, body.page-template-template-cpt-home div#tools-dropdown ul li:hover, body.page-template-template-cpt-home div#casestudies-dropdown ul li:hover, body.page-template-template-cpt-issues div#issues-dropdown ul li:hover, body.page-template-template-cpt-issues div#tools-dropdown ul li:hover, body.page-template-template-cpt-issues div#casestudies-dropdown ul li:hover, body.page-template-template-cpt-casestudies div#issues-dropdown ul li:hover, body.page-template-template-cpt-casestudies div#tools-dropdown ul li:hover, body.page-template-template-cpt-casestudies div#casestudies-dropdown ul li:hover, body.page-template-template-cpt-tools div#issues-dropdown ul li:hover, body.page-template-template-cpt-tools div#tools-dropdown ul li:hover, body.page-template-template-cpt-tools div#casestudies-dropdown ul li:hover, body.search-results div#issues-dropdown ul li:hover, body.search-results div#tools-dropdown ul li:hover, body.search-results div#casestudies-dropdown ul li:hover {
+body.page-template-template-cpt div#issues-dropdown ul li:hover, body.page-template-template-cpt div#tools-dropdown ul li:hover, body.page-template-template-cpt div#casestudies-dropdown ul li:hover, body.page-template-template-cpt-home div#issues-dropdown ul li:hover, body.page-template-template-cpt-home div#tools-dropdown ul li:hover, body.page-template-template-cpt-home div#casestudies-dropdown ul li:hover, body.page-template-template-cpt-issues div#issues-dropdown ul li:hover, body.page-template-template-cpt-issues div#tools-dropdown ul li:hover, body.page-template-template-cpt-issues div#casestudies-dropdown ul li:hover, body.page-template-template-cpt-casestudies div#issues-dropdown ul li:hover, body.page-template-template-cpt-casestudies div#tools-dropdown ul li:hover, body.page-template-template-cpt-casestudies div#casestudies-dropdown ul li:hover, body.page-template-template-cpt-tools div#issues-dropdown ul li:hover, body.page-template-template-cpt-tools div#tools-dropdown ul li:hover, body.page-template-template-cpt-tools div#casestudies-dropdown ul li:hover, body.search-results div#issues-dropdown ul li:hover, body.search-results div#tools-dropdown ul li:hover, body.search-results div#casestudies-dropdown ul li:hover, body.search-no-results div#issues-dropdown ul li:hover, body.search-no-results div#tools-dropdown ul li:hover, body.search-no-results div#casestudies-dropdown ul li:hover {
   background-color: #fdfbf9;
 }
 
@@ -2434,45 +2434,60 @@ body.page-template-template-cpt div#issues-dropdown ul li:hover, body.page-templ
   margin-top: 2rem;
 }
 
+/* line 1375, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
+h2.cpt {
+  text-transform: none;
+}
+
+/* line 1379, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
+.search-results h2.cpt, .search-no-results h2.cpt {
+  margin-top: 4rem;
+}
+
+/* line 1381, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
+.search-results input[type="search"], .search-no-results input[type="search"] {
+  border: 1px solid #cacaca;
+}
+
 /********************* */
 /* SEARCH TEMPLATE */
 /********************* */
-/* line 1379, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1388, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
 body.search-results #heroTitle h1 span {
   font-style: italic;
   font-weight: 300;
 }
 
-/* line 1384, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1393, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
 body.search-results .inner-content header.article-header h2 {
   margin-bottom: 1rem;
   text-align: left;
 }
 
-/* line 1387, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1396, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
 body.search-results .inner-content header.article-header .byline {
   margin-bottom: 0;
 }
 
-/* line 1389, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1398, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
 body.search-results article {
   margin: 3rem 0 0;
   border-bottom: 1px solid #cacaca;
   padding-bottom: 3rem;
 }
 
-/* line 1393, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1402, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
 body.search-results article .entry-content {
   margin-bottom: 0;
   padding: 0;
 }
 
-/* line 1396, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1405, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
 body.search-results article .excerpt-read-more {
   padding-top: 1rem;
 }
 
-/* line 1398, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1407, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
 body.search-results article .excerpt-read-more .greenarrow {
   margin: 3px 0 0 5px;
 }
@@ -2480,27 +2495,27 @@ body.search-results article .excerpt-read-more .greenarrow {
 /********************* */
 /* STAND ALONE ELEMENTS */
 /********************* */
-/* line 1405, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1414, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
 .fb-video blockquote p {
   color: #e2e2e2;
 }
 
-/* line 1410, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1419, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-id-229 .entry-content i.fi-social-facebook, body.page-id-229 .entry-content i.fi-social-twitter {
   font-size: 2.5rem;
 }
 
-/* line 1412, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1421, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-id-229 .entry-content i.fi-social-facebook {
   margin-right: 1rem;
 }
 
-/* line 1416, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1425, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
 .page-navigation {
   margin-top: 3rem;
 }
 
-/* line 1418, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1427, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
 .page-navigation ul.pagination li {
   font-size: 1.25rem;
 }
@@ -2508,60 +2523,60 @@ body.page-id-229 .entry-content i.fi-social-facebook {
 /********************* */
 /* ANNOUNCEMENT BAR */
 /********************* */
-/* line 1424, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1433, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
 .announcement {
   padding: 3rem;
   position: relative;
 }
 
-/* line 1427, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1436, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
 .announcement.red {
   background-color: #d14b27;
   color: #fff;
 }
 
-/* line 1430, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1439, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
 .announcement.red a {
   color: #fff;
 }
 
-/* line 1432, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1441, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
 .announcement.red .button {
   background-color: #fff;
   color: #d14b27;
   border-color: #fff;
 }
 
-/* line 1436, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1445, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
 .announcement.red .button:hover {
   background-color: transparent;
 }
 
-/* line 1438, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1447, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
 .announcement.grey {
   background-color: #6f7d74;
   color: #fff;
 }
 
-/* line 1441, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1450, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
 .announcement.grey a {
   color: #fff;
 }
 
-/* line 1443, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1452, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
 .announcement.grey .button {
   background-color: #fff;
   color: #6f7d74;
   border-color: #fff;
 }
 
-/* line 1447, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1456, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
 .announcement.grey .button:hover {
   background-color: transparent;
   color: #fff;
 }
 
-/* line 1450, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1459, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
 .announcement #closeit {
   position: absolute;
   bottom: 20px;
@@ -2573,7 +2588,7 @@ body.page-id-229 .entry-content i.fi-social-facebook {
 /********************* */
 /* FOOTER */
 /********************* */
-/* line 1462, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1471, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
 footer.footer {
   background-color: #f4f7f6;
   border-top: 10px solid #78a13f;
@@ -2581,33 +2596,33 @@ footer.footer {
   margin-top: 3rem;
 }
 
-/* line 1467, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1476, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
 footer.footer .cell.reports, footer.footer .cell.subscribe {
   padding: 0 1.5rem 2.5rem;
   color: #2A6A35;
 }
 
-/* line 1470, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1479, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
 footer.footer .cell.reports h4, footer.footer .cell.subscribe h4 {
   font-weight: 700;
   font-size: 1.4rem;
 }
 
-/* line 1473, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1482, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
 footer.footer .cell.reports p, footer.footer .cell.subscribe p {
   font-family: adobe-garamond-pro, serif;
   font-size: 1.2rem;
   line-height: 1.5rem;
 }
 
-/* line 1477, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1486, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
 footer.footer .cell.reports a, footer.footer .cell.subscribe a {
   color: #2A6A35;
   font-weight: 700;
   text-decoration: underline;
 }
 
-/* line 1481, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1490, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
 footer.footer .cell.reports a.button, footer.footer .cell.subscribe a.button {
   color: #fff;
   text-decoration: none;
@@ -2615,100 +2630,100 @@ footer.footer .cell.reports a.button, footer.footer .cell.subscribe a.button {
   font-family: "Open Sans", sans-serif;
 }
 
-/* line 1487, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1496, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
 footer.footer .reports img {
   float: left;
   width: 30%;
   margin-right: 1rem;
 }
 
-/* line 1491, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1500, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
 footer.footer .bottomFooterWrapper {
   background-color: #2b2b2b;
   color: #fff;
   padding-top: 3rem;
 }
 
-/* line 1495, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1504, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
 footer.footer .bottomFooterWrapper h5 {
   font-size: 1rem;
   font-weight: 700;
 }
 
-/* line 1498, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1507, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
 footer.footer .bottomFooterWrapper p {
   font-size: .75rem;
 }
 
-/* line 1500, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1509, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
 footer.footer .bottomFooterWrapper .cell {
   padding: 0 3rem;
 }
 
-/* line 1502, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1511, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
 footer.footer .bottomFooterWrapper .vnrc {
   border-right: 1px solid #78a13f;
 }
 
-/* line 1504, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1513, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
 footer.footer .bottomFooterWrapper .vnrc img {
   padding-bottom: 1rem;
 }
 
-/* line 1506, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1515, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
 footer.footer .bottomFooterWrapper .vnrc p {
   text-transform: uppercase;
 }
 
-/* line 1508, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1517, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
 footer.footer .bottomFooterWrapper .associates {
   border-right: 1px solid #78a13f;
 }
 
-/* line 1510, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1519, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
 footer.footer .bottomFooterWrapper .associates img {
   margin-top: 1rem;
 }
 
-/* line 1512, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1521, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
 footer.footer .bottomFooterWrapper .associates img.vcv {
   float: left;
   width: 35%;
   margin-right: 4rem;
 }
 
-/* line 1516, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1525, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
 footer.footer .bottomFooterWrapper .associates img.vecan {
   float: right;
   width: 43%;
   margin-top: 1.15rem;
 }
 
-/* line 1521, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1530, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
 footer.footer .bottomFooterWrapper .links .follow, footer.footer .bottomFooterWrapper .links .support {
   line-height: 2rem;
   float: left;
   width: 45%;
 }
 
-/* line 1525, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1534, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
 footer.footer .bottomFooterWrapper .links .follow h5, footer.footer .bottomFooterWrapper .links .support h5 {
   margin-bottom: 1rem;
 }
 
-/* line 1527, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1536, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
 footer.footer .bottomFooterWrapper .links .button.orange {
   font-size: .85rem;
 }
 
-/* line 1529, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1538, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
 footer.footer .bottomFooterWrapper .links i {
   font-size: 2rem;
   color: #fff;
   margin-right: 1rem;
 }
 
-/* line 1533, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1542, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
 footer.footer .bottomFooterWrapper .links p {
   color: #b7b7b7;
   line-height: 1rem;
@@ -2717,24 +2732,24 @@ footer.footer .bottomFooterWrapper .links p {
   margin-top: 1rem;
 }
 
-/* line 1539, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1548, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
 footer.footer .bottomFooterWrapper .pageinfo {
   margin-top: 2rem;
   color: #b7b7b7;
   background-color: #2b2b2b;
 }
 
-/* line 1543, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1552, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
 footer.footer .bottomFooterWrapper .pageinfo p {
   font-size: .85rem;
 }
 
-/* line 1545, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1554, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
 footer.footer .bottomFooterWrapper .pageinfo p a {
   color: #828282;
 }
 
-/* line 1547, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1556, ../../../../../../../../../../../../../Users/andrewsepic/vnrc/assets/styles/scss/_vnrc.sass */
 footer.footer .bottomFooterWrapper .pageinfo p a.hover {
   color: #fff;
 }
