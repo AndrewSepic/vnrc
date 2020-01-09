@@ -60,7 +60,7 @@ get_header(); ?>
 						<h2 class="cpt">Browse or Search the Toolbox</h2>
 						<div class="grid-x">
 							<div class="small-12 medium-2 large-3 cell">
-								<button class="button browseIssues" type="button" data-toggle="issues-dropdown">Browse Issues <span>&#8964;</span></button>
+								<button class="button browseIssues" type="button" data-toggle="issues-dropdown">Browse Issues<span class="downArrow"></span></button>
 									<div class="dropdown-pane" id="issues-dropdown" data-dropdown data-auto-focus="true">
 										<ul class="issues">
 										<?php
@@ -74,7 +74,7 @@ get_header(); ?>
 									</div>
 							</div>
 							<div class="small-12 medium-2 large-3 cell">
-								<button class="button browseIssues" type="button" data-toggle="tools-dropdown">Browse Tools<span>&#8964;</span></button>
+								<button class="button browseIssues" type="button" data-toggle="tools-dropdown">Browse Tools<span class="downArrow"></span></button>
 									<div class="dropdown-pane" id="tools-dropdown" data-dropdown data-auto-focus="true">
 										<ul class="issues">
 										<?php
@@ -88,7 +88,7 @@ get_header(); ?>
 									</div>
 							</div>
 							<div class="small-12 medium-2 large-4 cell">
-								<button class="button browseIssues" type="button" data-toggle="casestudies-dropdown">Browse Case Studies <span>&#8964;</span></button>
+								<button class="button browseIssues" type="button" data-toggle="casestudies-dropdown">Browse Case Studies<span class="downArrow"></span></button>
 									<div class="dropdown-pane" id="casestudies-dropdown" data-dropdown data-auto-focus="true">
 										<ul class="issues">
 										<?php

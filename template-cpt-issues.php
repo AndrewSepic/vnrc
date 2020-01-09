@@ -56,7 +56,7 @@ get_header(); ?>
 				    <?php endwhile; endif;?>
 					<div class="grid-x">
 						<div class="small-12 medium-6 large-4 cell">
-							<button class="button browseIssues" type="button" data-toggle="issues-dropdown">Browse Issues <span>&#8964;</span></button>
+							<button class="button browseIssues" type="button" data-toggle="issues-dropdown">Browse Issues <span class="downArrow"></span></button>
 								<div class="dropdown-pane" id="issues-dropdown" data-dropdown data-auto-focus="true">
 									<ul class="issues">
 									<?php
