@@ -337,12 +337,19 @@ select
     font-size: 1.5rem
     border-bottom: 5px solid #78a13f
     color: #fff
+    width: 60%
+    margin-left: 15%
+    float: left
     &:focus
       background-color: rgba(49, 76, 54, 0.5)
       border-bottom: 5px solid #78a13f
       color: #fff
   input[type="submit"]
-    float: right
+    float: left
+    padding: 1.5rem 2rem 1.725rem 2rem !important
+    text-indent: 0
+    border-radius: 0
+    border: 0
 
 hr
   margin: 4rem auto
@@ -568,10 +575,12 @@ body.single
     margin-top: 2rem
     font-weight: 700
   p.byline
-    color: $bodytextcolor
-    font-weight: 600
-    font-size: 1.25rem
-    margin: 1rem 0 0 0
+    margin-top: -41px
+    background-color: #404040
+    color: #fff
+    opacity: .75
+    padding: .5rem
+    position: absolute
   .entry-content
     padding: 1rem 0
 
@@ -589,6 +598,8 @@ body.archive, body.page-template-template-postsatbottom
     font-style: italic
   .inner-content
     margin-top: 2rem
+  header iframe
+    margin-bottom: 2rem
   article.post:nth-child(odd), div.postsAtBottom article:nth-child(odd)
     background-color: $lightgrey
   article:first-of-type
@@ -724,9 +735,17 @@ body.home
     h4
       font-size: 1.25rem
       font-weight: 700
-      padding: 1.5rem 0 .25rem
+      padding: 1.5rem 0 0
+      margin-bottom: 0
     .catLink .readmore
       +readmore
+    .byline
+      margin-top: -41px
+      background-color: #404040
+      color: #fff
+      opacity: .75
+      padding: .5rem
+      position: absolute
   .video
     background-color: $grey
     padding: 2rem
@@ -811,7 +830,21 @@ body.home
   +victoryStyles
   a.victoryLink:hover
     opacity: .75
-
+  .cell
+    h4
+      font-size: 1.25rem
+      font-weight: 700
+      padding: 1.5rem 0 .25rem
+    .eventWrap
+      padding: 0 0 .5rem
+      color: #2a6a35
+      font-weight: bold
+      border-bottom: 4px dotted #78a13e
+      margin-bottom: 1rem
+      span.eventdate
+        font-weight: normal
+        color: #0a0a0a
+        font-style: italic
 .missionWrapper
   padding: 4rem 0
   background: $green url('../images/swoosh.png') no-repeat top left

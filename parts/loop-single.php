@@ -9,10 +9,10 @@
 	<div class="post-header-image">
 		<?php the_post_thumbnail('full'); ?>
 	</div>
+	<?php get_template_part( 'parts/content', 'byline' ); ?>
 
 	<header class="article-header">
 		<h1 class="entry-title single-title" itemprop="headline"><?php the_title(); ?></h1>
-		<?php get_template_part( 'parts/content', 'byline' ); ?>
     </header> <!-- end article header -->
 
     <section class="entry-content" itemprop="text">

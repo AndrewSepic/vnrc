@@ -47,7 +47,13 @@
     	    	<header>
               <?php the_breadcrumb(); ?>
     	    		<h1 class="page-title"><?php the_archive_title();?></h1>
-    				<?php the_archive_description('<div class="taxonomy-description">', '</div>');?>
+    				 <?php the_archive_description('<div class="taxonomy-description">', '</div>');
+              if (is_category('events')) {
+                ?>
+                <p>Keep track of upcoming VNRC and partner events with the calendar below. Click the "Agenda" tab at the top right of the calendar to see the events organized in list form. </p>
+                <iframe src="https://calendar.google.com/calendar/embed?src=vnrc.org_4t58bc6j2djd233mm6iql3h43s%40group.calendar.google.com&amp;ctz=America%2FNew_York" style="border: 0" width="750" height="600" frameborder="0" scrolling="no"></iframe>
+                <?php
+              } ?>
     	    	</header>
 
     	    	<?php if (have_posts()) : while (have_posts()) : the_post(); ?>

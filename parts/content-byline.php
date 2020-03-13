@@ -6,6 +6,6 @@
 
 <p class="byline">
 	<?php
-		echo get_the_time( __('F j, Y', 'jointswp') );
+		echo get_the_time( __('M j', 'jointswp') );
 	?>
 </p>
