@@ -187,7 +187,7 @@ get_header(); ?>
 										<div class="cell small-12 medium-4 large-4 post">
 											<h4><?php the_title() ?></h4>
 											<div class="eventWrap">Event Date:
-												<span class="eventdate"><?php the_field('event_date');?> @ <?php the_field('event_time');?></span>
+												<span class="eventdate"><?php the_field('event_date');?></span>
 											</div>
 											<a class="excerpt-read-more" href="<?php the_permalink();?>">Read More <span class="greenarrow excerpt"></span></a>
 										</div>
