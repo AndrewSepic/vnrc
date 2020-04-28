@@ -1144,21 +1144,30 @@ body.page-template-staff
       margin: 0 1rem
     .info
       display: none
-  .staffTop
-    float: left
-    width: 40%
-    margin-right: 1rem
-    img
-      max-width: 250px
-      border-bottom: 10px solid #f1f1f1
-    h4
-      margin: 1rem 0 0
-    .staffTitle
-      text-transform: uppercase
-      color: #78a13f
-  .staffBottom
-    float: left
-    width: 55%
+  .reveal.small
+    display: flex
+    justify-content: space-between
+    @include breakpoint(medium only)
+      width: 80%
+    @include breakpoint(small only)
+      flex-wrap: wrap
+      .staffTop, .staffBottom
+        width: 100%
+      .staffTop
+        margin-right: 0
+        padding: 1rem
+    .staffTop
+      margin-right: 1rem
+      img
+        max-width: 250px
+        border-bottom: 10px solid #f1f1f1
+      h4
+        margin: 1rem 0 0
+      .staffTitle
+        text-transform: uppercase
+        color: #78a13f
+    .staffBottom
+      padding: 1rem
 
 /*********************
 /* VERS CATEGORY TEMPLATE
