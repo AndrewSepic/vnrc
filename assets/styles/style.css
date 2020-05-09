@@ -370,10 +370,15 @@ ul.tabs .tabs-title > a:focus, ul.tabs .tabs-title > a[aria-selected='true'] {
   font-size: 1.25rem;
 }
 
+/* line 387, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+.wp-block-image figure {
+  display: table;
+}
+
 /********************* */
 /* PAGINATION */
 /********************* */
-/* line 390, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 394, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 .greenarrow {
   background: url("../images/svg/greenarrow.svg");
   height: 18px;
@@ -385,12 +390,12 @@ ul.tabs .tabs-title > a:focus, ul.tabs .tabs-title > a[aria-selected='true'] {
   margin: 15px 0 0 5px;
 }
 
-/* line 392, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 396, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 .greenarrow.excerpt {
   margin: 4px 0 0 5px;
 }
 
-/* line 395, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 399, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 .excerpt-read-more {
   float: left;
   display: block;
@@ -399,17 +404,17 @@ ul.tabs .tabs-title > a:focus, ul.tabs .tabs-title > a[aria-selected='true'] {
   text-transform: uppercase;
 }
 
-/* line 401, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 405, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 .excerpt-read-more:hover {
   opacity: .75;
 }
 
-/* line 403, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 407, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 .excerpt-read-more:hover .greenarrow {
   margin-left: 10px;
 }
 
-/* line 406, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 410, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 .catLink a.readmore {
   float: right;
 }
@@ -418,47 +423,47 @@ ul.tabs .tabs-title > a:focus, ul.tabs .tabs-title > a[aria-selected='true'] {
 /* HEADER */
 /********************* */
 @media print, screen and (min-width: 40em) {
-  /* line 415, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+  /* line 419, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
   .navWrap .top-bar {
     padding: 1rem 0 0;
   }
-  /* line 418, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+  /* line 422, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
   .navWrap:hover {
     background-color: #fff;
   }
-  /* line 421, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+  /* line 425, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
   .navWrap:hover .top-bar-left #logo a img.logo.white {
     display: none;
   }
-  /* line 423, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+  /* line 427, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
   .navWrap:hover .top-bar-left #logo a img.logo.green {
     display: block;
   }
-  /* line 425, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+  /* line 429, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
   .navWrap:hover a.search i.fi-magnifying-glass {
     color: #2b2b2b;
   }
-  /* line 428, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+  /* line 432, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
   .navWrap:hover #mega-menu-wrap-main-nav #mega-menu-main-nav li.primary a.mega-menu-link {
     color: #2b2b2b;
   }
-  /* line 430, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+  /* line 434, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
   .navWrap:hover #mega-menu-wrap-main-nav #mega-menu-main-nav li.facebook a.mega-menu-link, .navWrap:hover #mega-menu-wrap-main-nav #mega-menu-main-nav li.twitter a.mega-menu-link {
     color: #2b2b2b;
   }
-  /* line 432, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+  /* line 436, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
   .navWrap:hover #mega-menu-wrap-main-nav #mega-menu-main-nav li.informed a.mega-menu-link {
     background-color: transparent;
     border: 2px solid #2b2b2b;
     color: #2b2b2b;
   }
-  /* line 436, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+  /* line 440, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
   .navWrap:hover #mega-menu-wrap-main-nav #mega-menu-main-nav li.informed a.mega-menu-link:hover {
     transition: all .3s ease-in-out;
     background-color: #2b2b2b;
     color: #fff;
   }
-  /* line 440, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+  /* line 444, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
   .navWrap:hover .button.informed {
     background-color: transparent;
     border: 2px solid #2b2b2b;
@@ -476,20 +481,20 @@ ul.tabs .tabs-title > a:focus, ul.tabs .tabs-title > a[aria-selected='true'] {
     background-color: #2b2b2b;
     color: #2b2b2b;
   }
-  /* line 442, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+  /* line 446, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
   .navWrap:hover .button.informed:hover {
     color: #fff;
   }
 }
 
-/* line 448, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 452, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 .top-bar-left #logo {
   width: 175px;
   position: relative;
   height: 85px;
 }
 
-/* line 452, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 456, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 .top-bar-left #logo a {
   position: absolute;
   top: 0;
@@ -498,12 +503,12 @@ ul.tabs .tabs-title > a:focus, ul.tabs .tabs-title > a[aria-selected='true'] {
   width: 100%;
 }
 
-/* line 458, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 462, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 .top-bar-left #logo a img.logo.white {
   display: none;
 }
 
-/* line 463, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 467, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 .top-bar-right .button.informed, .top-bar-right .button.search {
   background-color: transparent;
   border: 2px solid #fff;
@@ -523,53 +528,53 @@ ul.tabs .tabs-title > a:focus, ul.tabs .tabs-title > a[aria-selected='true'] {
   color: #2b2b2b;
 }
 
-/* line 465, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 469, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 .top-bar-right #mega-menu-wrap-main-nav {
   float: left;
 }
 
-/* line 467, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 471, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 .top-bar-right #mega-menu-wrap-main-nav #mega-menu-main-nav {
   float: left;
 }
 
-/* line 469, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 473, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 .top-bar-right #mega-menu-wrap-main-nav #mega-menu-main-nav > li.mega-menu-megamenu > ul.mega-sub-menu {
   margin-top: 20px;
   border-bottom: 1px solid #ebebeb;
 }
 
-/* line 472, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 476, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 .top-bar-right #mega-menu-wrap-main-nav #mega-menu-main-nav li.primary a.mega-menu-link {
   padding: 0 2rem;
 }
 
-/* line 474, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 478, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 .top-bar-right #mega-menu-wrap-main-nav #mega-menu-main-nav li.facebook a.mega-menu-link, .top-bar-right #mega-menu-wrap-main-nav #mega-menu-main-nav li.twitter a.mega-menu-link {
   padding: 0 5px;
 }
 
-/* line 476, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 480, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 .top-bar-right #mega-menu-wrap-main-nav #mega-menu-main-nav li.facebook a.mega-menu-link i, .top-bar-right #mega-menu-wrap-main-nav #mega-menu-main-nav li.twitter a.mega-menu-link i {
   font-size: 2rem;
 }
 
-/* line 478, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 482, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 .top-bar-right #mega-menu-wrap-main-nav #mega-menu-main-nav li.facebook a.mega-menu-link:hover i {
   color: #3b5998;
 }
 
-/* line 480, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 484, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 .top-bar-right #mega-menu-wrap-main-nav #mega-menu-main-nav li.twitter a.mega-menu-link:hover i {
   color: #38A1F3;
 }
 
-/* line 482, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 486, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 .top-bar-right #mega-menu-wrap-main-nav #mega-menu-main-nav li.twitter a.mega-menu-link {
   margin-right: 1rem;
 }
 
-/* line 484, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 488, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 .top-bar-right #mega-menu-wrap-main-nav #mega-menu-main-nav li.donate a.mega-menu-link {
   margin-right: .5rem;
   background: #d14b27;
@@ -589,7 +594,7 @@ ul.tabs .tabs-title > a:focus, ul.tabs .tabs-title > a[aria-selected='true'] {
   color: #fff;
 }
 
-/* line 491, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 495, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 .top-bar-right #mega-menu-wrap-main-nav #mega-menu-main-nav .menu .active > a {
   color: #78a13f !important;
   padding-left: 20px !important;
@@ -597,43 +602,43 @@ ul.tabs .tabs-title > a:focus, ul.tabs .tabs-title > a[aria-selected='true'] {
   background-size: 12px;
 }
 
-/* line 499, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 503, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 .top-bar-right #mega-menu-wrap-main-nav #mega-menu-main-nav ul.mega-sub-menu li h4.mega-block-title {
   font-family: adobe-garamond-pro, serif !important;
   font-style: italic;
 }
 
-/* line 502, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 506, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 .top-bar-right #mega-menu-wrap-main-nav #mega-menu-main-nav ul.mega-sub-menu li ul#menu-our-work, .top-bar-right #mega-menu-wrap-main-nav #mega-menu-main-nav ul.mega-sub-menu li ul#menu-resources, .top-bar-right #mega-menu-wrap-main-nav #mega-menu-main-nav ul.mega-sub-menu li ul#menu-about-us {
   display: block;
   margin-left: 0;
 }
 
-/* line 505, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 509, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 .top-bar-right #mega-menu-wrap-main-nav #mega-menu-main-nav ul.mega-sub-menu li ul#menu-our-work li a, .top-bar-right #mega-menu-wrap-main-nav #mega-menu-main-nav ul.mega-sub-menu li ul#menu-resources li a, .top-bar-right #mega-menu-wrap-main-nav #mega-menu-main-nav ul.mega-sub-menu li ul#menu-about-us li a {
   padding: .35rem .5rem;
   color: #2b2b2b;
   font-size: 1rem;
 }
 
-/* line 509, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 513, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 .top-bar-right #mega-menu-wrap-main-nav #mega-menu-main-nav ul.mega-sub-menu li ul#menu-our-work li a:hover, .top-bar-right #mega-menu-wrap-main-nav #mega-menu-main-nav ul.mega-sub-menu li ul#menu-resources li a:hover, .top-bar-right #mega-menu-wrap-main-nav #mega-menu-main-nav ul.mega-sub-menu li ul#menu-about-us li a:hover {
   color: #78a13f;
 }
 
-/* line 511, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 515, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 .top-bar-right #mega-menu-wrap-main-nav #mega-menu-main-nav ul.mega-sub-menu li.image {
   background-color: #ebebeb !important;
   height: 100%;
 }
 
-/* line 514, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 518, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 .top-bar-right #mega-menu-wrap-main-nav #mega-menu-main-nav ul.mega-sub-menu li.image p.wp-caption-text {
   font-size: 1.2rem;
   float: left;
 }
 
-/* line 517, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 521, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 .top-bar-right #mega-menu-wrap-main-nav li.mega-menu-megamenu > ul.mega-sub-menu > li.mega-menu-row .mega-menu-column > ul.mega-sub-menu > li.mega-menu-item {
   padding: 30px;
 }
@@ -641,29 +646,29 @@ ul.tabs .tabs-title > a:focus, ul.tabs .tabs-title > a[aria-selected='true'] {
 /********************* */
 /* PAGE TEMPLATE */
 /********************* */
-/* line 524, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 528, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 header.header {
   background-size: cover;
   height: 400px;
   position: relative;
 }
 
-/* line 528, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 532, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 header.header .top-bar, header.header .top-bar ul {
   background-color: transparent;
 }
 
-/* line 530, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 534, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 header.header .top-bar #logo a img.logo.white, header.header .top-bar ul #logo a img.logo.white {
   display: block;
 }
 
-/* line 532, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 536, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 header.header .top-bar #logo a img.logo.green, header.header .top-bar ul #logo a img.logo.green {
   display: none;
 }
 
-/* line 534, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 538, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 header.header #heroTitle {
   position: absolute;
   width: 70%;
@@ -672,19 +677,19 @@ header.header #heroTitle {
   text-align: center;
 }
 
-/* line 540, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 544, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 header.header #heroTitle h1 {
   color: #fff;
   font-weight: 700;
   font-size: 3.2rem;
 }
 
-/* line 545, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 549, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 .entry-content, .inner-content {
   padding: 2rem 0;
 }
 
-/* line 547, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 551, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 .entry-content h2, .inner-content h2 {
   text-transform: uppercase;
   font-weight: 300;
@@ -693,23 +698,23 @@ header.header #heroTitle h1 {
   text-align: center;
 }
 
-/* line 549, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 553, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 .entry-content .intro, .inner-content .intro {
   margin-bottom: 3rem;
 }
 
-/* line 551, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 555, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 .entry-content .intro p, .inner-content .intro p {
   text-align: center;
   font-size: 1.4rem;
 }
 
-/* line 555, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 559, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 .entry-content {
   margin-bottom: 4rem;
 }
 
-/* line 560, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 564, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-default .entry-content h2, body.page-template-default .inner-content h2 {
   margin-bottom: 0.5rem;
   text-align: left;
@@ -718,19 +723,19 @@ body.page-template-default .entry-content h2, body.page-template-default .inner-
 /********************* */
 /* SINGLE TEMPLATE */
 /********************* */
-/* line 571, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 575, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.single .inner-content {
   margin-top: 2rem;
 }
 
-/* line 573, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 577, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.single h1.entry-title.single-title {
   font-size: 2rem;
   margin-top: 2rem;
   font-weight: 700;
 }
 
-/* line 577, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 581, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.single p.byline {
   margin-top: -41px;
   background-color: #404040;
@@ -740,12 +745,12 @@ body.single p.byline {
   position: absolute;
 }
 
-/* line 584, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 588, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.single .entry-content {
   padding: 1rem 0;
 }
 
-/* line 589, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 593, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 article.category-art-gibb-award p.byline, article.category-small-grants-for-smart-growth p.byline {
   display: none;
 }
@@ -753,39 +758,39 @@ article.category-art-gibb-award p.byline, article.category-small-grants-for-smar
 /********************* */
 /* ARCHIVE TEMPLATE */
 /********************* */
-/* line 596, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 600, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.archive #heroTitle h3, body.page-template-template-postsatbottom #heroTitle h3 {
   color: #fff;
   font-style: italic;
 }
 
-/* line 599, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 603, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.archive .inner-content, body.page-template-template-postsatbottom .inner-content {
   margin-top: 2rem;
 }
 
-/* line 601, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 605, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.archive header iframe, body.page-template-template-postsatbottom header iframe {
   margin-bottom: 2rem;
 }
 
-/* line 603, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 607, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.archive article.post:nth-child(odd), body.archive div.postsAtBottom article:nth-child(odd), body.page-template-template-postsatbottom article.post:nth-child(odd), body.page-template-template-postsatbottom div.postsAtBottom article:nth-child(odd) {
   background-color: #f2f2f2;
 }
 
-/* line 605, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 609, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.archive article:first-of-type, body.page-template-template-postsatbottom article:first-of-type {
   padding-top: 0;
 }
 
-/* line 607, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 611, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.archive article, body.page-template-template-postsatbottom article {
   margin-bottom: .5rem;
   padding: 2rem 1rem 2rem 2rem;
 }
 
-/* line 610, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 614, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.archive article .article-header h2, body.page-template-template-postsatbottom article .article-header h2 {
   text-transform: uppercase;
   font-weight: 300;
@@ -794,7 +799,7 @@ body.archive article .article-header h2, body.page-template-template-postsatbott
   text-align: left;
 }
 
-/* line 616, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 620, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.archive article p.byline, body.page-template-template-postsatbottom article p.byline {
   color: #2b2b2b;
   font-weight: 500;
@@ -802,19 +807,19 @@ body.archive article p.byline, body.page-template-template-postsatbottom article
   margin: .5rem 0 0 0;
 }
 
-/* line 621, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 625, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.archive article .entry-content, body.page-template-template-postsatbottom article .entry-content {
   padding: .5rem 0;
   margin: 0;
   font-size: .9rem;
 }
 
-/* line 626, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 630, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.archive article .excerpt-read-more .greenarrow, body.page-template-template-postsatbottom article .excerpt-read-more .greenarrow {
   margin: 3px 0 0 5px;
 }
 
-/* line 628, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 632, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.archive article .excerpt-read-more:hover .greenarrow, body.page-template-template-postsatbottom article .excerpt-read-more:hover .greenarrow {
   margin-left: 10px;
 }
@@ -822,13 +827,13 @@ body.archive article .excerpt-read-more:hover .greenarrow, body.page-template-te
 /********************* */
 /* SIDEBAR */
 /********************* */
-/* line 637, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 641, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 .sidebar .widget {
   margin-bottom: 2rem;
   float: left;
 }
 
-/* line 640, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 644, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 .sidebar .widget h4.widgettitle {
   color: #2A6A35;
   font-size: 1.25rem;
@@ -837,24 +842,24 @@ body.archive article .excerpt-read-more:hover .greenarrow, body.page-template-te
   padding-bottom: .5rem;
 }
 
-/* line 646, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 650, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 .sidebar .widget_categories ul li, .sidebar .DisplayCategoriesWidget ul li {
   margin: .25rem 0;
 }
 
-/* line 651, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 655, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 .sidebar .widget_categories ul li a, .sidebar .DisplayCategoriesWidget ul li a {
   font-weight: 600;
   text-transform: uppercase;
   color: #2b2b2b;
 }
 
-/* line 655, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 659, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 .sidebar .widget_categories ul li a:hover, .sidebar .DisplayCategoriesWidget ul li a:hover {
   opacity: .65;
 }
 
-/* line 657, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 661, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 .sidebar .widget_recent_entries li {
   line-height: 1.25rem;
   margin: 1.25rem 0;
@@ -863,12 +868,12 @@ body.archive article .excerpt-read-more:hover .greenarrow, body.page-template-te
   padding-left: 5px;
 }
 
-/* line 663, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 667, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 .sidebar .widget_recent_entries li a {
   color: #2b2b2b;
 }
 
-/* line 665, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 669, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 .sidebar .widget_recent_entries li:hover {
   border-left: 10px solid #78a13f;
 }
@@ -876,29 +881,29 @@ body.archive article .excerpt-read-more:hover .greenarrow, body.page-template-te
 /********************* */
 /* HOMEPAGE */
 /********************* */
-/* line 674, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 678, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.home .top-bar, body.home .top-bar ul {
   background-color: transparent;
 }
 
-/* line 676, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 680, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.home .top-bar #logo a img.logo.white, body.home .top-bar ul #logo a img.logo.white {
   display: block;
 }
 
-/* line 678, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 682, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.home .top-bar #logo a img.logo.green, body.home .top-bar ul #logo a img.logo.green {
   display: none;
 }
 
-/* line 680, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 684, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.home header.header {
   background-size: cover;
   height: 100vh;
   position: relative;
 }
 
-/* line 684, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 688, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.home header.header #heroTitle {
   position: absolute;
   width: 52%;
@@ -907,14 +912,14 @@ body.home header.header #heroTitle {
   text-align: center;
 }
 
-/* line 690, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 694, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.home header.header #heroTitle h1 {
   color: #fff;
   font-weight: 700;
   font-size: 3.2rem;
 }
 
-/* line 694, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 698, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.home header.header #heroTitle span.since {
   color: #fff;
   font-size: 2rem;
@@ -924,18 +929,18 @@ body.home header.header #heroTitle span.since {
   display: block;
 }
 
-/* line 701, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 705, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.home header.header #heroTitle .button {
   margin-top: 2rem;
 }
 
-/* line 703, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 707, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.home .icons {
   margin: 4rem 0;
   transition: all 1s ease-in-out;
 }
 
-/* line 706, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 710, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.home .icons img {
   height: 100px;
   display: block;
@@ -943,28 +948,28 @@ body.home .icons img {
   padding: .5rem;
 }
 
-/* line 711, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 715, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.home .icons .cell {
   border-right: 1px solid #ddeacb;
   padding: 0 .5rem;
 }
 
-/* line 714, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 718, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.home .icons .cell:hover img {
   transform: scale(1.1);
 }
 
-/* line 716, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 720, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.home .icons .cell:hover h4 {
   color: #78a13f;
 }
 
-/* line 718, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 722, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.home .icons .cell:last-child {
   border-right: 0;
 }
 
-/* line 720, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 724, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.home .icons h4 {
   font-size: 1rem;
   text-align: center;
@@ -973,18 +978,18 @@ body.home .icons h4 {
   margin-bottom: 0;
 }
 
-/* line 727, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 731, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 .greyWrapper {
   background-color: #f2f2f2;
   padding: 4rem 0;
 }
 
-/* line 730, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 734, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 .greyWrapper .news {
   margin-bottom: 3rem;
 }
 
-/* line 732, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 736, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 .greyWrapper .news h2 {
   text-transform: uppercase;
   font-weight: 300;
@@ -994,7 +999,7 @@ body.home .icons h4 {
   margin-bottom: 3rem;
 }
 
-/* line 735, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 739, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 .greyWrapper .news h4 {
   font-size: 1.25rem;
   font-weight: 700;
@@ -1002,7 +1007,7 @@ body.home .icons h4 {
   margin-bottom: 0;
 }
 
-/* line 740, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 744, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 .greyWrapper .news .catLink .readmore {
   float: right;
   color: #2b2b2b;
@@ -1022,7 +1027,7 @@ body.home .icons h4 {
   margin-left: 10px;
 }
 
-/* line 742, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 746, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 .greyWrapper .news .byline {
   margin-top: -41px;
   background-color: #404040;
@@ -1032,27 +1037,27 @@ body.home .icons h4 {
   position: absolute;
 }
 
-/* line 749, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 753, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 .greyWrapper .video {
   background-color: #6f7d74;
   padding: 2rem;
   position: relative;
 }
 
-/* line 754, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 758, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 .greyWrapper .video .vidContent h2, .greyWrapper .video .vidContent p, .greyWrapper .video .vidContent div {
   text-align: left;
   color: #fff;
 }
 
-/* line 757, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 761, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 .greyWrapper .video .vidContent h2 {
   text-transform: uppercase;
   font-weight: 300;
   font-size: 2.25rem;
 }
 
-/* line 759, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 763, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 .greyWrapper .video .vidContent .leadin {
   font-size: 1.2rem;
   font-weight: 700;
@@ -1060,12 +1065,12 @@ body.home .icons h4 {
   line-height: 1.5rem;
 }
 
-/* line 764, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 768, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 .greyWrapper .video .vidContent .text {
   margin-bottom: 1.5rem;
 }
 
-/* line 766, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 770, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 .greyWrapper .video .vidContent a.videoLink {
   position: absolute;
   text-transform: uppercase;
@@ -1075,7 +1080,7 @@ body.home .icons h4 {
   font-weight: 500;
 }
 
-/* line 773, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 777, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 .greyWrapper .video .vidContent a.videoLink .whitearrow {
   background: url("../images/svg/white_arrow.svg");
   height: 18px;
@@ -1087,22 +1092,22 @@ body.home .icons h4 {
   margin: 2px 0 0 5px;
 }
 
-/* line 775, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 779, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 .greyWrapper .video .vidContent a.videoLink:hover {
   opacity: .75;
 }
 
-/* line 777, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 781, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 .greyWrapper .video .vidContent a.videoLink:hover .whitearrow {
   margin-left: 10px;
 }
 
-/* line 817, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 821, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 .victories {
   margin: 4rem 0;
 }
 
-/* line 819, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 823, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 .victories h2 {
   text-transform: uppercase;
   font-weight: 300;
@@ -1111,7 +1116,7 @@ body.home .icons h4 {
   text-align: center;
 }
 
-/* line 821, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 825, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 .victories a.readmore {
   float: right;
   color: #2b2b2b;
@@ -1134,29 +1139,29 @@ body.home .icons h4 {
   padding: .25rem;
 }
 
-/* line 827, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 831, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 .victories a.readmore:hover {
   opacity: .75rem;
   margin-left: 10px;
 }
 
-/* line 781, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 785, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 .victories .cell.post {
   position: relative;
   margin-bottom: 2rem;
 }
 
-/* line 782, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 786, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 .victories .cell.post img {
   width: 100%;
 }
 
-/* line 786, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 790, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 .victories .cell.post a.victoryLink:hover {
   opacity: .75;
 }
 
-/* line 788, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 792, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 .victories .cell.post .overlay {
   position: absolute;
   bottom: 0;
@@ -1167,30 +1172,30 @@ body.home .icons h4 {
   padding: 1rem;
 }
 
-/* line 796, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 800, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 .victories .cell.post .overlay:hover {
   cursor: pointer;
 }
 
-/* line 799, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 803, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 .victories .cell.post .overlay.open .more, .victories .cell.post .overlay.open .short {
   display: inline-block;
   margin-top: .5rem;
 }
 
-/* line 802, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 806, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 .victories .cell.post .overlay h4, .victories .cell.post .overlay .short, .victories .cell.post .overlay .more {
   color: #fff;
 }
 
-/* line 804, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 808, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 .victories .cell.post .overlay .more {
   display: block;
   margin: 0 auto;
   text-transform: uppercase;
 }
 
-/* line 808, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 812, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 .victories .cell.post .overlay .more .whitearrow {
   background: url("../images/svg/white_arrow.svg");
   height: 18px;
@@ -1204,29 +1209,29 @@ body.home .icons h4 {
   display: inline-block;
 }
 
-/* line 812, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 816, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 .victories .cell.post .overlay .more:hover {
   opacity: .75;
 }
 
-/* line 814, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 818, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 .victories .cell.post .overlay .more, .victories .cell.post .overlay .short {
   display: none;
 }
 
-/* line 831, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 835, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 .victories a.victoryLink:hover {
   opacity: .75;
 }
 
-/* line 834, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 838, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 .victories .cell h4 {
   font-size: 1.25rem;
   font-weight: 700;
   padding: 1.5rem 0 .25rem;
 }
 
-/* line 838, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 842, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 .victories .cell .eventWrap {
   padding: 0 0 .5rem;
   color: #2a6a35;
@@ -1235,26 +1240,26 @@ body.home .icons h4 {
   margin-bottom: 1rem;
 }
 
-/* line 844, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 848, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 .victories .cell .eventWrap span.eventdate {
   font-weight: normal;
   color: #0a0a0a;
   font-style: italic;
 }
 
-/* line 848, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 852, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 .missionWrapper {
   padding: 4rem 0;
   background: #2A6A35 url("../images/swoosh.png") no-repeat top left;
   background-size: cover;
 }
 
-/* line 852, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 856, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 .missionWrapper .mission {
   text-align: center;
 }
 
-/* line 854, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 858, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 .missionWrapper .mission h3 {
   font-family: adobe-garamond-pro, serif;
   font-style: italic;
@@ -1263,26 +1268,26 @@ body.home .icons h4 {
   margin-bottom: 1.5rem;
 }
 
-/* line 860, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 864, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 .missionWrapper .mission p {
   color: #fff;
   font-size: 1.4rem;
   margin-bottom: 2.5rem;
 }
 
-/* line 865, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 869, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 .advocates {
   margin: 4rem 0;
 }
 
-/* line 867, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 871, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 .advocates h5 {
   text-transform: uppercase;
   font-weight: 700;
   margin: .5rem 0 0;
 }
 
-/* line 871, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 875, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 .advocates .role {
   color: #2A6A35;
   font-style: italic;
@@ -1290,7 +1295,7 @@ body.home .icons h4 {
   font-size: 1.3rem;
 }
 
-/* line 876, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 880, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 .advocates blockquote {
   border-left: 0;
   font-weight: 400;
@@ -1304,29 +1309,29 @@ body.home .icons h4 {
 /********************* */
 /* KEY ISSUES TEMPLATE */
 /********************* */
-/* line 891, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 895, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-template-clean-energy .top-bar, body.page-template-template-clean-energy .top-bar ul, body.page-template-template-forests-wildlife .top-bar, body.page-template-template-forests-wildlife .top-bar ul, body.page-template-template-clean-water .top-bar, body.page-template-template-clean-water .top-bar ul, body.page-template-template-smart-growth .top-bar, body.page-template-template-smart-growth .top-bar ul, body.page-template-template-statehouse .top-bar, body.page-template-template-statehouse .top-bar ul, body.page-template-template-act250 .top-bar, body.page-template-template-act250 .top-bar ul, body.page-template-template-toxic-free .top-bar, body.page-template-template-toxic-free .top-bar ul {
   background-color: transparent;
 }
 
-/* line 893, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 897, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-template-clean-energy .top-bar #logo a img.logo.white, body.page-template-template-clean-energy .top-bar ul #logo a img.logo.white, body.page-template-template-forests-wildlife .top-bar #logo a img.logo.white, body.page-template-template-forests-wildlife .top-bar ul #logo a img.logo.white, body.page-template-template-clean-water .top-bar #logo a img.logo.white, body.page-template-template-clean-water .top-bar ul #logo a img.logo.white, body.page-template-template-smart-growth .top-bar #logo a img.logo.white, body.page-template-template-smart-growth .top-bar ul #logo a img.logo.white, body.page-template-template-statehouse .top-bar #logo a img.logo.white, body.page-template-template-statehouse .top-bar ul #logo a img.logo.white, body.page-template-template-act250 .top-bar #logo a img.logo.white, body.page-template-template-act250 .top-bar ul #logo a img.logo.white, body.page-template-template-toxic-free .top-bar #logo a img.logo.white, body.page-template-template-toxic-free .top-bar ul #logo a img.logo.white {
   display: block;
 }
 
-/* line 895, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 899, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-template-clean-energy .top-bar #logo a img.logo.green, body.page-template-template-clean-energy .top-bar ul #logo a img.logo.green, body.page-template-template-forests-wildlife .top-bar #logo a img.logo.green, body.page-template-template-forests-wildlife .top-bar ul #logo a img.logo.green, body.page-template-template-clean-water .top-bar #logo a img.logo.green, body.page-template-template-clean-water .top-bar ul #logo a img.logo.green, body.page-template-template-smart-growth .top-bar #logo a img.logo.green, body.page-template-template-smart-growth .top-bar ul #logo a img.logo.green, body.page-template-template-statehouse .top-bar #logo a img.logo.green, body.page-template-template-statehouse .top-bar ul #logo a img.logo.green, body.page-template-template-act250 .top-bar #logo a img.logo.green, body.page-template-template-act250 .top-bar ul #logo a img.logo.green, body.page-template-template-toxic-free .top-bar #logo a img.logo.green, body.page-template-template-toxic-free .top-bar ul #logo a img.logo.green {
   display: none;
 }
 
-/* line 897, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 901, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-template-clean-energy header, body.page-template-template-forests-wildlife header, body.page-template-template-clean-water header, body.page-template-template-smart-growth header, body.page-template-template-statehouse header, body.page-template-template-act250 header, body.page-template-template-toxic-free header {
   background-size: cover;
   height: 400px;
   position: relative;
 }
 
-/* line 901, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 905, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-template-clean-energy header #heroTitle, body.page-template-template-forests-wildlife header #heroTitle, body.page-template-template-clean-water header #heroTitle, body.page-template-template-smart-growth header #heroTitle, body.page-template-template-statehouse header #heroTitle, body.page-template-template-act250 header #heroTitle, body.page-template-template-toxic-free header #heroTitle {
   position: absolute;
   width: 70%;
@@ -1335,7 +1340,7 @@ body.page-template-template-clean-energy header #heroTitle, body.page-template-t
   text-align: center;
 }
 
-/* line 907, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 911, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-template-clean-energy header #heroTitle h1, body.page-template-template-forests-wildlife header #heroTitle h1, body.page-template-template-clean-water header #heroTitle h1, body.page-template-template-smart-growth header #heroTitle h1, body.page-template-template-statehouse header #heroTitle h1, body.page-template-template-act250 header #heroTitle h1, body.page-template-template-toxic-free header #heroTitle h1 {
   color: #fff;
   font-weight: 700;
@@ -1343,21 +1348,21 @@ body.page-template-template-clean-energy header #heroTitle h1, body.page-templat
   text-shadow: 0px 0px 14px #565656;
 }
 
-/* line 912, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 916, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-template-clean-energy .inner-content, body.page-template-template-forests-wildlife .inner-content, body.page-template-template-clean-water .inner-content, body.page-template-template-smart-growth .inner-content, body.page-template-template-statehouse .inner-content, body.page-template-template-act250 .inner-content, body.page-template-template-toxic-free .inner-content {
   margin-top: 4rem;
   border-bottom: 1px solid #78a13f;
   padding-bottom: 2rem;
 }
 
-/* line 916, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 920, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-template-clean-energy .inner-content .key_title, body.page-template-template-forests-wildlife .inner-content .key_title, body.page-template-template-clean-water .inner-content .key_title, body.page-template-template-smart-growth .inner-content .key_title, body.page-template-template-statehouse .inner-content .key_title, body.page-template-template-act250 .inner-content .key_title, body.page-template-template-toxic-free .inner-content .key_title {
   font-size: 2.25rem;
   text-transform: uppercase;
   font-weight: 300;
 }
 
-/* line 920, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 924, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-template-clean-energy .inner-content .inquiries, body.page-template-template-forests-wildlife .inner-content .inquiries, body.page-template-template-clean-water .inner-content .inquiries, body.page-template-template-smart-growth .inner-content .inquiries, body.page-template-template-statehouse .inner-content .inquiries, body.page-template-template-act250 .inner-content .inquiries, body.page-template-template-toxic-free .inner-content .inquiries {
   text-transform: uppercase;
   color: #78a13f;
@@ -1366,14 +1371,14 @@ body.page-template-template-clean-energy .inner-content .inquiries, body.page-te
   margin: 1rem 0 .5rem;
 }
 
-/* line 926, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 930, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-template-clean-energy .inner-content .twodirectors, body.page-template-template-forests-wildlife .inner-content .twodirectors, body.page-template-template-clean-water .inner-content .twodirectors, body.page-template-template-smart-growth .inner-content .twodirectors, body.page-template-template-statehouse .inner-content .twodirectors, body.page-template-template-act250 .inner-content .twodirectors, body.page-template-template-toxic-free .inner-content .twodirectors {
   padding: 2rem 0;
   float: left;
   width: 50%;
 }
 
-/* line 930, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 934, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-template-clean-energy .inner-content .twodirectors .matte, body.page-template-template-forests-wildlife .inner-content .twodirectors .matte, body.page-template-template-clean-water .inner-content .twodirectors .matte, body.page-template-template-smart-growth .inner-content .twodirectors .matte, body.page-template-template-statehouse .inner-content .twodirectors .matte, body.page-template-template-act250 .inner-content .twodirectors .matte, body.page-template-template-toxic-free .inner-content .twodirectors .matte {
   width: 150px;
   height: 150px;
@@ -1384,18 +1389,18 @@ body.page-template-template-clean-energy .inner-content .twodirectors .matte, bo
   margin-right: 1rem;
 }
 
-/* line 932, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 936, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-template-clean-energy .inner-content .twodirectors p, body.page-template-template-forests-wildlife .inner-content .twodirectors p, body.page-template-template-clean-water .inner-content .twodirectors p, body.page-template-template-smart-growth .inner-content .twodirectors p, body.page-template-template-statehouse .inner-content .twodirectors p, body.page-template-template-act250 .inner-content .twodirectors p, body.page-template-template-toxic-free .inner-content .twodirectors p {
   margin-bottom: 0;
 }
 
-/* line 934, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 938, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-template-clean-energy .inner-content .director, body.page-template-template-forests-wildlife .inner-content .director, body.page-template-template-clean-water .inner-content .director, body.page-template-template-smart-growth .inner-content .director, body.page-template-template-statehouse .inner-content .director, body.page-template-template-act250 .inner-content .director, body.page-template-template-toxic-free .inner-content .director {
   padding: 2rem 0;
   float: left;
 }
 
-/* line 937, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 941, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-template-clean-energy .inner-content .director .matte, body.page-template-template-forests-wildlife .inner-content .director .matte, body.page-template-template-clean-water .inner-content .director .matte, body.page-template-template-smart-growth .inner-content .director .matte, body.page-template-template-statehouse .inner-content .director .matte, body.page-template-template-act250 .inner-content .director .matte, body.page-template-template-toxic-free .inner-content .director .matte {
   width: 150px;
   height: 150px;
@@ -1406,22 +1411,22 @@ body.page-template-template-clean-energy .inner-content .director .matte, body.p
   margin-right: 1rem;
 }
 
-/* line 939, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 943, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-template-clean-energy .inner-content .director p, body.page-template-template-forests-wildlife .inner-content .director p, body.page-template-template-clean-water .inner-content .director p, body.page-template-template-smart-growth .inner-content .director p, body.page-template-template-statehouse .inner-content .director p, body.page-template-template-act250 .inner-content .director p, body.page-template-template-toxic-free .inner-content .director p {
   margin-bottom: 0;
 }
 
-/* line 941, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 945, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-template-clean-energy .inner-content .keyGraphic img, body.page-template-template-forests-wildlife .inner-content .keyGraphic img, body.page-template-template-clean-water .inner-content .keyGraphic img, body.page-template-template-smart-growth .inner-content .keyGraphic img, body.page-template-template-statehouse .inner-content .keyGraphic img, body.page-template-template-act250 .inner-content .keyGraphic img, body.page-template-template-toxic-free .inner-content .keyGraphic img {
   width: 80%;
 }
 
-/* line 943, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 947, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-template-clean-energy .initiatives, body.page-template-template-forests-wildlife .initiatives, body.page-template-template-clean-water .initiatives, body.page-template-template-smart-growth .initiatives, body.page-template-template-statehouse .initiatives, body.page-template-template-act250 .initiatives, body.page-template-template-toxic-free .initiatives {
   margin: 3rem 0;
 }
 
-/* line 945, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 949, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-template-clean-energy .initiatives h2.initHeader, body.page-template-template-forests-wildlife .initiatives h2.initHeader, body.page-template-template-clean-water .initiatives h2.initHeader, body.page-template-template-smart-growth .initiatives h2.initHeader, body.page-template-template-statehouse .initiatives h2.initHeader, body.page-template-template-act250 .initiatives h2.initHeader, body.page-template-template-toxic-free .initiatives h2.initHeader {
   text-transform: uppercase;
   font-weight: 300;
@@ -1430,38 +1435,38 @@ body.page-template-template-clean-energy .initiatives h2.initHeader, body.page-t
   text-align: center;
 }
 
-/* line 947, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 951, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-template-clean-energy .initiatives img, body.page-template-template-forests-wildlife .initiatives img, body.page-template-template-clean-water .initiatives img, body.page-template-template-smart-growth .initiatives img, body.page-template-template-statehouse .initiatives img, body.page-template-template-act250 .initiatives img, body.page-template-template-toxic-free .initiatives img {
   border-bottom: 8px solid #78a13f;
   margin-bottom: 2rem;
 }
 
-/* line 950, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 954, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-template-clean-energy .initiatives h3, body.page-template-template-forests-wildlife .initiatives h3, body.page-template-template-clean-water .initiatives h3, body.page-template-template-smart-growth .initiatives h3, body.page-template-template-statehouse .initiatives h3, body.page-template-template-act250 .initiatives h3, body.page-template-template-toxic-free .initiatives h3 {
   font-weight: 700;
   font-size: 1.25rem;
   margin-bottom: 1rem;
 }
 
-/* line 954, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 958, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-template-clean-energy .initiatives a.excerpt-read-more, body.page-template-template-forests-wildlife .initiatives a.excerpt-read-more, body.page-template-template-clean-water .initiatives a.excerpt-read-more, body.page-template-template-smart-growth .initiatives a.excerpt-read-more, body.page-template-template-statehouse .initiatives a.excerpt-read-more, body.page-template-template-act250 .initiatives a.excerpt-read-more, body.page-template-template-toxic-free .initiatives a.excerpt-read-more {
   color: #78a13f;
 }
 
-/* line 957, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 961, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-template-clean-energy .artgibb h2, body.page-template-template-clean-energy .artgibb p, body.page-template-template-clean-energy .artgibb div, body.page-template-template-forests-wildlife .artgibb h2, body.page-template-template-forests-wildlife .artgibb p, body.page-template-template-forests-wildlife .artgibb div, body.page-template-template-clean-water .artgibb h2, body.page-template-template-clean-water .artgibb p, body.page-template-template-clean-water .artgibb div, body.page-template-template-smart-growth .artgibb h2, body.page-template-template-smart-growth .artgibb p, body.page-template-template-smart-growth .artgibb div, body.page-template-template-statehouse .artgibb h2, body.page-template-template-statehouse .artgibb p, body.page-template-template-statehouse .artgibb div, body.page-template-template-act250 .artgibb h2, body.page-template-template-act250 .artgibb p, body.page-template-template-act250 .artgibb div, body.page-template-template-toxic-free .artgibb h2, body.page-template-template-toxic-free .artgibb p, body.page-template-template-toxic-free .artgibb div {
   text-align: left;
   color: #fff;
 }
 
-/* line 960, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 964, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-template-clean-energy .artgibb h2, body.page-template-template-forests-wildlife .artgibb h2, body.page-template-template-clean-water .artgibb h2, body.page-template-template-smart-growth .artgibb h2, body.page-template-template-statehouse .artgibb h2, body.page-template-template-act250 .artgibb h2, body.page-template-template-toxic-free .artgibb h2 {
   text-transform: uppercase;
   font-weight: 300;
   font-size: 2.25rem;
 }
 
-/* line 962, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 966, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-template-clean-energy .artgibb .leadin, body.page-template-template-forests-wildlife .artgibb .leadin, body.page-template-template-clean-water .artgibb .leadin, body.page-template-template-smart-growth .artgibb .leadin, body.page-template-template-statehouse .artgibb .leadin, body.page-template-template-act250 .artgibb .leadin, body.page-template-template-toxic-free .artgibb .leadin {
   font-size: 1.2rem;
   font-weight: 700;
@@ -1469,12 +1474,12 @@ body.page-template-template-clean-energy .artgibb .leadin, body.page-template-te
   line-height: 1.5rem;
 }
 
-/* line 967, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 971, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-template-clean-energy .artgibb .text, body.page-template-template-forests-wildlife .artgibb .text, body.page-template-template-clean-water .artgibb .text, body.page-template-template-smart-growth .artgibb .text, body.page-template-template-statehouse .artgibb .text, body.page-template-template-act250 .artgibb .text, body.page-template-template-toxic-free .artgibb .text {
   margin-bottom: 1.5rem;
 }
 
-/* line 969, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 973, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-template-clean-energy .artgibb a.videoLink, body.page-template-template-forests-wildlife .artgibb a.videoLink, body.page-template-template-clean-water .artgibb a.videoLink, body.page-template-template-smart-growth .artgibb a.videoLink, body.page-template-template-statehouse .artgibb a.videoLink, body.page-template-template-act250 .artgibb a.videoLink, body.page-template-template-toxic-free .artgibb a.videoLink {
   position: absolute;
   text-transform: uppercase;
@@ -1483,7 +1488,7 @@ body.page-template-template-clean-energy .artgibb a.videoLink, body.page-templat
   bottom: 20px;
 }
 
-/* line 975, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 979, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-template-clean-energy .artgibb a.videoLink .whitearrow, body.page-template-template-forests-wildlife .artgibb a.videoLink .whitearrow, body.page-template-template-clean-water .artgibb a.videoLink .whitearrow, body.page-template-template-smart-growth .artgibb a.videoLink .whitearrow, body.page-template-template-statehouse .artgibb a.videoLink .whitearrow, body.page-template-template-act250 .artgibb a.videoLink .whitearrow, body.page-template-template-toxic-free .artgibb a.videoLink .whitearrow {
   background: url("../images/svg/white_arrow.svg");
   height: 18px;
@@ -1495,42 +1500,42 @@ body.page-template-template-clean-energy .artgibb a.videoLink .whitearrow, body.
   margin: 2px 0 0 5px;
 }
 
-/* line 977, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 981, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-template-clean-energy .community, body.page-template-template-forests-wildlife .community, body.page-template-template-clean-water .community, body.page-template-template-smart-growth .community, body.page-template-template-statehouse .community, body.page-template-template-act250 .community, body.page-template-template-toxic-free .community {
   margin: 5rem 0 2rem;
 }
 
-/* line 979, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 983, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-template-clean-energy .community h2, body.page-template-template-forests-wildlife .community h2, body.page-template-template-clean-water .community h2, body.page-template-template-smart-growth .community h2, body.page-template-template-statehouse .community h2, body.page-template-template-act250 .community h2, body.page-template-template-toxic-free .community h2 {
   text-transform: uppercase;
   font-weight: 300;
   font-size: 2.25rem;
 }
 
-/* line 981, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 985, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-template-clean-energy .community .leadin, body.page-template-template-forests-wildlife .community .leadin, body.page-template-template-clean-water .community .leadin, body.page-template-template-smart-growth .community .leadin, body.page-template-template-statehouse .community .leadin, body.page-template-template-act250 .community .leadin, body.page-template-template-toxic-free .community .leadin {
   font-weight: 700;
   font-size: 1.25rem;
   margin-bottom: 1.5rem;
 }
 
-/* line 985, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 989, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-template-clean-energy .community a.bold.green, body.page-template-template-forests-wildlife .community a.bold.green, body.page-template-template-clean-water .community a.bold.green, body.page-template-template-smart-growth .community a.bold.green, body.page-template-template-statehouse .community a.bold.green, body.page-template-template-act250 .community a.bold.green, body.page-template-template-toxic-free .community a.bold.green {
   font-weight: 700;
 }
 
-/* line 987, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 991, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-template-clean-energy .community img.vecan-logo, body.page-template-template-forests-wildlife .community img.vecan-logo, body.page-template-template-clean-water .community img.vecan-logo, body.page-template-template-smart-growth .community img.vecan-logo, body.page-template-template-statehouse .community img.vecan-logo, body.page-template-template-act250 .community img.vecan-logo, body.page-template-template-toxic-free .community img.vecan-logo {
   width: 165px;
   margin-top: 1.5rem;
 }
 
-/* line 990, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 994, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-template-clean-energy .resources, body.page-template-template-forests-wildlife .resources, body.page-template-template-clean-water .resources, body.page-template-template-smart-growth .resources, body.page-template-template-statehouse .resources, body.page-template-template-act250 .resources, body.page-template-template-toxic-free .resources {
   margin: 5rem 0 6rem;
 }
 
-/* line 992, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 996, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-template-clean-energy .resources h2, body.page-template-template-forests-wildlife .resources h2, body.page-template-template-clean-water .resources h2, body.page-template-template-smart-growth .resources h2, body.page-template-template-statehouse .resources h2, body.page-template-template-act250 .resources h2, body.page-template-template-toxic-free .resources h2 {
   text-transform: uppercase;
   font-weight: 300;
@@ -1539,7 +1544,7 @@ body.page-template-template-clean-energy .resources h2, body.page-template-templ
   text-align: center;
 }
 
-/* line 994, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 998, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-template-clean-energy .resources a.readmore, body.page-template-template-forests-wildlife .resources a.readmore, body.page-template-template-clean-water .resources a.readmore, body.page-template-template-smart-growth .resources a.readmore, body.page-template-template-statehouse .resources a.readmore, body.page-template-template-act250 .resources a.readmore, body.page-template-template-toxic-free .resources a.readmore {
   float: right;
   color: #2b2b2b;
@@ -1559,7 +1564,7 @@ body.page-template-template-clean-energy .resources a.readmore:hover .greenarrow
   margin-left: 10px;
 }
 
-/* line 996, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1000, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-template-clean-energy .resources img, body.page-template-template-forests-wildlife .resources img, body.page-template-template-clean-water .resources img, body.page-template-template-smart-growth .resources img, body.page-template-template-statehouse .resources img, body.page-template-template-act250 .resources img, body.page-template-template-toxic-free .resources img {
   width: 75%;
   margin: 0 auto 1.5rem;
@@ -1567,14 +1572,14 @@ body.page-template-template-clean-energy .resources img, body.page-template-temp
   border: 1px solid #d0d0d0;
 }
 
-/* line 1001, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1005, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-template-clean-energy .resources h3, body.page-template-template-forests-wildlife .resources h3, body.page-template-template-clean-water .resources h3, body.page-template-template-smart-growth .resources h3, body.page-template-template-statehouse .resources h3, body.page-template-template-act250 .resources h3, body.page-template-template-toxic-free .resources h3 {
   font-weight: 700;
   font-size: 1.25rem;
   text-align: center;
 }
 
-/* line 1005, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1009, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-template-clean-energy .resources a, body.page-template-template-forests-wildlife .resources a, body.page-template-template-clean-water .resources a, body.page-template-template-smart-growth .resources a, body.page-template-template-statehouse .resources a, body.page-template-template-act250 .resources a, body.page-template-template-toxic-free .resources a {
   color: #2b2b2b;
 }
@@ -1582,12 +1587,12 @@ body.page-template-template-clean-energy .resources a, body.page-template-templa
 /********************* */
 /* SUPPORT TEMPLATE */
 /********************* */
-/* line 1011, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1015, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 h1.page-title {
   display: none;
 }
 
-/* line 1014, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1018, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 .supportUs .entry-content {
   padding: 0;
 }
@@ -1611,40 +1616,40 @@ h1.page-title {
   margin-bottom: 2rem;
 }
 
-/* line 1016, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1020, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 .supportUs .intro {
   margin-bottom: 3rem;
 }
 
-/* line 1018, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1022, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 .supportUs .intro p {
   font-size: 1.4rem;
 }
 
-/* line 1021, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1025, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 .supportUs .images ul {
   list-style-type: none;
   margin-left: 0;
 }
 
-/* line 1024, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1028, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 .supportUs .images ul li {
   padding-bottom: 2rem;
 }
 
-/* line 1026, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1030, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 .supportUs .supportContacts {
   padding: 3rem 0 2.5rem;
   background-color: #f1f6eb;
 }
 
-/* line 1029, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1033, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 .supportUs .supportContacts a {
   color: #2A6A35;
   font-weight: bold;
 }
 
-/* line 1032, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1036, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 .supportUs .supportContacts div.matte {
   width: 150px;
   float: left;
@@ -1657,7 +1662,7 @@ h1.page-title {
   margin-right: 1rem;
 }
 
-/* line 1036, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1040, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 .supportUs .supportContacts .bymail {
   text-align: center;
   margin-top: 3rem;
@@ -1666,12 +1671,12 @@ h1.page-title {
 /********************* */
 /* HOW WE WORK TEMPLATE */
 /********************* */
-/* line 1045, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1049, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-how-we-work .inner-content {
   padding: 4rem 0 1rem;
 }
 
-/* line 1047, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1051, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-how-we-work .entry-content {
   padding: 0;
 }
@@ -1695,7 +1700,7 @@ body.page-template-how-we-work .entry-content p {
   margin-bottom: 2rem;
 }
 
-/* line 1050, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1054, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-how-we-work .greyWrapper h2 {
   text-transform: uppercase;
   font-weight: 300;
@@ -1704,13 +1709,13 @@ body.page-template-how-we-work .greyWrapper h2 {
   text-align: center;
 }
 
-/* line 1052, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1056, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-how-we-work .greyWrapper .icons {
   margin: 4rem 0 0;
   transition: all 1s ease-in-out;
 }
 
-/* line 1055, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1059, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-how-we-work .greyWrapper .icons img {
   height: 100px;
   display: block;
@@ -1718,28 +1723,28 @@ body.page-template-how-we-work .greyWrapper .icons img {
   padding: .5rem;
 }
 
-/* line 1060, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1064, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-how-we-work .greyWrapper .icons .cell {
   border-right: 1px solid #ddeacb;
   padding: 0 .5rem;
 }
 
-/* line 1063, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1067, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-how-we-work .greyWrapper .icons .cell:hover img {
   transform: scale(1.1);
 }
 
-/* line 1065, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1069, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-how-we-work .greyWrapper .icons .cell:hover h4 {
   color: #78a13f;
 }
 
-/* line 1067, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1071, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-how-we-work .greyWrapper .icons .cell:last-child {
   border-right: 0;
 }
 
-/* line 1069, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1073, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-how-we-work .greyWrapper .icons h4 {
   font-size: 1rem;
   text-align: center;
@@ -1749,31 +1754,31 @@ body.page-template-how-we-work .greyWrapper .icons h4 {
   width: 80%;
 }
 
-/* line 1076, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1080, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-how-we-work .howSupportWrapper {
   background-size: cover;
 }
 
-/* line 1078, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1082, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-how-we-work .howSupportWrapper .howSupport {
   padding: 6rem;
   color: #fff;
   text-align: center;
 }
 
-/* line 1082, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1086, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-how-we-work .howSupportWrapper .howSupport h2 {
   text-transform: uppercase;
   font-weight: 300;
   font-size: 2.25rem;
 }
 
-/* line 1084, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1088, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-how-we-work .howSupportWrapper .howSupport p {
   font-size: 1.4rem;
 }
 
-/* line 1086, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1090, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-how-we-work .howSupportWrapper .howSupport p.thankyou {
   font-family: adobe-garamond-pro, serif;
   font-size: 2rem;
@@ -1782,23 +1787,23 @@ body.page-template-how-we-work .howSupportWrapper .howSupport p.thankyou {
   margin-bottom: 2rem;
 }
 
-/* line 1092, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1096, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-how-we-work .footer {
   margin-top: 0;
 }
 
-/* line 1096, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1100, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 .statehouse, .partnerships {
   color: #fff;
   padding: 3rem;
 }
 
-/* line 1099, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1103, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 .statehouse h2, .partnerships h2 {
   color: #fff;
 }
 
-/* line 1101, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1105, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 .statehouse svg, .partnerships svg {
   display: block;
   width: 150px;
@@ -1806,22 +1811,22 @@ body.page-template-how-we-work .footer {
   margin-bottom: 1rem;
 }
 
-/* line 1107, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1111, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 .statehouse {
   background-color: #2A6A35;
 }
 
-/* line 1110, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1114, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 .partnerships {
   background-color: #78a13f;
 }
 
-/* line 1112, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1116, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 .partnerships a {
   color: #2A6A35;
 }
 
-/* line 1115, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1119, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-template-statehouse .inner-content {
   border-bottom: 0;
 }
@@ -1829,105 +1834,105 @@ body.page-template-template-statehouse .inner-content {
 /********************* */
 /* STAff PAge Template */
 /********************* */
-/* line 1123, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1127, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-staff.page-id-227 p.contact {
   display: none;
 }
 
-/* line 1125, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1129, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-staff .entry-content {
   margin-bottom: 2rem;
   font-size: 1.4rem;
   font-weight: 300;
 }
 
-/* line 1130, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1134, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-staff .staff .cell {
   background-color: #f1f1f1;
   padding-bottom: 1rem;
   margin-bottom: 2rem;
 }
 
-/* line 1134, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1138, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-staff .staff .cell.vcv {
   background-color: transparent;
 }
 
-/* line 1136, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1140, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-staff .staff .cell.vcv h2 {
   margin: 2rem 0 0;
   border-bottom: 1px solid #78a13f;
 }
 
-/* line 1139, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1143, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-staff .staff h4 {
   margin: 1rem 1rem 0;
   font-size: 1.2rem;
   color: #2b2b2b;
 }
 
-/* line 1143, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1147, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-staff .staff div.staffTitle {
   margin: 0 1rem;
 }
 
-/* line 1145, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1149, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-staff .staff .info {
   display: none;
 }
 
-/* line 1147, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1151, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-staff .reveal.small {
   display: flex;
   justify-content: space-between;
 }
 
 @media screen and (min-width: 40em) and (max-width: 63.99875em) {
-  /* line 1147, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+  /* line 1151, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
   body.page-template-staff .reveal.small {
     width: 80%;
   }
 }
 
 @media screen and (max-width: 39.99875em) {
-  /* line 1147, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+  /* line 1151, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
   body.page-template-staff .reveal.small {
     flex-wrap: wrap;
   }
-  /* line 1154, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+  /* line 1158, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
   body.page-template-staff .reveal.small .staffTop, body.page-template-staff .reveal.small .staffBottom {
     width: 100%;
   }
-  /* line 1156, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+  /* line 1160, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
   body.page-template-staff .reveal.small .staffTop {
     margin-right: 0;
     padding: 1rem;
   }
 }
 
-/* line 1159, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1163, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-staff .reveal.small .staffTop {
   margin-right: 1rem;
 }
 
-/* line 1161, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1165, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-staff .reveal.small .staffTop img {
   max-width: 250px;
   border-bottom: 10px solid #f1f1f1;
 }
 
-/* line 1164, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1168, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-staff .reveal.small .staffTop h4 {
   margin: 1rem 0 0;
 }
 
-/* line 1166, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1170, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-staff .reveal.small .staffTop .staffTitle {
   text-transform: uppercase;
   color: #78a13f;
 }
 
-/* line 1169, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1173, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-staff .reveal.small .staffBottom {
   padding: 1rem;
 }
@@ -1935,7 +1940,7 @@ body.page-template-staff .reveal.small .staffBottom {
 /********************* */
 /* VERS CATEGORY TEMPLATE */
 /********************* */
-/* line 1176, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1180, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.category-vermont-environmental-reports div.reports .cell {
   margin-bottom: 2rem;
 }
@@ -1943,58 +1948,58 @@ body.category-vermont-environmental-reports div.reports .cell {
 /********************* */
 /* VICTORIES CATEGORY TEMPLATE */
 /********************* */
-/* line 1185, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1189, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 .taxonomy-description {
   margin-bottom: 4rem;
 }
 
-/* line 1187, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1191, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 .taxonomy-description p {
   font-size: 1.1rem;
   text-align: center;
 }
 
-/* line 1193, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1197, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.category-victories article.leadVictory h2 {
   font-size: 3rem;
 }
 
-/* line 1195, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1199, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.category-victories article.leadVictory .victoryDate {
   font-size: 1.25rem;
   font-weight: 500;
   font-style: italic;
 }
 
-/* line 1199, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1203, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.category-victories article.leadVictory .entry-content {
   columns: 3;
   column-gap: 2.5rem;
   font-size: 1rem;
 }
 
-/* line 1203, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1207, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.category-victories article.leadVictory .entry-content img {
   margin-bottom: 2rem;
 }
 
-/* line 781, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 785, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.category-victories .cell.post {
   position: relative;
   margin-bottom: 2rem;
 }
 
-/* line 782, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 786, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.category-victories .cell.post img {
   width: 100%;
 }
 
-/* line 786, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 790, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.category-victories .cell.post a.victoryLink:hover {
   opacity: .75;
 }
 
-/* line 788, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 792, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.category-victories .cell.post .overlay {
   position: absolute;
   bottom: 0;
@@ -2005,30 +2010,30 @@ body.category-victories .cell.post .overlay {
   padding: 1rem;
 }
 
-/* line 796, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 800, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.category-victories .cell.post .overlay:hover {
   cursor: pointer;
 }
 
-/* line 799, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 803, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.category-victories .cell.post .overlay.open .more, body.category-victories .cell.post .overlay.open .short {
   display: inline-block;
   margin-top: .5rem;
 }
 
-/* line 802, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 806, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.category-victories .cell.post .overlay h4, body.category-victories .cell.post .overlay .short, body.category-victories .cell.post .overlay .more {
   color: #fff;
 }
 
-/* line 804, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 808, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.category-victories .cell.post .overlay .more {
   display: block;
   margin: 0 auto;
   text-transform: uppercase;
 }
 
-/* line 808, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 812, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.category-victories .cell.post .overlay .more .whitearrow {
   background: url("../images/svg/white_arrow.svg");
   height: 18px;
@@ -2042,17 +2047,17 @@ body.category-victories .cell.post .overlay .more .whitearrow {
   display: inline-block;
 }
 
-/* line 812, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 816, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.category-victories .cell.post .overlay .more:hover {
   opacity: .75;
 }
 
-/* line 814, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 818, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.category-victories .cell.post .overlay .more, body.category-victories .cell.post .overlay .short {
   display: none;
 }
 
-/* line 1206, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1210, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.category-victories h2 {
   text-transform: uppercase;
   font-weight: 300;
@@ -2065,49 +2070,49 @@ body.category-victories h2 {
 /* VICTORIES SINGLE TEMPLATE */
 /********************* */
 /* line 985, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
-/* line 1216, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1220, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.category-victories article.leadVictory header, div.content.victories-single article.leadVictory header {
   margin-bottom: 2rem;
 }
 
-/* line 1218, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1222, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.category-victories article.leadVictory h2, div.content.victories-single article.leadVictory h2 {
   font-size: 3rem;
   text-align: left;
   margin-bottom: 1rem;
 }
 
-/* line 1222, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1226, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.category-victories article.leadVictory .victoryDate, div.content.victories-single article.leadVictory .victoryDate {
   font-size: 1.25rem;
   font-weight: 500;
   font-style: italic;
 }
 
-/* line 1226, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1230, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.category-victories article.leadVictory .entry-content, div.content.victories-single article.leadVictory .entry-content {
   columns: 3;
   column-gap: 2.5rem;
   font-size: 1rem;
 }
 
-/* line 781, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 785, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.category-victories .cell.post, div.content.victories-single .cell.post {
   position: relative;
   margin-bottom: 2rem;
 }
 
-/* line 782, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 786, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.category-victories .cell.post img, div.content.victories-single .cell.post img {
   width: 100%;
 }
 
-/* line 786, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 790, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.category-victories .cell.post a.victoryLink:hover, div.content.victories-single .cell.post a.victoryLink:hover {
   opacity: .75;
 }
 
-/* line 788, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 792, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.category-victories .cell.post .overlay, div.content.victories-single .cell.post .overlay {
   position: absolute;
   bottom: 0;
@@ -2118,30 +2123,30 @@ body.category-victories .cell.post .overlay, div.content.victories-single .cell.
   padding: 1rem;
 }
 
-/* line 796, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 800, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.category-victories .cell.post .overlay:hover, div.content.victories-single .cell.post .overlay:hover {
   cursor: pointer;
 }
 
-/* line 799, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 803, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.category-victories .cell.post .overlay.open .more, body.category-victories .cell.post .overlay.open .short, div.content.victories-single .cell.post .overlay.open .more, div.content.victories-single .cell.post .overlay.open .short {
   display: inline-block;
   margin-top: .5rem;
 }
 
-/* line 802, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 806, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.category-victories .cell.post .overlay h4, body.category-victories .cell.post .overlay .short, body.category-victories .cell.post .overlay .more, div.content.victories-single .cell.post .overlay h4, div.content.victories-single .cell.post .overlay .short, div.content.victories-single .cell.post .overlay .more {
   color: #fff;
 }
 
-/* line 804, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 808, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.category-victories .cell.post .overlay .more, div.content.victories-single .cell.post .overlay .more {
   display: block;
   margin: 0 auto;
   text-transform: uppercase;
 }
 
-/* line 808, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 812, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.category-victories .cell.post .overlay .more .whitearrow, div.content.victories-single .cell.post .overlay .more .whitearrow {
   background: url("../images/svg/white_arrow.svg");
   height: 18px;
@@ -2155,24 +2160,24 @@ body.category-victories .cell.post .overlay .more .whitearrow, div.content.victo
   display: inline-block;
 }
 
-/* line 812, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 816, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.category-victories .cell.post .overlay .more:hover, div.content.victories-single .cell.post .overlay .more:hover {
   opacity: .75;
 }
 
-/* line 814, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 818, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.category-victories .cell.post .overlay .more, body.category-victories .cell.post .overlay .short, div.content.victories-single .cell.post .overlay .more, div.content.victories-single .cell.post .overlay .short {
   display: none;
 }
 
 /* line 707, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
-/* line 1238, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1242, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.category-victories h2, div.content.victories-single h2 {
   margin-bottom: 3rem;
   text-align: center;
 }
 
-/* line 1242, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1246, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.category-victories h2 {
   margin: 2rem 0 3rem;
 }
@@ -2180,32 +2185,32 @@ body.category-victories h2 {
 /********************* */
 /* Act250 TEMPLATE */
 /********************* */
-/* line 1249, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1253, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-template-act250 .inner-content {
   margin-top: 2rem;
 }
 
-/* line 1251, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1255, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-template-act250 .highlight250 {
   background-color: #6f7d74;
   padding: 2rem;
   position: relative;
 }
 
-/* line 1256, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1260, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-template-act250 .highlight250 .vidContent h2, body.page-template-template-act250 .highlight250 .vidContent p, body.page-template-template-act250 .highlight250 .vidContent div {
   text-align: left;
   color: #fff;
 }
 
-/* line 1259, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1263, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-template-act250 .highlight250 .vidContent h2 {
   text-transform: uppercase;
   font-weight: 300;
   font-size: 2.25rem;
 }
 
-/* line 1261, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1265, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-template-act250 .highlight250 .vidContent .leadin {
   font-size: 1.2rem;
   font-weight: 700;
@@ -2213,12 +2218,12 @@ body.page-template-template-act250 .highlight250 .vidContent .leadin {
   line-height: 1.5rem;
 }
 
-/* line 1266, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1270, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-template-act250 .highlight250 .vidContent .text {
   margin-bottom: 1.5rem;
 }
 
-/* line 1268, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1272, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-template-act250 .highlight250 .vidContent a.videoLink {
   position: absolute;
   text-transform: uppercase;
@@ -2228,7 +2233,7 @@ body.page-template-template-act250 .highlight250 .vidContent a.videoLink {
   font-weight: 500;
 }
 
-/* line 1275, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1279, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-template-act250 .highlight250 .vidContent a.videoLink .whitearrow {
   background: url("../images/svg/white_arrow.svg");
   height: 18px;
@@ -2240,12 +2245,12 @@ body.page-template-template-act250 .highlight250 .vidContent a.videoLink .whitea
   margin: 2px 0 0 5px;
 }
 
-/* line 1277, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1281, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-template-act250 .highlight250 .vidContent a.videoLink:hover {
   opacity: .75;
 }
 
-/* line 1279, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1283, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-template-act250 .highlight250 .vidContent a.videoLink:hover .whitearrow {
   margin-left: 10px;
 }
@@ -2253,51 +2258,51 @@ body.page-template-template-act250 .highlight250 .vidContent a.videoLink:hover .
 /********************* */
 /* CPT TEMPLATE */
 /********************* */
-/* line 1287, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1291, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-template-cpt .navWrap, body.page-template-template-cpt-home .navWrap, body.page-template-template-cpt-issues .navWrap, body.page-template-template-cpt-casestudies .navWrap, body.page-template-template-cpt-tools .navWrap, body.search-results .navWrap, body.search-no-results .navWrap {
   background-color: #fff;
 }
 
-/* line 1290, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1294, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-template-cpt .navWrap .top-bar-left #logo a img.logo.white, body.page-template-template-cpt-home .navWrap .top-bar-left #logo a img.logo.white, body.page-template-template-cpt-issues .navWrap .top-bar-left #logo a img.logo.white, body.page-template-template-cpt-casestudies .navWrap .top-bar-left #logo a img.logo.white, body.page-template-template-cpt-tools .navWrap .top-bar-left #logo a img.logo.white, body.search-results .navWrap .top-bar-left #logo a img.logo.white, body.search-no-results .navWrap .top-bar-left #logo a img.logo.white {
   display: none;
 }
 
-/* line 1292, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1296, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-template-cpt .navWrap .top-bar-left #logo a img.logo.green, body.page-template-template-cpt-home .navWrap .top-bar-left #logo a img.logo.green, body.page-template-template-cpt-issues .navWrap .top-bar-left #logo a img.logo.green, body.page-template-template-cpt-casestudies .navWrap .top-bar-left #logo a img.logo.green, body.page-template-template-cpt-tools .navWrap .top-bar-left #logo a img.logo.green, body.search-results .navWrap .top-bar-left #logo a img.logo.green, body.search-no-results .navWrap .top-bar-left #logo a img.logo.green {
   display: block;
 }
 
-/* line 1294, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1298, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-template-cpt .navWrap a.search i.fi-magnifying-glass, body.page-template-template-cpt-home .navWrap a.search i.fi-magnifying-glass, body.page-template-template-cpt-issues .navWrap a.search i.fi-magnifying-glass, body.page-template-template-cpt-casestudies .navWrap a.search i.fi-magnifying-glass, body.page-template-template-cpt-tools .navWrap a.search i.fi-magnifying-glass, body.search-results .navWrap a.search i.fi-magnifying-glass, body.search-no-results .navWrap a.search i.fi-magnifying-glass {
   color: #2b2b2b;
 }
 
-/* line 1297, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1301, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-template-cpt .navWrap #mega-menu-wrap-main-nav #mega-menu-main-nav li.primary a.mega-menu-link, body.page-template-template-cpt-home .navWrap #mega-menu-wrap-main-nav #mega-menu-main-nav li.primary a.mega-menu-link, body.page-template-template-cpt-issues .navWrap #mega-menu-wrap-main-nav #mega-menu-main-nav li.primary a.mega-menu-link, body.page-template-template-cpt-casestudies .navWrap #mega-menu-wrap-main-nav #mega-menu-main-nav li.primary a.mega-menu-link, body.page-template-template-cpt-tools .navWrap #mega-menu-wrap-main-nav #mega-menu-main-nav li.primary a.mega-menu-link, body.search-results .navWrap #mega-menu-wrap-main-nav #mega-menu-main-nav li.primary a.mega-menu-link, body.search-no-results .navWrap #mega-menu-wrap-main-nav #mega-menu-main-nav li.primary a.mega-menu-link {
   color: #2b2b2b;
 }
 
-/* line 1299, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1303, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-template-cpt .navWrap #mega-menu-wrap-main-nav #mega-menu-main-nav li.facebook a.mega-menu-link, body.page-template-template-cpt .navWrap #mega-menu-wrap-main-nav #mega-menu-main-nav li.twitter a.mega-menu-link, body.page-template-template-cpt-home .navWrap #mega-menu-wrap-main-nav #mega-menu-main-nav li.facebook a.mega-menu-link, body.page-template-template-cpt-home .navWrap #mega-menu-wrap-main-nav #mega-menu-main-nav li.twitter a.mega-menu-link, body.page-template-template-cpt-issues .navWrap #mega-menu-wrap-main-nav #mega-menu-main-nav li.facebook a.mega-menu-link, body.page-template-template-cpt-issues .navWrap #mega-menu-wrap-main-nav #mega-menu-main-nav li.twitter a.mega-menu-link, body.page-template-template-cpt-casestudies .navWrap #mega-menu-wrap-main-nav #mega-menu-main-nav li.facebook a.mega-menu-link, body.page-template-template-cpt-casestudies .navWrap #mega-menu-wrap-main-nav #mega-menu-main-nav li.twitter a.mega-menu-link, body.page-template-template-cpt-tools .navWrap #mega-menu-wrap-main-nav #mega-menu-main-nav li.facebook a.mega-menu-link, body.page-template-template-cpt-tools .navWrap #mega-menu-wrap-main-nav #mega-menu-main-nav li.twitter a.mega-menu-link, body.search-results .navWrap #mega-menu-wrap-main-nav #mega-menu-main-nav li.facebook a.mega-menu-link, body.search-results .navWrap #mega-menu-wrap-main-nav #mega-menu-main-nav li.twitter a.mega-menu-link, body.search-no-results .navWrap #mega-menu-wrap-main-nav #mega-menu-main-nav li.facebook a.mega-menu-link, body.search-no-results .navWrap #mega-menu-wrap-main-nav #mega-menu-main-nav li.twitter a.mega-menu-link {
   color: #2b2b2b;
 }
 
-/* line 1301, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1305, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-template-cpt .navWrap #mega-menu-wrap-main-nav #mega-menu-main-nav li.informed a.mega-menu-link, body.page-template-template-cpt-home .navWrap #mega-menu-wrap-main-nav #mega-menu-main-nav li.informed a.mega-menu-link, body.page-template-template-cpt-issues .navWrap #mega-menu-wrap-main-nav #mega-menu-main-nav li.informed a.mega-menu-link, body.page-template-template-cpt-casestudies .navWrap #mega-menu-wrap-main-nav #mega-menu-main-nav li.informed a.mega-menu-link, body.page-template-template-cpt-tools .navWrap #mega-menu-wrap-main-nav #mega-menu-main-nav li.informed a.mega-menu-link, body.search-results .navWrap #mega-menu-wrap-main-nav #mega-menu-main-nav li.informed a.mega-menu-link, body.search-no-results .navWrap #mega-menu-wrap-main-nav #mega-menu-main-nav li.informed a.mega-menu-link {
   background-color: transparent;
   border: 2px solid #2b2b2b;
   color: #2b2b2b;
 }
 
-/* line 1305, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1309, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-template-cpt .navWrap #mega-menu-wrap-main-nav #mega-menu-main-nav li.informed a.mega-menu-link:hover, body.page-template-template-cpt-home .navWrap #mega-menu-wrap-main-nav #mega-menu-main-nav li.informed a.mega-menu-link:hover, body.page-template-template-cpt-issues .navWrap #mega-menu-wrap-main-nav #mega-menu-main-nav li.informed a.mega-menu-link:hover, body.page-template-template-cpt-casestudies .navWrap #mega-menu-wrap-main-nav #mega-menu-main-nav li.informed a.mega-menu-link:hover, body.page-template-template-cpt-tools .navWrap #mega-menu-wrap-main-nav #mega-menu-main-nav li.informed a.mega-menu-link:hover, body.search-results .navWrap #mega-menu-wrap-main-nav #mega-menu-main-nav li.informed a.mega-menu-link:hover, body.search-no-results .navWrap #mega-menu-wrap-main-nav #mega-menu-main-nav li.informed a.mega-menu-link:hover {
   transition: all .3s ease-in-out;
   background-color: #2b2b2b;
   color: #fff;
 }
 
-/* line 1309, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1313, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-template-cpt .navWrap .button.informed, body.page-template-template-cpt-home .navWrap .button.informed, body.page-template-template-cpt-issues .navWrap .button.informed, body.page-template-template-cpt-casestudies .navWrap .button.informed, body.page-template-template-cpt-tools .navWrap .button.informed, body.search-results .navWrap .button.informed, body.search-no-results .navWrap .button.informed {
   background-color: transparent;
   border: 2px solid #2b2b2b;
@@ -2317,22 +2322,22 @@ body.page-template-template-cpt .navWrap .button.informed:hover, body.page-templ
   color: #2b2b2b;
 }
 
-/* line 1311, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1315, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-template-cpt .navWrap .button.informed:hover, body.page-template-template-cpt-home .navWrap .button.informed:hover, body.page-template-template-cpt-issues .navWrap .button.informed:hover, body.page-template-template-cpt-casestudies .navWrap .button.informed:hover, body.page-template-template-cpt-tools .navWrap .button.informed:hover, body.search-results .navWrap .button.informed:hover, body.search-no-results .navWrap .button.informed:hover {
   color: #fff;
 }
 
-/* line 1313, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1317, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-template-cpt header.header, body.page-template-template-cpt-home header.header, body.page-template-template-cpt-issues header.header, body.page-template-template-cpt-casestudies header.header, body.page-template-template-cpt-tools header.header, body.search-results header.header, body.search-no-results header.header {
   height: 400px;
 }
 
-/* line 1315, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1319, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-template-cpt #cptTitle, body.page-template-template-cpt-home #cptTitle, body.page-template-template-cpt-issues #cptTitle, body.page-template-template-cpt-casestudies #cptTitle, body.page-template-template-cpt-tools #cptTitle, body.search-results #cptTitle, body.search-no-results #cptTitle {
   background-color: #2A6A35;
 }
 
-/* line 1317, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1321, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-template-cpt #cptTitle h1, body.page-template-template-cpt-home #cptTitle h1, body.page-template-template-cpt-issues #cptTitle h1, body.page-template-template-cpt-casestudies #cptTitle h1, body.page-template-template-cpt-tools #cptTitle h1, body.search-results #cptTitle h1, body.search-no-results #cptTitle h1 {
   color: #fff;
   text-transform: uppercase;
@@ -2342,35 +2347,35 @@ body.page-template-template-cpt #cptTitle h1, body.page-template-template-cpt-ho
   font-weight: 600;
 }
 
-/* line 1324, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1328, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-template-cpt .inner-content, body.page-template-template-cpt-home .inner-content, body.page-template-template-cpt-issues .inner-content, body.page-template-template-cpt-casestudies .inner-content, body.page-template-template-cpt-tools .inner-content, body.search-results .inner-content, body.search-no-results .inner-content {
   padding: 3rem 0;
 }
 
-/* line 1326, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1330, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-template-cpt .inner-content .entry-content, body.page-template-template-cpt-home .inner-content .entry-content, body.page-template-template-cpt-issues .inner-content .entry-content, body.page-template-template-cpt-casestudies .inner-content .entry-content, body.page-template-template-cpt-tools .inner-content .entry-content, body.search-results .inner-content .entry-content, body.search-no-results .inner-content .entry-content {
   padding: 0;
 }
 
-/* line 1328, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1332, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-template-cpt .inner-content h2, body.page-template-template-cpt-home .inner-content h2, body.page-template-template-cpt-issues .inner-content h2, body.page-template-template-cpt-casestudies .inner-content h2, body.page-template-template-cpt-tools .inner-content h2, body.search-results .inner-content h2, body.search-no-results .inner-content h2 {
   margin-bottom: 1rem;
   text-align: left;
 }
 
-/* line 1333, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1337, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-template-cpt #cpt_sidebar img, body.page-template-template-cpt-home #cpt_sidebar img, body.page-template-template-cpt-issues #cpt_sidebar img, body.page-template-template-cpt-casestudies #cpt_sidebar img, body.page-template-template-cpt-tools #cpt_sidebar img, body.search-results #cpt_sidebar img, body.search-no-results #cpt_sidebar img {
   width: 100%;
 }
 
-/* line 1336, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1340, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-template-cpt #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li, body.page-template-template-cpt-home #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li, body.page-template-template-cpt-issues #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li, body.page-template-template-cpt-casestudies #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li, body.page-template-template-cpt-tools #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li, body.search-results #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li, body.search-no-results #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li {
   margin-left: 10px;
   margin: .25rem 0;
   width: 100%;
 }
 
-/* line 1340, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1344, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-template-cpt #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li a, body.page-template-template-cpt-home #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li a, body.page-template-template-cpt-issues #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li a, body.page-template-template-cpt-casestudies #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li a, body.page-template-template-cpt-tools #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li a, body.search-results #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li a, body.search-no-results #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li a {
   padding-left: 27px;
   font-weight: 600;
@@ -2380,29 +2385,29 @@ body.page-template-template-cpt #cpt_sidebar div.widget_nav_menu #menu-cpt-menu 
   color: #2b2b2b;
 }
 
-/* line 1347, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1351, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-template-cpt #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li a:hover, body.page-template-template-cpt-home #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li a:hover, body.page-template-template-cpt-issues #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li a:hover, body.page-template-template-cpt-casestudies #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li a:hover, body.page-template-template-cpt-tools #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li a:hover, body.search-results #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li a:hover, body.search-no-results #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li a:hover {
   opacity: .75;
 }
 
-/* line 1349, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1353, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-template-cpt #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li ul.sub-menu, body.page-template-template-cpt-home #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li ul.sub-menu, body.page-template-template-cpt-issues #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li ul.sub-menu, body.page-template-template-cpt-casestudies #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li ul.sub-menu, body.page-template-template-cpt-tools #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li ul.sub-menu, body.search-results #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li ul.sub-menu, body.search-no-results #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li ul.sub-menu {
   margin-left: 1rem;
 }
 
-/* line 1351, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1355, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-template-cpt #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li ul.sub-menu li a, body.page-template-template-cpt-home #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li ul.sub-menu li a, body.page-template-template-cpt-issues #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li ul.sub-menu li a, body.page-template-template-cpt-casestudies #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li ul.sub-menu li a, body.page-template-template-cpt-tools #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li ul.sub-menu li a, body.search-results #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li ul.sub-menu li a, body.search-no-results #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li ul.sub-menu li a {
   font-weight: 400;
   text-transform: capitalize;
   background-image: none;
 }
 
-/* line 1355, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1359, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-template-cpt #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li ul.sub-menu li.active, body.page-template-template-cpt-home #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li ul.sub-menu li.active, body.page-template-template-cpt-issues #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li ul.sub-menu li.active, body.page-template-template-cpt-casestudies #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li ul.sub-menu li.active, body.page-template-template-cpt-tools #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li ul.sub-menu li.active, body.search-results #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li ul.sub-menu li.active, body.search-no-results #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li ul.sub-menu li.active {
   position: relative;
 }
 
-/* line 1357, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1361, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-template-cpt #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li ul.sub-menu li.active a::before, body.page-template-template-cpt-home #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li ul.sub-menu li.active a::before, body.page-template-template-cpt-issues #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li ul.sub-menu li.active a::before, body.page-template-template-cpt-casestudies #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li ul.sub-menu li.active a::before, body.page-template-template-cpt-tools #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li ul.sub-menu li.active a::before, body.search-results #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li ul.sub-menu li.active a::before, body.search-no-results #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li ul.sub-menu li.active a::before {
   position: absolute;
   content: "";
@@ -2414,13 +2419,13 @@ body.page-template-template-cpt #cpt_sidebar div.widget_nav_menu #menu-cpt-menu 
   left: 8px;
 }
 
-/* line 1366, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1370, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-template-cpt #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li.active, body.page-template-template-cpt-home #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li.active, body.page-template-template-cpt-issues #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li.active, body.page-template-template-cpt-casestudies #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li.active, body.page-template-template-cpt-tools #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li.active, body.search-results #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li.active, body.search-no-results #cpt_sidebar div.widget_nav_menu #menu-cpt-menu li.active {
   background-color: #fcf5ee;
   color: #78a13f;
 }
 
-/* line 1370, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1374, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-template-cpt input.search-field, body.page-template-template-cpt-home input.search-field, body.page-template-template-cpt-issues input.search-field, body.page-template-template-cpt-casestudies input.search-field, body.page-template-template-cpt-tools input.search-field, body.search-results input.search-field, body.search-no-results input.search-field {
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
@@ -2429,7 +2434,7 @@ body.page-template-template-cpt input.search-field, body.page-template-template-
   border-right: 0 !important;
 }
 
-/* line 1376, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1380, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-template-cpt input.search-submit, body.page-template-template-cpt-home input.search-submit, body.page-template-template-cpt-issues input.search-submit, body.page-template-template-cpt-casestudies input.search-submit, body.page-template-template-cpt-tools input.search-submit, body.search-results input.search-submit, body.search-no-results input.search-submit {
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
@@ -2437,17 +2442,17 @@ body.page-template-template-cpt input.search-submit, body.page-template-template
   padding: 11px 20px !important;
 }
 
-/* line 1381, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1385, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-template-cpt input.search-submit:hover, body.page-template-template-cpt-home input.search-submit:hover, body.page-template-template-cpt-issues input.search-submit:hover, body.page-template-template-cpt-casestudies input.search-submit:hover, body.page-template-template-cpt-tools input.search-submit:hover, body.search-results input.search-submit:hover, body.search-no-results input.search-submit:hover {
   background-color: #699033;
 }
 
-/* line 1383, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1387, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-template-cpt button.browseIssues, body.page-template-template-cpt-home button.browseIssues, body.page-template-template-cpt-issues button.browseIssues, body.page-template-template-cpt-casestudies button.browseIssues, body.page-template-template-cpt-tools button.browseIssues, body.search-results button.browseIssues, body.search-no-results button.browseIssues {
   line-height: 1.5rem;
 }
 
-/* line 1385, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1389, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-template-cpt button.browseIssues span, body.page-template-template-cpt-home button.browseIssues span, body.page-template-template-cpt-issues button.browseIssues span, body.page-template-template-cpt-casestudies button.browseIssues span, body.page-template-template-cpt-tools button.browseIssues span, body.search-results button.browseIssues span, body.search-no-results button.browseIssues span {
   width: 0;
   height: 0;
@@ -2461,30 +2466,30 @@ body.page-template-template-cpt button.browseIssues span, body.page-template-tem
   margin: 10px 0 0 6px;
 }
 
-/* line 1392, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1396, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-template-cpt div#issues-dropdown, body.page-template-template-cpt div#tools-dropdown, body.page-template-template-cpt div#casestudies-dropdown, body.page-template-template-cpt-home div#issues-dropdown, body.page-template-template-cpt-home div#tools-dropdown, body.page-template-template-cpt-home div#casestudies-dropdown, body.page-template-template-cpt-issues div#issues-dropdown, body.page-template-template-cpt-issues div#tools-dropdown, body.page-template-template-cpt-issues div#casestudies-dropdown, body.page-template-template-cpt-casestudies div#issues-dropdown, body.page-template-template-cpt-casestudies div#tools-dropdown, body.page-template-template-cpt-casestudies div#casestudies-dropdown, body.page-template-template-cpt-tools div#issues-dropdown, body.page-template-template-cpt-tools div#tools-dropdown, body.page-template-template-cpt-tools div#casestudies-dropdown, body.search-results div#issues-dropdown, body.search-results div#tools-dropdown, body.search-results div#casestudies-dropdown, body.search-no-results div#issues-dropdown, body.search-no-results div#tools-dropdown, body.search-no-results div#casestudies-dropdown {
   height: 250px;
   overflow: auto;
 }
 
-/* line 1395, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1399, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-template-cpt div#issues-dropdown ul, body.page-template-template-cpt div#tools-dropdown ul, body.page-template-template-cpt div#casestudies-dropdown ul, body.page-template-template-cpt-home div#issues-dropdown ul, body.page-template-template-cpt-home div#tools-dropdown ul, body.page-template-template-cpt-home div#casestudies-dropdown ul, body.page-template-template-cpt-issues div#issues-dropdown ul, body.page-template-template-cpt-issues div#tools-dropdown ul, body.page-template-template-cpt-issues div#casestudies-dropdown ul, body.page-template-template-cpt-casestudies div#issues-dropdown ul, body.page-template-template-cpt-casestudies div#tools-dropdown ul, body.page-template-template-cpt-casestudies div#casestudies-dropdown ul, body.page-template-template-cpt-tools div#issues-dropdown ul, body.page-template-template-cpt-tools div#tools-dropdown ul, body.page-template-template-cpt-tools div#casestudies-dropdown ul, body.search-results div#issues-dropdown ul, body.search-results div#tools-dropdown ul, body.search-results div#casestudies-dropdown ul, body.search-no-results div#issues-dropdown ul, body.search-no-results div#tools-dropdown ul, body.search-no-results div#casestudies-dropdown ul {
   list-style-type: none;
   margin-left: .5rem;
 }
 
-/* line 1398, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1402, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-template-cpt div#issues-dropdown ul li, body.page-template-template-cpt div#tools-dropdown ul li, body.page-template-template-cpt div#casestudies-dropdown ul li, body.page-template-template-cpt-home div#issues-dropdown ul li, body.page-template-template-cpt-home div#tools-dropdown ul li, body.page-template-template-cpt-home div#casestudies-dropdown ul li, body.page-template-template-cpt-issues div#issues-dropdown ul li, body.page-template-template-cpt-issues div#tools-dropdown ul li, body.page-template-template-cpt-issues div#casestudies-dropdown ul li, body.page-template-template-cpt-casestudies div#issues-dropdown ul li, body.page-template-template-cpt-casestudies div#tools-dropdown ul li, body.page-template-template-cpt-casestudies div#casestudies-dropdown ul li, body.page-template-template-cpt-tools div#issues-dropdown ul li, body.page-template-template-cpt-tools div#tools-dropdown ul li, body.page-template-template-cpt-tools div#casestudies-dropdown ul li, body.search-results div#issues-dropdown ul li, body.search-results div#tools-dropdown ul li, body.search-results div#casestudies-dropdown ul li, body.search-no-results div#issues-dropdown ul li, body.search-no-results div#tools-dropdown ul li, body.search-no-results div#casestudies-dropdown ul li {
   padding: .5rem;
   border-bottom: 1px solid #eae3dc;
 }
 
-/* line 1401, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1405, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-template-template-cpt div#issues-dropdown ul li:hover, body.page-template-template-cpt div#tools-dropdown ul li:hover, body.page-template-template-cpt div#casestudies-dropdown ul li:hover, body.page-template-template-cpt-home div#issues-dropdown ul li:hover, body.page-template-template-cpt-home div#tools-dropdown ul li:hover, body.page-template-template-cpt-home div#casestudies-dropdown ul li:hover, body.page-template-template-cpt-issues div#issues-dropdown ul li:hover, body.page-template-template-cpt-issues div#tools-dropdown ul li:hover, body.page-template-template-cpt-issues div#casestudies-dropdown ul li:hover, body.page-template-template-cpt-casestudies div#issues-dropdown ul li:hover, body.page-template-template-cpt-casestudies div#tools-dropdown ul li:hover, body.page-template-template-cpt-casestudies div#casestudies-dropdown ul li:hover, body.page-template-template-cpt-tools div#issues-dropdown ul li:hover, body.page-template-template-cpt-tools div#tools-dropdown ul li:hover, body.page-template-template-cpt-tools div#casestudies-dropdown ul li:hover, body.search-results div#issues-dropdown ul li:hover, body.search-results div#tools-dropdown ul li:hover, body.search-results div#casestudies-dropdown ul li:hover, body.search-no-results div#issues-dropdown ul li:hover, body.search-no-results div#tools-dropdown ul li:hover, body.search-no-results div#casestudies-dropdown ul li:hover {
   background-color: #fdfbf9;
 }
 
-/* line 1404, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1408, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 .caseTag {
   background-color: #ffcb6c;
   padding: .5rem;
@@ -2492,7 +2497,7 @@ body.page-template-template-cpt div#issues-dropdown ul li:hover, body.page-templ
   color: #a07d3c;
 }
 
-/* line 1410, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1414, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 .toolsTag {
   background-color: #b3caff;
   padding: .5rem;
@@ -2500,7 +2505,7 @@ body.page-template-template-cpt div#issues-dropdown ul li:hover, body.page-templ
   color: #3c48a0;
 }
 
-/* line 1416, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1420, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 .issueTag {
   background-color: #87daec;
   padding: .5rem;
@@ -2508,22 +2513,22 @@ body.page-template-template-cpt div#issues-dropdown ul li:hover, body.page-templ
   color: #3c8da0;
 }
 
-/* line 1422, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1426, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 .cpt-search {
   margin-top: 2rem;
 }
 
-/* line 1425, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1429, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 h2.cpt {
   text-transform: none;
 }
 
-/* line 1429, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1433, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 .search-results h2.cpt, .search-no-results h2.cpt {
   margin-top: 4rem;
 }
 
-/* line 1431, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1435, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 .search-results input[type="search"], .search-no-results input[type="search"] {
   border: 1px solid #cacaca;
 }
@@ -2531,42 +2536,42 @@ h2.cpt {
 /********************* */
 /* SEARCH TEMPLATE */
 /********************* */
-/* line 1438, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1442, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.search-results #heroTitle h1 span {
   font-style: italic;
   font-weight: 300;
 }
 
-/* line 1443, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1447, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.search-results .inner-content header.article-header h2 {
   margin-bottom: 1rem;
   text-align: left;
 }
 
-/* line 1446, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1450, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.search-results .inner-content header.article-header .byline {
   margin-bottom: 0;
 }
 
-/* line 1448, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1452, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.search-results article {
   margin: 3rem 0 0;
   border-bottom: 1px solid #cacaca;
   padding-bottom: 3rem;
 }
 
-/* line 1452, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1456, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.search-results article .entry-content {
   margin-bottom: 0;
   padding: 0;
 }
 
-/* line 1455, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1459, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.search-results article .excerpt-read-more {
   padding-top: 1rem;
 }
 
-/* line 1457, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1461, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.search-results article .excerpt-read-more .greenarrow {
   margin: 3px 0 0 5px;
 }
@@ -2574,27 +2579,27 @@ body.search-results article .excerpt-read-more .greenarrow {
 /********************* */
 /* STAND ALONE ELEMENTS */
 /********************* */
-/* line 1464, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1468, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 .fb-video blockquote p {
   color: #e2e2e2;
 }
 
-/* line 1469, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1473, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-id-229 .entry-content i.fi-social-facebook, body.page-id-229 .entry-content i.fi-social-twitter {
   font-size: 2.5rem;
 }
 
-/* line 1471, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1475, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 body.page-id-229 .entry-content i.fi-social-facebook {
   margin-right: 1rem;
 }
 
-/* line 1475, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1479, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 .page-navigation {
   margin-top: 3rem;
 }
 
-/* line 1477, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1481, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 .page-navigation ul.pagination li {
   font-size: 1.25rem;
 }
@@ -2602,60 +2607,60 @@ body.page-id-229 .entry-content i.fi-social-facebook {
 /********************* */
 /* ANNOUNCEMENT BAR */
 /********************* */
-/* line 1483, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1487, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 .announcement {
   padding: 3rem;
   position: relative;
 }
 
-/* line 1486, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1490, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 .announcement.red {
   background-color: #d14b27;
   color: #fff;
 }
 
-/* line 1489, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1493, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 .announcement.red a {
   color: #fff;
 }
 
-/* line 1491, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1495, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 .announcement.red .button {
   background-color: #fff;
   color: #d14b27;
   border-color: #fff;
 }
 
-/* line 1495, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1499, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 .announcement.red .button:hover {
   background-color: transparent;
 }
 
-/* line 1497, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1501, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 .announcement.grey {
   background-color: #6f7d74;
   color: #fff;
 }
 
-/* line 1500, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1504, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 .announcement.grey a {
   color: #fff;
 }
 
-/* line 1502, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1506, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 .announcement.grey .button {
   background-color: #fff;
   color: #6f7d74;
   border-color: #fff;
 }
 
-/* line 1506, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1510, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 .announcement.grey .button:hover {
   background-color: transparent;
   color: #fff;
 }
 
-/* line 1509, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1513, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 .announcement #closeit {
   position: absolute;
   bottom: 20px;
@@ -2667,7 +2672,7 @@ body.page-id-229 .entry-content i.fi-social-facebook {
 /********************* */
 /* FOOTER */
 /********************* */
-/* line 1521, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1525, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 footer.footer {
   background-color: #f4f7f6;
   border-top: 10px solid #78a13f;
@@ -2675,33 +2680,33 @@ footer.footer {
   margin-top: 3rem;
 }
 
-/* line 1526, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1530, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 footer.footer .cell.reports, footer.footer .cell.subscribe {
   padding: 0 1.5rem 2.5rem;
   color: #2A6A35;
 }
 
-/* line 1529, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1533, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 footer.footer .cell.reports h4, footer.footer .cell.subscribe h4 {
   font-weight: 700;
   font-size: 1.4rem;
 }
 
-/* line 1532, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1536, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 footer.footer .cell.reports p, footer.footer .cell.subscribe p {
   font-family: adobe-garamond-pro, serif;
   font-size: 1.2rem;
   line-height: 1.5rem;
 }
 
-/* line 1536, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1540, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 footer.footer .cell.reports a, footer.footer .cell.subscribe a {
   color: #2A6A35;
   font-weight: 700;
   text-decoration: underline;
 }
 
-/* line 1540, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1544, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 footer.footer .cell.reports a.button, footer.footer .cell.subscribe a.button {
   color: #fff;
   text-decoration: none;
@@ -2709,100 +2714,100 @@ footer.footer .cell.reports a.button, footer.footer .cell.subscribe a.button {
   font-family: "Open Sans", sans-serif;
 }
 
-/* line 1546, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1550, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 footer.footer .reports img {
   float: left;
   width: 30%;
   margin-right: 1rem;
 }
 
-/* line 1550, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1554, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 footer.footer .bottomFooterWrapper {
   background-color: #2b2b2b;
   color: #fff;
   padding-top: 3rem;
 }
 
-/* line 1554, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1558, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 footer.footer .bottomFooterWrapper h5 {
   font-size: 1rem;
   font-weight: 700;
 }
 
-/* line 1557, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1561, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 footer.footer .bottomFooterWrapper p {
   font-size: .75rem;
 }
 
-/* line 1559, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1563, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 footer.footer .bottomFooterWrapper .cell {
   padding: 0 3rem;
 }
 
-/* line 1561, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1565, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 footer.footer .bottomFooterWrapper .vnrc {
   border-right: 1px solid #78a13f;
 }
 
-/* line 1563, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1567, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 footer.footer .bottomFooterWrapper .vnrc img {
   padding-bottom: 1rem;
 }
 
-/* line 1565, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1569, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 footer.footer .bottomFooterWrapper .vnrc p {
   text-transform: uppercase;
 }
 
-/* line 1567, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1571, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 footer.footer .bottomFooterWrapper .associates {
   border-right: 1px solid #78a13f;
 }
 
-/* line 1569, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1573, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 footer.footer .bottomFooterWrapper .associates img {
   margin-top: 1rem;
 }
 
-/* line 1571, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1575, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 footer.footer .bottomFooterWrapper .associates img.vcv {
   float: left;
   width: 35%;
   margin-right: 4rem;
 }
 
-/* line 1575, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1579, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 footer.footer .bottomFooterWrapper .associates img.vecan {
   float: right;
   width: 43%;
   margin-top: 1.15rem;
 }
 
-/* line 1580, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1584, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 footer.footer .bottomFooterWrapper .links .follow, footer.footer .bottomFooterWrapper .links .support {
   line-height: 2rem;
   float: left;
   width: 45%;
 }
 
-/* line 1584, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1588, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 footer.footer .bottomFooterWrapper .links .follow h5, footer.footer .bottomFooterWrapper .links .support h5 {
   margin-bottom: 1rem;
 }
 
-/* line 1586, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1590, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 footer.footer .bottomFooterWrapper .links .button.orange {
   font-size: .85rem;
 }
 
-/* line 1588, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1592, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 footer.footer .bottomFooterWrapper .links i {
   font-size: 2rem;
   color: #fff;
   margin-right: 1rem;
 }
 
-/* line 1592, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1596, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 footer.footer .bottomFooterWrapper .links p {
   color: #b7b7b7;
   line-height: 1rem;
@@ -2811,24 +2816,24 @@ footer.footer .bottomFooterWrapper .links p {
   margin-top: 1rem;
 }
 
-/* line 1598, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1602, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 footer.footer .bottomFooterWrapper .pageinfo {
   margin-top: 2rem;
   color: #b7b7b7;
   background-color: #2b2b2b;
 }
 
-/* line 1602, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1606, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 footer.footer .bottomFooterWrapper .pageinfo p {
   font-size: .85rem;
 }
 
-/* line 1604, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1608, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 footer.footer .bottomFooterWrapper .pageinfo p a {
   color: #828282;
 }
 
-/* line 1606, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
+/* line 1610, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_vnrc.sass */
 footer.footer .bottomFooterWrapper .pageinfo p a.hover {
   color: #fff;
 }
@@ -11966,14 +11971,14 @@ POSTS & CONTENT STYLES
 /* line 33, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_global.scss */
 .entry-content .alignleft, .entry-content img.alignleft {
   margin-right: 1.5em;
-  display: inline;
+  display: table;
   float: left;
 }
 
 /* line 38, ../../../../../../../../../../../../../Users/andrewsepic/theme-dev/vnrc/assets/styles/scss/_global.scss */
 .entry-content .alignright, .entry-content img.alignright {
   margin-left: 1.5em;
-  display: inline;
+  display: table;
   float: right;
 }
 
