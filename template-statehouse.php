@@ -33,8 +33,11 @@ get_header(); ?>
 
 			</div> <!-- end #inner-content -->
 
-			<div class="initiatives grid-x grid-margin-x grid-padding-x">
 
+
+		<?php $showBills = get_field('show_current_bills');
+		if ( $showBills ) { ?>
+			<div class="initiatives grid-x grid-margin-x grid-padding-x">
 				<div class="small-12 medium-12 large-12 cell">
 					<h2 class="initHeader">Current Bills</h2>
 				</div>
@@ -67,6 +70,7 @@ get_header(); ?>
 				</div>
 
 			</div>  <!-- end .initiatives -->
+		<?php } ?>
 
 		</div> <!-- end .grid-container -->
 
