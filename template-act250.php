@@ -48,6 +48,10 @@ get_header(); ?>
 				</div>
 			</div><!-- .highlight end -->
 
+			<?php
+			$prioritiesVisible = get_field('toggle_priorities');
+
+			if ( $prioritiesVisible ) { ?>
 			<div class="initiatives grid-x grid-margin-x ">
 
 				<div class="small-12 medium-12 large-12 cell">
@@ -89,6 +93,7 @@ get_header(); ?>
 				</div>
 
 			</div>  <!-- end .initiatives -->
+		<?php } ?>
 
 		</div> <!-- end .grid-container -->
 
