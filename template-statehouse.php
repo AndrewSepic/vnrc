@@ -100,8 +100,8 @@ get_header(); ?>
 							if ( has_post_thumbnail() ) {
 								the_post_thumbnail( 'news' );
 						} ?>
+						<?php get_template_part( 'parts/content', 'byline' ); ?>
 						<h4><?php the_title() ?></h4>
-						<?php // get_template_part( 'parts/content', 'byline' ); ?>
 						<?php the_excerpt()?>
 						<?php //the_content('<button class="tiny">' . __( 'Read more...', 'jointswp' ) . '</button>'); ?>
 					</div>
