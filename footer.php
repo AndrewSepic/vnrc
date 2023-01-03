@@ -32,7 +32,7 @@
     					<div class="bottom-footer grid-x grid-padding-x">
 
                 <div class="small-12 medium-6 large-3 cell vnrc">
-                  <img src="<?php echo get_template_directory_uri();?>/assets/images/svg/white-logo.svg" alt="Vermont Natural Resrouces Council Logo"/>
+                  <img src="<?php echo get_template_directory_uri();?>/assets/images/logo-white.png" alt="Vermont Natural Resrouces Council Logo"/>
     							<p><?php the_field('contact_info', 'option');?></p>
     	    			</div>
 

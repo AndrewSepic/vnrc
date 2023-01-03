@@ -10,8 +10,8 @@
 	<div class="top-bar-left float-left">
 		<div id="logo">
 			<a href="<?php echo home_url(); ?>">
-				<img class="logo green" src="<?php echo get_template_directory_uri(); ?>/assets/images/svg/green-logo.svg" alt="<?php echo get_bloginfo( 'name' );?>"/>
-				<img class="logo white" src="<?php echo get_template_directory_uri(); ?>/assets/images/svg/white-logo.svg" alt="<?php echo get_bloginfo( 'name' );?>"/>
+				<img class="logo green" src="<?php echo get_template_directory_uri(); ?>/assets/images/logo-green.png" alt="<?php echo get_bloginfo( 'name' );?>"/>
+				<img class="logo white" src="<?php echo get_template_directory_uri(); ?>/assets/images/logo-white.png" alt="<?php echo get_bloginfo( 'name' );?>"/>
 			</a></li>
 		</div>
 	</div>
