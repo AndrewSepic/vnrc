@@ -2,14 +2,9 @@
 /* Responsive Styles for VNRC
 /*
 
-// Custom Breakpoint for Homepage
-@media screen and (min-width: 1000px) and (max-width: 1435px)
-  body.home header.header #heroTitle
-    width: 70%
-    left: 15%
-
 // Mobile Devices
 @include breakpoint(small only)
+
   //navigation
   .position-right.is-transition-push
     box-shadow: 2px 3px 8px 2px rgba(10, 10, 10, .25) !important
@@ -63,9 +58,6 @@
     background-color: #e8ede8
   li.is-accordion-submenu-parent ul.is-active
     border-top: 2px solid $green
-  .submenu .is-accordion-submenu-parent:not(.has-submenu-toggle) > a
-    position: relative
-    background-color: #d7e2c6
   li.facebook, li.twitter
     float: left
     width: 18%!important
@@ -92,9 +84,8 @@
   body.home .grid-padding-x > .cell
     padding-right: 2rem
     padding-left: 2rem
-  // Homepage
   body.home
-    header.header
+    header
       background-position: 30% 46%
       #heroTitle
         width: 100%
@@ -141,11 +132,7 @@
       margin: 4rem 0 0
       .cell
         margin-bottom: 2rem
-  // News
-  .news .cell
-    margin-bottom: 2rem
-  footer.footer
-    margin-top: 1rem
+  .footer
     .cell.reports, .cell.subscribe
       padding: 0 1.5rem 2.5rem
     .bottomFooterWrapper
@@ -182,3 +169,5 @@
   //Support Us
   .supportUs .intro p
     font-size: 1.1rem
+
+

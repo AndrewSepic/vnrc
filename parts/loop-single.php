@@ -16,6 +16,9 @@
     </header> <!-- end article header -->
 
     <section class="entry-content" itemprop="text">
+		<?php if(get_post_type() == "susttransportation") : ?>
+			<p>By <?php echo get_field('article_author'); ?></p>
+		<?php endif; ?>
 		<?php the_content(); ?>
 		</section> <!-- end article section -->
 

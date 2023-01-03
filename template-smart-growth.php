@@ -159,6 +159,19 @@ get_header(); ?>
 						</a>
 					</div>
 				</div><!-- .community end -->
+				<!-- Blog Prev -->
+				<div class="grid-x grid-padding-x grid-margin-x community">
+					<div class="cell small-12 medium-4 large-7 pic">
+						<img src="<?php the_field('blog_prev_image');?>" alt="Blog Preview" />
+					</div>
+					<div class="cell small-12 medium-8 large-5 vidembed">
+						<h2><?php the_field('blog_prev_title');?></h2>
+						<div class="leadin"><?php the_field('blog_prev_leadin');?></div>
+						<p><?php the_field('blog_prev_content');?></p>
+						<a class="bold green" href="<?php the_field('blog_prev_url');?>"><?php the_field('blog_prev_text');?>
+						</a>
+					</div>
+				</div><!-- .blog prev end -->
 
 			</div><!-- end .gridContainer -->
 		</div><!-- end .greyWrapper -->

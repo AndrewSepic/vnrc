@@ -40,6 +40,7 @@
                   <h5>Visit our Associate Organizations</h5>
                   <a href="http://vermontconservationvoters.com/" target="_blank"><img class="vcv" src="<?php echo get_template_directory_uri();?>/assets/images/svg/vcv-white.svg" alt="Vermont Conservation Voters"/></a>
                   <a href="http://vecan.net/" target="_blank"><img class="vecan" src="<?php echo get_template_directory_uri();?>/assets/images/svg/vecan-white.svg" alt="Vermont Energy & Climate Action Network"/></a>
+                  <a href="http://freevermontrivers.org/" target="_blank"><img class="vcv" src="<?php echo get_template_directory_uri();?>/assets/images/svg/fvtr.svg" alt="Vermont Energy & Climate Action Network"/></a>
                 </div>
 
                 <div class="small-12 medium-12 large-4 cell links">

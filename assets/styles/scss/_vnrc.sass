@@ -70,7 +70,7 @@ $bodytextcolor: #2b2b2b
   color: $color
   font-weight: bold
   font-size: 1.1rem
-  border-radius: 30px
+  border-radius: 20px
   padding: .5rem 1.5rem
   line-height: 20px
   &:hover
@@ -180,13 +180,6 @@ $bodytextcolor: #2b2b2b
   p
     margin-bottom: 2rem
 
-=downArrow
-  width: 0
-  height: 0
-  border-left: 8px solid transparent
-  border-right: 8px solid transparent
-  border-top: 8px solid #fff
-
 /*********************
 /* GENERAL STYLES
 /*********************
@@ -289,21 +282,17 @@ ul.check
     margin-bottom: .25rem
 
 blockquote
-  font-size: 1.75rem
+  font-size: 1.2rem
   font-weight: 300
   font-style: italic
   margin: 0 0 2rem
   position: relative
-  line-height: 2.5rem
-  border-left: 0
-  color: #3e3ee3
-  p
-    &:after, &:before
-      content: "\0022"
-      position: absolute
-      font-size: 1.5rem
-    &:before
-      left: 0
+  &:after, &:before
+    content: "\0022"
+    position: absolute
+    font-size: 1.5rem
+  &:before
+    left: 0
 
 select
   border: 1px solid $green
@@ -314,78 +303,12 @@ select
   input
     text-indent: 32px
     border-radius: 25px
-    border-color: #fff
+    border-color: $green
   .fi-magnifying-glass
-    font-size: 1.75rem
-    color: #fff
-    margin-left: .5rem
-// Full Screen Search
-.reveal.full
-  padding: 8rem
-  background-color: rgba(255, 255, 255, .9)
-  .close-button
-    right: 2rem
-    top: 2rem
-    font-size: 2rem
-    color: $green
-  input[type="search"]
-    border: 0
-    box-shadow: none
-    border-radius: 0
-    background-color: #fff
-    padding: 2rem
+    position: absolute
+    left: 12px
     font-size: 1.5rem
-    border-bottom: 5px solid #78a13f
-    color: #fff
-    width: 60%
-    margin-left: 15%
-    float: left
-    &:focus
-      background-color: rgba(49, 76, 54, 0.5)
-      border-bottom: 5px solid #78a13f
-      color: #fff
-  input[type="submit"]
-    float: left
-    padding: 1.5rem 2rem 1.725rem 2rem !important
-    text-indent: 0
-    border-radius: 0
-    border: 0
-
-hr
-  margin: 4rem auto
-  width: 80%
-
-/*********************
-/* ELEMENTS
-/*********************
-ul.accordion
-  .accordion-title
-    text-transform: uppercase
-    font-weight: 400
-    &:hover
-      color: $bodytextcolor
-  .accordion-item:first-child > :first-child
-    border-radius: 3px
-  .accordion-item:last-child:not(.is-active) > .accordion-title
-    border-radius: 3px
-  .accordion-title::before
-    margin-top: -1rem
-
-// Breadcrumbs
-#crumbs
-  margin-bottom: 2rem
-
-// Tabs
-ul.tabs
-  .tabs-title > a
-    font-size: .9rem
-    padding: 1rem 1.25rem
-  .tabs-title > a:focus, .tabs-title > a[aria-selected='true']
-    font-size: 1.25rem
-
-// Captions
-.wp-block-image figure
-  display: table
+    color: $green
 
 /*********************
 /* PAGINATION
@@ -426,8 +349,6 @@ ul.tabs
           display: none
         img.logo.green
           display: block
-      a.search i.fi-magnifying-glass
-        color: $bodytextcolor
       #mega-menu-wrap-main-nav #mega-menu-main-nav
         li.primary a.mega-menu-link
           color: $bodytextcolor
@@ -464,7 +385,7 @@ ul.tabs
 
 // Mega Menu
 .top-bar-right
-  .button.informed, .button.search
+  .button.informed
     +hollowbutton(#fff)
   #mega-menu-wrap-main-nav
     float: left
@@ -472,7 +393,6 @@ ul.tabs
       float: left
       & > li.mega-menu-megamenu > ul.mega-sub-menu
         margin-top: 20px
-        border-bottom: 1px solid #ebebeb
       li.primary a.mega-menu-link
         padding: 0 2rem
       li.facebook a.mega-menu-link,  li.twitter a.mega-menu-link
@@ -537,9 +457,9 @@ header.header
       display: none
   #heroTitle
     position: absolute
-    width: 70%
+    width: 52%
     bottom: 33%
-    left: 15%
+    left: 23%
     text-align: center
     h1
       color: #fff
@@ -559,13 +479,6 @@ header.header
 .entry-content
   margin-bottom: 4rem
 
-body.page-template-default
-  .entry-content, .inner-content
-    h2
-      margin-bottom: 0.5rem
-      text-align: left
-
-
 
 /*********************
 /* SINGLE TEMPLATE
@@ -579,32 +492,20 @@ body.single
     margin-top: 2rem
     font-weight: 700
   p.byline
-    margin-top: -41px
-    background-color: #404040
-    color: #fff
-    opacity: .75
-    padding: .5rem
-    position: absolute
+    color: $bodytextcolor
+    font-weight: 600
+    font-size: 1.25rem
+    margin: 2rem 0 0 0
   .entry-content
     padding: 1rem 0
-
-// ArtGibb & Small Grants
-article.category-art-gibb-award, article.category-small-grants-for-smart-growth
-  p.byline
-    display: none
 
 /*********************
 /* ARCHIVE TEMPLATE
 /*********************
-body.archive, body.page-template-template-postsatbottom
-  #heroTitle h3
-    color: #fff
-    font-style: italic
+body.archive
   .inner-content
     margin-top: 2rem
-  header iframe
-    margin-bottom: 2rem
-  article.post:nth-child(odd), div.postsAtBottom article:nth-child(odd)
+  &.category-news-stories article:nth-child(odd)
     background-color: $lightgrey
   article:first-of-type
     padding-top: 0
@@ -640,24 +541,23 @@ body.archive, body.page-template-template-postsatbottom
 .sidebar
   .widget
     margin-bottom: 2rem
-    float: left
     h4.widgettitle
       color: $green
       font-size: 1.25rem
       text-transform: uppercase
       border-bottom: 1px solid #bbd09d
       padding-bottom: .5rem
-  .widget_categories ul li, .DisplayCategoriesWidget ul li
-    //padding-left: 26px
-    //background: url('../images/svg/greenarrow.svg') no-repeat center left
-    //background-size: 19px
-    margin: .25rem 0
+  .widget_categories ul li
+    padding-left: 26px
+    background: url('../images/svg/greenarrow.svg') no-repeat center left
+    background-size: 19px
+    margin: .75rem 0
     a
       font-weight: 600
       text-transform: uppercase
       color: $bodytextcolor
       &:hover
-        opacity: .65
+        opacity: .75
   .widget_recent_entries li
     line-height: 1.25rem
     margin: 1.25rem 0
@@ -681,7 +581,7 @@ body.home
       display: block
     #logo a img.logo.green
       display: none
-  header.header
+  header
     background-size: cover
     height: 100vh
     position: relative
@@ -739,17 +639,9 @@ body.home
     h4
       font-size: 1.25rem
       font-weight: 700
-      padding: 1.5rem 0 0
-      margin-bottom: 0
+      padding: 1.5rem 0 .25rem
     .catLink .readmore
       +readmore
-    .byline
-      margin-top: -41px
-      background-color: #404040
-      color: #fff
-      opacity: .75
-      padding: .5rem
-      position: absolute
   .video
     background-color: $grey
     padding: 2rem
@@ -770,8 +662,8 @@ body.home
       a.videoLink
         position: absolute
         text-transform: uppercase
-        bottom: 20px
-        left: 45px
+        bottom: 0
+        left: 15px
         color: #fff
         font-weight: 500
         .whitearrow
@@ -786,9 +678,6 @@ body.home
     img
       width: 100%
     position: relative
-    margin-bottom: 2rem
-    a.victoryLink:hover
-      opacity: .75
     .overlay
       position: absolute
       bottom: 0
@@ -817,7 +706,6 @@ body.home
           opacity: .75
       .more, .short
         display: none
-// homepage victories
 .victories
   margin: 4rem 0
   h2
@@ -832,23 +720,7 @@ body.home
       opacity: .75rem
       +arrowHover
   +victoryStyles
-  a.victoryLink:hover
-    opacity: .75
-  .cell
-    h4
-      font-size: 1.25rem
-      font-weight: 700
-      padding: 1.5rem 0 .25rem
-    .eventWrap
-      padding: 0 0 .5rem
-      color: #2a6a35
-      font-weight: bold
-      border-bottom: 4px dotted #78a13e
-      margin-bottom: 1rem
-      span.eventdate
-        font-weight: normal
-        color: #0a0a0a
-        font-style: italic
+
 .missionWrapper
   padding: 4rem 0
   background: $green url('../images/swoosh.png') no-repeat top left
@@ -891,7 +763,7 @@ body.home
 /* KEY ISSUES TEMPLATE
 /*********************
 
-body.page-template-template-clean-energy, body.page-template-template-forests-wildlife, body.page-template-template-clean-water, body.page-template-template-smart-growth,  body.page-template-template-statehouse, body.page-template-template-act250, body.page-template-template-toxic-free
+body.page-template-template-key
   .top-bar, .top-bar ul
     background-color: transparent
     #logo a img.logo.white
@@ -904,15 +776,14 @@ body.page-template-template-clean-energy, body.page-template-template-forests-wi
     position: relative
     #heroTitle
       position: absolute
-      width: 70%
+      width: 52%
       bottom: 33%
-      left: 15%
+      left: 23%
       text-align: center
       h1
         color: #fff
         font-weight: 700
         font-size: 3.2rem
-        text-shadow: 0px 0px 14px #565656
   .inner-content
     margin-top: 4rem
     border-bottom: 1px solid $lightgreen
@@ -921,25 +792,16 @@ body.page-template-template-clean-energy, body.page-template-template-forests-wi
       font-size: 2.25rem
       text-transform: uppercase
       font-weight: 300
-    .inquiries
-      text-transform: uppercase
-      color: $lightgreen
-      font-weight: 700
-      font-size: .9rem
-      margin: 1rem 0 .5rem
-    .twodirectors
-      padding: 2rem 0
-      float: left
-      width: 50%
-      .matte
-        +matte
-      p
-        margin-bottom: 0
     .director
       padding: 2rem 0
-      float: left
       .matte
         +matte
+      .inquiries
+        text-transform: uppercase
+        color: $lightgreen
+        font-weight: 700
+        font-size: .9rem
+        margin: 1rem 0 .5rem
       p
         margin-bottom: 0
     .keyGraphic img
@@ -957,27 +819,6 @@ body.page-template-template-clean-energy, body.page-template-template-forests-wi
       margin-bottom: 1rem
     a.excerpt-read-more
       color: $lightgreen
-  .artgibb
-    h2, p, div
-      text-align: left
-      color: #fff
-    h2
-      +lightTitle
-    .leadin
-      font-size: 1.2rem
-      font-weight: 700
-      margin-bottom: 1.5rem
-      line-height: 1.5rem
-    .text
-      margin-bottom: 1.5rem
-    a.videoLink
-      position: absolute
-      text-transform: uppercase
-      color: #fff
-      font-weight: 500
-      bottom: 20px
-      .whitearrow
-        +whitearrow
   .community
     margin: 5rem 0 2rem
     h2
@@ -1001,13 +842,14 @@ body.page-template-template-clean-energy, body.page-template-template-forests-wi
       width: 75%
       margin: 0 auto 1.5rem
       display: block
-      border: 1px solid #d0d0d0
+      border: 20px solid $lightgreen
     h3
       font-weight: 700
       font-size: 1.25rem
       text-align: center
     a
       color: $bodytextcolor
+
 
 /*********************
 /* SUPPORT TEMPLATE
@@ -1113,84 +955,10 @@ body.page-template-how-we-work
 
 .partnerships
   background-color: $lightgreen
-  a
-    color: $green
-
-body.page-template-template-statehouse .inner-content
-  border-bottom: 0
-
-/*********************
-/* STAff PAge Template
-/*********************
-body.page-template-staff
-  &.page-id-227
-    p.contact
-      display: none
-  .entry-content
-    margin-bottom: 2rem
-    font-size: 1.4rem
-    font-weight: 300
-  .staff
-    .cell
-      background-color: #f1f1f1
-      padding-bottom: 1rem
-      margin-bottom: 2rem
-    .cell.vcv
-      background-color: transparent
-      h2
-        margin: 2rem 0 0
-        border-bottom: 1px solid $lightgreen
-    h4
-      margin: 1rem 1rem 0
-      font-size: 1.2rem
-      color: $bodytextcolor
-    div.staffTitle
-      margin: 0 1rem
-    .info
-      display: none
-  .reveal.small
-    display: flex
-    justify-content: space-between
-    @include breakpoint(medium only)
-      width: 80%
-    @include breakpoint(small only)
-      flex-wrap: wrap
-      .staffTop, .staffBottom
-        width: 100%
-      .staffTop
-        margin-right: 0
-        padding: 1rem
-    .staffTop
-      margin-right: 1rem
-      img
-        max-width: 250px
-        border-bottom: 10px solid #f1f1f1
-      h4
-        margin: 1rem 0 0
-      .staffTitle
-        text-transform: uppercase
-        color: #78a13f
-    .staffBottom
-      padding: 1rem
-
-/*********************
-/* VERS CATEGORY TEMPLATE
-/*********************
-body.category-vermont-environmental-reports
-  div.reports .cell
-    margin-bottom: 2rem
-
 
 /*********************
 /* VICTORIES CATEGORY TEMPLATE
 /*********************
-
-// taxonomy description
-.taxonomy-description
-  margin-bottom: 4rem
-  p
-    font-size: 1.1rem
-    text-align: center
 
 body.category-victories
   article.leadVictory
@@ -1211,324 +979,23 @@ body.category-victories
     +sectionTitle
 
 /*********************
-/* VICTORIES SINGLE TEMPLATE
-/*********************
-
-/* line 985, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
-body.category-victories, div.content.victories-single
-  article.leadVictory
-    header
-      margin-bottom: 2rem
-    h2
-      font-size: 3rem
-      text-align: left
-      margin-bottom: 1rem
-    .victoryDate
-      font-size: 1.25rem
-      font-weight: 500
-      font-style: italic
-    .entry-content
-      columns: 3
-      column-gap: 2.5rem
-      font-size: 1rem
-  +victoryStyles
-
-/* line 707, /Users/Andrew/localhost/vnrc/wp-content/themes/vnrc/assets/styles/scss/_vnrc.sass */
-// body.category-victories .cell.post .overlay.open .more, body.category-victories .cell.post .overlay.open .short, div.content.victories-single .cell.post .overlay.open .more, div.content.victories-single .cell.post .overlay.open .short {
-//   display: inline-block;
-//   margin-top: .5rem;
-// }
-
-body.category-victories h2, div.content.victories-single h2
-  margin-bottom: 3rem
-  text-align: center
-
-body.category-victories h2
-  margin: 2rem 0 3rem
-
-/*********************
-/* Act250 TEMPLATE
-/*********************
-body.page-template-template-act250
-  .inner-content
-    margin-top: 2rem
-  .highlight250
-    background-color: $grey
-    padding: 2rem
-    position: relative
-    .vidContent
-      h2, p, div
-        text-align: left
-        color: #fff
-      h2
-        +lightTitle
-      .leadin
-        font-size: 1.2rem
-        font-weight: 700
-        margin-bottom: 1.5rem
-        line-height: 1.5rem
-      .text
-        margin-bottom: 1.5rem
-      a.videoLink
-        position: absolute
-        text-transform: uppercase
-        bottom: 20px
-        left: 45px
-        color: #fff
-        font-weight: 500
-        .whitearrow
-          +whitearrow
-        &:hover
-          opacity: .75
-          .whitearrow
-            +arrowHover
-
-
-/*********************
-/* CPT TEMPLATE
-/*********************
-body.page-template-template-cpt, body.page-template-template-cpt-home, body.page-template-template-cpt-issues, body.page-template-template-cpt-casestudies, body.page-template-template-cpt-tools, body.search-results, body.search-no-results
-  .navWrap
-    background-color: #fff
-    .top-bar-left #logo a
-      img.logo.white
-        display: none
-      img.logo.green
-        display: block
-    a.search i.fi-magnifying-glass
-      color: $bodytextcolor
-    #mega-menu-wrap-main-nav #mega-menu-main-nav
-      li.primary a.mega-menu-link
-        color: $bodytextcolor
-      li.facebook a.mega-menu-link,  li.twitter a.mega-menu-link
-        color: $bodytextcolor
-      li.informed a.mega-menu-link
-        background-color: transparent
-        border: 2px solid $bodytextcolor
-        color: $bodytextcolor
-        &:hover
-          transition: all .3s ease-in-out
-          background-color: $bodytextcolor
-          color: #fff
-    .button.informed
-      +hollowbutton($bodytextcolor)
-      &:hover
-        color: #fff
-  header.header
-    height: 400px
-  #cptTitle
-    background-color: $green
-    h1
-      color: #fff
-      text-transform: uppercase
-      font-size: 2.5rem
-      padding: .75rem
-      margin: 0
-      font-weight: 600
-  .inner-content
-    padding: 3rem 0
-    .entry-content
-      padding: 0
-    h2
-      margin-bottom: 1rem
-      text-align: left
-
-  #cpt_sidebar
-    img
-      width: 100%
-    div.widget_nav_menu
-      #menu-cpt-menu li
-        margin-left: 10px
-        margin: .25rem 0
-        width: 100%
-        a
-          padding-left: 27px
-          font-weight: 600
-          background: url('../images/svg/greenarrow.svg') no-repeat center left
-          background-size: 19px
-          text-transform: uppercase
-          color: $bodytextcolor
-          &:hover
-            opacity: .75
-        ul.sub-menu
-          margin-left: 1rem
-          li a
-            font-weight: 400
-            text-transform: capitalize
-            background-image: none
-          li.active
-            position: relative
-            a::before
-              position: absolute
-              content: ""
-              width: 0
-              height: 0
-              border-top: 10px solid transparent
-              border-bottom: 10px solid transparent
-              border-left: 10px solid $lightgreen
-              left: 8px
-      #menu-cpt-menu li.active
-        background-color: #fcf5ee
-        color: $lightgreen
-  // Issues Search styles
-  input.search-field
-    border-top-right-radius: 0
-    border-bottom-right-radius: 0
-    width: 60%
-    float: left
-    border-right: 0 !important
-  input.search-submit
-    border-top-left-radius: 0
-    border-bottom-left-radius: 0
-    font-weight: bold
-    padding: 11px 20px !important
-    &:hover
-      background-color: #699033
-  button.browseIssues
-    line-height: 1.5rem
-    span
-      +downArrow
-      font-size: 2rem
-      line-height: 1rem
-      display: block
-      float: right
-      margin: 10px 0 0 6px
-  div#issues-dropdown, div#tools-dropdown, div#casestudies-dropdown
-    height: 250px
-    overflow: auto
-    ul
-      list-style-type: none
-      margin-left: .5rem
-      li
-        padding: .5rem
-        border-bottom: 1px solid #eae3dc
-        &:hover
-          background-color: #fdfbf9
-
-.caseTag
-  background-color: #ffcb6c
-  padding: .5rem
-  border-radius: 5px
-  color: #a07d3c
-
-.toolsTag
-  background-color: #b3caff
-  padding: .5rem
-  border-radius: 5px
-  color: #3c48a0
-
-.issueTag
-  background-color: #87daec
-  padding: .5rem
-  border-radius: 5px
-  color: #3c8da0
-
-.cpt-search
-  margin-top: 2rem
-
-h2.cpt
-  text-transform: none
-
-.search-results, .search-no-results
-  h2.cpt
-    margin-top: 4rem
-  input[type="search"]
-    border: 1px solid #cacaca
-
-/*********************
-/* SEARCH TEMPLATE
-/*********************
-body.search-results
-  #heroTitle h1 span
-    font-style: italic
-    font-weight: 300
-  .inner-content
-    header.article-header
-      h2
-        margin-bottom: 1rem
-        text-align: left
-      .byline
-        margin-bottom: 0
-  article
-    margin: 3rem 0 0
-    border-bottom: 1px solid #cacaca
-    padding-bottom: 3rem
-    .entry-content
-      margin-bottom: 0
-      padding: 0
-    .excerpt-read-more
-      padding-top: 1rem
-      .greenarrow
-        margin: 3px 0 0 5px
-
-/*********************
 /* STAND ALONE ELEMENTS
 /*********************
 
 .fb-video blockquote p
   color: #e2e2e2
 
-// Contact Page Social icons
-body.page-id-229 .entry-content
-  i.fi-social-facebook, i.fi-social-twitter
-    font-size: 2.5rem
-  i.fi-social-facebook
-    margin-right: 1rem
-
-// Pagination
-.page-navigation
-  margin-top: 3rem
-  ul.pagination li
-    font-size: 1.25rem
-
-/*********************
-/* ANNOUNCEMENT BAR
-/*********************
-.announcement
-  padding: 3rem
-  position: relative
-  &.red
-    background-color: $orange
-    color: #fff
-    a
-      color: #fff
-    .button
-      background-color: #fff
-      color: $orange
-      border-color: #fff
-      &:hover
-        background-color: transparent
-  &.grey
-    background-color: #6f7d74
-    color: #fff
-    a
-      color: #fff
-    .button
-      background-color: #fff
-      color: #6f7d74
-      border-color: #fff
-      &:hover
-        background-color: transparent
-        color: #fff
-  #closeit
-    position: absolute
-    bottom: 20px
-    right: 20px
-    color: #fff
-    font-weight: bold
-
 
 /*********************
 /* FOOTER
 /*********************
 
-footer.footer
+.footer
   background-color: #f4f7f6
   border-top: 10px solid $lightgreen
   padding-top: 3rem
-  margin-top: 3rem
   .cell.reports, .cell.subscribe
-    padding: 0 1.5rem 2.5rem
+    padding: 0 3.5rem 2.5rem
     color: $green
     h4
       font-weight: 700
@@ -1541,11 +1008,6 @@ footer.footer
       color: $green
       font-weight: 700
       text-decoration: underline
-    a.button
-      color: #fff
-      text-decoration: none
-      margin: 1rem 0
-      font-family: $headingStack
   .reports
     img
       float: left
@@ -1609,3 +1071,10 @@ footer.footer
           color: #828282
           &.hover
             color: #fff
+
+
+
+
+
+
+

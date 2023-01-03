@@ -1,0 +1,81 @@
+[16-Nov-2019 00:46:18 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/vnrc/public_html/wp-content/themes/vnrc/404.php on line 8
+[17-Nov-2019 20:30:32 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/vnrc/public_html/wp-content/themes/vnrc/404.php on line 8
+[13-Dec-2019 03:04:24 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/vnrc/public_html/wp-content/themes/vnrc/404.php on line 8
+[15-Dec-2019 03:33:08 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/vnrc/public_html/wp-content/themes/vnrc/404.php on line 8
+[13-Jan-2020 14:38:03 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/vnrc/public_html/wp-content/themes/vnrc/404.php on line 8
+[15-Jan-2020 16:52:52 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/vnrc/public_html/wp-content/themes/vnrc/404.php on line 8
+[08-Mar-2020 16:33:11 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/vnrc/public_html/wp-content/themes/vnrc/index.php on line 10
+[02-Apr-2020 04:54:48 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/vnrc/public_html/wp-content/themes/vnrc/index.php on line 10
+[17-Apr-2020 02:53:23 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/vnrc/public_html/wp-content/themes/vnrc/404.php on line 8
+[24-Apr-2020 22:04:47 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/vnrc/public_html/wp-content/themes/vnrc/404.php on line 8
+[10-Jul-2020 07:51:58 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/vnrc/public_html/wp-content/themes/vnrc/index.php on line 10
+[14-Jul-2020 18:17:43 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/vnrc/public_html/wp-content/themes/vnrc/index.php on line 10
+[15-Sep-2020 14:17:59 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/vnrc/public_html/wp-content/themes/vnrc/index.php on line 10
+[29-Sep-2020 00:57:15 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/vnrc/public_html/wp-content/themes/vnrc/index.php on line 10
+[13-Nov-2020 00:07:09 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/vnrc/public_html/wp-content/themes/vnrc/index.php on line 10
+[17-Nov-2020 22:15:17 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/vnrc/public_html/wp-content/themes/vnrc/index.php on line 10
+[19-Nov-2020 21:33:00 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/vnrc/public_html/wp-content/themes/vnrc/index.php on line 10
+[27-Nov-2020 20:46:55 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/vnrc/public_html/wp-content/themes/vnrc/index.php on line 10
+[29-Nov-2020 18:25:26 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/vnrc/public_html/wp-content/themes/vnrc/index.php on line 10
+[01-Dec-2020 19:49:44 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/vnrc/public_html/wp-content/themes/vnrc/index.php on line 10
+[04-Dec-2020 22:43:05 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/vnrc/public_html/wp-content/themes/vnrc/index.php on line 10
+[05-Dec-2020 18:58:12 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/vnrc/public_html/wp-content/themes/vnrc/index.php on line 10
+[06-Dec-2020 18:45:52 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/vnrc/public_html/wp-content/themes/vnrc/index.php on line 10
+[16-Jan-2021 15:41:19 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/vnrc/public_html/wp-content/themes/vnrc/index.php on line 10
+[09-Feb-2021 23:34:08 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/vnrc/public_html/wp-content/themes/vnrc/index.php on line 10
+[15-Feb-2021 03:54:07 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/vnrc/public_html/wp-content/themes/vnrc/index.php on line 10
+[22-May-2021 11:23:01 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/vnrc/public_html/wp-content/themes/vnrc/404.php on line 8
+[24-May-2021 20:22:03 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/vnrc/public_html/wp-content/themes/vnrc/index.php on line 10
+[28-Jun-2021 23:22:46 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/vnrc/public_html/wp-content/themes/vnrc/index.php on line 10
+[07-Aug-2021 17:05:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/vnrc/public_html/wp-content/themes/vnrc/index.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/vnrc/public_html/wp-content/themes/vnrc/index.php on line 10
+[22-Nov-2021 21:20:40 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/vnrc/public_html/wp-content/themes/vnrc/index.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/vnrc/public_html/wp-content/themes/vnrc/index.php on line 10
+[26-Nov-2021 09:15:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/vnrc/public_html/wp-content/themes/vnrc/index.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/vnrc/public_html/wp-content/themes/vnrc/index.php on line 10
+[29-Nov-2021 08:11:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/vnrc/public_html/wp-content/themes/vnrc/index.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/vnrc/public_html/wp-content/themes/vnrc/index.php on line 10
+[12-Feb-2022 22:05:42 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/vnrc/public_html/wp-content/themes/vnrc/index.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/vnrc/public_html/wp-content/themes/vnrc/index.php on line 10
+[15-May-2022 01:07:44 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/vnrc/public_html/wp-content/themes/vnrc/index.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/vnrc/public_html/wp-content/themes/vnrc/index.php on line 10
+[15-May-2022 01:08:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/vnrc/public_html/wp-content/themes/vnrc/index.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/vnrc/public_html/wp-content/themes/vnrc/index.php on line 10
+[15-May-2022 01:08:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/vnrc/public_html/wp-content/themes/vnrc/index.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/vnrc/public_html/wp-content/themes/vnrc/index.php on line 10
+[15-May-2022 02:38:39 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/vnrc/public_html/wp-content/themes/vnrc/index.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/vnrc/public_html/wp-content/themes/vnrc/index.php on line 10
+[15-May-2022 02:40:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/vnrc/public_html/wp-content/themes/vnrc/index.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/vnrc/public_html/wp-content/themes/vnrc/index.php on line 10
+[13-Jun-2022 09:33:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/vnrc/public_html/wp-content/themes/vnrc/index.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/vnrc/public_html/wp-content/themes/vnrc/index.php on line 10
+[13-Jun-2022 09:34:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/vnrc/public_html/wp-content/themes/vnrc/index.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/vnrc/public_html/wp-content/themes/vnrc/index.php on line 10
+[21-Nov-2022 02:40:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/vnrc/public_html/wp-content/themes/vnrc/index.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/vnrc/public_html/wp-content/themes/vnrc/index.php on line 10

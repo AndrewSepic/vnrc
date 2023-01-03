@@ -66,7 +66,7 @@ get_header(); ?>
 						<!--- Posts Begin -->
 						<?php
 
-							 $args = array('cat' => $postCat, 'posts_per_page' => 15,);
+							 $args = array('cat' => $postCat, 'posts_per_page' => -1,);
 							 $category_posts = new WP_Query($args);
 
 							 if($category_posts->have_posts()) :

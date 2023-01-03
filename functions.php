@@ -3,7 +3,6 @@
  * For more info: https://developer.wordpress.org/themes/basics/theme-functions/
  *
  */
-
 // Theme support options
 require_once(get_template_directory().'/functions/theme-support.php');
 
@@ -28,6 +27,9 @@ require_once(get_template_directory().'/functions/page-navi.php');
 // Adds support for multiple languages
 require_once(get_template_directory().'/functions/translation/translation.php');
 
+//adds options to Sustainable Transportation Admin
+require_once(get_template_directory().'/functions/sustainableTransportationOptionsPage.php');
+
 // Adds site styles to the WordPress editor
 // require_once(get_template_directory().'/functions/editor-styles.php');
 
@@ -38,7 +40,7 @@ require_once(get_template_directory().'/functions/translation/translation.php');
 // require_once(get_template_directory().'/functions/related-posts.php');
 
 // Use this as a template for custom post types
-// require_once(get_template_directory().'/functions/custom-post-type.php');
+//require_once(get_template_directory().'/functions/custom-post-type.php');
 
 // Customize the WordPress login menu
 require_once(get_template_directory().'/functions/login.php');
@@ -369,3 +371,89 @@ function the_breadcrumb()
 //     	return array_merge( $classes, array( 'cpt-search' ) );
 // 		}
 // } );
+
+
+
+function sustainableTransportation_init() {
+    $labels = array(
+        'name'                  => _x( 'People, Places, and Transportation', 'Post type general name', 'textdomain' ),
+        'singular_name'         => _x( 'People, Places, and Transportation', 'Post type singular name', 'textdomain' ),
+        'menu_name'             => _x( 'People, Places, and Transportation', 'Admin Menu text', 'textdomain' ),
+        'name_admin_bar'        => _x( 'People, Places, and Transportation', 'Add New on Toolbar', 'textdomain' ),
+        'add_new'               => __( 'Add New', 'textdomain' ),
+        'add_new_item'          => __( 'Add New Post', 'textdomain' ),
+        'new_item'              => __( 'New Post', 'textdomain' ),
+        'edit_item'             => __( 'Edit Post', 'textdomain' ),
+        'view_item'             => __( 'View Post', 'textdomain' ),
+        'all_items'             => __( 'All Posts', 'textdomain' ),
+        'search_items'          => __( 'Search Posts:', 'textdomain' ),
+        'not_found'             => __( 'No posts found.', 'textdomain' ),
+        'not_found_in_trash'    => __( 'No posts found in Trash.', 'textdomain' ),
+        'featured_image'        => _x( 'post Cover Image', 'Overrides the “Featured Image” phrase for this post type. Added in 4.3', 'textdomain' ),
+        'set_featured_image'    => _x( 'Set cover image', 'Overrides the “Set featured image” phrase for this post type. Added in 4.3', 'textdomain' ),
+        'remove_featured_image' => _x( 'Remove cover image', 'Overrides the “Remove featured image” phrase for this post type. Added in 4.3', 'textdomain' ),
+        'use_featured_image'    => _x( 'Use as cover image', 'Overrides the “Use as featured image” phrase for this post type. Added in 4.3', 'textdomain' ),
+        'archives'              => _x( 'Post archives', 'The post type archive label used in nav menus. Default “Post Archives”. Added in 4.4', 'textdomain' ),
+        'insert_into_item'      => _x( 'Insert into post', 'Overrides the “Insert into post”/”Insert into page” phrase (used when inserting media into a post). Added in 4.4', 'textdomain' ),
+        'uploaded_to_this_item' => _x( 'Uploaded to this post', 'Overrides the “Uploaded to this post”/”Uploaded to this page” phrase (used when viewing media attached to a post). Added in 4.4', 'textdomain' ),
+        'filter_items_list'     => _x( 'Filter posts list', 'Screen reader text for the filter links heading on the post type listing screen. Default “Filter posts list”/”Filter pages list”. Added in 4.4', 'textdomain' ),
+        'items_list_navigation' => _x( 'Posts list navigation', 'Screen reader text for the pagination heading on the post type listing screen. Default “Posts list navigation”/”Pages list navigation”. Added in 4.4', 'textdomain' ),
+        'items_list'            => _x( 'Posts list', 'Screen reader text for the items list heading on the post type listing screen. Default “Posts list”/”Pages list”. Added in 4.4', 'textdomain' ),
+    );
+
+    $args = array(
+        'labels'             => $labels,
+        'public'             => true,
+        'publicly_queryable' => true,
+        'show_ui'            => true,
+        'show_in_menu'       => true,
+        'query_var'          => true,
+        'rewrite'            => array( 'slug' => 'people-places-transportation' ),
+        'capability_type'    => 'post',
+        'has_archive'        => true,
+        'hierarchical'       => false,
+        'menu_position'      => null,
+		'show_in_rest' => true,
+        'supports'           => array( 'title', 'editor', 'author', 'thumbnail', 'excerpt', 'comments' ),
+    );
+
+    register_post_type( 'susttransportation', $args );
+
+     /* Taxonomy */
+
+    $labels = array(
+        'name'                       => _x( 'Topics', 'taxonomy general name', 'textdomain' ),
+        'singular_name'              => _x( 'Topics', 'taxonomy singular name', 'textdomain' ),
+        'search_items'               => __( 'Search Topics', 'textdomain' ),
+        'popular_items'              => __( 'Popular Topics', 'textdomain' ),
+        'all_items'                  => __( 'All Topics', 'textdomain' ),
+        'parent_item'                => null,
+        'parent_item_colon'          => null,
+        'edit_item'                  => __( 'Edit Topics', 'textdomain' ),
+        'update_item'                => __( 'Update Topics', 'textdomain' ),
+        'add_new_item'               => __( 'Add New Topics', 'textdomain' ),
+        'new_item_name'              => __( 'New Topics Name', 'textdomain' ),
+        'separate_items_with_commas' => __( 'Separate topics with commas', 'textdomain' ),
+        'add_or_remove_items'        => __( 'Add or remove topic', 'textdomain' ),
+        'choose_from_most_used'      => __( 'Choose from the most used topics', 'textdomain' ),
+        'not_found'                  => __( 'No topics found.', 'textdomain' ),
+        'menu_name'                  => __( 'Topics', 'textdomain' ),
+    );
+
+    $args = array(
+        'hierarchical'          => true,
+        'labels'                => $labels,
+        'show_ui'               => true,
+        'show_admin_column'     => true,
+        'show_in_rest' 					=> true,
+        'update_count_callback' => '_update_post_term_count',
+        'query_var'             => true,
+        'rewrite'               => array( 'slug' => 'sustainable-transportation-topics' ),
+    );
+
+    register_taxonomy( 'vnrc-st-topics', 'susttransportation', $args );
+}
+
+add_action( 'init', 'sustainableTransportation_init' );
+
+add_image_size( 'st_feature', 853, 480, true );

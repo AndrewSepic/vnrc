@@ -26,7 +26,7 @@
       <?php
 						//if(!empty($category)){$firstCategory = $category[0]->cat_name;} ?>
 			<h1>Events</h1>
-      
+
  		</div>
 
 
