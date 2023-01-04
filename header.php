@@ -24,8 +24,8 @@
 		<!-- If Site Icon isn't set in customizer -->
 		<?php if ( ! function_exists( 'has_site_icon' ) || ! has_site_icon() ) { ?>
 			<!-- Icons & Favicons -->
-			<link rel="icon" href="<?php echo get_template_directory_uri(); ?>/favicon.png">
-			<link href="<?php echo get_template_directory_uri(); ?>/assets/images/apple-icon-touch.png" rel="apple-touch-icon" />
+			<link rel="icon" href="<?php echo get_template_directory_uri(); ?>/favicon-32x32.png">
+			<link href="<?php echo get_template_directory_uri(); ?>/assets/images/apple-touch-icon.png" rel="apple-touch-icon" />
 	    <?php } ?>
 
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/foundation-icons/foundation-icons.css" />
