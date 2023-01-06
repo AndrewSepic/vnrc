@@ -48,6 +48,7 @@
                     <h5>Follow Us</h5>
                     <a href="http://www.facebook.com/pages/Vermont-Natural-Resources-Council-VNRC/210368456477" target="_blank"><i class="fi-social-facebook"></i></a>
                     <a href="https://twitter.com/VNRCorg" target="_blank"><i class="fi-social-twitter"></i></a>
+                    <a href="https://www.instagram.com/vt_naturalresources/" target="_blank"><i class="fi-social-instagram"></i></a>
                   </div>
                   <div class="support">
                     <h5>Support VNRC</h5>

@@ -15,18 +15,20 @@ http://codex.wordpress.org/Creating_Admin_Themes
 ******************************************************************/
 
 body.login {
-
+	background-image: url("http://vnrc.org/wp-content/uploads/2019/08/VNRC-Hubbard-Park-10-5-18-501779.jpg");
+	background-size: cover;
 }
-
-#login {
-
+  
+.login #nav a, .login #backtoblog a {
+	color: #fff;
 }
 
 // Change the login logo
 .login h1 a {
-	background: url(../images/svg/green-logo.svg) no-repeat top center;
+	background: url(../images/logo-green.png) no-repeat top center;
 	width: 326px;
-	height: 67px;
+	background-size: 326px;
+	height: 173px;
 	text-indent: -9999px;
 	overflow: hidden;
 	padding-bottom: 15px;
