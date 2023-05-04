@@ -696,28 +696,25 @@ body.home .icons h4 {
 .greyWrapper .video .vidContent .text {
   margin-bottom: 1.5rem;
 }
-.greyWrapper .video .vidContent a.videoLink {
-  position: absolute;
+.greyWrapper .video a.videoLink {
   text-transform: uppercase;
-  bottom: 0;
-  left: 15px;
   color: #fff;
   font-weight: 500;
+  display: inline-block;
 }
-.greyWrapper .video .vidContent a.videoLink .whitearrow {
+.greyWrapper .video a.videoLink .whitearrow {
   background: url("../images/svg/white_arrow.svg");
   height: 18px;
   width: 18px;
-  display: block;
-  float: right;
+  display: inline-block;
   line-height: 3rem;
   background-size: contain;
-  margin: 2px 0 0 5px;
+  margin: 2px 0 -3px 5px;
 }
-.greyWrapper .video .vidContent a.videoLink:hover {
+.greyWrapper .video a.videoLink:hover {
   opacity: 0.75;
 }
-.greyWrapper .video .vidContent a.videoLink:hover .whitearrow {
+.greyWrapper .video a.videoLink:hover .whitearrow {
   margin-left: 10px;
 }
 
@@ -786,11 +783,10 @@ body.home .icons h4 {
   background: url("../images/svg/white_arrow.svg");
   height: 18px;
   width: 18px;
-  display: block;
-  float: right;
+  display: inline-block;
   line-height: 3rem;
   background-size: contain;
-  margin: 2px 0 0 5px;
+  margin: 2px 0 -3px 5px;
   float: none;
   display: inline-block;
 }
@@ -849,46 +845,46 @@ body.home .icons h4 {
 /********************* */
 /* KEY ISSUES TEMPLATE */
 /********************* */
-body.page-template-template-key .top-bar, body.page-template-template-key .top-bar ul {
+body[class*=page-template-template-] .top-bar, body[class*=page-template-template-] .top-bar ul {
   background-color: transparent;
 }
-body.page-template-template-key .top-bar #logo a img.logo.white, body.page-template-template-key .top-bar ul #logo a img.logo.white {
+body[class*=page-template-template-] .top-bar #logo a img.logo.white, body[class*=page-template-template-] .top-bar ul #logo a img.logo.white {
   display: block;
 }
-body.page-template-template-key .top-bar #logo a img.logo.green, body.page-template-template-key .top-bar ul #logo a img.logo.green {
+body[class*=page-template-template-] .top-bar #logo a img.logo.green, body[class*=page-template-template-] .top-bar ul #logo a img.logo.green {
   display: none;
 }
-body.page-template-template-key header {
+body[class*=page-template-template-] header.header {
   background-size: cover;
   height: 400px;
   position: relative;
 }
-body.page-template-template-key header #heroTitle {
+body[class*=page-template-template-] header.header #heroTitle {
   position: absolute;
   width: 52%;
   bottom: 33%;
   left: 23%;
   text-align: center;
 }
-body.page-template-template-key header #heroTitle h1 {
+body[class*=page-template-template-] header.header #heroTitle h1 {
   color: #fff;
   font-weight: 700;
   font-size: 3.2rem;
 }
-body.page-template-template-key .inner-content {
+body[class*=page-template-template-] .inner-content {
   margin-top: 4rem;
   border-bottom: 1px solid #78a13f;
   padding-bottom: 2rem;
 }
-body.page-template-template-key .inner-content .key_title {
+body[class*=page-template-template-] .inner-content .key_title {
   font-size: 2.25rem;
   text-transform: uppercase;
   font-weight: 300;
 }
-body.page-template-template-key .inner-content .director {
+body[class*=page-template-template-] .inner-content .director, body[class*=page-template-template-] .inner-content .twodirectors {
   padding: 2rem 0;
 }
-body.page-template-template-key .inner-content .director .matte {
+body[class*=page-template-template-] .inner-content .director .matte, body[class*=page-template-template-] .inner-content .twodirectors .matte {
   width: 150px;
   height: 150px;
   border-radius: 75px;
@@ -897,98 +893,110 @@ body.page-template-template-key .inner-content .director .matte {
   float: left;
   margin-right: 1rem;
 }
-body.page-template-template-key .inner-content .director .inquiries {
+body[class*=page-template-template-] .inner-content .director .inquiries, body[class*=page-template-template-] .inner-content .twodirectors .inquiries {
   text-transform: uppercase;
   color: #78a13f;
   font-weight: 700;
   font-size: 0.9rem;
   margin: 1rem 0 0.5rem;
 }
-body.page-template-template-key .inner-content .director p {
+body[class*=page-template-template-] .inner-content .director p, body[class*=page-template-template-] .inner-content .twodirectors p {
   margin-bottom: 0;
 }
-body.page-template-template-key .inner-content .keyGraphic img {
+body[class*=page-template-template-] .inner-content .twodirectors {
+  float: left;
   width: 80%;
 }
-body.page-template-template-key .initiatives {
+body[class*=page-template-template-] .inner-content .keyGraphic img {
+  width: 80%;
+}
+body[class*=page-template-template-] .initiatives {
   margin: 3rem 0;
 }
-body.page-template-template-key .initiatives h2.initHeader {
+body[class*=page-template-template-] .initiatives h2.initHeader {
   text-transform: uppercase;
   font-weight: 300;
   font-size: 2.25rem;
   margin-bottom: 3rem;
   text-align: center;
 }
-body.page-template-template-key .initiatives img {
+body[class*=page-template-template-] .initiatives img {
   border-bottom: 8px solid #78a13f;
   margin-bottom: 2rem;
 }
-body.page-template-template-key .initiatives h3 {
+body[class*=page-template-template-] .initiatives h3 {
   font-weight: 700;
   font-size: 1.25rem;
   margin-bottom: 1rem;
 }
-body.page-template-template-key .initiatives a.excerpt-read-more {
+body[class*=page-template-template-] .initiatives a.excerpt-read-more {
   color: #78a13f;
 }
-body.page-template-template-key .community {
+body[class*=page-template-template-] .community {
   margin: 5rem 0 2rem;
 }
-body.page-template-template-key .community h2 {
+body[class*=page-template-template-] .community h2 {
   text-transform: uppercase;
   font-weight: 300;
   font-size: 2.25rem;
 }
-body.page-template-template-key .community .leadin {
+body[class*=page-template-template-] .community .leadin {
   font-weight: 700;
   font-size: 1.25rem;
   margin-bottom: 1.5rem;
 }
-body.page-template-template-key .community a.bold.green {
+body[class*=page-template-template-] .community a.bold.green {
   font-weight: 700;
 }
-body.page-template-template-key .community img.vecan-logo {
+body[class*=page-template-template-] .community img.vecan-logo {
   width: 165px;
   margin-top: 1.5rem;
 }
-body.page-template-template-key .resources {
+body[class*=page-template-template-] .resources {
   margin: 5rem 0 6rem;
 }
-body.page-template-template-key .resources h2 {
+body[class*=page-template-template-] .resources h2 {
   text-transform: uppercase;
   font-weight: 300;
   font-size: 2.25rem;
   margin-bottom: 3rem;
   text-align: center;
 }
-body.page-template-template-key .resources a.readmore {
+body[class*=page-template-template-] .resources a.readmore {
   float: right;
   color: #2b2b2b;
   font-weight: bold;
   line-height: 3rem;
   margin-right: 5px;
 }
-body.page-template-template-key .resources a.readmore:hover {
+body[class*=page-template-template-] .resources a.readmore:hover {
   opacity: 0.75;
   margin-right: 0;
 }
-body.page-template-template-key .resources a.readmore:hover .greenarrow {
+body[class*=page-template-template-] .resources a.readmore:hover .greenarrow {
   margin-left: 10px;
 }
-body.page-template-template-key .resources img {
+body[class*=page-template-template-] .resources img {
   width: 75%;
   margin: 0 auto 1.5rem;
   display: block;
   border: 20px solid #78a13f;
 }
-body.page-template-template-key .resources h3 {
+body[class*=page-template-template-] .resources h3 {
   font-weight: 700;
   font-size: 1.25rem;
   text-align: center;
 }
-body.page-template-template-key .resources a {
+body[class*=page-template-template-] .resources a {
   color: #2b2b2b;
+}
+
+/* Sustainable Archive Special Case */
+body.post-type-archive-susttransportation header.header {
+  height: 500px;
+}
+body.post-type-archive-susttransportation header.header #heroTitle h2 a {
+  color: white;
 }
 
 /********************* */
@@ -1213,11 +1221,10 @@ body.category-victories .cell.post .overlay .more .whitearrow {
   background: url("../images/svg/white_arrow.svg");
   height: 18px;
   width: 18px;
-  display: block;
-  float: right;
+  display: inline-block;
   line-height: 3rem;
   background-size: contain;
-  margin: 2px 0 0 5px;
+  margin: 2px 0 -3px 5px;
   float: none;
   display: inline-block;
 }

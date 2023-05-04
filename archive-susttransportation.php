@@ -26,8 +26,8 @@
  		<div id="heroTitle" class='st'>
       <?php
 						//if(!empty($category)){$firstCategory = $category[0]->cat_name;} ?>
-			<h1><?=get_option("st_title"); ?></h1>
-      <h2><?=get_option('st_subtitle'); ?></h2>
+			<h1><?= get_option("st_title"); ?></h1>
+      <h2><?= get_option('st_subtitle'); ?></h2>
 
       <?php if (! is_category('news-stories')) {
         ?>

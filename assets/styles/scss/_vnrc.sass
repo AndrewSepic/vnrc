@@ -29,7 +29,7 @@ $bodytextcolor: #2b2b2b
 
 
 // Button Mixins
-=whitebutton
+@mixin whitebutton
   background: #fff
   color: $green
   border: 2px solid #fff
@@ -38,7 +38,7 @@ $bodytextcolor: #2b2b2b
     border: 2px solid #fff
     color: $green
 
-=orangebutton
+@mixin orangebutton
   background: $orange
   color: #fff
   border: 2px solid $orange
@@ -51,7 +51,7 @@ $bodytextcolor: #2b2b2b
     border: 2px solid $orange
     color: #fff
 
-=greenbutton
+@mixin greenbutton
   background: $lightgreen
   color: #fff !important
   border: none
@@ -63,7 +63,7 @@ $bodytextcolor: #2b2b2b
     border: none
     color: #fff
 
-=hollowbutton($color)
+@mixin hollowbutton($color)
   background-color: transparent
   border: 2px solid $color
   padding: .85rem 1rem
@@ -79,10 +79,10 @@ $bodytextcolor: #2b2b2b
     color: $bodytextcolor
 
 
-=cssTransition($secs)
+@mixin cssTransition($secs)
   transition: all $secs ease-in-out
 
-=arrow($size, $color)
+@mixin arrow($size, $color)
   border-top: $size solid transparent
   border-bottom: $size solid transparent
   border-left: $size solid $color
@@ -90,7 +90,7 @@ $bodytextcolor: #2b2b2b
   height: 0
   width: 0
 
-=circleArrow($circleColor, $arrowColor)
+@mixin circleArrow($circleColor, $arrowColor)
   .circle
     background-color: $circleColor
     border-radius: 20px
@@ -101,7 +101,7 @@ $bodytextcolor: #2b2b2b
       color: $arrowColor
       padding: .25rem
 
-=arrowHover
+@mixin arrowHover
   margin-left: 10px
 
 @keyframes push
@@ -114,7 +114,7 @@ $bodytextcolor: #2b2b2b
   100%
     transform: translateX(0)
 
-=greenarrow
+@mixin greenarrow
   background: url('../images/svg/greenarrow.svg')
   height: 18px
   width: 18px
@@ -124,29 +124,28 @@ $bodytextcolor: #2b2b2b
   background-size: contain
   margin: 15px 0 0 5px
 
-=whitearrow
+@mixin whitearrow
   background: url('../images/svg/white_arrow.svg')
   height: 18px
   width: 18px
-  display: block
-  float: right
+  display: inline-block
   line-height: 3rem
   background-size: contain
-  margin: 2px 0 0 5px
+  margin: 2px 0 -3px 5px
 
-=lightTitle
+@mixin lightTitle
   text-transform: uppercase
   font-weight: 300
   font-size: 2.25rem
 
-=sectionTitle
+@mixin sectionTitle
   text-transform: uppercase
   font-weight: 300
   font-size: 2.25rem
   margin-bottom: 3rem
   text-align: center
 
-=readmore
+@mixin readmore
   float: right
   color: $bodytextcolor
   font-weight: bold
@@ -158,7 +157,7 @@ $bodytextcolor: #2b2b2b
     .greenarrow
       +arrowHover
 
-=matte
+@mixin matte
   width: 150px
   height: 150px
   border-radius: 75px
@@ -167,7 +166,7 @@ $bodytextcolor: #2b2b2b
   float: left
   margin-right: 1rem
 
-=list-n-TitleContent
+@mixin list-n-TitleContent
   padding: 0
   h4
     color: $green
@@ -185,7 +184,7 @@ $bodytextcolor: #2b2b2b
 /*********************
 
 *
-  +cssTransition(.3s)
+  @include cssTransition(.3s)
 // Sets REM root size to 16px
 html
   font-size: 100%
@@ -212,13 +211,13 @@ a, a:visited
 
 // Default Button
 a.button
-  +orangebutton
+  @include orangebutton
   .arrow
-    +arrow(8px, #fff)
+    @include arrow(8px, #fff)
   &:hover
     color: #fff
     .arrow
-      +arrow(8px, $green)
+      @include arrow(8px, $green)
 
 .wpcf7-submit
   background: #cccccc
@@ -236,15 +235,15 @@ a.button
 
 // Orange Button
 .button.orange
-  +orangebutton
+  @include orangebutton
 
 // White Button
 .button.white
-  +whitebutton
+  @include whitebutton
 
 // Green Button
 .button.green
-  +greenbutton
+  @include greenbutton
 
 /*********************
 /* H1, H2, H3, H4, H5 P STYLES
@@ -315,7 +314,7 @@ select
 /*********************
 
 .greenarrow
-  +greenarrow
+  @include greenarrow
   &.excerpt
     margin: 4px 0 0 5px
 
@@ -328,7 +327,7 @@ select
   &:hover
     opacity: .75
     .greenarrow
-      +arrowHover
+      @include arrowHover
 
 .catLink a.readmore
   float: right
@@ -363,7 +362,7 @@ select
             background-color: $bodytextcolor
             color: #fff
       .button.informed
-        +hollowbutton($bodytextcolor)
+        @include hollowbutton($bodytextcolor)
         &:hover
           color: #fff
 
@@ -386,7 +385,7 @@ select
 // Mega Menu
 .top-bar-right
   .button.informed
-    +hollowbutton(#fff)
+    @include hollowbutton(#fff)
   #mega-menu-wrap-main-nav
     float: left
     #mega-menu-main-nav
@@ -407,7 +406,7 @@ select
         margin-right: 1rem
       li.donate a.mega-menu-link
         margin-right: .5rem
-        +orangebutton
+        @include orangebutton
         border-radius: 20px
         padding: .5rem 1.5rem
         line-height: 20px
@@ -469,7 +468,7 @@ header.header
 .entry-content, .inner-content
   padding: 2rem 0
   h2
-    +sectionTitle
+    @include sectionTitle
   .intro
     margin-bottom: 3rem
     p
@@ -634,14 +633,14 @@ body.home
   .news
     margin-bottom: 3rem
     h2
-      +sectionTitle
+      @include sectionTitle
       margin-bottom: 3rem
     h4
       font-size: 1.25rem
       font-weight: 700
       padding: 1.5rem 0 .25rem
     .catLink .readmore
-      +readmore
+      @include readmore
   .video
     background-color: $grey
     padding: 2rem
@@ -651,7 +650,7 @@ body.home
         text-align: left
         color: #fff
       h2
-        +lightTitle
+        @include lightTitle
       .leadin
         font-size: 1.2rem
         font-weight: 700
@@ -659,21 +658,19 @@ body.home
         line-height: 1.5rem
       .text
         margin-bottom: 1.5rem
-      a.videoLink
-        position: absolute
+    a.videoLink
         text-transform: uppercase
-        bottom: 0
-        left: 15px
         color: #fff
         font-weight: 500
+        display: inline-block
         .whitearrow
-          +whitearrow
+            @include whitearrow
         &:hover
-          opacity: .75
-          .whitearrow
-            +arrowHover
+            opacity: .75
+            .whitearrow
+                @include arrowHover
 
-=victoryStyles
+@mixin victoryStyles
   .cell.post
     img
       width: 100%
@@ -699,7 +696,7 @@ body.home
         margin: 0 auto
         text-transform: uppercase
         .whitearrow
-          +whitearrow
+          @include whitearrow
           float: none
           display: inline-block
         &:hover
@@ -709,17 +706,17 @@ body.home
 .victories
   margin: 4rem 0
   h2
-    +sectionTitle
+    @include sectionTitle
   a.readmore
     float: right
     color: $bodytextcolor
     font-weight: bold
     line-height: 3rem
-    +circleArrow($lightgreen, #fff)
+    @include circleArrow($lightgreen, #fff)
     &:hover
       opacity: .75rem
-      +arrowHover
-  +victoryStyles
+      @include arrowHover
+  @include victoryStyles
 
 .missionWrapper
   padding: 4rem 0
@@ -763,14 +760,14 @@ body.home
 /* KEY ISSUES TEMPLATE
 /*********************
 
-body.page-template-template-key
+body[class*="page-template-template-"]
   .top-bar, .top-bar ul
     background-color: transparent
     #logo a img.logo.white
       display: block
     #logo a img.logo.green
       display: none
-  header
+  header.header
     background-size: cover
     height: 400px
     position: relative
@@ -792,10 +789,10 @@ body.page-template-template-key
       font-size: 2.25rem
       text-transform: uppercase
       font-weight: 300
-    .director
+    .director, .twodirectors
       padding: 2rem 0
       .matte
-        +matte
+        @include matte
       .inquiries
         text-transform: uppercase
         color: $lightgreen
@@ -804,12 +801,15 @@ body.page-template-template-key
         margin: 1rem 0 .5rem
       p
         margin-bottom: 0
+    .twodirectors 
+        float: left
+        width: 80%
     .keyGraphic img
       width: 80%
   .initiatives
     margin: 3rem 0
     h2.initHeader
-      +sectionTitle
+      @include sectionTitle
     img
       border-bottom: 8px solid $lightgreen
       margin-bottom: 2rem
@@ -822,7 +822,7 @@ body.page-template-template-key
   .community
     margin: 5rem 0 2rem
     h2
-      +lightTitle
+      @include lightTitle
     .leadin
       font-weight: 700
       font-size: 1.25rem
@@ -835,9 +835,9 @@ body.page-template-template-key
   .resources
     margin: 5rem 0 6rem
     h2
-      +sectionTitle
+      @include sectionTitle
     a.readmore
-      +readmore
+      @include readmore
     img
       width: 75%
       margin: 0 auto 1.5rem
@@ -851,6 +851,16 @@ body.page-template-template-key
       color: $bodytextcolor
 
 
+//*******
+/* Sustainable Archive Special Case
+//********************************
+
+body.post-type-archive-susttransportation header.header
+    height: 500px
+    #heroTitle h2 a
+        color: white
+
+
 /*********************
 /* SUPPORT TEMPLATE
 /*********************
@@ -858,7 +868,7 @@ h1.page-title
   display: none
 .supportUs
   .entry-content
-    +list-n-TitleContent
+    @include list-n-TitleContent
   .intro
     margin-bottom: 3rem
     p
@@ -878,7 +888,7 @@ h1.page-title
     div.matte
       width: 150px
       float: left
-      +matte
+      @include matte
     .bymail
       text-align: center
       margin-top: 3rem
@@ -891,10 +901,10 @@ body.page-template-how-we-work
   .inner-content
     padding: 4rem 0 1rem
   .entry-content
-    +list-n-TitleContent
+    @include list-n-TitleContent
   .greyWrapper
     h2
-      +sectionTitle
+      @include sectionTitle
     .icons
       margin: 4rem 0 0
       transition: all 1s ease-in-out
@@ -926,7 +936,7 @@ body.page-template-how-we-work
       color: #fff
       text-align: center
       h2
-        +lightTitle
+        @include lightTitle
       p
         font-size: 1.4rem
         &.thankyou
@@ -974,9 +984,9 @@ body.category-victories
       font-size: 1rem
       img
         margin-bottom: 2rem
-  +victoryStyles
+  @include victoryStyles
   h2
-    +sectionTitle
+    @include sectionTitle
 
 /*********************
 /* STAND ALONE ELEMENTS
