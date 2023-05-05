@@ -431,10 +431,8 @@ header.header .top-bar #logo a img.logo.green, header.header .top-bar ul #logo a
   display: none;
 }
 header.header #heroTitle {
-  position: absolute;
-  width: 52%;
-  bottom: 33%;
-  left: 23%;
+  width: 60%;
+  margin: 2rem auto 0;
   text-align: center;
 }
 header.header #heroTitle h1 {
@@ -860,10 +858,8 @@ body[class*=page-template-template-] header.header {
   position: relative;
 }
 body[class*=page-template-template-] header.header #heroTitle {
-  position: absolute;
-  width: 52%;
-  bottom: 33%;
-  left: 23%;
+  width: 80%;
+  margin: 2rem auto 0;
   text-align: center;
 }
 body[class*=page-template-template-] header.header #heroTitle h1 {
@@ -1578,6 +1574,22 @@ body.category-victories h2 {
 
   .supportUs .intro p {
     font-size: 1.1rem;
+  }
+
+  body.page.page-id-27604 header.header #heroTitle {
+    width: 80%;
+    bottom: 20%;
+    left: 10%;
+  }
+  body.page.page-id-27604 header.header #heroTitle h1 {
+    font-size: 2rem;
+  }
+}
+@media print, screen and (min-width: 64em) and (max-width: 74.99875em) {
+  body.page.page-id-27604 header.header #heroTitle {
+    width: 80%;
+    bottom: 20%;
+    left: 10%;
   }
 }
 /**

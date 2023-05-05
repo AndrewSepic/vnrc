@@ -137,7 +137,7 @@ get_header(); ?>
 						<a class="videoLink" href="<?php the_field('smallgrant_link_url');?>"><?php the_field('smallgrant_link_text');?><span class="whitearrow"></span></a>
 
 					</div>
-					<div class="cell small-12 medium-8 large-6 artgibb">
+					<div class="cell small-12 medium-8 large-6 vidContent">
 						<h2><?php the_field('artgibb_title');?></h2>
 						<div class="leadin"><?php the_field('artgibb_leadin'); ?></div>
 						<div class="text"><?php the_field('artgibb_text');?></div>
