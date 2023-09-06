@@ -20,6 +20,9 @@ function joints_start() {
     // cleaning up excerpt
     add_filter('excerpt_more', 'joints_excerpt_more');
 
+	// Cleans up custom excerpt (when used)
+	add_filter( 'wp_trim_excerpt', 'vnrc_excerpt_meta_more' );
+
 } /* end joints start */
 
 //The default wordpress head is a mess. Let's clean it up by removing all the junk we don't need.
@@ -69,6 +72,20 @@ function joints_excerpt_more($more) {
 	global $post;
 	// edit here if you like
 return '... </p><a class="excerpt-read-more" href="'. get_permalink($post->ID) . '" title="'. __('Read', 'jointswp') . get_the_title($post->ID).'">'. __('Read more', 'jointswp') .'<span class="greenarrow excerpt"></span></a>';
+}
+
+function vnrc_excerpt_meta_more( $excerpt ) {
+    $output = $excerpt;
+
+    if ( has_excerpt() ) {
+        $output = sprintf( '%1$s... </p><a class="excerpt-read-more" href="%2$s">%3$s<span class="greenarrow excerpt"></span></a>',
+            $excerpt,
+            get_permalink(),
+            __( 'Read more', 'jointswp' )
+        );
+    }
+	
+    return $output;
 }
 
 //  Stop WordPress from using the sticky class (which conflicts with Foundation), and style WordPress sticky posts using the .wp-sticky class instead
