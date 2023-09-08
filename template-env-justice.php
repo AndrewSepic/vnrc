@@ -43,9 +43,13 @@ get_header(); ?>
 					<a class="videoLink" href="<?php the_field('Highlight250_link_url');?>"><?php the_field('highlight250_link_text');?><span class="whitearrow"></span></a>
 
 				</div>
-				<div class="cell small-12 medium-8 large-7 vidembed">
-					<img src="<?php the_field('highlight250_image');?>" alt="Act 250 Resources"/>
-				</div>
+				<?php $image = get_field('highlight250_image'); 
+				if ($image) { ?>
+					<div class="cell small-12 medium-8 large-7 vidembed">
+						<img src="<?php the_field('highlight250_image');?>" alt="Act 250 Resources"/>
+					</div>
+				<?php } ?>
+				
 			</div><!-- .highlight end -->
 
 			<?php
