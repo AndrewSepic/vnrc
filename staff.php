@@ -82,12 +82,9 @@ get_header(); ?>
 				endif;?>
 				<div class="staff grid-x grid-margin-x">
 					<div class="small-12 medium-12 large-12 cell vcv">
-						<?php if (is_page('227')) {
+						<?php if (is_page('225')) {
 							?>
-								<h2>Advisory Committee</h2>
-						<?php }
-						else {
-							?> 	<h2>Vermont Conservation Voters</h2>
+								<h2>Vermont Conservation Voters</h2>
 						<?php }
 					?>
 					</div>
