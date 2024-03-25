@@ -85,13 +85,12 @@ get_header(); ?>
 						<?php if (is_page('225')) {
 							?>
 								<h2>Vermont Conservation Voters</h2>
-						<?php }
-					?>
 					</div>
-
+					<?php }
+					?>
 						<?php
 							// check if the repeater field has rows of data
-							if( have_rows('vcv') ):
+							if( have_rows('vcv') && (is_page('225')) ):
 							// loop through the rows of data
 							$i = 1;
 						 while ( have_rows('vcv') ) : the_row();?>

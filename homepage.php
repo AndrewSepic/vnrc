@@ -149,7 +149,11 @@ get_header(); ?>
 
 								</div>
 								<div class="cell small-12 medium-8 large-7 vidembed">
-									<?php the_field('video_embed', 'option');?>
+									<iframe
+										src="<?php the_field('video_embed', 'option');?>" 
+										title="<?php the_field('video_title', 'option');?>" 
+										frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+										allowfullscreen></iframe>
 								</div>
 							</div><!-- .video end -->
 						</div>
