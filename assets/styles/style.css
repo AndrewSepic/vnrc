@@ -307,7 +307,7 @@ select {
 .top-bar-left #logo {
   width: 175px;
   position: relative;
-  height: 115px;
+  height: 95px;
 }
 .top-bar-left #logo a {
   position: absolute;
@@ -343,7 +343,7 @@ select {
   float: left;
 }
 .top-bar-right #mega-menu-wrap-main-nav #mega-menu-main-nav > li.mega-menu-megamenu > ul.mega-sub-menu {
-  margin-top: 40px;
+  margin-top: 35px;
 }
 .top-bar-right #mega-menu-wrap-main-nav #mega-menu-main-nav li.primary a.mega-menu-link {
   padding: 0 2rem;
