@@ -27,18 +27,28 @@ get_header(); ?>
 		<div class="grid-container">
 			<div class="inner-content grid-x grid-margin-x grid-padding-x">
 
-		    <div class="small-12 medium-8 large-8 cell keyInfo">
+		    	<div class="small-12 medium-8 large-8 cell keyInfo">
 					<h1 class="key_title"><?php the_title(); ?></h1>
 					<p><?php the_field('key_issue_intro');?></p>
 					<div class="inquiries">For questions or inquiries:</div>
-					<div class="twodirectors">
-						<div class="matte" style="background-image: url('<?php the_field('director_image');?>')"></div>
-						<?php the_field('director_contact');?>
-					</div>
-					<div class="twodirectors">
-						<div class="matte" style="background-image: url('<?php the_field('director_image_2');?>')"></div>
-						<?php the_field('director_contact_2');?>
-					</div>
+					<?php
+					if( have_rows('directors') ):
+						while( have_rows('directors') ) : the_row();
+
+						$image = get_sub_field('director_image');
+						$contact = get_sub_field('director_contact');
+
+						?>
+							<div class="twodirectors">
+								<div class="matte" style="background-image: url('<?php echo $image;?>')"></div>
+								<?php echo $contact ?>
+							</div>
+						<?php
+						endwhile;
+					else :
+						// do nothing
+					endif;
+					?>
 				</div>
 
 				<div class="small-12 medium-4 large-4 cell keyGraphic">

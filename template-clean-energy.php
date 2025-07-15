@@ -27,7 +27,7 @@ get_header(); ?>
 		<div class="grid-container">
 			<div class="inner-content grid-x grid-margin-x grid-padding-x">
 
-		    <div class="small-12 medium-8 large-8 cell keyInfo">
+		    	<div class="small-12 medium-8 large-8 cell keyInfo">
 					<h1 class="key_title"><?php the_title(); ?></h1>
 					<p><?php the_field('key_issue_intro');?></p>
 					<div class="inquiries">For questions or inquiries:</div>
