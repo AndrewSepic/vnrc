@@ -490,7 +490,7 @@ body.single .entry-content {
 body.archive .inner-content {
   margin-top: 2rem;
 }
-body.archive.category-news-stories article:nth-child(odd) {
+body.archive.category-news-stories article:nth-child(odd), body.archive.category-events article:nth-child(odd) {
   background-color: #f2f2f2;
 }
 body.archive article {
