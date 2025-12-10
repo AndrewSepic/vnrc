@@ -493,9 +493,6 @@ body.archive .inner-content {
 body.archive.category-news-stories article:nth-child(odd) {
   background-color: #f2f2f2;
 }
-body.archive article:first-of-type {
-  padding-top: 0;
-}
 body.archive article {
   margin-bottom: 0.5rem;
   padding: 2rem 1rem 2rem 2rem;
