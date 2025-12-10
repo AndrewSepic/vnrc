@@ -160,56 +160,6 @@ get_header(); ?>
 					</div><!-- end .firstWrapper -->
 
 
-
-
-					<div class="grid-container">
-						<div class="grid-x grid-margin-x victories">
-
-							<div class="cell small-12 medium-12 large-4 large-offset-4">
-								<h2>Events</h2>
-							</div>
-							<div class="cell small-12 medium-12 large-4 catLink">
-								<a class="readmore" href="/category/events">View all events <span class="greenarrow"></span></a>
-
-							</div>
-
-							<!-- Victory posts -->
-							<?php
-
-								 $args = array('cat' => 20, 'posts_per_page' => 3 );
-								 $category_posts = new WP_Query($args);
-
-								 if($category_posts->have_posts()) :
-										while($category_posts->have_posts()) :
-											 $category_posts->the_post();
-							?>
-								<div class="cell small-12 medium-4 large-4 post">
-									<?php
-										if ( has_post_thumbnail() ) {
-											the_post_thumbnail( 'news' );
-									} ?>
-										<div class="cell small-12 medium-4 large-4 post">
-											<h4><?php the_title() ?></h4>
-											<div class="eventWrap">Event Date:
-												<span class="eventdate"><?php the_field('event_date');?></span>
-											</div>
-											<a class="excerpt-read-more" href="<?php the_permalink();?>">Read More <span class="greenarrow excerpt"></span></a>
-										</div>
-								</div>
-
-							<?php
-										endwhile;
-								 else:
-							?>
-										Oops, there are no posts.
-							<?php
-								 endif;
-							?>
-							<!--- Posts EnD -->
-
-						</div>
-					</div> <!-- end grid-container -->
-
 					<div class="missionWrapper">
 						<div class="grid-container">
 							<div class="grid-x grid-padding-x grid-margin-x mission">
